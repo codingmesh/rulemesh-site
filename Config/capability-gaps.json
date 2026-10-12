@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-12",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "reject",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 3,
+        "examples": [
+          "URL-REGEX,/igd\\.xml",
+          "URL-REGEX,/\\d+/resolve",
+          "URL-REGEX,/\\d+/sign_d"
+        ]
+      },
+      {
+        "category": "reject-no-drop",
+        "partition": "non_ip",
+        "type": "AND",
+        "count": 1,
+        "examples": [
+          "AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))"
+        ]
+      },
+      {
+        "category": "reject-url-regex",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 176,
+        "examples": [
+          "URL-REGEX,^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite",
+          "URL-REGEX,^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)",
+          "URL-REGEX,^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+        ]
+      },
+      {
+        "category": "direct",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "USER-AGENT,%E8%BF%85%E9%9B%B7"
+        ]
+      },
+      {
+        "category": "ai",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 1,
+        "examples": [
+          "URL-REGEX,https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+        ]
+      },
+      {
+        "category": "microsoft_cdn",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 2,
+        "examples": [
+          "URL-REGEX,^http://www\\.microsoft\\.com/pki/",
+          "URL-REGEX,^http://www\\.microsoft\\.com/pkiops/"
+        ]
+      },
+      {
+        "category": "download",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 1,
+        "examples": [
+          "URL-REGEX,^http://(.+)\\.gvt\\d\\.com/edgedl"
+        ]
+      },
+      {
+        "category": "cloudmounter",
+        "partition": "non_ip",
+        "type": "AND",
+        "count": 40,
+        "examples": [
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(PROCESS-NAME,*CloudMounter))",
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,10.0.0.0/8))",
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,172.16.0.0/12))"
+        ]
+      },
+      {
+        "category": "china",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 3,
+        "examples": [
+          "USER-AGENT,%E4%BC%98%E9%85%B7*",
+          "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
+          "USER-AGENT,TeslaMap"
+        ]
+      },
+      {
+        "category": "domestic",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 3,
+        "examples": [
+          "USER-AGENT,%E4%BC%98%E9%85%B7*",
+          "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
+          "USER-AGENT,TeslaMap"
+        ]
+      },
+      {
+        "category": "neteasemusic",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90",
+          "USER-AGENT,NeteaseMusic*"
+        ]
+      },
+      {
+        "category": "sogouinput",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "USER-AGENT,SogouInput",
+          "USER-AGENT,com.sogou.sogouinput.BaseKeyboard"
+        ]
+      },
+      {
+        "category": "stream",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 49,
+        "examples": [
+          "USER-AGENT,AbemaTV*",
+          "USER-AGENT,InstantVideo.US*",
+          "USER-AGENT,Prime Video*"
+        ]
+      },
+      {
+        "category": "stream_eu",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "USER-AGENT,ITV_Player*",
+          "USER-AGENT,BBCiPlayer*"
+        ]
+      },
+      {
+        "category": "stream_hk",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "USER-AGENT,Viu*",
+          "USER-AGENT,mytv*"
+        ]
+      },
+      {
+        "category": "stream_jp",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "USER-AGENT,AbemaTV*",
+          "USER-AGENT,Niconico*"
+        ]
+      },
+      {
+        "category": "stream_kr",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "USER-AGENT,Naver TV*"
+        ]
+      },
+      {
+        "category": "stream_tw",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 4,
+        "examples": [
+          "USER-AGENT,com.kktv.ios.kktv*",
+          "USER-AGENT,KKTV*",
+          "USER-AGENT,LINE TV*"
+        ]
+      },
+      {
+        "category": "stream_us",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 9,
+        "examples": [
+          "USER-AGENT,FOX NOW*",
+          "USER-AGENT,FOXPlus*",
+          "USER-AGENT,Hulu*"
+        ]
+      },
+      {
+        "category": "global",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "USER-AGENT,Roam*"
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "reject",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 3,
+        "examples": [
+          "URL-REGEX,/igd\\.xml",
+          "URL-REGEX,/\\d+/resolve",
+          "URL-REGEX,/\\d+/sign_d"
+        ]
+      },
+      {
+        "category": "reject-no-drop",
+        "partition": "non_ip",
+        "type": "AND",
+        "count": 1,
+        "examples": [
+          "AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))"
+        ]
+      },
+      {
+        "category": "reject-url-regex",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 176,
+        "examples": [
+          "URL-REGEX,^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite",
+          "URL-REGEX,^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)",
+          "URL-REGEX,^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+        ]
+      },
+      {
+        "category": "direct",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "USER-AGENT,%E8%BF%85%E9%9B%B7"
+        ]
+      },
+      {
+        "category": "direct",
+        "partition": "non_ip",
+        "type": "PROCESS-NAME-WILDCARD",
+        "count": 1,
+        "examples": [
+          "PROCESS-NAME,qbittorrent*"
+        ]
+      },
+      {
+        "category": "ai",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 1,
+        "examples": [
+          "URL-REGEX,https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+        ]
+      },
+      {
+        "category": "microsoft_cdn",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 2,
+        "examples": [
+          "URL-REGEX,^http://www\\.microsoft\\.com/pki/",
+          "URL-REGEX,^http://www\\.microsoft\\.com/pkiops/"
+        ]
+      },
+      {
+        "category": "download",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 1,
+        "examples": [
+          "URL-REGEX,^http://(.+)\\.gvt\\d\\.com/edgedl"
+        ]
+      },
+      {
+        "category": "cloudmounter",
+        "partition": "non_ip",
+        "type": "AND",
+        "count": 40,
+        "examples": [
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(PROCESS-NAME,*CloudMounter))",
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,10.0.0.0/8))",
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,172.16.0.0/12))"
+        ]
+      },
+      {
+        "category": "china",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 3,
+        "examples": [
+          "USER-AGENT,%E4%BC%98%E9%85%B7*",
+          "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
+          "USER-AGENT,TeslaMap"
+        ]
+      },
+      {
+        "category": "domestic",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 3,
+        "examples": [
+          "USER-AGENT,%E4%BC%98%E9%85%B7*",
+          "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
+          "USER-AGENT,TeslaMap"
+        ]
+      },
+      {
+        "category": "neteasemusic",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90",
+          "USER-AGENT,NeteaseMusic*"
+        ]
+      },
+      {
+        "category": "sogouinput",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "USER-AGENT,SogouInput",
+          "USER-AGENT,com.sogou.sogouinput.BaseKeyboard"
+        ]
+      },
+      {
+        "category": "stream",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 49,
+        "examples": [
+          "USER-AGENT,AbemaTV*",
+          "USER-AGENT,InstantVideo.US*",
+          "USER-AGENT,Prime Video*"
+        ]
+      },
+      {
+        "category": "stream_eu",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "USER-AGENT,ITV_Player*",
+          "USER-AGENT,BBCiPlayer*"
+        ]
+      },
+      {
+        "category": "stream_hk",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "USER-AGENT,Viu*",
+          "USER-AGENT,mytv*"
+        ]
+      },
+      {
+        "category": "stream_jp",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "USER-AGENT,AbemaTV*",
+          "USER-AGENT,Niconico*"
+        ]
+      },
+      {
+        "category": "stream_kr",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "USER-AGENT,Naver TV*"
+        ]
+      },
+      {
+        "category": "stream_tw",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 4,
+        "examples": [
+          "USER-AGENT,com.kktv.ios.kktv*",
+          "USER-AGENT,KKTV*",
+          "USER-AGENT,LINE TV*"
+        ]
+      },
+      {
+        "category": "stream_us",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 9,
+        "examples": [
+          "USER-AGENT,FOX NOW*",
+          "USER-AGENT,FOXPlus*",
+          "USER-AGENT,Hulu*"
+        ]
+      },
+      {
+        "category": "global",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "USER-AGENT,Roam*"
+        ]
+      },
+      {
+        "category": "reject",
+        "partition": "ip",
+        "type": "IP-ASN",
+        "count": 15,
+        "examples": [
+          "IP-ASN,1012",
+          "IP-ASN,945",
+          "IP-ASN,401111"
+        ]
+      },
+      {
+        "category": "reject",
+        "partition": "ip",
+        "type": "MIXED-RESOLUTION",
+        "count": 1,
+        "examples": [
+          "Mixed no-resolve and resolve-allowed inputs are conservatively evaluated before DNS resolution."
+        ]
+      },
+      {
+        "category": "ai",
+        "partition": "ip",
+        "type": "IP-ASN",
+        "count": 1,
+        "examples": [
+          "IP-ASN,399358"
+        ]
+      },
+      {
+        "category": "ai",
+        "partition": "ip",
+        "type": "MIXED-RESOLUTION",
+        "count": 1,
+        "examples": [
+          "Mixed no-resolve and resolve-allowed inputs are conservatively evaluated before DNS resolution."
+        ]
+      },
+      {
+        "category": "telegram_asn",
+        "partition": "ip",
+        "type": "IP-ASN",
+        "count": 5,
+        "examples": [
+          "IP-ASN,62041",
+          "IP-ASN,62014",
+          "IP-ASN,59930"
+        ]
+      }
+    ]
+  }
+}

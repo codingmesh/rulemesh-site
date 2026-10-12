@@ -163,6 +163,14 @@
     },
     {
       "type": "selector",
+      "tag": "RuleMesh-direct",
+      "outbounds": [
+        "RuleMesh-Direct",
+        "RuleMesh-Nodes"
+      ]
+    },
+    {
+      "type": "selector",
       "tag": "RuleMesh-china",
       "outbounds": [
         "RuleMesh-Direct",
@@ -201,6 +209,14 @@
         "tag": "rulemesh-domainset-private",
         "format": "source",
         "url": "https://codingmesh.github.io/ruleset/sing-box/domainset/private.json",
+        "update_interval": "1d",
+        "download_detour": "RuleMesh-Nodes"
+      },
+      {
+        "type": "remote",
+        "tag": "rulemesh-non_ip-direct",
+        "format": "source",
+        "url": "https://codingmesh.github.io/ruleset/sing-box/non_ip/direct.json",
         "update_interval": "1d",
         "download_detour": "RuleMesh-Nodes"
       },
@@ -257,6 +273,14 @@
         "tag": "rulemesh-domainset-apple-intelligence",
         "format": "source",
         "url": "https://codingmesh.github.io/ruleset/sing-box/domainset/apple-intelligence.json",
+        "update_interval": "1d",
+        "download_detour": "RuleMesh-Nodes"
+      },
+      {
+        "type": "remote",
+        "tag": "rulemesh-non_ip-apple_intelligence",
+        "format": "source",
+        "url": "https://codingmesh.github.io/ruleset/sing-box/non_ip/apple_intelligence.json",
         "update_interval": "1d",
         "download_detour": "RuleMesh-Nodes"
       },
@@ -465,6 +489,14 @@
         "tag": "rulemesh-domainset-onedrive",
         "format": "source",
         "url": "https://codingmesh.github.io/ruleset/sing-box/domainset/onedrive.json",
+        "update_interval": "1d",
+        "download_detour": "RuleMesh-Nodes"
+      },
+      {
+        "type": "remote",
+        "tag": "rulemesh-non_ip-microsoft_cdn",
+        "format": "source",
+        "url": "https://codingmesh.github.io/ruleset/sing-box/non_ip/microsoft_cdn.json",
         "update_interval": "1d",
         "download_detour": "RuleMesh-Nodes"
       },
@@ -902,6 +934,14 @@
       },
       {
         "type": "remote",
+        "tag": "rulemesh-ip-openai-no-resolve",
+        "format": "source",
+        "url": "https://codingmesh.github.io/ruleset/sing-box/ip/openai.no-resolve.json",
+        "update_interval": "1d",
+        "download_detour": "RuleMesh-Nodes"
+      },
+      {
+        "type": "remote",
         "tag": "rulemesh-ip-ai",
         "format": "source",
         "url": "https://codingmesh.github.io/ruleset/sing-box/ip/ai.json",
@@ -913,6 +953,14 @@
         "tag": "rulemesh-ip-telegram",
         "format": "source",
         "url": "https://codingmesh.github.io/ruleset/sing-box/ip/telegram.json",
+        "update_interval": "1d",
+        "download_detour": "RuleMesh-Nodes"
+      },
+      {
+        "type": "remote",
+        "tag": "rulemesh-ip-telegram-no-resolve",
+        "format": "source",
+        "url": "https://codingmesh.github.io/ruleset/sing-box/ip/telegram.no-resolve.json",
         "update_interval": "1d",
         "download_detour": "RuleMesh-Nodes"
       },
@@ -1046,6 +1094,13 @@
       },
       {
         "rule_set": [
+          "rulemesh-non_ip-direct"
+        ],
+        "action": "route",
+        "outbound": "RuleMesh-direct"
+      },
+      {
+        "rule_set": [
           "rulemesh-domainset-anthropic"
         ],
         "action": "route",
@@ -1089,6 +1144,13 @@
       {
         "rule_set": [
           "rulemesh-domainset-apple-intelligence"
+        ],
+        "action": "route",
+        "outbound": "RuleMesh-ai-other"
+      },
+      {
+        "rule_set": [
+          "rulemesh-non_ip-apple_intelligence"
         ],
         "action": "route",
         "outbound": "RuleMesh-ai-other"
@@ -1271,6 +1333,13 @@
       {
         "rule_set": [
           "rulemesh-domainset-onedrive"
+        ],
+        "action": "route",
+        "outbound": "RuleMesh-microsoft"
+      },
+      {
+        "rule_set": [
+          "rulemesh-non_ip-microsoft_cdn"
         ],
         "action": "route",
         "outbound": "RuleMesh-microsoft"
@@ -1640,21 +1709,11 @@
         "outbound": "RuleMesh-fallback"
       },
       {
-        "action": "resolve"
-      },
-      {
         "rule_set": [
-          "rulemesh-ip-lan"
+          "rulemesh-ip-openai-no-resolve"
         ],
         "action": "route",
-        "outbound": "RuleMesh-private"
-      },
-      {
-        "rule_set": [
-          "rulemesh-ip-private-resolve"
-        ],
-        "action": "route",
-        "outbound": "RuleMesh-private"
+        "outbound": "RuleMesh-openai"
       },
       {
         "rule_set": [
@@ -1672,14 +1731,14 @@
       },
       {
         "rule_set": [
-          "rulemesh-ip-download"
+          "rulemesh-ip-telegram-no-resolve"
         ],
         "action": "route",
-        "outbound": "RuleMesh-downloads"
+        "outbound": "RuleMesh-telegram"
       },
       {
         "rule_set": [
-          "rulemesh-ip-cdn"
+          "rulemesh-ip-download"
         ],
         "action": "route",
         "outbound": "RuleMesh-downloads"
@@ -1711,6 +1770,37 @@
         ],
         "action": "route",
         "outbound": "RuleMesh-streaming"
+      },
+      {
+        "rule_set": [
+          "rulemesh-ip-teleproto"
+        ],
+        "action": "route",
+        "outbound": "RuleMesh-telegram"
+      },
+      {
+        "action": "resolve"
+      },
+      {
+        "rule_set": [
+          "rulemesh-ip-lan"
+        ],
+        "action": "route",
+        "outbound": "RuleMesh-private"
+      },
+      {
+        "rule_set": [
+          "rulemesh-ip-private-resolve"
+        ],
+        "action": "route",
+        "outbound": "RuleMesh-private"
+      },
+      {
+        "rule_set": [
+          "rulemesh-ip-cdn"
+        ],
+        "action": "route",
+        "outbound": "RuleMesh-downloads"
       },
       {
         "rule_set": [
@@ -1757,13 +1847,6 @@
       {
         "rule_set": [
           "rulemesh-ip-telegram_asn"
-        ],
-        "action": "route",
-        "outbound": "RuleMesh-telegram"
-      },
-      {
-        "rule_set": [
-          "rulemesh-ip-teleproto"
         ],
         "action": "route",
         "outbound": "RuleMesh-telegram"

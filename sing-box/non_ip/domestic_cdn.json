@@ -21,7 +21,8 @@
         "alipayobjects.com",
         "tx-safety-video.acfun.cn",
         "ali-safety-video.acfun.cn"
-      ]
+      ],
+      "domain_regex": ["^qhimgs.\\.com$"]
     }
   ]
 }

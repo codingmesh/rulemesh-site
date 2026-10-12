@@ -43,7 +43,16 @@
         "p2pupdate.gamedl.qq.com",
         "p2pupgrade.gamedl.qq.com"
       ],
-      "domain_keyword": ["-p2p.pull.yximgs.com", "-p2p-v2.pull.yximgs.com"]
+      "domain_keyword": ["-p2p.pull.yximgs.com", "-p2p-v2.pull.yximgs.com"],
+      "domain_regex": [
+        "^p2p.*\\.qq\\.com$",
+        "^p2p-.*\\.douyucdn\\.cn$",
+        "^p2pchunk-.*\\.douyucdn\\.cn$",
+        "^dyp2p-.*\\.douyucdn\\.cn$",
+        "^p2plive-.*\\.douyucdn\\.cn$",
+        "^stun.*\\.douyucdn\\.cn$",
+        "^upos-sz-302.*\\.bilivideo\\.com$"
+      ]
     }
   ]
 }

@@ -96,6 +96,11 @@ proxy-groups:
     proxies:
       - RuleMesh-Nodes
       - DIRECT
+  - name: RuleMesh-direct
+    type: select
+    proxies:
+      - DIRECT
+      - RuleMesh-Nodes
   - name: RuleMesh-china
     type: select
     proxies:
@@ -187,6 +192,13 @@ rule-providers:
     url: https://codingmesh.github.io/ruleset/Clash/domainset/private.txt
     path: ./rulemesh/rulemesh-domainset-private.txt
     interval: 86400
+  rulemesh-non_ip-direct:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/direct.txt
+    path: ./rulemesh/rulemesh-non_ip-direct.txt
+    interval: 86400
   rulemesh-domainset-anthropic:
     type: http
     behavior: domain
@@ -235,6 +247,13 @@ rule-providers:
     format: text
     url: https://codingmesh.github.io/ruleset/Clash/domainset/apple-intelligence.txt
     path: ./rulemesh/rulemesh-domainset-apple-intelligence.txt
+    interval: 86400
+  rulemesh-non_ip-apple_intelligence:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/apple_intelligence.txt
+    path: ./rulemesh/rulemesh-non_ip-apple_intelligence.txt
     interval: 86400
   rulemesh-domainset-ai-other:
     type: http
@@ -417,6 +436,13 @@ rule-providers:
     format: text
     url: https://codingmesh.github.io/ruleset/Clash/domainset/onedrive.txt
     path: ./rulemesh/rulemesh-domainset-onedrive.txt
+    interval: 86400
+  rulemesh-non_ip-microsoft_cdn:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/microsoft_cdn.txt
+    path: ./rulemesh/rulemesh-non_ip-microsoft_cdn.txt
     interval: 86400
   rulemesh-domainset-npm:
     type: http
@@ -803,6 +829,13 @@ rule-providers:
     url: https://codingmesh.github.io/ruleset/Clash/ip/private.resolve.txt
     path: ./rulemesh/rulemesh-ip-private-resolve.txt
     interval: 86400
+  rulemesh-ip-openai-no-resolve:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/openai.no-resolve.txt
+    path: ./rulemesh/rulemesh-ip-openai-no-resolve.txt
+    interval: 86400
   rulemesh-ip-ai:
     type: http
     behavior: classical
@@ -816,6 +849,13 @@ rule-providers:
     format: text
     url: https://codingmesh.github.io/ruleset/Clash/ip/telegram.txt
     path: ./rulemesh/rulemesh-ip-telegram.txt
+    interval: 86400
+  rulemesh-ip-telegram-no-resolve:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/telegram.no-resolve.txt
+    path: ./rulemesh/rulemesh-ip-telegram-no-resolve.txt
     interval: 86400
   rulemesh-ip-download:
     type: http
@@ -926,6 +966,7 @@ rules:
   - RULE-SET,rulemesh-non_ip-reject-url-regex,RuleMesh-advertising
   - RULE-SET,rulemesh-non_ip-lan,RuleMesh-private
   - RULE-SET,rulemesh-domainset-private,RuleMesh-private
+  - RULE-SET,rulemesh-non_ip-direct,RuleMesh-direct
   - RULE-SET,rulemesh-domainset-anthropic,RuleMesh-anthropic
   - RULE-SET,rulemesh-domainset-openai,RuleMesh-openai
   - RULE-SET,rulemesh-domainset-gemini,RuleMesh-gemini
@@ -933,6 +974,7 @@ rules:
   - RULE-SET,rulemesh-domainset-xai,RuleMesh-ai-other
   - RULE-SET,rulemesh-domainset-perplexity,RuleMesh-ai-other
   - RULE-SET,rulemesh-domainset-apple-intelligence,RuleMesh-ai-other
+  - RULE-SET,rulemesh-non_ip-apple_intelligence,RuleMesh-ai-other
   - RULE-SET,rulemesh-domainset-ai-other,RuleMesh-ai-other
   - RULE-SET,rulemesh-non_ip-ai,RuleMesh-ai-other
   - RULE-SET,rulemesh-domainset-telegram,RuleMesh-telegram
@@ -959,6 +1001,7 @@ rules:
   - RULE-SET,rulemesh-domainset-apple-tv,RuleMesh-apple
   - RULE-SET,rulemesh-domainset-google-fcm,RuleMesh-google
   - RULE-SET,rulemesh-domainset-onedrive,RuleMesh-microsoft
+  - RULE-SET,rulemesh-non_ip-microsoft_cdn,RuleMesh-microsoft
   - RULE-SET,rulemesh-domainset-npm,RuleMesh-developer
   - RULE-SET,rulemesh-domainset-python,RuleMesh-developer
   - RULE-SET,rulemesh-domainset-docker,RuleMesh-developer
@@ -1014,8 +1057,10 @@ rules:
   - RULE-SET,rulemesh-ip-reject,RuleMesh-advertising
   - RULE-SET,rulemesh-ip-lan,RuleMesh-private
   - RULE-SET,rulemesh-ip-private-resolve,RuleMesh-private
+  - RULE-SET,rulemesh-ip-openai-no-resolve,RuleMesh-openai
   - RULE-SET,rulemesh-ip-ai,RuleMesh-ai-other
   - RULE-SET,rulemesh-ip-telegram,RuleMesh-telegram
+  - RULE-SET,rulemesh-ip-telegram-no-resolve,RuleMesh-telegram
   - RULE-SET,rulemesh-ip-download,RuleMesh-downloads
   - RULE-SET,rulemesh-ip-cdn,RuleMesh-downloads
   - RULE-SET,rulemesh-ip-domestic,RuleMesh-china

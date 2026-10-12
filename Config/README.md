@@ -9,3 +9,5 @@ Policy hierarchy:
 3. Anthropic, OpenAI, Gemini, Telegram, YouTube and Netflix inherit their family and may be overridden independently.
 4. Private and mainland China traffic default to direct. Global fallback defaults to the root node selector.
 5. The advertising profile evaluates reject rules before private, service, domestic and global rules; the standard profile contains no advertising rules.
+
+Target-specific omissions that cannot be represented natively are listed in capability-gaps.json.

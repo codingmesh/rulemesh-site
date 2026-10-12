@@ -34,7 +34,8 @@
         "f-log-assistant.grammarly.io",
         "f-log-extension.grammarly.io",
         "in.applicationinsights.azure.com"
-      ]
+      ],
+      "domain_regex": ["^f-log.*\\.grammarly\\.io$"]
     }
   ]
 }

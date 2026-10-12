@@ -3,7 +3,8 @@
   "rules": [
     {
       "domain": ["ruleset.marker.rulemesh.invalid"],
-      "domain_suffix": ["ruleset.marker.rulemesh.invalid"]
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid"],
+      "domain_regex": ["^qhimgs.\\.com$"]
     }
   ]
 }
