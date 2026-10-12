@@ -40,7 +40,9 @@
         "bahamut.com.tw",
         "ani.gamer.com.tw",
         "api.gamer.com.tw"
-      ],
+      ]
+    },
+    {
       "process_name": ["com.linecorp.linetv"]
     }
   ]

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "category": "reject",
+  "partition": "domainset",
+  "resolutionMode": "existing-only",
+  "targets": {
+    "mihomo": [],
+    "singbox": []
+  },
+  "projections": {
+    "mihomo": [
+      {
+        "category": "reject",
+        "partition": "domainset",
+        "type": "URL-REGEX",
+        "count": 3,
+        "examples": [
+          "/igd\\.xml",
+          "/\\d+/resolve",
+          "/\\d+/sign_d"
+        ],
+        "origins": [
+          {
+            "file": "generated:reject",
+            "line": 203,
+            "text": "URL-REGEX,/igd\\.xml"
+          },
+          {
+            "file": "generated:reject",
+            "line": 240,
+            "text": "URL-REGEX,/\\d+/resolve"
+          },
+          {
+            "file": "generated:reject",
+            "line": 338,
+            "text": "URL-REGEX,/\\d+/sign_d"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "reject",
+        "partition": "domainset",
+        "type": "URL-REGEX",
+        "count": 3,
+        "examples": [
+          "/igd\\.xml",
+          "/\\d+/resolve",
+          "/\\d+/sign_d"
+        ],
+        "origins": [
+          {
+            "file": "generated:reject",
+            "line": 203,
+            "text": "URL-REGEX,/igd\\.xml"
+          },
+          {
+            "file": "generated:reject",
+            "line": 240,
+            "text": "URL-REGEX,/\\d+/resolve"
+          },
+          {
+            "file": "generated:reject",
+            "line": 338,
+            "text": "URL-REGEX,/\\d+/sign_d"
+          }
+        ]
+      }
+    ]
+  }
+}

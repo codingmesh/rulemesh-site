@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "category": "stream",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "stream",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 49,
+        "examples": [
+          "AbemaTV*",
+          "InstantVideo.US*",
+          "Prime Video*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream",
+            "line": 17,
+            "text": "USER-AGENT,AbemaTV*"
+          },
+          {
+            "file": "generated:stream",
+            "line": 44,
+            "text": "USER-AGENT,InstantVideo.US*"
+          },
+          {
+            "file": "generated:stream",
+            "line": 45,
+            "text": "USER-AGENT,Prime Video*"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "stream",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 49,
+        "examples": [
+          "AbemaTV*",
+          "InstantVideo.US*",
+          "Prime Video*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream",
+            "line": 17,
+            "text": "USER-AGENT,AbemaTV*"
+          },
+          {
+            "file": "generated:stream",
+            "line": 44,
+            "text": "USER-AGENT,InstantVideo.US*"
+          },
+          {
+            "file": "generated:stream",
+            "line": 45,
+            "text": "USER-AGENT,Prime Video*"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

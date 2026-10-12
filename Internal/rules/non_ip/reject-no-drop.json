@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "category": "reject-no-drop",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "reject-no-drop",
+        "partition": "non_ip",
+        "type": "AND",
+        "count": 1,
+        "examples": [
+          "AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/reject-no-drop.conf",
+            "line": 61,
+            "text": "AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "reject-no-drop",
+        "partition": "non_ip",
+        "type": "AND",
+        "count": 1,
+        "examples": [
+          "AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/reject-no-drop.conf",
+            "line": 61,
+            "text": "AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

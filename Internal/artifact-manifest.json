@@ -1,0 +1,5287 @@
+{
+  "schemaVersion": 1,
+  "inputs": [
+    {
+      "source": "Telegram MTProto help.getConfig (normalized public configuration)",
+      "role": "dynamic",
+      "sha256": "91e5c781272ccaf8dcb780e5ec2a5d7cb9214fcc740d6ccb1907786e42c0e8a3"
+    },
+    {
+      "source": "Telegram signed backup endpoints (production and test)",
+      "role": "dynamic",
+      "sha256": "b9d073c865a685e3e139fbcf460cdb73c0c297bc9695e6ebcb56bca2be52ea7e"
+    },
+    {
+      "source": "Telegram signed backup endpoints (production)",
+      "role": "dynamic",
+      "sha256": "b9d073c865a685e3e139fbcf460cdb73c0c297bc9695e6ebcb56bca2be52ea7e"
+    },
+    {
+      "source": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/exceptions.txt",
+      "role": "dynamic",
+      "sha256": "6a3ef9be37a4680a2f262b2936c93d9557524b29e0cc05a085fabf40f7088c41",
+      "lastModified": "Mon, 12 Oct 2026 18:19:25 GMT"
+    },
+    {
+      "source": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/exclusions.txt",
+      "role": "dynamic",
+      "sha256": "25de634c929a6aa7a1949e42895c68cf7454b7be162a761bd123f8c813338888",
+      "lastModified": "Mon, 12 Oct 2026 18:19:25 GMT"
+    },
+    {
+      "source": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+      "role": "dynamic",
+      "sha256": "c5e3d3460d44b88cd48a9557cfa842c8bb4cfde9b3cca449f3882fdfe5bc9728",
+      "lastModified": "Mon, 12 Oct 2026 18:19:25 GMT"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/AdguardTeam/cname-trackers@master/data/combined_disguised_ads_justdomains.txt",
+      "role": "dynamic",
+      "sha256": "9d5921aab10fc2afe97f8a0d07f3c11cd59107ef1f6c987f1779a78e32de1d96"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/AdguardTeam/cname-trackers@master/data/combined_disguised_microsites_justdomains.txt",
+      "role": "dynamic",
+      "sha256": "033e60edcf6246fb2c36ae6eb80cbbab8030535447d6463662f85135c82f0c71"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/AdguardTeam/cname-trackers@master/data/combined_disguised_trackers_justdomains.txt",
+      "role": "dynamic",
+      "sha256": "17b55e5beb5fc0b740945c3ff2b08b2c137fd581d612c97e0d16144c3935115a"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/DandelionSprout/adfilt@master/GameConsoleAdblockList.txt",
+      "role": "dynamic",
+      "sha256": "7616d81053e00feba0d9897b399f3b17be102a94f976befd3950a882d4452d7a"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/felixonmars/dnsmasq-china-list@master/bogus-nxdomain.china.conf",
+      "role": "dynamic",
+      "sha256": "cc201dbb4c5d301621d24a025ab5b1e3f8c436f2c9f57efeed35e9afc26fa34b"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list@master/hosts.txt",
+      "role": "dynamic",
+      "sha256": "41c0e875b48dc65282c9aee579ae315eb557f115be654d6a9e4fccac7db9a2d1"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list@master/nocoin.txt",
+      "role": "dynamic",
+      "sha256": "72fd0dda718ffcfd8fab8b416290c7feb8bd65efe060b17d30265a57cb51a649"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/ipfs/public-gateway-checker@main/gateways.json",
+      "role": "dynamic",
+      "sha256": "99f29dae2ddc66bab074ac03edb20ed42c5a4ab3fe5f0af86f51ccab4d726874"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/arenanet.txt",
+      "role": "dynamic",
+      "sha256": "69bf76edc8f952285da6cd983220d11670906f0fcd7467f07ffd4d5453991f33"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/blizzard.txt",
+      "role": "dynamic",
+      "sha256": "9f4626c4eed253011dcd7e72f18819a3ef842382893d8ac83fa50e244010f1b8"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/bsg.txt",
+      "role": "dynamic",
+      "sha256": "056a75a24899f9bdcef563dc2e636dc53e32c1c3f68d6d3b9dca09faaf899c78"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/cache_domains.json",
+      "role": "dynamic",
+      "sha256": "3b0917a82a4c81db7f8bea142336265a49c087182937bbf1ba17c833307160aa"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/cityofheroes.txt",
+      "role": "dynamic",
+      "sha256": "e5a0b0d04e2f41eefcee870684db0383e29c5bd8937d7fbfafb74b47114aa5aa"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/cod.txt",
+      "role": "dynamic",
+      "sha256": "71d517e05921e156664722cd2d00d933b339fa76301a5c67ae9912fc94d85e3a"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/daybreak.txt",
+      "role": "dynamic",
+      "sha256": "26b5810068b01d32d51301187d584e0ba9384340f5001953d792855fd5e2023b"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/epicgames.txt",
+      "role": "dynamic",
+      "sha256": "147b989470503f309e68af8572c417ff124b7bb23617cd8be10330e0de12d2fd"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/frontier.txt",
+      "role": "dynamic",
+      "sha256": "8d794be41e4111b2c01b1d4fdc63a098f16c850d7dc6a284929ea91acb5f9e28"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/neverwinter.txt",
+      "role": "dynamic",
+      "sha256": "6ab7796cf189a7c718bb6c19caa2e23c4bc05716ed22d6a4624c2264be8da61e"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/nexusmods.txt",
+      "role": "dynamic",
+      "sha256": "51a9881efa0fd34f939531c071f1c6cf8b9ac9c77376aff6802b563ea5f33929"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/nintendo.txt",
+      "role": "dynamic",
+      "sha256": "44356bafb92c607595261a32e9739b37716635912fa431e1838090dba499ae4e"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/origin.txt",
+      "role": "dynamic",
+      "sha256": "3fab569b9ad133f3b145f5ad13a9acceea4c29e6c00fce020ae608d08b4de019"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/pathofexile.txt",
+      "role": "dynamic",
+      "sha256": "2b5a768ff9b095cda14b0d8e665938a97c2a359f385dd8010c84aa4ce3c1ca69"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/renegadex.txt",
+      "role": "dynamic",
+      "sha256": "9201ff65f139a4f4e4f0008b8e48444fe15d2ff7579a85a21001ed177d3c899a"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/riot.txt",
+      "role": "dynamic",
+      "sha256": "95584ecb80064edbc5e44a72a9c30bfe1bab15defc70398ff312b41970a8dcfe"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/rockstar.txt",
+      "role": "dynamic",
+      "sha256": "86f11074b8bb341c3b941c65420a985b736e178d5aad6f2838bba7ad32c9f484"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/sony.txt",
+      "role": "dynamic",
+      "sha256": "102980d95ac0454562fa0d1c2cb63aaa0c19837975652b33d36d92168cbce906"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/square.txt",
+      "role": "dynamic",
+      "sha256": "fff6182cd01122dab8a4767a052cda28f5b7dd92137e558dd68a53e1d599c4df"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/steam.txt",
+      "role": "dynamic",
+      "sha256": "65df4053cac1a5c9c2881dba46755a615698ff7a8370ecd14027145bea847758"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/teso.txt",
+      "role": "dynamic",
+      "sha256": "8ae9ab098d3daf090c76c9905460b5c191b9580d6c6217fc1e5407e2c05f91c9"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/test.txt",
+      "role": "dynamic",
+      "sha256": "659cf190ab18c69d9737b2a95a3c8d065836f5cf6ed54b6a970130bb94b4eae2"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/uplay.txt",
+      "role": "dynamic",
+      "sha256": "0ee67eb979dedec8431eae474aa1c3f3efb442fb0f0ea47fe97cb0a7b838a314"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/warframe.txt",
+      "role": "dynamic",
+      "sha256": "4b656926c4259b571c96fff875385acc8f4d4cbb279dff69d4cf3bbe221d28d2"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/wargaming.net.txt",
+      "role": "dynamic",
+      "sha256": "4433430870aeb30c94eb2c1d2195b48c1c8b9a8b25d94f5d06d7612c693c3bb7"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/windowsupdates.txt",
+      "role": "dynamic",
+      "sha256": "5cf44fadb50b7f8ca404af375b57c64c3f82afa2397247e2527ce7b49a6582c2"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/gh/uklans/cache-domains@master/xboxlive.txt",
+      "role": "dynamic",
+      "sha256": "c13ef4a88f7c8682689a708c43e6c4328e6464ba1357922e2606f8f3e9f7abd8"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/npm/@adguard/scriptlets@latest/dist/redirect-files/amazon-apstag.js",
+      "role": "dynamic",
+      "sha256": "6d4bcf2a273911439dcf3bb247b7acd71d02f1d3ca8b1bedc59ad3b1960bc97b"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/npm/@adguard/scriptlets@latest/dist/redirect-files/google-analytics-ga.js",
+      "role": "dynamic",
+      "sha256": "1255b492eb7f1692ab2ad14e53a127e631cccfaf5b654ef9c1e2f459955a28e1"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/npm/@adguard/scriptlets@latest/dist/redirect-files/google-analytics.js",
+      "role": "dynamic",
+      "sha256": "2420c48f85c529182c83debd405f95f1439faa1cb1a26629dbef55e239907e61"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/npm/@adguard/scriptlets@latest/dist/redirect-files/googlesyndication-adsbygoogle.js",
+      "role": "dynamic",
+      "sha256": "2b009a2e432009a224ee8065036c40ee3abb751474617b16a983a6836f86ee21"
+    },
+    {
+      "source": "https://cdn.jsdelivr.net/npm/@adguard/scriptlets@latest/dist/redirect-files/googletagservices-gpt.js",
+      "role": "dynamic",
+      "sha256": "af03bdce9374b739fd2a6f6613d74653f8d1f0f1d2ee7d8917beb004bc03ea9b"
+    },
+    {
+      "source": "https://core.telegram.org/resources/cidr.txt",
+      "role": "dynamic",
+      "sha256": "3ecd072cedf72eceee6961b18a51e37f905d5ce4a656a5d24cf5fea63e6ec651",
+      "lastModified": "Fri, 01 Oct 2021 16:51:55 GMT"
+    },
+    {
+      "source": "https://dns-telegram.appspot.com/",
+      "role": "dynamic",
+      "sha256": "d7d01ec4e0561264710a8cc42c62a5694d4a4abef11e5097fe62a57e1371edf3"
+    },
+    {
+      "source": "https://dns-telegram.appspot.com/test",
+      "role": "dynamic",
+      "sha256": "d7d01ec4e0561264710a8cc42c62a5694d4a4abef11e5097fe62a57e1371edf3"
+    },
+    {
+      "source": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
+      "role": "dynamic",
+      "sha256": "3e136dd6548cba6155f2f131d9ead33908fb5233cb42bd0dae7eba416206cd16",
+      "lastModified": "Mon, 12 Oct 2026 19:06:25 GMT"
+    },
+    {
+      "source": "https://filters.adtidy.org/extension/ublock/filters/11_optimized.txt",
+      "role": "dynamic",
+      "sha256": "eb2faad52d643517480e67f0200d6c6e1139a81c668e6033eb372a962409c380",
+      "lastModified": "Mon, 12 Oct 2026 17:55:48 GMT"
+    },
+    {
+      "source": "https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt",
+      "role": "dynamic",
+      "sha256": "91f89ea7bbd7825f2b5e7ad679f4a67d2606e89b90c5217d7577c7ce46b7f179",
+      "lastModified": "Mon, 12 Oct 2026 17:55:48 GMT"
+    },
+    {
+      "source": "https://filters.adtidy.org/extension/ublock/filters/224_optimized.txt",
+      "role": "dynamic",
+      "sha256": "1153e4dc0be5b6127a8d6807373e9c31601956a290f94042df93acc59f2575f7",
+      "lastModified": "Mon, 12 Oct 2026 17:55:49 GMT"
+    },
+    {
+      "source": "https://filters.adtidy.org/extension/ublock/filters/250_optimized.txt",
+      "role": "dynamic",
+      "sha256": "27559e32679882686a99637ed789664cab3c536cd609119535d6ec8871caa18e",
+      "lastModified": "Mon, 12 Oct 2026 17:55:48 GMT"
+    },
+    {
+      "source": "https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt",
+      "role": "dynamic",
+      "sha256": "46ed307302c5b027eaacc168565c3b3c8c0aa01344e6330c0e6b0f62a00917ef",
+      "lastModified": "Mon, 12 Oct 2026 17:55:49 GMT"
+    },
+    {
+      "source": "https://filters.adtidy.org/extension/ublock/filters/3_optimized.txt",
+      "role": "dynamic",
+      "sha256": "4de12967a69ccd8245ab892870461141cb1e88923443bedfab4f46d2e3abfcb0",
+      "lastModified": "Mon, 12 Oct 2026 17:55:54 GMT"
+    },
+    {
+      "source": "https://filters.adtidy.org/extension/ublock/filters/7_optimized.txt",
+      "role": "dynamic",
+      "sha256": "08f702da65a71d1f4849bcbcf9ff872253082f3ff8c10c5b603114e4c5009880",
+      "lastModified": "Mon, 12 Oct 2026 17:55:49 GMT"
+    },
+    {
+      "source": "https://firestore.googleapis.com/v1/projects/reserve-5a846/databases/(default)/documents/ipconfig/v3",
+      "role": "dynamic",
+      "sha256": "6cff9b80baeb4d31b1ad3d9c1493fb8e1a28d3fde0c0585b8103d6b9a4500805"
+    },
+    {
+      "source": "https://openai.com/chatgpt-voice.json",
+      "role": "dynamic",
+      "sha256": "8f03f3c594165eeff009915c7e2beb4bdfb9d429fb1955c205e3b33ec781899a",
+      "lastModified": "Thu, 26 Mar 2026 20:12:45 GMT"
+    },
+    {
+      "source": "https://phishing-filter.pages.dev/phishing-filter-domains.txt",
+      "role": "dynamic",
+      "sha256": "d3755022e0a45ee8f51f11d40fb641cc5e1b266a78d84414a45f6d1c4da717b3"
+    },
+    {
+      "source": "https://phishing.army/download/phishing_army_blocklist.txt",
+      "role": "dynamic",
+      "sha256": "35c02a8220c66ee8666e46ff61d56aaae8ec6a0ca821add9fdefa6248b972a64",
+      "lastModified": "Mon, 12 Oct 2026 16:00:07 GMT"
+    },
+    {
+      "source": "https://proxy.cdn.skk.moe/https/someonewhocares.org/hosts/zero/hosts",
+      "role": "dynamic",
+      "sha256": "178fc4cf03e4e39218555798044ae29427836882ee62d571afa1fb3b758bd4e4",
+      "lastModified": "Sun, 04 Oct 2026 16:54:36 GMT"
+    },
+    {
+      "source": "https://publicsuffix.org/list/public_suffix_list.dat",
+      "role": "dynamic",
+      "sha256": "ba7d836c0ea57a8bcf9f1fcb868066a7554bed029b441ecc6204ad8494a32612",
+      "lastModified": "Wed, 07 Oct 2026 07:28:30 GMT"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareDomains.txt",
+      "role": "dynamic",
+      "sha256": "0bb7559846055ddb9dc17706760e95b4a22ac7fa9938a7e2d9a80cf3d09ae2a2"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+      "role": "dynamic",
+      "sha256": "f5afcf694eb62c42bdaa1294915f10a78577d1005c8d7a13b61a4808ccddb528"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt",
+      "role": "dynamic",
+      "sha256": "37b7528ec0082304d8537bc3380ea7ceb8ac7da467c3069b08992d3aa0746057"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/easylist/easylist/gh-pages/easyprivacy.txt",
+      "role": "dynamic",
+      "sha256": "744fa46bcbc60c642a4faf4bb1021cfed4428e77ad3a76a6bcba694640f158ea"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf",
+      "role": "dynamic",
+      "sha256": "c030567d770eb94e8fd56e75392ebb10ff5d4c3cf6e79d903c546f575a0145e3"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf",
+      "role": "dynamic",
+      "sha256": "5b85e3febd8067233d86483299f257806428b5d520c65e3da3c0ce9465568f64"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/thirdparties/pgl.yoyo.org/as/serverlist",
+      "role": "dynamic",
+      "sha256": "e8e7a3d2381013cbea1b55c34c676794b0943133bce5b5d8f6346e182d11d5f4"
+    },
+    {
+      "source": "https://reserve-5a846.firebaseio.com/ipconfigv3.json",
+      "role": "dynamic",
+      "sha256": "8b7b2bb24ece6edf5ed0f951524e9b0d1fe13cc31db96a019c31dd409629019b"
+    },
+    {
+      "source": "https://speedtest-net-servers.cdn.skk.moe/librespeed-servers.json",
+      "role": "dynamic",
+      "sha256": "0612b896cb949b529281860dcbe60cb8b422a5e1435fb403c6a2a1eeb7b91333"
+    },
+    {
+      "source": "https://speedtest-net-servers.cdn.skk.moe/servers.json",
+      "role": "dynamic",
+      "sha256": "2931f993d4eb943f67a9ef8615edfd7545b6e031e72a71e60470285eb15d7fe4"
+    },
+    {
+      "source": "https://ublockorigin.pages.dev/filters/annoyances.min.txt",
+      "role": "dynamic",
+      "sha256": "cc6c5f98769201bc589ec924505ccba50be5f70b47661a154382d2758e4b38da"
+    },
+    {
+      "source": "https://ublockorigin.pages.dev/filters/badware.min.txt",
+      "role": "dynamic",
+      "sha256": "7200ac072657c3336308682518742e5957267b08d038a60926aa4a3ec1070617"
+    },
+    {
+      "source": "https://ublockorigin.pages.dev/filters/filters.min.txt",
+      "role": "dynamic",
+      "sha256": "394be8154a4f02cfed06ab008a3b20b5d8ca3ca6d318583bd58b0393470f5126"
+    },
+    {
+      "source": "https://ublockorigin.pages.dev/filters/privacy.min.txt",
+      "role": "dynamic",
+      "sha256": "ba7af07ef740cf04474a54f67ee6628886da9c172c967154f68df8cbcdc54370"
+    },
+    {
+      "source": "https://ublockorigin.pages.dev/filters/unbreak.min.txt",
+      "role": "dynamic",
+      "sha256": "99f66f3ee088217f7a014b206b22df40ce5345c394adab1c12cbaf0208176721"
+    },
+    {
+      "source": "https://ublockorigin.pages.dev/thirdparties/easylist-annoyances.txt",
+      "role": "dynamic",
+      "sha256": "4dbc10e8960536104cb5408437c78a5415ad93bce02f505f5764c622c0be56fb"
+    },
+    {
+      "source": "https://ublockorigin.pages.dev/thirdparties/easylist-cookies.txt",
+      "role": "dynamic",
+      "sha256": "bb2a8318afa7a29f53a00075a314fb0bf997853d1dae17e0a729125194e40143"
+    },
+    {
+      "source": "https://ublockorigin.pages.dev/thirdparties/easylist-newsletters.txt",
+      "role": "dynamic",
+      "sha256": "cc02e6e10edad96857c2892c12fe7658d1a9f9041e94c04f6d08c8b4e2c45ba1"
+    },
+    {
+      "source": "https://ublockorigin.pages.dev/thirdparties/easylist-notifications.txt",
+      "role": "dynamic",
+      "sha256": "31a50a161c0c0360500e52f236b0626d0e570dcaa8eda9bdf8b6e95436c25955"
+    },
+    {
+      "source": "https://urlhaus-filter.pages.dev/urlhaus-filter-domains-online.txt",
+      "role": "dynamic",
+      "sha256": "aa739a3cde3fcb55c2bb44cf57be2b344275a6d80d20b0f654d8023d9d1a633e"
+    },
+    {
+      "source": "List/domainset/speedtest.conf",
+      "role": "history",
+      "sha256": "c4ceefb860c710748282d81064c1bb6f25a4bb57835ac350becd545216444ee0"
+    },
+    {
+      "source": "RuleMesh code tree (dbea27e295365e305e005abe8e3bd568a7ba53ea)",
+      "role": "source",
+      "sha256": "8f499896fa7e2214fec940e0bd7fa8da3a3e30df695e9177030329d97f769470"
+    },
+    {
+      "source": "Source/domainset/advertising.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "824103ead9eafef1c431b701d85dfca775e0b9d6c01acae486196f16bdc109df"
+    },
+    {
+      "source": "Source/domainset/ai-other.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "84d6e9164098264f93693754501a7046cf7f8115386b710df03da2ed9b675191"
+    },
+    {
+      "source": "Source/domainset/anthropic.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "7cd40c5d4d12dd5e2451bee37b6a889fe94ed28b72666932c0f9a13056e575f9"
+    },
+    {
+      "source": "Source/domainset/apple-cn.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "cbe64eb270da4c65ce422cd93cf9a4207f575ec6032b821783b3c47618a7d0b2"
+    },
+    {
+      "source": "Source/domainset/apple-intelligence.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "173756ae37d01732c61a5e3d0164a9f01f84a77ec0f6398209fbf6cd4aec0282"
+    },
+    {
+      "source": "Source/domainset/apple-music.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "33f0673b5e36e9879465e18c6e3b1f30ee373a9ab81b79329ac954c8bd3eb357"
+    },
+    {
+      "source": "Source/domainset/apple-tv.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "b65cd695ef1847a6f5d386410a118010507e010785f17f1ea1e2ef8d8457acf5"
+    },
+    {
+      "source": "Source/domainset/apple.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "77fc6fca2a5e7e5ec3b29f205717f29f3f7b94de59c50374d844404eb599e3ec"
+    },
+    {
+      "source": "Source/domainset/aws.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "461aae950917a92a24594fe88a4de19dbabe0792ffff4cc0b7f1c9ebf4593598"
+    },
+    {
+      "source": "Source/domainset/bilibili-intl.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "acaf6b295d00676db2b1f81d1ff4f3c8507d9d3881f6eaefb30b75a4c6a58086"
+    },
+    {
+      "source": "Source/domainset/bilibili.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "931a9fe245f8c5c5d3220f4cdd90c101566a806f5c0e6ad0ad186919ee58d0b1"
+    },
+    {
+      "source": "Source/domainset/cdn-cn.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "bfb7ac5dd04849cc3340d5b2e0a2eb492da80222d79489ecf4e6afc75df3c57e"
+    },
+    {
+      "source": "Source/domainset/cdn-global.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "514fc77236dec1a083a9a0850a76306a375c6253c1743b50e9d0eae3ce6c4f62"
+    },
+    {
+      "source": "Source/domainset/cdn.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "2237bf05dc7de0af0f08b5e80028839b3ee804432c2f859a54b353e46fdd128a"
+    },
+    {
+      "source": "Source/domainset/china.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "186f0602cdfc0b06f883d639fd7123eef82480d8cef125b34b8057a740597820"
+    },
+    {
+      "source": "Source/domainset/cloudflare.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "ca28ce6baf1951857fc3395672cab2b06c7101c4e47bbd2e000e0736d2af57f6"
+    },
+    {
+      "source": "Source/domainset/copilot.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "10223b07f150bdd395d7ec99cd68167b1ae5001df8b5c11ccead0d60361a67a9"
+    },
+    {
+      "source": "Source/domainset/developer.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "eb1ebf2365034a5de7debd7659e7a56825de741116acc15e0bd0b7f83c0dd5f5"
+    },
+    {
+      "source": "Source/domainset/digitalocean.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "221bf89a86602ca88296a6de54cbe4d8c1ed6ff278f4fc2169a5ae4e931a2d51"
+    },
+    {
+      "source": "Source/domainset/discord.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "8c39220869749f169dccf74685e2f454c19a025d7a1e415a7e9d947af7316d74"
+    },
+    {
+      "source": "Source/domainset/disney.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "840bc015315c86c7219b0c8d62afd230e1470b808802d3eb9686f8d0461c9043"
+    },
+    {
+      "source": "Source/domainset/docker.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "a2ee51fe0cc89c0333c7d1e06f0b39563324304b13112643ba95f0684e3c4770"
+    },
+    {
+      "source": "Source/domainset/download.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "8ee5180ad8518030b2d51c0aaba2626dcd66f3d55403c0da81321e53d711dd2c"
+    },
+    {
+      "source": "Source/domainset/downloads.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "20c18a03e7e03ec5a4c99bc4b808ef2d9828b6e5fd3f076e260b8829b2094e94"
+    },
+    {
+      "source": "Source/domainset/epic-games.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "c9263150bcb10fe9564b725e2c748cb2fc06eb2fa5029b1e0687c1e5371cd67d"
+    },
+    {
+      "source": "Source/domainset/facebook.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "4533adb8e152ad087889f35d214091718a233361755d05f39202abb2b26411f2"
+    },
+    {
+      "source": "Source/domainset/game-download.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "096214d4531ef980f2c4dc22754cc0636448a3d544eed139541e872388ceb152"
+    },
+    {
+      "source": "Source/domainset/game-downloads.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "55a31c016b764716c5db3c7f0fd5af5f95eaaf8b5ab3f11f575ddb8fca6c91e8"
+    },
+    {
+      "source": "Source/domainset/games.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "93241a2dbb9fe92075edd4cb2028ea12e9d7ef20265b347356b568ae4ced7d06"
+    },
+    {
+      "source": "Source/domainset/gemini.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "27c31e2c929fbf8ed541b0f3aa4ba01bc432d03565f0a3b3c5d4c560e77940ca"
+    },
+    {
+      "source": "Source/domainset/github.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "bdab399ae80e3005fd950a795b70e5cf8354107b510b51815c78e8b2f7f75115"
+    },
+    {
+      "source": "Source/domainset/gitlab.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "a822ba54aa95fe3190fec7efcdcc9764644d080ccbb191931b8c5c5cdfb7f958"
+    },
+    {
+      "source": "Source/domainset/global.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "64e9e0f3c8028b0c829dbb4b6c00cb2032ae9c51afcaaee5444189295adfa35d"
+    },
+    {
+      "source": "Source/domainset/google-fcm.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "0e960a2b01312acbcd2f62561ea7b01419a62e298432ee38902a09aba4d215aa"
+    },
+    {
+      "source": "Source/domainset/google.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "3813bf302e6b08a3e684fdd2847ca7057ceb3e12555f7d3bec6ad94849e2ce9e"
+    },
+    {
+      "source": "Source/domainset/hbo.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "31300a6e0b2d7a11badd2ceeace5739440e8fed09e0d83a2949843a77b6eb0ce"
+    },
+    {
+      "source": "Source/domainset/icloud.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "b12f123076bf2c4751daa810a79b37dee3bf9c19c346b58ec7c2550a0f992826"
+    },
+    {
+      "source": "Source/domainset/icloud_private_relay.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "0e080d9addbf5da6420cb03a402b0d0d1b3e9a31ff0dd798414383a1e9158f37"
+    },
+    {
+      "source": "Source/domainset/instagram.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "68bd5fc9bf1748b8bc52bc087da103de7ded897b6d9892885851ab8c69721866"
+    },
+    {
+      "source": "Source/domainset/jetbrains.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "0ddd4ffc0401078f6d656eaaf28222279e3f6f7ee73ce226d7cbf6742fa8f04d"
+    },
+    {
+      "source": "Source/domainset/microsoft.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "663451e2e876aefea1200a5d84f8ab4f7f29a9b04bdbf51682f7c7c0b928d360"
+    },
+    {
+      "source": "Source/domainset/netflix.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "5a851c1170306a00517bb0e1c1ab7c7f3f48a17772e66ed0650208c46fbac608"
+    },
+    {
+      "source": "Source/domainset/nintendo.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "710ae01404571ffef808cab3ff83c692ae9a3d0e44b37a337352bc8549f11c67"
+    },
+    {
+      "source": "Source/domainset/npm.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "9619a1a95c733915fd3f5f207a322bd109a71bc144499bf0811133d16eaf97fa"
+    },
+    {
+      "source": "Source/domainset/onedrive.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "c9e923b1dcaabd2ea78cdee22a7700fc9e3b1389a057f4b8fd0cae5dfc90e7f7"
+    },
+    {
+      "source": "Source/domainset/openai.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "9fc0454417113e25b384fb60f8b7532f0cf23e7a473250e69c529da102140398"
+    },
+    {
+      "source": "Source/domainset/perplexity.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "c139840ea459009b43fa7f57ef8af7938d3726c9b3e48942ba74456229cb2c3d"
+    },
+    {
+      "source": "Source/domainset/playstation.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "ecb73e3c12f6c9efe9ab4954f4d0d72419ce79d7a162749fcc929fcb736ce572"
+    },
+    {
+      "source": "Source/domainset/primevideo.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "38eefb77e66c258164dd1c66c4dd24075f92589990111d0a327424a65ef94b56"
+    },
+    {
+      "source": "Source/domainset/private.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "67e76152f5888678b3d8339afebef5f2975ad4f39c0b5ef2b39d002da5adca96"
+    },
+    {
+      "source": "Source/domainset/python.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "62c4f5e1d681352e4a82005ba00bc9c9c837c921b71eaa1380a27fe4902402a6"
+    },
+    {
+      "source": "Source/domainset/reddit.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "676a551d89be7f9aeb830b8295cd5658d9d3b870763b9ce04e0d92815166bbaa"
+    },
+    {
+      "source": "Source/domainset/reject.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "68f61add19e388858ddb4389eb17b6c9ca4430298af4c46a4cf7b815f14cefe8"
+    },
+    {
+      "source": "Source/domainset/reject_extra.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "8289eea8e79733ce39d0da96341b665e53f8219abd7d975c47686047f27a53fc"
+    },
+    {
+      "source": "Source/domainset/speedtest.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "f60ae1b0e12605645d7c6b24036c843ec4f0216937fc0d413b86079aed644cdc"
+    },
+    {
+      "source": "Source/domainset/spotify.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "876b0c1b11f3fcd31eaff79925707bdd8418bc65857505eb67d75baaf11ed949"
+    },
+    {
+      "source": "Source/domainset/steam-cn.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "3340e40293f5879037a3d6917b19c46edce66cf6eba3bd3d4b0e48b0731b5e57"
+    },
+    {
+      "source": "Source/domainset/steam.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "17b7a361f3a178bf7df70c5320e33b02806972c6d8160f08d88bf68889ea6156"
+    },
+    {
+      "source": "Source/domainset/telegram.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "25b840c09daf45be668b0d626fa089c41232ca5edb9107e4310f643a4fdaad90"
+    },
+    {
+      "source": "Source/domainset/tiktok.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "8e8b5da661df2538da075a5408583b1e0a63fd345ba2cc72b8aea49bf0c72d98"
+    },
+    {
+      "source": "Source/domainset/twitch.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "cdde015a5d5dfc37cbfd66320d31c76656590e6bcf0d689836a0f460ae608059"
+    },
+    {
+      "source": "Source/domainset/twitter.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "6e7843b7ed0000e713397740171db36a4b20bf6df02be672787deb8f14c41f64"
+    },
+    {
+      "source": "Source/domainset/whatsapp.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "8f57fce41eb3364d17da75f90d2dcbd700b5f5862b7e59178dbf2750596f91cd"
+    },
+    {
+      "source": "Source/domainset/xai.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "902d3d729b7500173dca4133e36f5f13ef69c168aa12ddc66d339c05f3714f61"
+    },
+    {
+      "source": "Source/domainset/xbox.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "f95ba47c6eba82d0480fa3424d0c18f043270299c32f3c85dbd8977ee60b5778"
+    },
+    {
+      "source": "Source/domainset/youtube.conf (pinned synchronization)",
+      "role": "source",
+      "sha256": "bcc28fba29f1234533a7024b7eba898d6b1b37be0ab4b3edfa8bc52b9dda0335"
+    },
+    {
+      "source": "Source/ip/ai.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "8e057ce0ca25e633724322e9e98141fa382de5a4684d382a70d365ac2cecace6"
+    },
+    {
+      "source": "Source/ip/apple_services.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "aa8aa4e1235e551fbabb7a7d1d9caf3d45390fe1c79bcea4c577b3d1bb62a4b8"
+    },
+    {
+      "source": "Source/ip/badboy_asn.ts (manual inherited source)",
+      "role": "source",
+      "sha256": "f3404c31b388c939df3c53d549604b8754aeb28a0388a7587102d0473b829a29"
+    },
+    {
+      "source": "Source/ip/cdn.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "fc2406c626e274938ec186ca20e2f6900f19a742868aa7581361843d39d435fd"
+    },
+    {
+      "source": "Source/ip/china.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "e19fa6b10c5b5a11d857a0fd7819bc721a6504f6eca5add985068757aeda4e9d"
+    },
+    {
+      "source": "Source/ip/domestic.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "0d79c886531c46268206a137d3b6d4225b286938824aef534b21d0789ffb96d9"
+    },
+    {
+      "source": "Source/ip/download.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "7cfe2bde0cebdded9d1b544771fff9cb7e976f232cef5c764d8528d20f7604fe"
+    },
+    {
+      "source": "Source/ip/lan.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "7ba0d9a458494a9401b8bc1b094ec9756981d153bc4f29c94dc5e549a6ce5c2b"
+    },
+    {
+      "source": "Source/ip/neteasemusic.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "d8f6b6c0388ca7118239e9f2996c6c72cf6a50d91f12723bf0db1c678d2a1d94"
+    },
+    {
+      "source": "Source/ip/openai.no-resolve.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "99c653e0e6931655039760cdfa127f7adf6f74c67e962a10c9dde3d84837249b"
+    },
+    {
+      "source": "Source/ip/private.resolve.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "bc0c7624c913f6c5c68c6ad10ec314e4f8d7cd901b8be9eb36022ddb5970bf19"
+    },
+    {
+      "source": "Source/ip/reject.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "d03515b4599d30e7ef6e81a2d1a7e660ac210edd0b2e80e4d0a2c698d7637d6c"
+    },
+    {
+      "source": "Source/ip/telegram.no-resolve.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "cd36cbee54643b1c4fefb32dc3f6f407510be68f24fa85c09e2d98e568d92ec1"
+    },
+    {
+      "source": "Source/ip/telegram_asn.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "e05e19b6b7d605baccae71498f7dd77bd7c9aa790c05de51c89653968a8a0748"
+    },
+    {
+      "source": "Source/non_ip/ai.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "8c29c111ddab178362f20ce3973da2a24b751852ea42df53e8c2d233d89f0a55"
+    },
+    {
+      "source": "Source/non_ip/apple_cn.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "0df672d130fecb1d9a082ac5215fbd96501ab35d07552805b385ed9877c480d3"
+    },
+    {
+      "source": "Source/non_ip/apple_intelligence.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "e69aa5b2accd96ac4b2451d970352555d56193ae0e99d5126e9c7e5e963181ee"
+    },
+    {
+      "source": "Source/non_ip/apple_services.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "f68a78fdb896030f6dea0b971273f7e8b3d3d5f4e50a97f46df459cb0af1dc80"
+    },
+    {
+      "source": "Source/non_ip/cdn.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "daebccc934806714e32f5b822e73595aecb299c5ef1f9d3f534f358f2a212e59"
+    },
+    {
+      "source": "Source/non_ip/china.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "4d42d83a5c36cfa074d55cb142cffda697217a8a324d784394b525394b071f5f"
+    },
+    {
+      "source": "Source/non_ip/cloudmounter.ts (manual inherited source)",
+      "role": "source",
+      "sha256": "9126d46a56f8b0388ed04c5fe11b115bb22578bebba6d6571833ab6f355547e0"
+    },
+    {
+      "source": "Source/non_ip/direct.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "20636e45425a8d0d8a75da560de8657122959cc40a03e34775a1b4621309e486"
+    },
+    {
+      "source": "Source/non_ip/direct.ts (manual inherited source)",
+      "role": "source",
+      "sha256": "ac0cf2ffa6c9edc4688568c42f552af5257f3b3aa2c4e7405f9fc2c5ce977ab0"
+    },
+    {
+      "source": "Source/non_ip/domestic.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "4551f3332ea149de50d3bdaa7ab902cf3354c0f72371b81dd20bf6cc940fb979"
+    },
+    {
+      "source": "Source/non_ip/domestic.ts (manual inherited source)",
+      "role": "source",
+      "sha256": "47c622849ad260e7ffab0745a704a4f668fbd18d00221f21d79e7f6996c27a21"
+    },
+    {
+      "source": "Source/non_ip/domestic_cdn.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "5f544015ddde4a9129e137d88485a7a184209abeb5403810171eee44d4f07bb5"
+    },
+    {
+      "source": "Source/non_ip/domestic_cdn.ts (manual inherited source)",
+      "role": "source",
+      "sha256": "d131288be28cfaff7bf9785df4d41fc9e156c20f60f88381bd48a1ad2d58fdb5"
+    },
+    {
+      "source": "Source/non_ip/download.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "aae58859c5151bb33a30b6d57e7dc996708a352ad5775ef99910a90be8e65d22"
+    },
+    {
+      "source": "Source/non_ip/global.conf (manual pinned snapshot)",
+      "role": "source",
+      "sha256": "ceb2ee60f3548160c56f85dae2aef56e0ada4a0bc367bc0a33d67ce8ccd69d54"
+    },
+    {
+      "source": "Source/non_ip/global.ts (manual inherited source)",
+      "role": "source",
+      "sha256": "d1e07e33fde6e0c584911789a9b9137dcbc87f1cb049eef1f4726299c62db471"
+    },
+    {
+      "source": "Source/non_ip/microsoft.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "a62facc2a9f3e992929626000cda9898f76c4994dfb17dd364d39bbb80bd0596"
+    },
+    {
+      "source": "Source/non_ip/neteasemusic.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "b404068103b9b573db97e84e3268e13314ce603b89d198e60efd6db1c388a3ce"
+    },
+    {
+      "source": "Source/non_ip/reject-drop.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "1118dafb78a5ffc40d438d61553f6c068e13acd7e0ec509e1cfb8de5feecb42e"
+    },
+    {
+      "source": "Source/non_ip/reject-no-drop.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "011147078e9a71f8ffea7c230eec0cba0260af7ee806231260c73a35f440768e"
+    },
+    {
+      "source": "Source/non_ip/reject-url-regex.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "64aa62eb954c25e1c12938cbff413a6a4dae4e38bae963cda0b9c0f95c39763c"
+    },
+    {
+      "source": "Source/non_ip/reject.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "c1cbd53269ef203b4d8e2bdc2aa675d32ba59c8d0340133ec6e8565b0ebe8ed7"
+    },
+    {
+      "source": "Source/non_ip/sogouinput.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "3fafc0eabd0a4217081ca626705ef32408142e33dc7a1b4b9cf6078e70df8295"
+    },
+    {
+      "source": "Source/non_ip/telegram.conf (manual inherited source)",
+      "role": "source",
+      "sha256": "2e1fb5cd00961502dfd12889a1842ef6720fe1e66907d7b2b8adbf432d29850a"
+    },
+    {
+      "source": "Source/stream.ts (manual inherited source)",
+      "role": "source",
+      "sha256": "1fc800a4d195e280972282d733a68dd6a4e2257936a5585940e9996482ff773e"
+    }
+  ],
+  "files": [
+    {
+      "path": ".RULEMESH_RULESET_SERVER",
+      "producer": "writer",
+      "size": 19,
+      "sha256": "4544b3bf156a751d6fdcd8a4cd6f0beabeb641d97baeabee18071ccaf10c0220"
+    },
+    {
+      "path": ".nojekyll",
+      "producer": "writer",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "producer": "writer",
+      "size": 125,
+      "sha256": "5c99058a336c3429fb2a5e11716d4f5997521610aa2efd5f0f2a8ffbb87eb150"
+    },
+    {
+      "path": "Clash/domainset/advertising.txt",
+      "producer": "writer",
+      "size": 17947,
+      "sha256": "f076672102b58570435261bd7d615cd81b440ed2545c0c1f3e4957bee4efab05"
+    },
+    {
+      "path": "Clash/domainset/ai-other.txt",
+      "producer": "writer",
+      "size": 4289,
+      "sha256": "fbee2ef7235e3ac4ce264952405cf6c63f457dc86b113cf00d1a8291e83e5936"
+    },
+    {
+      "path": "Clash/domainset/anthropic.txt",
+      "producer": "writer",
+      "size": 840,
+      "sha256": "c40328275ef4bad840795de04e09045f9f19a78128ed64e02213a13d7d4d13cc"
+    },
+    {
+      "path": "Clash/domainset/apple-cn.txt",
+      "producer": "writer",
+      "size": 887,
+      "sha256": "59a1d1e329b1cdeff424eb0a77b1c4bf7c4b36f55f0e5f713d18500308348526"
+    },
+    {
+      "path": "Clash/domainset/apple-intelligence.txt",
+      "producer": "writer",
+      "size": 799,
+      "sha256": "16eb5d59a2fc0fe0f2b726f7e1cbfce2d1e514cd6eb30402aa8893f7fa006483"
+    },
+    {
+      "path": "Clash/domainset/apple-music.txt",
+      "producer": "writer",
+      "size": 876,
+      "sha256": "13bee79fec088e8ce8761272086de9e393f510155f50e5c32a0dcd1b4b8e1db2"
+    },
+    {
+      "path": "Clash/domainset/apple-tv.txt",
+      "producer": "writer",
+      "size": 844,
+      "sha256": "47bfe09c8c79640a9548c8c1eff98107593db208f8980f7b1410c973c1afca2a"
+    },
+    {
+      "path": "Clash/domainset/apple.txt",
+      "producer": "writer",
+      "size": 32750,
+      "sha256": "d9ad32361f2f3c718c80ed33374246fc3e914558d885f52f02d9d1938c27018d"
+    },
+    {
+      "path": "Clash/domainset/apple_cdn.txt",
+      "producer": "writer",
+      "size": 4845,
+      "sha256": "51161d48ede23089a0186e65c51ce50b1a8c95b454e8f635a48c1a30857b2d1e"
+    },
+    {
+      "path": "Clash/domainset/aws.txt",
+      "producer": "writer",
+      "size": 2057,
+      "sha256": "605caa535605130f28e6a3a1dc4ce42e4fe3bff182f0f536013ff20c8a860af3"
+    },
+    {
+      "path": "Clash/domainset/bilibili-intl.txt",
+      "producer": "writer",
+      "size": 975,
+      "sha256": "ad0342d020b1a6a135c3fe5427d8bbebd05924b16cbdfd65804a1bfa10211871"
+    },
+    {
+      "path": "Clash/domainset/bilibili.txt",
+      "producer": "writer",
+      "size": 1438,
+      "sha256": "39304ec75daa8bf19f30b467af534aa9e68115422104ab360240fecbfd20b743"
+    },
+    {
+      "path": "Clash/domainset/cdn-cn.txt",
+      "producer": "writer",
+      "size": 1993,
+      "sha256": "ee9a565eae2bcb4a4b87cea71c5a9510e8053021fd6256a79356075fc1fa2808"
+    },
+    {
+      "path": "Clash/domainset/cdn-global.txt",
+      "producer": "writer",
+      "size": 4102,
+      "sha256": "b55dc672be29821eda8b50a78167fdd0fa9b6e9e51e6a953bebdb907115d8605"
+    },
+    {
+      "path": "Clash/domainset/cdn.txt",
+      "producer": "writer",
+      "size": 91078,
+      "sha256": "42057661fee73e054eecbcd7cd767c63394ce262c3d3a556dc759670a77be587"
+    },
+    {
+      "path": "Clash/domainset/china.txt",
+      "producer": "writer",
+      "size": 12489,
+      "sha256": "f7e6b520876bca8f08eff1abf97146179e2d8aa671cdefb7da2c7f7bd3d4736f"
+    },
+    {
+      "path": "Clash/domainset/cloudflare.txt",
+      "producer": "writer",
+      "size": 2150,
+      "sha256": "b1b096aa1f5ebecbc4254488162fde32b8788ce3a50ae7d28c3af3d56d5cf6c6"
+    },
+    {
+      "path": "Clash/domainset/copilot.txt",
+      "producer": "writer",
+      "size": 879,
+      "sha256": "252f69082d66c687ea80d79ec18aac69a2c4e64186be7be7e331d71ec572f4a4"
+    },
+    {
+      "path": "Clash/domainset/developer.txt",
+      "producer": "writer",
+      "size": 12368,
+      "sha256": "db2c97c38805f3c888ed9ad747e0b4f65833f17f27de44f23bd220685a0574a0"
+    },
+    {
+      "path": "Clash/domainset/digitalocean.txt",
+      "producer": "writer",
+      "size": 774,
+      "sha256": "22b6f228d19e3d3915d9288c3542708416ab1b8ff279fbd0ecdb657072e91e19"
+    },
+    {
+      "path": "Clash/domainset/discord.txt",
+      "producer": "writer",
+      "size": 1201,
+      "sha256": "fedf56ebbe791beee0b50a54cd7aaa727131aba8f6f8a9a2d4969def1e085ed0"
+    },
+    {
+      "path": "Clash/domainset/disney.txt",
+      "producer": "writer",
+      "size": 4724,
+      "sha256": "449e794c1db2fa01fdd75886f609e71c773fc733f94cc83e98f2fc2d5321a10f"
+    },
+    {
+      "path": "Clash/domainset/docker.txt",
+      "producer": "writer",
+      "size": 834,
+      "sha256": "66ec771e51f0e5fc19783b22c1ef958da4edd54ffd94fa7f274930a3376e000a"
+    },
+    {
+      "path": "Clash/domainset/download.txt",
+      "producer": "writer",
+      "size": 46361,
+      "sha256": "612b6fbf0368a3c046f6c3073f4cd03fded209176e32d8590f2f4314bb83a022"
+    },
+    {
+      "path": "Clash/domainset/downloads.txt",
+      "producer": "writer",
+      "size": 46494,
+      "sha256": "79a007eed8b41ab0b20c9465db9b6192d90048e8e104e17a382da71984d046e2"
+    },
+    {
+      "path": "Clash/domainset/epic-games.txt",
+      "producer": "writer",
+      "size": 1191,
+      "sha256": "1f14cc58ee7f7728f2cfeefe515981631d7266a4888970a686028783505ab53c"
+    },
+    {
+      "path": "Clash/domainset/facebook.txt",
+      "producer": "writer",
+      "size": 7747,
+      "sha256": "5d46ab137bfb57abc9f63a7c683053247445ec67a71bdaa1883f9d7a89b87584"
+    },
+    {
+      "path": "Clash/domainset/game-download.txt",
+      "producer": "writer",
+      "size": 1966,
+      "sha256": "3cdfc5addb9073ac3576bf798903433c9560cfba5551f413d851819a071c5c4c"
+    },
+    {
+      "path": "Clash/domainset/game-downloads.txt",
+      "producer": "writer",
+      "size": 1966,
+      "sha256": "06fe74eab2a991b8545b134e099b9718206d360128674a7b8058bc9b74807759"
+    },
+    {
+      "path": "Clash/domainset/games.txt",
+      "producer": "writer",
+      "size": 20608,
+      "sha256": "07ebc87093df2c76881ed260c117612786d43594976cca21700ec43fbd9391e1"
+    },
+    {
+      "path": "Clash/domainset/gemini.txt",
+      "producer": "writer",
+      "size": 1784,
+      "sha256": "49a4ec71eb589033670da4fecd102f54bee1d81b4ed2fb727ec58495ebc51dd9"
+    },
+    {
+      "path": "Clash/domainset/github.txt",
+      "producer": "writer",
+      "size": 2402,
+      "sha256": "9601b7218845f2d7c77311afb2b65a5c49e17fc5c39512f7e79aac29197e08ca"
+    },
+    {
+      "path": "Clash/domainset/gitlab.txt",
+      "producer": "writer",
+      "size": 757,
+      "sha256": "46ce0d12938a8206ef91d7b7530a9599236d31789f21683ba394a23b6feb6b9d"
+    },
+    {
+      "path": "Clash/domainset/global.txt",
+      "producer": "writer",
+      "size": 18171,
+      "sha256": "a04029d0f8c9bf294a65a3898a1728f95f92a65ef275f995bc77efe0ea41882d"
+    },
+    {
+      "path": "Clash/domainset/google-fcm.txt",
+      "producer": "writer",
+      "size": 918,
+      "sha256": "ab8da26e9728d6669cad9656cda40a4f4d15a3fa35764a6a5360d26b3429a409"
+    },
+    {
+      "path": "Clash/domainset/google.txt",
+      "producer": "writer",
+      "size": 13756,
+      "sha256": "f390de3b0c953178b40b6fae9dc28404c95fd9e7731e6b3770b6b9812023218f"
+    },
+    {
+      "path": "Clash/domainset/hbo.txt",
+      "producer": "writer",
+      "size": 1612,
+      "sha256": "e3c7dee1f7b619068bd4ea010674bfa0a1a96de9025816702866ce62338ce1fa"
+    },
+    {
+      "path": "Clash/domainset/icloud.txt",
+      "producer": "writer",
+      "size": 1469,
+      "sha256": "85f2d24868cc20ba20fad3edcad22ec1363cc741604d5e9f4069cbf80044bfdf"
+    },
+    {
+      "path": "Clash/domainset/icloud_private_relay.txt",
+      "producer": "writer",
+      "size": 669,
+      "sha256": "ce521230a6a2f898e33fba96c3acf9edfa009050c898f390def2179d301e5b18"
+    },
+    {
+      "path": "Clash/domainset/instagram.txt",
+      "producer": "writer",
+      "size": 2055,
+      "sha256": "29fcaed9aa7228f492eba0ab9776fa6aaa05028b43db4c42b351aa855ee1758d"
+    },
+    {
+      "path": "Clash/domainset/jetbrains.txt",
+      "producer": "writer",
+      "size": 1014,
+      "sha256": "9d6ffe92acf6f53bdb95d6b6172b3f8c54d81da777f500a35e1db9eeb0fc58e2"
+    },
+    {
+      "path": "Clash/domainset/microsoft.txt",
+      "producer": "writer",
+      "size": 12484,
+      "sha256": "0f28aeb8cfc2e630a6f29841de085fe3c326abd7d78c08dc8ad51905fe583a30"
+    },
+    {
+      "path": "Clash/domainset/netflix.txt",
+      "producer": "writer",
+      "size": 1111,
+      "sha256": "db9ec59ba9cbe0c8ab0a8d26dd038cf17c2d29b4b2f7501eab39b13dd6e9d276"
+    },
+    {
+      "path": "Clash/domainset/nintendo.txt",
+      "producer": "writer",
+      "size": 3062,
+      "sha256": "5bffdb441f17fb5128531fda7588490dc9fd486a14dda00e9ec26f977563c0be"
+    },
+    {
+      "path": "Clash/domainset/npm.txt",
+      "producer": "writer",
+      "size": 693,
+      "sha256": "f8a9ff77e1a93df0cc9c89d6ba0409fc36afea17a4d29625bc5d7fc926811574"
+    },
+    {
+      "path": "Clash/domainset/onedrive.txt",
+      "producer": "writer",
+      "size": 967,
+      "sha256": "1a1d6425f29d702250c8efb795ab9cd70db93613e3b63faa8a19767630dbb8b6"
+    },
+    {
+      "path": "Clash/domainset/openai.txt",
+      "producer": "writer",
+      "size": 1180,
+      "sha256": "3e79ca7e7c3d60fe7967eaf7794156915fe4cae671fbd2ae9e6cda2ec5d34c1f"
+    },
+    {
+      "path": "Clash/domainset/perplexity.txt",
+      "producer": "writer",
+      "size": 763,
+      "sha256": "2d1679151204f162df7d059baa53637a976861ea8956055da5be1e5911df6b9b"
+    },
+    {
+      "path": "Clash/domainset/playstation.txt",
+      "producer": "writer",
+      "size": 742,
+      "sha256": "3a459d23e9a9ddf5f2eff7a5e155dd70945340e88f447ec36cc251c26eadd5e0"
+    },
+    {
+      "path": "Clash/domainset/primevideo.txt",
+      "producer": "writer",
+      "size": 1209,
+      "sha256": "6b98c98954a0a1d0b592576955b4e5e27404775ba6c34bb3791dcf9581b3d745"
+    },
+    {
+      "path": "Clash/domainset/private.txt",
+      "producer": "writer",
+      "size": 1545,
+      "sha256": "eff9d8052dbb474025125d1890fe4dbc4f1c50d8de2839d15f34c56d6e5da501"
+    },
+    {
+      "path": "Clash/domainset/python.txt",
+      "producer": "writer",
+      "size": 731,
+      "sha256": "dce17120c99023911f7e642f6176b90f201369e8877d84969b94765b3d7565a8"
+    },
+    {
+      "path": "Clash/domainset/reddit.txt",
+      "producer": "writer",
+      "size": 863,
+      "sha256": "19fe9385d0ee54c78738f462cea4bc0753f8b72efd1b7b89d73d2261839ebbe6"
+    },
+    {
+      "path": "Clash/domainset/reject.txt",
+      "producer": "writer",
+      "size": 3261633,
+      "sha256": "96ddc122a86237d3c43638771ae6b0487b743879c39d9ac37634de4c9099f63e"
+    },
+    {
+      "path": "Clash/domainset/reject_extra.txt",
+      "producer": "writer",
+      "size": 1603577,
+      "sha256": "2a463fae1c2127d0a53e26b4cc5476b4d49eb88a487d04174815b9adc7ac62df"
+    },
+    {
+      "path": "Clash/domainset/reject_phishing.txt",
+      "producer": "writer",
+      "size": 3010415,
+      "sha256": "3b152062d953ecd7b105bbea5d8d26b2bf8d9704df2391a62f838a75db5b7ecb"
+    },
+    {
+      "path": "Clash/domainset/speedtest.txt",
+      "producer": "writer",
+      "size": 88328,
+      "sha256": "412a1a212bc381d19e2285a282f36156618df52b2f765e5a4774f56cc03b3d5c"
+    },
+    {
+      "path": "Clash/domainset/spotify.txt",
+      "producer": "writer",
+      "size": 1207,
+      "sha256": "29c52da6e35906c44e38d800e01db125f0d2fcc01fde9a376c8e8245ccd95ec9"
+    },
+    {
+      "path": "Clash/domainset/steam-cn.txt",
+      "producer": "writer",
+      "size": 1067,
+      "sha256": "cdb2ff5d86dfb77d0bd7fabf00edd86d70acd6661180ddf2d2e2f72f0b604af6"
+    },
+    {
+      "path": "Clash/domainset/steam.txt",
+      "producer": "writer",
+      "size": 1988,
+      "sha256": "2fc5b49a2a0a5f22c55971d7904c3f4811ecb62599434dbb6551e426b19fd50e"
+    },
+    {
+      "path": "Clash/domainset/telegram.txt",
+      "producer": "writer",
+      "size": 953,
+      "sha256": "f8c166f14ab9ac9263e59e7846fba1761cb1ec94c3fed2f6e305a7c5b8886f41"
+    },
+    {
+      "path": "Clash/domainset/tiktok.txt",
+      "producer": "writer",
+      "size": 1408,
+      "sha256": "43e84324bb89e0ee33f564544d4d18141dc4ac77e13c9c3e5b1ac31729696d9f"
+    },
+    {
+      "path": "Clash/domainset/twitch.txt",
+      "producer": "writer",
+      "size": 1546,
+      "sha256": "c91ecd7788bcb1cf98c0abb908f491358493d9cb62346dddf342e3db6dcf58a6"
+    },
+    {
+      "path": "Clash/domainset/twitter.txt",
+      "producer": "writer",
+      "size": 1028,
+      "sha256": "2be44816ed5e84f4b2569b3780de56caa3d38f2509226e04635ac99935e4c7ab"
+    },
+    {
+      "path": "Clash/domainset/whatsapp.txt",
+      "producer": "writer",
+      "size": 836,
+      "sha256": "4f64335c54e2e1a369d2faa2d276251e221110a1faec5bdd82a9e29bc49d72fc"
+    },
+    {
+      "path": "Clash/domainset/xai.txt",
+      "producer": "writer",
+      "size": 701,
+      "sha256": "ba0ab8b34616ea6681479d5a79be5a48a297f54631ab08de6cf5bb78af4884d4"
+    },
+    {
+      "path": "Clash/domainset/xbox.txt",
+      "producer": "writer",
+      "size": 1422,
+      "sha256": "249347fe7d7133ac6a1622666ca377faf67308cb6cf64b82383a55c2fdc98cc3"
+    },
+    {
+      "path": "Clash/domainset/youtube.txt",
+      "producer": "writer",
+      "size": 3385,
+      "sha256": "58144a9f52219f93152a8342cdd0712bef9ba4fc41a59a457e5d4abfe3246e4b"
+    },
+    {
+      "path": "Clash/ip/ai.txt",
+      "producer": "writer",
+      "size": 1519,
+      "sha256": "d92e199a86159f692baabad26c74e12feabe3ca694e9531ac21424f2071bfc71"
+    },
+    {
+      "path": "Clash/ip/apple_services.txt",
+      "producer": "writer",
+      "size": 872,
+      "sha256": "651c89aac64974db6717af6b6c26605260d0fa3c1f3d770dafd2c2cfdeba3e9f"
+    },
+    {
+      "path": "Clash/ip/cdn.txt",
+      "producer": "writer",
+      "size": 629,
+      "sha256": "fc7d00fabe69dfc0bea64ffd9c4b1bc5f1a0fe3fd63963090719ffe818d483ab"
+    },
+    {
+      "path": "Clash/ip/china.txt",
+      "producer": "writer",
+      "size": 234170,
+      "sha256": "1d07646159999d4fa7eb566781df6b1a2a40fc2d62bbf29acb1b9bf1e859814e"
+    },
+    {
+      "path": "Clash/ip/domestic.txt",
+      "producer": "writer",
+      "size": 624,
+      "sha256": "9531bf39f34f23aaf50cd205501e01406a7e944ad9eca858f7950bed2282ce5a"
+    },
+    {
+      "path": "Clash/ip/download.txt",
+      "producer": "writer",
+      "size": 952,
+      "sha256": "81fffd18b4fc42f1e0094f53ea8c900a1a9eda2a1d20277ee49d5e8f99c230a8"
+    },
+    {
+      "path": "Clash/ip/lan.txt",
+      "producer": "writer",
+      "size": 751,
+      "sha256": "3b9bdef3631778d87fc1f34ba91704fffb6b89206660a2eeb53e9be718eda0ce"
+    },
+    {
+      "path": "Clash/ip/neteasemusic.txt",
+      "producer": "writer",
+      "size": 1152,
+      "sha256": "a35e1b7b9fc3ceb4fc791b954dce3e1dbafe08bd147f1c02a308c22a525590c6"
+    },
+    {
+      "path": "Clash/ip/openai.no-resolve.txt",
+      "producer": "writer",
+      "size": 1600,
+      "sha256": "3127f10e448cafd654940e6afa51f598a34e853e57b62d5db9cc362f976d7ea2"
+    },
+    {
+      "path": "Clash/ip/private.resolve.txt",
+      "producer": "writer",
+      "size": 918,
+      "sha256": "dc9419d3b65eb5e7d499aba663c1ab8b170f5d7250454d0030b5255a3f6d52a6"
+    },
+    {
+      "path": "Clash/ip/reject.txt",
+      "producer": "writer",
+      "size": 22350,
+      "sha256": "fa26d33b6943d3cebe0ebda595edebbd91af30b2318361d45e21f6ea4666ead6"
+    },
+    {
+      "path": "Clash/ip/stream.txt",
+      "producer": "writer",
+      "size": 1927,
+      "sha256": "f83b016fe35405d69213222d1a99fd71db01dfa484c6d157e4a2fe7aba7660fe"
+    },
+    {
+      "path": "Clash/ip/stream_eu.txt",
+      "producer": "writer",
+      "size": 512,
+      "sha256": "ea0faae9d6c689d8ea6cbdba77eab5ef3abbd8046ba6c8f3e7d21b33b3b2ca37"
+    },
+    {
+      "path": "Clash/ip/stream_hk.txt",
+      "producer": "writer",
+      "size": 574,
+      "sha256": "142a098efae56ea5a09f2ee6e6495e4c475445404daf82f9244c83cc811f271a"
+    },
+    {
+      "path": "Clash/ip/stream_jp.txt",
+      "producer": "writer",
+      "size": 573,
+      "sha256": "5b3ffab086c863d67f224c780c8d6eb21d1141d0ce07a915975272cd37136431"
+    },
+    {
+      "path": "Clash/ip/stream_kr.txt",
+      "producer": "writer",
+      "size": 509,
+      "sha256": "6058d3649f73b3c3e1b4e8a4937f8c12917e0eeca08dc7c3f35b5a108c5488f8"
+    },
+    {
+      "path": "Clash/ip/stream_tw.txt",
+      "producer": "writer",
+      "size": 587,
+      "sha256": "11139f87cf3ee5409135a4cda6c43a9875fac96011e4bc6a1cccc577b40d28d9"
+    },
+    {
+      "path": "Clash/ip/stream_us.txt",
+      "producer": "writer",
+      "size": 663,
+      "sha256": "d3ee3cf84ffa8ce9b815a1d3bdffadb9ea667e73e837de5b3f0fa908c425f5da"
+    },
+    {
+      "path": "Clash/ip/telegram.no-resolve.txt",
+      "producer": "writer",
+      "size": 1212,
+      "sha256": "d869f57a7efcb26140beddd355e3525fd654a0fce750bcd7d0afefc9c924111b"
+    },
+    {
+      "path": "Clash/ip/telegram_asn.txt",
+      "producer": "writer",
+      "size": 743,
+      "sha256": "65aaa8a2cd870bde51f7a338a7a19ebf30d3e5d337c6d6c46787b611a4c8b336"
+    },
+    {
+      "path": "Clash/ip/teleproto.txt",
+      "producer": "writer",
+      "size": 1174,
+      "sha256": "4e6bee81e5cd9763850ed282bc3c782773a0641bc7571fe1a44b47461b8419d1"
+    },
+    {
+      "path": "Clash/non_ip/ai.txt",
+      "producer": "writer",
+      "size": 2014,
+      "sha256": "0bea4faf24e4566d154fd680e1cb001230035915d11bcfee2b386c4a6a852297"
+    },
+    {
+      "path": "Clash/non_ip/apple_cn.txt",
+      "producer": "writer",
+      "size": 884,
+      "sha256": "d4d0c7df4aef734ec96f9d5f97669190ec4eb5b67aebf79351b54928f0c5859c"
+    },
+    {
+      "path": "Clash/non_ip/apple_intelligence.txt",
+      "producer": "writer",
+      "size": 689,
+      "sha256": "f389779ba8e5adbd443358a1a3ee557ec5080b84092cfe02e281432abce00989"
+    },
+    {
+      "path": "Clash/non_ip/apple_services.txt",
+      "producer": "writer",
+      "size": 1215,
+      "sha256": "dc5b559bc642dd49ff686f149e7592ad66b95015a84f603d73da96cc5c685899"
+    },
+    {
+      "path": "Clash/non_ip/cdn.txt",
+      "producer": "writer",
+      "size": 3547,
+      "sha256": "8bbdfb8c6b96ab9f2bb226dd0966d764cdc7e670923a597237e72ee5a830d72a"
+    },
+    {
+      "path": "Clash/non_ip/china.txt",
+      "producer": "writer",
+      "size": 723,
+      "sha256": "fc31fd0b6dd46db2c14543115810f4d5d67c289cebf1c2af861fba6541784c1b"
+    },
+    {
+      "path": "Clash/non_ip/cloudmounter.txt",
+      "producer": "writer",
+      "size": 490,
+      "sha256": "6ff4f3b89deb327c3b1d898a3a6c48782bc8013a29de25c0a16e360cfe989f78"
+    },
+    {
+      "path": "Clash/non_ip/direct.txt",
+      "producer": "writer",
+      "size": 6337,
+      "sha256": "b44244542777e2ac45e0a3f1a1febef82fe66e21de01c88ae275c7be341e7b61"
+    },
+    {
+      "path": "Clash/non_ip/domestic.txt",
+      "producer": "writer",
+      "size": 22667,
+      "sha256": "7b418a879c836fe660eed937c01d6c88892a4d0e73e91e76843472764506941a"
+    },
+    {
+      "path": "Clash/non_ip/domestic_cdn.txt",
+      "producer": "writer",
+      "size": 1191,
+      "sha256": "e11d23218fd6775e9a02051cd147ba3f25aa96194ca3b53f9ba195581f374c1a"
+    },
+    {
+      "path": "Clash/non_ip/download.txt",
+      "producer": "writer",
+      "size": 890,
+      "sha256": "bf93d89f34794ae894cb142e014cd1e8780c7a7e3a7785b0bf2449d016ab52bf"
+    },
+    {
+      "path": "Clash/non_ip/global.txt",
+      "producer": "writer",
+      "size": 3926,
+      "sha256": "70dd12dcd5bcbdd224a1f710cd94f7a3e18ffb5e9cedecff73695385c7109a7a"
+    },
+    {
+      "path": "Clash/non_ip/lan.txt",
+      "producer": "writer",
+      "size": 1926,
+      "sha256": "b1aa6670c67b5e87acf91a5bd6fafeaa28534741cc20b62567ccf4fd69bfaec4"
+    },
+    {
+      "path": "Clash/non_ip/microsoft.txt",
+      "producer": "writer",
+      "size": 1241,
+      "sha256": "19a62ff5b7d431db8a8bc3ca2d7fa64a4a0f429bdf5da6d061523517fa6e3162"
+    },
+    {
+      "path": "Clash/non_ip/microsoft_cdn.txt",
+      "producer": "writer",
+      "size": 3082,
+      "sha256": "6d48b19bbce8f4765488df71d325c5afa924e1646977b2b524eee7c36e1dd823"
+    },
+    {
+      "path": "Clash/non_ip/neteasemusic.txt",
+      "producer": "writer",
+      "size": 584,
+      "sha256": "350289026eac00c644bc652c06dfd429fe08f6b1859d9b42f5faf9e2126c868a"
+    },
+    {
+      "path": "Clash/non_ip/reject-drop.txt",
+      "producer": "writer",
+      "size": 1418,
+      "sha256": "3673f86711485d9040a83d80173667872d456a2efcc0ee6833bab5bd0ace9024"
+    },
+    {
+      "path": "Clash/non_ip/reject-no-drop.txt",
+      "producer": "writer",
+      "size": 1912,
+      "sha256": "9cf2eae677772b6522950fdd5382cf7d15cb06036dcd095313cf1df5ee06dfeb"
+    },
+    {
+      "path": "Clash/non_ip/reject-url-regex.txt",
+      "producer": "writer",
+      "size": 666,
+      "sha256": "567c0b73ff0f9b03c57882014814454032c39abcabe9ecd2527eb56d542d6d9a"
+    },
+    {
+      "path": "Clash/non_ip/reject.txt",
+      "producer": "writer",
+      "size": 13173,
+      "sha256": "6553acd56032d75d21991524c37cafdf66c8db3ddb7a97c999524421b8d3f9fe"
+    },
+    {
+      "path": "Clash/non_ip/sogouinput.txt",
+      "producer": "writer",
+      "size": 870,
+      "sha256": "c6635948ee49c34d3b2729106ee6fa7eef5f7fbd478ab50dcac535471231e048"
+    },
+    {
+      "path": "Clash/non_ip/stream.txt",
+      "producer": "writer",
+      "size": 9509,
+      "sha256": "0eb1f528d08e30a95a62fe54806d571d53102b70686343baf6817e834a29544c"
+    },
+    {
+      "path": "Clash/non_ip/stream_eu.txt",
+      "producer": "writer",
+      "size": 715,
+      "sha256": "6a114b8d9a2fbd71a6334412b64d7f00e1e4ac81d1621c9019aa91c55a1817c5"
+    },
+    {
+      "path": "Clash/non_ip/stream_hk.txt",
+      "producer": "writer",
+      "size": 1583,
+      "sha256": "79dfc5dadf0a6fd1a2b7e345347a3c73e6283fc82019cbf59083bc9080047652"
+    },
+    {
+      "path": "Clash/non_ip/stream_jp.txt",
+      "producer": "writer",
+      "size": 1238,
+      "sha256": "10fe30ad6fbbe534c2a71626d2b60dca96e7b3ac96af15266fbe275384040f80"
+    },
+    {
+      "path": "Clash/non_ip/stream_kr.txt",
+      "producer": "writer",
+      "size": 564,
+      "sha256": "24d1367b4ea5c0c41455ef9df0a4c385c857663b5b38bd0403b9411d020717bf"
+    },
+    {
+      "path": "Clash/non_ip/stream_tw.txt",
+      "producer": "writer",
+      "size": 1585,
+      "sha256": "7028be05da830f6d7877c7d2e213b135f022fdf8e5822dba77a31c80a12244fa"
+    },
+    {
+      "path": "Clash/non_ip/stream_us.txt",
+      "producer": "writer",
+      "size": 1828,
+      "sha256": "73365c550f3354f395d995089b3b5556c8ac72b5ddcd940790ba2a8fefdc4963"
+    },
+    {
+      "path": "Clash/non_ip/telegram.txt",
+      "producer": "writer",
+      "size": 565,
+      "sha256": "217c712e95857ee7fbb72f44c670130353e2a8c5dab08dfdedfdce9b16efab82"
+    },
+    {
+      "path": "Config/README.md",
+      "producer": "writer",
+      "size": 834,
+      "sha256": "a498da4bec652f69e657dad82bd9e30d9d95f43c5fe69c745bd2e20143634eaa"
+    },
+    {
+      "path": "Config/Shadowrocket/advertising.conf",
+      "producer": "writer",
+      "size": 12952,
+      "sha256": "78fc40483aabb9ce8deb18f2f39e38e76d0ab93affc5340a1f75fab043a91af8"
+    },
+    {
+      "path": "Config/Shadowrocket/advertising.svg",
+      "producer": "writer",
+      "size": 2856,
+      "sha256": "e55970698410624f07f49d72723529237b5b2106158f79f4359baa2abdbdfd35"
+    },
+    {
+      "path": "Config/Shadowrocket/standard.conf",
+      "producer": "writer",
+      "size": 12015,
+      "sha256": "b7a49a2a4e8ff3ee61dd9cd52a29b4b8c55c9dd58e5d221c16ae3ded88b05304"
+    },
+    {
+      "path": "Config/Shadowrocket/standard.svg",
+      "producer": "writer",
+      "size": 2907,
+      "sha256": "9a9d7afef1f193b1e52c340027440555da2e5266dfdd590cfefe1f17b6431932"
+    },
+    {
+      "path": "Config/capability-gaps.json",
+      "producer": "writer",
+      "size": 26649,
+      "sha256": "0a9af8122733565fbc4391ed9df77b4a0b0af2f2fa6f13fd2cfbb8cfce9c46ca"
+    },
+    {
+      "path": "Config/mihomo/advertising.yaml",
+      "producer": "writer",
+      "size": 36565,
+      "sha256": "9461aef9b8800ac9ed6dd997e82631213767ab5b84b0b1dbcf39e4be403963ef"
+    },
+    {
+      "path": "Config/mihomo/standard.yaml",
+      "producer": "writer",
+      "size": 33770,
+      "sha256": "f01269513bb898b557e128e9a033d4bbf4d8fc76dabdf4cf943466b9939bf6b8"
+    },
+    {
+      "path": "Config/singbox/advertising.json",
+      "producer": "writer",
+      "size": 55204,
+      "sha256": "545375c7dc51aff75afdce9f1683d145fb2681b21c66934a8cde99a9220cf94e"
+    },
+    {
+      "path": "Config/singbox/standard.json",
+      "producer": "writer",
+      "size": 51595,
+      "sha256": "01927b6afe56af5777c57e62f609143fea490160f6489ec8d21fcf783735fca0"
+    },
+    {
+      "path": "Config/surge/advertising.conf",
+      "producer": "writer",
+      "size": 12838,
+      "sha256": "06cc19dc7ba873eaef376c4fb286dbf0c9a972ff9978791814269cc8e4f9f4a8"
+    },
+    {
+      "path": "Config/surge/standard.conf",
+      "producer": "writer",
+      "size": 11891,
+      "sha256": "9c591b6ae3998d957ca33c8819d1384f65a8f7e5816b5030d52ead8514ee1df3"
+    },
+    {
+      "path": "Internal/august_asn.txt",
+      "producer": "writer",
+      "size": 66,
+      "sha256": "33c45b9308e5767e8f313110596692376d8626ec43df9240d491808cc2285505"
+    },
+    {
+      "path": "Internal/clash_fake_ip_filter.yaml",
+      "producer": "writer",
+      "size": 435,
+      "sha256": "73cb698888039e24ab878b05ae31ecaf870c5f615ea5c7856e62ff330fb8fdf0"
+    },
+    {
+      "path": "Internal/clash_nameserver_policy.yaml",
+      "producer": "writer",
+      "size": 3794,
+      "sha256": "807b4a6122ca64d064a1a3504a20a1710e12181ef1d7a12b631a77242df7e06d"
+    },
+    {
+      "path": "Internal/dns_mapping_adguardhome.conf",
+      "producer": "writer",
+      "size": 15401,
+      "sha256": "395c85d4cbb6529c44d86a6b4ad5dd6901e2a909a6ca1f1137280f9a69738f3e"
+    },
+    {
+      "path": "Internal/huize_asn.txt",
+      "producer": "writer",
+      "size": 18,
+      "sha256": "bc16dd60c61530d942c81bf239a3408ca3736d701a0647b3b0c76ccb07f4b9a1"
+    },
+    {
+      "path": "Internal/mihomo_nameserver_policy/alibaba.txt",
+      "producer": "writer",
+      "size": 3010,
+      "sha256": "13641ab1ea7a9afde63f2b167a97d79a321cfe2121ce93f5e193c72dccd25a54"
+    },
+    {
+      "path": "Internal/mihomo_nameserver_policy/baidu.txt",
+      "producer": "writer",
+      "size": 1589,
+      "sha256": "e39143f9c53e4b6e706361aac17ab5889468fd85e8dcc5757b09bf6eb52b9ecc"
+    },
+    {
+      "path": "Internal/mihomo_nameserver_policy/bilibili.txt",
+      "producer": "writer",
+      "size": 1189,
+      "sha256": "1c19dcc87baa84eeb5b85359f08935735127d56157b24134b7c42843ee3578a9"
+    },
+    {
+      "path": "Internal/mihomo_nameserver_policy/bytedance.txt",
+      "producer": "writer",
+      "size": 2656,
+      "sha256": "57f2864f55f6637c273aa8a8eebc1935fd093d89e15eb38c6c85425855eff025"
+    },
+    {
+      "path": "Internal/mihomo_nameserver_policy/hotspot_captive_portal.txt",
+      "producer": "writer",
+      "size": 879,
+      "sha256": "4009266b79dd0559ad318eefae1b0c4433ec7b84410b86c00eb630f4b33da7db"
+    },
+    {
+      "path": "Internal/mihomo_nameserver_policy/lan_with_realip.txt",
+      "producer": "writer",
+      "size": 878,
+      "sha256": "ebf1fac74ee657f08092b1809505e1839114b6b21f9ea14d44ff426f149a9cc9"
+    },
+    {
+      "path": "Internal/mihomo_nameserver_policy/lan_without_real_ip.txt",
+      "producer": "writer",
+      "size": 2073,
+      "sha256": "10403395fd07cd1f1c01d751001b79b822f4674fd709fef931ae5dc81046646b"
+    },
+    {
+      "path": "Internal/mihomo_nameserver_policy/lancache.txt",
+      "producer": "writer",
+      "size": 4830,
+      "sha256": "b96f3de7a351c2f076164bc61244c719f38472d1fcd1e558475dcf4a4805c5f2"
+    },
+    {
+      "path": "Internal/mihomo_nameserver_policy/qihoo360.txt",
+      "producer": "writer",
+      "size": 1306,
+      "sha256": "8f48b05bd9e555659d5ddcc3d3079eac6907e2a7113ef504911439ac63ef1c51"
+    },
+    {
+      "path": "Internal/mihomo_nameserver_policy/tencent.txt",
+      "producer": "writer",
+      "size": 2042,
+      "sha256": "306813dd0621f02e2c914120c3d7191c5412e6ebb5f59c8ce256393425399543"
+    },
+    {
+      "path": "Internal/mihomo_nameserver_policy/xiaomi.txt",
+      "producer": "writer",
+      "size": 1242,
+      "sha256": "35c6c789962d6588981d534aef3971ce7948993b8c3b9d7c2b0a747334e5accb"
+    },
+    {
+      "path": "Internal/mtproto-dc-config.json",
+      "producer": "writer",
+      "size": 2453,
+      "sha256": "22006c8906c0110c7b6c0cb179a002e23652c98edac95d2fe68be9084574bae0"
+    },
+    {
+      "path": "Internal/reject-adguardhome.txt",
+      "producer": "writer",
+      "size": 3462063,
+      "sha256": "a903032139155ea62d94a70053174cbab9be00b1e95240eacca96e297bed23f3"
+    },
+    {
+      "path": "Internal/rules/domainset/advertising.json",
+      "producer": "writer",
+      "size": 229,
+      "sha256": "e6a2d920e89137621b3fd01829a156a100c33bd7423c61ea13c66e194c5758a6"
+    },
+    {
+      "path": "Internal/rules/domainset/ai-other.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "4a323116b29d91baf8e0a1a782a1eb6e2ce35daeb397cf37b6172fb15230d3e2"
+    },
+    {
+      "path": "Internal/rules/domainset/anthropic.json",
+      "producer": "writer",
+      "size": 227,
+      "sha256": "9ed0e1df997c5a25ea68d144b1e7394a4de04a252f88cf863db246b277cb94ca"
+    },
+    {
+      "path": "Internal/rules/domainset/apple-cn.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "7f086155bffbe61342a9fca3b8d92697a92676a4a15e1ce058f22adb89cc9a29"
+    },
+    {
+      "path": "Internal/rules/domainset/apple-intelligence.json",
+      "producer": "writer",
+      "size": 236,
+      "sha256": "99c5d4944dcbca0e5986d461ca12cccef4a0c435a621aa24d07be45f31da613e"
+    },
+    {
+      "path": "Internal/rules/domainset/apple-music.json",
+      "producer": "writer",
+      "size": 229,
+      "sha256": "c5369911c504ee0540fc3741fd8d6f12542f81bc7d1fa0e14b86f67f9b78485d"
+    },
+    {
+      "path": "Internal/rules/domainset/apple-tv.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "bfcc50e7eccb0ce6f7c6ef7be8dba83d684817ea82d9451f5190b723c626eb2d"
+    },
+    {
+      "path": "Internal/rules/domainset/apple.json",
+      "producer": "writer",
+      "size": 223,
+      "sha256": "999571dd56812db735ad426172078cfa3525b76590e4ba3bc562e2f6320411c8"
+    },
+    {
+      "path": "Internal/rules/domainset/apple_cdn.json",
+      "producer": "writer",
+      "size": 227,
+      "sha256": "ddc752a85abbb22614af5facec59a30fa91b9dfa66e39caab3c910f37727c336"
+    },
+    {
+      "path": "Internal/rules/domainset/aws.json",
+      "producer": "writer",
+      "size": 221,
+      "sha256": "0c867957131a0701755fbd753f0e4d909fe9d8b3d440e7167a36ef2665a6e048"
+    },
+    {
+      "path": "Internal/rules/domainset/bilibili-intl.json",
+      "producer": "writer",
+      "size": 231,
+      "sha256": "fa154d54562cddb8646e2a2fb4acb791071cf62e28e54cabb40f5e63bc276c8f"
+    },
+    {
+      "path": "Internal/rules/domainset/bilibili.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "d06ee26a2ee0536601f79a29ce06a1df32bf09852ea2f056bfa5b177c5c5ff80"
+    },
+    {
+      "path": "Internal/rules/domainset/cdn-cn.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "d935ff4b8d6613a61354a967a57ab7437781066e76512ca837ede869aba42b36"
+    },
+    {
+      "path": "Internal/rules/domainset/cdn-global.json",
+      "producer": "writer",
+      "size": 228,
+      "sha256": "a0027d8c02f18d7d937e596c9d5bdc9fbf41c4f08f6ba912c16150d3ac1912bf"
+    },
+    {
+      "path": "Internal/rules/domainset/cdn.json",
+      "producer": "writer",
+      "size": 221,
+      "sha256": "68e19a745a61e597b37afbb376ade356ca2999a60526715d1e723a4574c34247"
+    },
+    {
+      "path": "Internal/rules/domainset/china.json",
+      "producer": "writer",
+      "size": 223,
+      "sha256": "6f1a2565867ff77c1561e8fb252ec7fbba30fd7a6884ed72db75421b2c1df614"
+    },
+    {
+      "path": "Internal/rules/domainset/cloudflare.json",
+      "producer": "writer",
+      "size": 228,
+      "sha256": "ca74d6c4578d61a37dded3a862753fda7eaab12edd7e6672dc144b7e851c8dde"
+    },
+    {
+      "path": "Internal/rules/domainset/copilot.json",
+      "producer": "writer",
+      "size": 225,
+      "sha256": "8845153a066ca3fbacc6e377e3bb25a8544ec3b80d5a5003ca38b3e739d9a9b0"
+    },
+    {
+      "path": "Internal/rules/domainset/developer.json",
+      "producer": "writer",
+      "size": 227,
+      "sha256": "5f33509c083034b85fd1b93767e575c5ee7423bcd118ec538d04cfd8cc84a08f"
+    },
+    {
+      "path": "Internal/rules/domainset/digitalocean.json",
+      "producer": "writer",
+      "size": 230,
+      "sha256": "4e6b45ac3dcda17ea040b738672d3f7c8c61c20bac24b455525e31f59967ce25"
+    },
+    {
+      "path": "Internal/rules/domainset/discord.json",
+      "producer": "writer",
+      "size": 225,
+      "sha256": "9e74f5c2990ba1b0f47ef45115eccefde23aba404ee41edae362eb52bebdc3a5"
+    },
+    {
+      "path": "Internal/rules/domainset/disney.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "5290a3089e414faa6320ad9911afc6035b521f9fec05f935e314753918aeddbd"
+    },
+    {
+      "path": "Internal/rules/domainset/docker.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "52b491f4133a1d8175b9948a84a43ffa4ca73562e2df019e8f7ed3189b24d296"
+    },
+    {
+      "path": "Internal/rules/domainset/download.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "77927fb78d9c7e9dcde4acbe9f24f918b90562f7e25142f40a0b4d15c135977f"
+    },
+    {
+      "path": "Internal/rules/domainset/downloads.json",
+      "producer": "writer",
+      "size": 227,
+      "sha256": "60d03977d09c94d78b11a7d7b6b5c1f430ef52d9045cc9f7eb9394225cedf2d0"
+    },
+    {
+      "path": "Internal/rules/domainset/epic-games.json",
+      "producer": "writer",
+      "size": 228,
+      "sha256": "fff740ed2e6c079d3b8545a32df48dd398db955a1a8002beac4414a6fe4eaeb2"
+    },
+    {
+      "path": "Internal/rules/domainset/facebook.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "8a58fca58aa60bc4faf3dc123eaa7757b6b08717c665bbbd10004eefeebe963e"
+    },
+    {
+      "path": "Internal/rules/domainset/game-download.json",
+      "producer": "writer",
+      "size": 231,
+      "sha256": "178107fe534f70e531d9bbba49a6e9f3f1b794fb8649b7f5cf3971b12222b3cd"
+    },
+    {
+      "path": "Internal/rules/domainset/game-downloads.json",
+      "producer": "writer",
+      "size": 232,
+      "sha256": "8bfcffadbc8a990afab8635836482aa0cb2de33de915d36156d50bdd609c361e"
+    },
+    {
+      "path": "Internal/rules/domainset/games.json",
+      "producer": "writer",
+      "size": 223,
+      "sha256": "db6ff116b7256218abafd8dd3ed67969d89f82c842202a85037eac0e3f327b38"
+    },
+    {
+      "path": "Internal/rules/domainset/gemini.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "9361b37bf9fd8d6547bd0f4e0faac6ace2b713a3eb0b77951956866c580dd60c"
+    },
+    {
+      "path": "Internal/rules/domainset/github.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "acfdc6f020fc3d19eb5e2a20292b55d373f58016b044d71561c9c00f71032c25"
+    },
+    {
+      "path": "Internal/rules/domainset/gitlab.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "0b287c47798cf1026a8484520d13513234e260c03b16e874e0a97115c715a045"
+    },
+    {
+      "path": "Internal/rules/domainset/global.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "6a10cfbba905a3aab43955e6bb06793f16c1df2b180bd43accb888e39a7cbd2e"
+    },
+    {
+      "path": "Internal/rules/domainset/google-fcm.json",
+      "producer": "writer",
+      "size": 228,
+      "sha256": "50e76bb916eb396679ab3b71665f4e112e9ae06c4e95f7e933f8d5847fa3426b"
+    },
+    {
+      "path": "Internal/rules/domainset/google.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "27ab7449f27874a131727122f5d6deb330aaf81a95ee810a40b508592d868f98"
+    },
+    {
+      "path": "Internal/rules/domainset/hbo.json",
+      "producer": "writer",
+      "size": 221,
+      "sha256": "2e7e956262b7455c837103c32ea7dacb26075c9aa4ce540716e5603e5c00eb45"
+    },
+    {
+      "path": "Internal/rules/domainset/icloud.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "d5c98be35bddadb1d5f10575d2e8b2316e7799b6bdcfeba42b18f12f84c49ca4"
+    },
+    {
+      "path": "Internal/rules/domainset/icloud_private_relay.json",
+      "producer": "writer",
+      "size": 238,
+      "sha256": "d947ead60e1b99c1701f244cf19dff03dca6b42a459465b68fdb933877147724"
+    },
+    {
+      "path": "Internal/rules/domainset/instagram.json",
+      "producer": "writer",
+      "size": 227,
+      "sha256": "7f80592556d3c2f5db38aabcf1c804b241268a7ce8aee1a0f176efc2d7afe46d"
+    },
+    {
+      "path": "Internal/rules/domainset/jetbrains.json",
+      "producer": "writer",
+      "size": 227,
+      "sha256": "69e3e6d39bf8c0ca16b4e6ad06dff1b763d79d01ea83009a8cfc9687b9d4eb7c"
+    },
+    {
+      "path": "Internal/rules/domainset/microsoft.json",
+      "producer": "writer",
+      "size": 227,
+      "sha256": "a0d24032214c423e598a2de1e09517b7a15c4dee2368b4b5926c3880167e8295"
+    },
+    {
+      "path": "Internal/rules/domainset/netflix.json",
+      "producer": "writer",
+      "size": 225,
+      "sha256": "7fffa03a169e7f174e7cd8224902b328b687ca83b00cc21707fece3078a7b9d1"
+    },
+    {
+      "path": "Internal/rules/domainset/nintendo.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "1d9a321d279d91e80d2e6c13f459b5ab0a14b2b44f9d59d7e93e98bfabb1e133"
+    },
+    {
+      "path": "Internal/rules/domainset/npm.json",
+      "producer": "writer",
+      "size": 221,
+      "sha256": "1f2bf519ebe306662fbfe9c1d6e769c382b3a1e52c15f5703f50067a04f9925f"
+    },
+    {
+      "path": "Internal/rules/domainset/onedrive.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "c18f8acddf4a6ae398bf8a777f981857a5598299da0eb760ccb99dd0dd62fa3c"
+    },
+    {
+      "path": "Internal/rules/domainset/openai.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "b3b82967020efc13d8c4e9edeec4115ac7976444652f33ed12d11e9185200c60"
+    },
+    {
+      "path": "Internal/rules/domainset/perplexity.json",
+      "producer": "writer",
+      "size": 228,
+      "sha256": "d1c2869c63b778c943501af031e965afbcd170a7f581fabd87950b4a519111bb"
+    },
+    {
+      "path": "Internal/rules/domainset/playstation.json",
+      "producer": "writer",
+      "size": 229,
+      "sha256": "8d60c22c772e9617da2b4e936149adb165191be2d887520d8d4bbd0d28ec6229"
+    },
+    {
+      "path": "Internal/rules/domainset/primevideo.json",
+      "producer": "writer",
+      "size": 228,
+      "sha256": "287f88a655eb101aaea4e1f5745816cb6de316c5fc883af2e77bab8db064cb8f"
+    },
+    {
+      "path": "Internal/rules/domainset/private.json",
+      "producer": "writer",
+      "size": 225,
+      "sha256": "9eecb85f80fb92ee44766cf744b8d54e54d42a4c3eb66de6308497861b7c7304"
+    },
+    {
+      "path": "Internal/rules/domainset/python.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "214362b942639feea6bedcde3b9f65231f8c5de2d1355a112d22f0173e32122c"
+    },
+    {
+      "path": "Internal/rules/domainset/reddit.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "57abb8b9e28b2d6db27bbd21c62e8b21e37b52d61eb30191ce7b714539739a21"
+    },
+    {
+      "path": "Internal/rules/domainset/reject.json",
+      "producer": "writer",
+      "size": 1584,
+      "sha256": "f8d190585d92ee2de6041bc6b8182bc0a44a8fb8dad12d62ec7432313a67bb52"
+    },
+    {
+      "path": "Internal/rules/domainset/reject_extra.json",
+      "producer": "writer",
+      "size": 1638,
+      "sha256": "734eeca1a913443ff7af94a956020c7b22c0dbcdd42e30a7292d5c90b8c4dce0"
+    },
+    {
+      "path": "Internal/rules/domainset/reject_phishing.json",
+      "producer": "writer",
+      "size": 1665,
+      "sha256": "aa1c87d18ff20dcd1529a23e497dc0f75fe989546183139b8d871582ac35ad45"
+    },
+    {
+      "path": "Internal/rules/domainset/speedtest.json",
+      "producer": "writer",
+      "size": 227,
+      "sha256": "190eac63bac8a775427e15b11ecc28234849629f72c1a34e78c3b5db64e83137"
+    },
+    {
+      "path": "Internal/rules/domainset/spotify.json",
+      "producer": "writer",
+      "size": 225,
+      "sha256": "c98d1e73a7299e215c908786acd249bc85614e51e01c44eebdcee47dd591799c"
+    },
+    {
+      "path": "Internal/rules/domainset/steam-cn.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "b3e711390a3641150972ad82f07a3a54c16ebf41620efddfcc6997c5eeb8ecad"
+    },
+    {
+      "path": "Internal/rules/domainset/steam.json",
+      "producer": "writer",
+      "size": 223,
+      "sha256": "c5b47f3ca3e071b862bbab006decbd781d314e2034ced182e27b33aa62611a99"
+    },
+    {
+      "path": "Internal/rules/domainset/telegram.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "931a15ce90676d153642e3d003a94f8d43826e3070fcd5e85397046703c6c257"
+    },
+    {
+      "path": "Internal/rules/domainset/tiktok.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "baf9e3fbd572c3752444c2a94881e31e4c97e2a5e02540ae9fa2b5e9214d62c6"
+    },
+    {
+      "path": "Internal/rules/domainset/twitch.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "9af893f1f4770d7b680ed982d287a5f3b735d6f916f53915c20370e7c695af7d"
+    },
+    {
+      "path": "Internal/rules/domainset/twitter.json",
+      "producer": "writer",
+      "size": 225,
+      "sha256": "c330d8c85f2100275abab04e15043ee8fe7778e27ac086fcdda42534cb349c7f"
+    },
+    {
+      "path": "Internal/rules/domainset/whatsapp.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "418b09670bb460555d4928d988da89b51f5884a1f79bc657ab93a1625bc4882e"
+    },
+    {
+      "path": "Internal/rules/domainset/xai.json",
+      "producer": "writer",
+      "size": 221,
+      "sha256": "474da9ab04c2abc6c070ff70b310e9141ab2497e1f265013d930bc9850f20969"
+    },
+    {
+      "path": "Internal/rules/domainset/xbox.json",
+      "producer": "writer",
+      "size": 222,
+      "sha256": "c84350f30a27a34411e6da515a54a241ec6947eae7165b329ffd8678e14851f2"
+    },
+    {
+      "path": "Internal/rules/domainset/youtube.json",
+      "producer": "writer",
+      "size": 225,
+      "sha256": "cc15dd026750a9879c2ad081bb36ef41ced13c5ff8e05ed9b22273f9e4dfdd1b"
+    },
+    {
+      "path": "Internal/rules/ip/ai.json",
+      "producer": "writer",
+      "size": 964,
+      "sha256": "5645d641e4dfdd80a9864ed072e0f60a4aa7174fb5c56dae68c97c9df337a569"
+    },
+    {
+      "path": "Internal/rules/ip/apple_services.json",
+      "producer": "writer",
+      "size": 231,
+      "sha256": "b42a2764152bdb755cda2c63f9f80777ab2f49194dae7968bb29bdf26d3f1471"
+    },
+    {
+      "path": "Internal/rules/ip/cdn.json",
+      "producer": "writer",
+      "size": 214,
+      "sha256": "d968134368af283cb8a7012e34d6fa9261b3eeb6b9c16e40e5efedf8bdd9c09a"
+    },
+    {
+      "path": "Internal/rules/ip/china.json",
+      "producer": "writer",
+      "size": 216,
+      "sha256": "ce404efeb48d9da1ff815eeb042a306d1f67c2c4bbf322910224289866a73e6b"
+    },
+    {
+      "path": "Internal/rules/ip/domestic.json",
+      "producer": "writer",
+      "size": 225,
+      "sha256": "53b987b1b2955293cef94bd1add4d6df4fa570025601e0dfeea41dc0c3ac4d9a"
+    },
+    {
+      "path": "Internal/rules/ip/download.json",
+      "producer": "writer",
+      "size": 225,
+      "sha256": "ccc14ed79bb741e0e297c692b7b4394180927b51abe40631d6c77a04208e53ee"
+    },
+    {
+      "path": "Internal/rules/ip/lan.json",
+      "producer": "writer",
+      "size": 214,
+      "sha256": "0eaebb5e4225bf9043760d462f8c0eb6c55b589539ed11cae4852f03a5d43641"
+    },
+    {
+      "path": "Internal/rules/ip/neteasemusic.json",
+      "producer": "writer",
+      "size": 229,
+      "sha256": "a08bd2f2a02513aa46f826f4b8f977f4301d49acbdaf9e611baf2ec7615987a7"
+    },
+    {
+      "path": "Internal/rules/ip/openai.no-resolve.json",
+      "producer": "writer",
+      "size": 234,
+      "sha256": "39dce71a42ffff790dfda1ba62d52299a1b868aacdd3044f2800fb784937530e"
+    },
+    {
+      "path": "Internal/rules/ip/private.resolve.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "92d8baeb859b54a2f945cd73f6f5e9b159e51b1311570dac0bc4b32548a252d1"
+    },
+    {
+      "path": "Internal/rules/ip/reject.json",
+      "producer": "writer",
+      "size": 1188,
+      "sha256": "288e16ba7d781cb7ec97624ed9f7f35475dfe8ac28bd34bde13cd057eb1d2aee"
+    },
+    {
+      "path": "Internal/rules/ip/stream.json",
+      "producer": "writer",
+      "size": 223,
+      "sha256": "88548bb6898e6254c6c25bcd43ee178588db4414e0ed64893e4b5bb22fdf9011"
+    },
+    {
+      "path": "Internal/rules/ip/stream_eu.json",
+      "producer": "writer",
+      "size": 220,
+      "sha256": "7525847c48f374ca2b146e6c4f3ed6775459aab5f38c5cb6c35d4a20f1278843"
+    },
+    {
+      "path": "Internal/rules/ip/stream_hk.json",
+      "producer": "writer",
+      "size": 220,
+      "sha256": "4d600fa632bee5fa409f77ec67fa9e33a933e37ea8cf348c547795a3d86a753d"
+    },
+    {
+      "path": "Internal/rules/ip/stream_jp.json",
+      "producer": "writer",
+      "size": 220,
+      "sha256": "27a7e064dfd271f24a3ee616b2a070d6dc7db383a5716b8a2a8e8e6a6ac4a8a3"
+    },
+    {
+      "path": "Internal/rules/ip/stream_kr.json",
+      "producer": "writer",
+      "size": 220,
+      "sha256": "25fb551fb2760d09f01df72b0b12e502b7cb9e2ccd904586475cf3a7baf13f52"
+    },
+    {
+      "path": "Internal/rules/ip/stream_tw.json",
+      "producer": "writer",
+      "size": 220,
+      "sha256": "5370c8ed0d15ad6dd4c09a48019edca29a6480823cc143a7da937765efb9ab66"
+    },
+    {
+      "path": "Internal/rules/ip/stream_us.json",
+      "producer": "writer",
+      "size": 220,
+      "sha256": "610880a03139fd83a462b03a21bac0bee6c18b23d03c286088f18433ba738ee4"
+    },
+    {
+      "path": "Internal/rules/ip/telegram.no-resolve.json",
+      "producer": "writer",
+      "size": 236,
+      "sha256": "f5dbf6fdc8c447bf8907d54735af2b8ff9854cb75301be5be5e636718bf7e1de"
+    },
+    {
+      "path": "Internal/rules/ip/telegram_asn.json",
+      "producer": "writer",
+      "size": 875,
+      "sha256": "dbc6c405fe09ccb96e912047502824ac561c5760e6b849de1712b7881b031e3a"
+    },
+    {
+      "path": "Internal/rules/ip/teleproto.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "3bfe83a1c85eacecbfdca9594fba6b3c22e0e51e6cc277c4a513c86c16ae472a"
+    },
+    {
+      "path": "Internal/rules/non_ip/ai.json",
+      "producer": "writer",
+      "size": 1153,
+      "sha256": "914a461ffe8db2a6da1cdc6ecc12b6a4bfa70b06388f16f3339dbe8ebb599ae5"
+    },
+    {
+      "path": "Internal/rules/non_ip/apple_cn.json",
+      "producer": "writer",
+      "size": 223,
+      "sha256": "a0a7956f1c9b1418a18098df19d143c7743d9e0046c89454cb079ebd5c6e2fb3"
+    },
+    {
+      "path": "Internal/rules/non_ip/apple_intelligence.json",
+      "producer": "writer",
+      "size": 233,
+      "sha256": "454fcd10cbdbc5d1911a49b0df3f2f5f76271710949cea43e722a9b37a0f7cd4"
+    },
+    {
+      "path": "Internal/rules/non_ip/apple_services.json",
+      "producer": "writer",
+      "size": 235,
+      "sha256": "043e6cddcd957725e8b9438c3e0f29b25f796dd534306383ddde22ad47003f09"
+    },
+    {
+      "path": "Internal/rules/non_ip/cdn.json",
+      "producer": "writer",
+      "size": 218,
+      "sha256": "cce13e83b4c6f8496e240cd4a795a1f1828defdc2abf95357586d8473450c53f"
+    },
+    {
+      "path": "Internal/rules/non_ip/china.json",
+      "producer": "writer",
+      "size": 1726,
+      "sha256": "5799db5297f732bbda7887874ef1d9ae1d5568c11a791e6377a2e9ae053b0c94"
+    },
+    {
+      "path": "Internal/rules/non_ip/cloudmounter.json",
+      "producer": "writer",
+      "size": 2121,
+      "sha256": "17e481b795bbebf1aa71cfdcbe17afcc3c922fd94872a0e4705651003e97c0c7"
+    },
+    {
+      "path": "Internal/rules/non_ip/direct.json",
+      "producer": "writer",
+      "size": 1571,
+      "sha256": "d1e9f80ec67fd4d72aa87240fc4b143cfba578533ae8a802b28ecbb072c413af"
+    },
+    {
+      "path": "Internal/rules/non_ip/domestic.json",
+      "producer": "writer",
+      "size": 1703,
+      "sha256": "9376f21f4fd1fa79351cbfa23eb4216bd8f61c690e5ed00a4bd3b47dbcc93154"
+    },
+    {
+      "path": "Internal/rules/non_ip/domestic_cdn.json",
+      "producer": "writer",
+      "size": 227,
+      "sha256": "8320385e46612ccb115a953397f87d45d57a689763e63c18cf4b296aca234262"
+    },
+    {
+      "path": "Internal/rules/non_ip/download.json",
+      "producer": "writer",
+      "size": 1043,
+      "sha256": "a7e81703b44f71a907b5b5a0351ba2e7da01517542f669fbf34d999a824fe0ff"
+    },
+    {
+      "path": "Internal/rules/non_ip/global.json",
+      "producer": "writer",
+      "size": 903,
+      "sha256": "10db7c2ba76bf6eab31828d31f5daca6cf768abf24c56381f3b262c1145132de"
+    },
+    {
+      "path": "Internal/rules/non_ip/lan.json",
+      "producer": "writer",
+      "size": 218,
+      "sha256": "1a0903cc18da896bcb51252f4c70a3a34389c374e14cb258fdeb1508bf81dbbb"
+    },
+    {
+      "path": "Internal/rules/non_ip/microsoft.json",
+      "producer": "writer",
+      "size": 224,
+      "sha256": "83f90b754704384cd8beb6c03c84fa7060d3973c2f02a1d155677b60506f7431"
+    },
+    {
+      "path": "Internal/rules/non_ip/microsoft_cdn.json",
+      "producer": "writer",
+      "size": 1480,
+      "sha256": "5541e832f569e73ed8121453fa95ba7b5f456395b51309df169e025744ff7722"
+    },
+    {
+      "path": "Internal/rules/non_ip/neteasemusic.json",
+      "producer": "writer",
+      "size": 1463,
+      "sha256": "61aca59491cb3e9f29e838aaa9cb5fbb1257d087d1784057b3216d29542d59ea"
+    },
+    {
+      "path": "Internal/rules/non_ip/reject-drop.json",
+      "producer": "writer",
+      "size": 226,
+      "sha256": "af85b50c08cb172e8b1c9678253185332a2a986ddd427e5e6a70aad4bc1721e7"
+    },
+    {
+      "path": "Internal/rules/non_ip/reject-no-drop.json",
+      "producer": "writer",
+      "size": 1117,
+      "sha256": "b7c69c8237ed61fdbad47344dafd86e47a0df5da6ae43897d36bb7ef04673ab4"
+    },
+    {
+      "path": "Internal/rules/non_ip/reject-url-regex.json",
+      "producer": "writer",
+      "size": 2243,
+      "sha256": "f64e72838c121ee04da6b42b30b4bf776be3c517e1076b2f404e77c66992451e"
+    },
+    {
+      "path": "Internal/rules/non_ip/reject.json",
+      "producer": "writer",
+      "size": 1575,
+      "sha256": "6ce409c15ec5d9f0eaadbb6443b8fc11147dfdd1bd5d178c86f490e092daea0b"
+    },
+    {
+      "path": "Internal/rules/non_ip/sogouinput.json",
+      "producer": "writer",
+      "size": 1389,
+      "sha256": "5d366a809b9836058a634f887173af25bf696e07dfc41ac23080a6f255b84fd2"
+    },
+    {
+      "path": "Internal/rules/non_ip/stream.json",
+      "producer": "writer",
+      "size": 1577,
+      "sha256": "eace63240e4fdace2e5c648423c754d3e7527fd1859f9a9d43d3ce48b55eb3e9"
+    },
+    {
+      "path": "Internal/rules/non_ip/stream_eu.json",
+      "producer": "writer",
+      "size": 1264,
+      "sha256": "50bf14bd7045b0b868b73229103e1064a64797e51a31c4179273e1ac3cfdcc46"
+    },
+    {
+      "path": "Internal/rules/non_ip/stream_hk.json",
+      "producer": "writer",
+      "size": 1214,
+      "sha256": "f14e1f19a7eab78698c0ef0168293d136bed383d2069677138c2e17f44fae4a2"
+    },
+    {
+      "path": "Internal/rules/non_ip/stream_jp.json",
+      "producer": "writer",
+      "size": 1246,
+      "sha256": "a80254ee5fa472a8ace6845af1e502409a23a1f63164dce49ee0a4c5f197ce75"
+    },
+    {
+      "path": "Internal/rules/non_ip/stream_kr.json",
+      "producer": "writer",
+      "size": 932,
+      "sha256": "baf46190018b9b05406b23085fcbbc4208903ba44e803c101dac63b7b020ccd1"
+    },
+    {
+      "path": "Internal/rules/non_ip/stream_tw.json",
+      "producer": "writer",
+      "size": 1578,
+      "sha256": "8351c1caf680eb08cf9e139533bcf4482d4c8688a229a3c701907226c8d75d97"
+    },
+    {
+      "path": "Internal/rules/non_ip/stream_us.json",
+      "producer": "writer",
+      "size": 1538,
+      "sha256": "23b5864906f651518ebfec2bff5c1a8104c9c284c86f5498b21fd09664d3d18c"
+    },
+    {
+      "path": "Internal/rules/non_ip/telegram.json",
+      "producer": "writer",
+      "size": 223,
+      "sha256": "c8261ce9015f3b325c47fdec61cf658cdf8eb8428172b7405852f43ef08efb69"
+    },
+    {
+      "path": "Internal/sukka_ubo_url_redirect_filters.txt",
+      "producer": "writer",
+      "size": 15985,
+      "sha256": "eabffc011b5e92d489d5786181d1302102e3606cf124bbe382a8c21c096315f1"
+    },
+    {
+      "path": "LICENSE",
+      "producer": "buildPublic license",
+      "size": 34523,
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "List/domainset/advertising.conf",
+      "producer": "writer",
+      "size": 17203,
+      "sha256": "47ff95d873f4e044b79c47b83758c7393e05dc10e5fe3c0619c4b6643f2a65fe"
+    },
+    {
+      "path": "List/domainset/ai-other.conf",
+      "producer": "writer",
+      "size": 4130,
+      "sha256": "89423b901f87006aaf635f42a9967acb93d344d32230df03ab708431e438d698"
+    },
+    {
+      "path": "List/domainset/anthropic.conf",
+      "producer": "writer",
+      "size": 831,
+      "sha256": "3b87899994d523082e0db30f05c9c436fba14201f0518b7e91d5417cc01f68f7"
+    },
+    {
+      "path": "List/domainset/apple-cn.conf",
+      "producer": "writer",
+      "size": 881,
+      "sha256": "3c57caf90cd3cbc3a634f4b9a02781f052f5c66b3e38c3b6fb6517ded0810377"
+    },
+    {
+      "path": "List/domainset/apple-intelligence.conf",
+      "producer": "writer",
+      "size": 799,
+      "sha256": "16eb5d59a2fc0fe0f2b726f7e1cbfce2d1e514cd6eb30402aa8893f7fa006483"
+    },
+    {
+      "path": "List/domainset/apple-music.conf",
+      "producer": "writer",
+      "size": 865,
+      "sha256": "f2a77df9de3a49813238ec64cd58373d5f96935c22f6f5c992682f846485df0c"
+    },
+    {
+      "path": "List/domainset/apple-tv.conf",
+      "producer": "writer",
+      "size": 843,
+      "sha256": "33aaa631793f3d455f8931bd7d1e4750ea5c9ab173d20db934f07a21d8498c6c"
+    },
+    {
+      "path": "List/domainset/apple.conf",
+      "producer": "writer",
+      "size": 31213,
+      "sha256": "b4b14cee4baec972ef8049d6ff64d99257db34fcfadcf6d413fe8201f086cb26"
+    },
+    {
+      "path": "List/domainset/apple_cdn.conf",
+      "producer": "writer",
+      "size": 4686,
+      "sha256": "7cdbb42ec4077a2e5c7465e8f5bdb6ac37d2946a7fea9ea95a090c11a8980d99"
+    },
+    {
+      "path": "List/domainset/aws.conf",
+      "producer": "writer",
+      "size": 1980,
+      "sha256": "549836bbe96088811e8d88dbc4f114b104a1f864018457fad006d6bd0dab9a0f"
+    },
+    {
+      "path": "List/domainset/bilibili-intl.conf",
+      "producer": "writer",
+      "size": 964,
+      "sha256": "60966cb6352429a8f92e8db47bee99534240e4cde8d923c8b280351795a932eb"
+    },
+    {
+      "path": "List/domainset/bilibili.conf",
+      "producer": "writer",
+      "size": 1386,
+      "sha256": "61fdb86cbf902107390ed6a1f3a1e1dc6eb7c058e14134444199b3fc71633456"
+    },
+    {
+      "path": "List/domainset/cdn-cn.conf",
+      "producer": "writer",
+      "size": 1900,
+      "sha256": "1c1149e9ae1d6fbf3bd099c04fc47713f7a15f7ef7c33f2f55ff02a9c6122b5b"
+    },
+    {
+      "path": "List/domainset/cdn-global.conf",
+      "producer": "writer",
+      "size": 3907,
+      "sha256": "ddf562396e1a2c0cf07c0f48c94ad8100ca64732a8796bdcd166356e6362a134"
+    },
+    {
+      "path": "List/domainset/cdn.conf",
+      "producer": "writer",
+      "size": 89847,
+      "sha256": "08a6ccf1fd79157b56b079b2f069f850609f1c6adba7db404fc06b8455444a61"
+    },
+    {
+      "path": "List/domainset/china.conf",
+      "producer": "writer",
+      "size": 11648,
+      "sha256": "8ed2e0bf936b3ac7b478ef044de573bf8b99073cf2983c5ccc1665bbf3169877"
+    },
+    {
+      "path": "List/domainset/cloudflare.conf",
+      "producer": "writer",
+      "size": 2074,
+      "sha256": "ceedcc4734cffaf8ff68d74be07e058dd95e1cb19489573be98cd6ed50bbde22"
+    },
+    {
+      "path": "List/domainset/copilot.conf",
+      "producer": "writer",
+      "size": 878,
+      "sha256": "b6df28abd25e112d01a4593fa77eb784a8ec9a7bb7a0b9e6f09e0a2f92b82544"
+    },
+    {
+      "path": "List/domainset/developer.conf",
+      "producer": "writer",
+      "size": 11802,
+      "sha256": "f7612a54be3f711a22f290f1719f4efa46fc3649c9cbbb11f6ac911913d92721"
+    },
+    {
+      "path": "List/domainset/digitalocean.conf",
+      "producer": "writer",
+      "size": 768,
+      "sha256": "0a7ea98804d823a6b6f3216da930c8d8fd22acaf6e8a8577a88d8266db8795d3"
+    },
+    {
+      "path": "List/domainset/discord.conf",
+      "producer": "writer",
+      "size": 1175,
+      "sha256": "f4c0916cbcad09849a8f8a32d52badae43a29d59fe3aa43b75b3d325db7a0af1"
+    },
+    {
+      "path": "List/domainset/disney.conf",
+      "producer": "writer",
+      "size": 4506,
+      "sha256": "258c88208c8559a964395a30c6e4cb09531486ee040350d31447662728be9c4d"
+    },
+    {
+      "path": "List/domainset/docker.conf",
+      "producer": "writer",
+      "size": 830,
+      "sha256": "ed7a733facc5f859ace55d21a15f41d6ba36c5a045f83b7511c3100fe28f8d99"
+    },
+    {
+      "path": "List/domainset/download.conf",
+      "producer": "writer",
+      "size": 45826,
+      "sha256": "67436091ed7e3a089a8e1e00c5582e18dc40072fc5154ffbc0a59813b20b4de6"
+    },
+    {
+      "path": "List/domainset/downloads.conf",
+      "producer": "writer",
+      "size": 45959,
+      "sha256": "f2e5a9c778818795215271ab547f4631ff11bd3f6bae4c74713b37edf7d8e657"
+    },
+    {
+      "path": "List/domainset/epic-games.conf",
+      "producer": "writer",
+      "size": 1161,
+      "sha256": "8c3d533d413c718af4bb3a190b631cae0eca8de475a220b4dda705a231dbc4d5"
+    },
+    {
+      "path": "List/domainset/facebook.conf",
+      "producer": "writer",
+      "size": 7353,
+      "sha256": "9a5f54d327adeec977307f33787a0d65db0966b0c0042799564eb655551c1231"
+    },
+    {
+      "path": "List/domainset/game-download.conf",
+      "producer": "writer",
+      "size": 1950,
+      "sha256": "0acdbbd59ed404864330c758a781a3cfa42a16e9ca58e788a90b9c94d0501192"
+    },
+    {
+      "path": "List/domainset/game-downloads.conf",
+      "producer": "writer",
+      "size": 1950,
+      "sha256": "99340394c518750b293a38a549ad1560849884d6adbf3a253bed28776f97f5ec"
+    },
+    {
+      "path": "List/domainset/games.conf",
+      "producer": "writer",
+      "size": 19587,
+      "sha256": "45beba752aa7bdd81d546871bca640d044f366273adb053e961a55db5073ee81"
+    },
+    {
+      "path": "List/domainset/gemini.conf",
+      "producer": "writer",
+      "size": 1751,
+      "sha256": "92edd0bcd5b30baa777075262d9eb2c72c20b79fe28a3a83e9c1a2ca9f1ca3a7"
+    },
+    {
+      "path": "List/domainset/github.conf",
+      "producer": "writer",
+      "size": 2371,
+      "sha256": "79120a4923cb373c09c25399d65fa03b2ff5977888ffad40492eedb5e5cfa4e2"
+    },
+    {
+      "path": "List/domainset/gitlab.conf",
+      "producer": "writer",
+      "size": 753,
+      "sha256": "2d94cec243661640d6968d67d1d6f81e7f8ea5b9174bbb6f0d77b8d28007bf0c"
+    },
+    {
+      "path": "List/domainset/global.conf",
+      "producer": "writer",
+      "size": 16914,
+      "sha256": "2176ac52c702fdc4ae0b8771ffc7fa75ac0e391980afc3b3046d9370441e653f"
+    },
+    {
+      "path": "List/domainset/google-fcm.conf",
+      "producer": "writer",
+      "size": 918,
+      "sha256": "ab8da26e9728d6669cad9656cda40a4f4d15a3fa35764a6a5360d26b3429a409"
+    },
+    {
+      "path": "List/domainset/google.conf",
+      "producer": "writer",
+      "size": 12928,
+      "sha256": "3d27ca3589fc251a6ad323fce925de75072a63b013d518bff210e8c706dc7128"
+    },
+    {
+      "path": "List/domainset/hbo.conf",
+      "producer": "writer",
+      "size": 1547,
+      "sha256": "f52b8370d20596276d164a0eb8dc4c1f1a12bd13e19d186815edad5d7b3c40bc"
+    },
+    {
+      "path": "List/domainset/icloud.conf",
+      "producer": "writer",
+      "size": 1417,
+      "sha256": "142aa65ccd7e8adc8cdf552b0ac7f68831e50198148b9b1b070922b7ffd69788"
+    },
+    {
+      "path": "List/domainset/icloud_private_relay.conf",
+      "producer": "writer",
+      "size": 669,
+      "sha256": "ce521230a6a2f898e33fba96c3acf9edfa009050c898f390def2179d301e5b18"
+    },
+    {
+      "path": "List/domainset/instagram.conf",
+      "producer": "writer",
+      "size": 1983,
+      "sha256": "a61bdfd76bf22d780d917b95f66e9ba8081d39f8167148b3b74d7752c791a179"
+    },
+    {
+      "path": "List/domainset/jetbrains.conf",
+      "producer": "writer",
+      "size": 991,
+      "sha256": "5970b9928e8bf516bc2d68abe354a069db350838f91f2dff47cc2a187f87c605"
+    },
+    {
+      "path": "List/domainset/microsoft.conf",
+      "producer": "writer",
+      "size": 11863,
+      "sha256": "5d5b3ac5f9629a25bb1b03f378d1ed640fec673e569c792be1a99be3112542d5"
+    },
+    {
+      "path": "List/domainset/netflix.conf",
+      "producer": "writer",
+      "size": 1088,
+      "sha256": "4c42555560c162959e3c3b8670970b20e9877ac2ea673181b78f2892d15c035f"
+    },
+    {
+      "path": "List/domainset/nintendo.conf",
+      "producer": "writer",
+      "size": 2938,
+      "sha256": "448fcccc92476b702292ba9bfc212c7b5523a68104cf5873538c7b997888a526"
+    },
+    {
+      "path": "List/domainset/npm.conf",
+      "producer": "writer",
+      "size": 690,
+      "sha256": "8e31f16f1d221ecf459125a14d0fabeb22e2b05235b560e80a1e0fe07d908736"
+    },
+    {
+      "path": "List/domainset/onedrive.conf",
+      "producer": "writer",
+      "size": 951,
+      "sha256": "2ae36ec3ceaee8dfc337d782422809c5ef915eb652215494b22ce93c965e146b"
+    },
+    {
+      "path": "List/domainset/openai.conf",
+      "producer": "writer",
+      "size": 1167,
+      "sha256": "439639567d7631cb690d7d4a28d49879e3a2b03f43552186d081f35dbb847398"
+    },
+    {
+      "path": "List/domainset/perplexity.conf",
+      "producer": "writer",
+      "size": 760,
+      "sha256": "7ef2c85c0dd9c522dc80a1659a6708992d780878ddd3158e472040809476ab21"
+    },
+    {
+      "path": "List/domainset/playstation.conf",
+      "producer": "writer",
+      "size": 738,
+      "sha256": "eb2b4ad7d69c8cebf42298211b35761b3b1340315e77521934a8886088faadcb"
+    },
+    {
+      "path": "List/domainset/primevideo.conf",
+      "producer": "writer",
+      "size": 1196,
+      "sha256": "5a5562da3dcbc24e2d40a673ebfe86e086de48fb283fa4aecd06401f97eb34e5"
+    },
+    {
+      "path": "List/domainset/private.conf",
+      "producer": "writer",
+      "size": 1507,
+      "sha256": "befcf57a819c2729098771005d3e1d53c5c29e188cb52c202ecd63542683f92d"
+    },
+    {
+      "path": "List/domainset/python.conf",
+      "producer": "writer",
+      "size": 725,
+      "sha256": "441ef846612d8ffbf6cbf40c91c9d648dd4288362fd1f8f3babb44372c525915"
+    },
+    {
+      "path": "List/domainset/reddit.conf",
+      "producer": "writer",
+      "size": 851,
+      "sha256": "b08e568ac725c983c2f7f14a00fd0753d7ad8aa8e73bcfc61c5fadbf975ca5ac"
+    },
+    {
+      "path": "List/domainset/reject.conf",
+      "producer": "writer",
+      "size": 3122416,
+      "sha256": "e39ae3a714be8eba17f5444a7abb4e9edc5e431ac96231466797a23c491dd070"
+    },
+    {
+      "path": "List/domainset/reject_extra.conf",
+      "producer": "writer",
+      "size": 1526121,
+      "sha256": "166432ef89641661f1d95115ca29ecb6f3344fd361f9af44a07ceb1b893ba510"
+    },
+    {
+      "path": "List/domainset/reject_phishing.conf",
+      "producer": "writer",
+      "size": 2875985,
+      "sha256": "f202bb0efc36e6d42ae1cd7fa86a2abfb67f91ddaa0b3c16c55e1a1483328f7b"
+    },
+    {
+      "path": "List/domainset/speedtest.conf",
+      "producer": "writer",
+      "size": 88215,
+      "sha256": "661d13104e1672e3f8f61b94e54457f607dd4ff1c2b0dd33acdd1a9bab9e1f1c"
+    },
+    {
+      "path": "List/domainset/spotify.conf",
+      "producer": "writer",
+      "size": 1190,
+      "sha256": "829ba4d82b0602349fc6e7ecf9cf32de61d46237c2510b003ae0c0b19b73f7a3"
+    },
+    {
+      "path": "List/domainset/steam-cn.conf",
+      "producer": "writer",
+      "size": 1051,
+      "sha256": "17175c76f39660b2af1655364d88af75329089968e5ca4e49a138f73a0b51752"
+    },
+    {
+      "path": "List/domainset/steam.conf",
+      "producer": "writer",
+      "size": 1947,
+      "sha256": "047ff60dfe1f047852947e90b28d0a26a89393f1101570f80313b13a64963448"
+    },
+    {
+      "path": "List/domainset/telegram.conf",
+      "producer": "writer",
+      "size": 932,
+      "sha256": "1dfe59c7e448e1d26b35256e36ae0dfd6a5e862450fc28a46f51396c3c4c9da3"
+    },
+    {
+      "path": "List/domainset/tiktok.conf",
+      "producer": "writer",
+      "size": 1378,
+      "sha256": "dec669c4a648d7f16bafc85e4f690d6ab621174f06f76d4337c0653346ca11cb"
+    },
+    {
+      "path": "List/domainset/twitch.conf",
+      "producer": "writer",
+      "size": 1538,
+      "sha256": "e5f3f866c2bfce6f3423ba9a08b7599816fefa174e2a4e925b9638200fc7a210"
+    },
+    {
+      "path": "List/domainset/twitter.conf",
+      "producer": "writer",
+      "size": 1004,
+      "sha256": "93a60015691ea5875e6b9f4f12c3bd75779760c8155e2861df5ca1c717be345e"
+    },
+    {
+      "path": "List/domainset/whatsapp.conf",
+      "producer": "writer",
+      "size": 825,
+      "sha256": "d6fc3f27ec9abfeb574840c80acd7d1eaa82a1bde16eaa9858322d77d23a67fa"
+    },
+    {
+      "path": "List/domainset/xai.conf",
+      "producer": "writer",
+      "size": 697,
+      "sha256": "09aa9199debe5d21821328337b712e2c2897effac32690df59a796bb27c1a58f"
+    },
+    {
+      "path": "List/domainset/xbox.conf",
+      "producer": "writer",
+      "size": 1379,
+      "sha256": "46a77ee4ae37bbd06643b1d170d8018394577d7a43628a82a6f3a859c9a8650b"
+    },
+    {
+      "path": "List/domainset/youtube.conf",
+      "producer": "writer",
+      "size": 3209,
+      "sha256": "87a3e21545ee8abb189d43185ceb9ecf6ec69b06d75887b8ab0c9cbafa91f0b2"
+    },
+    {
+      "path": "List/ip/ai.conf",
+      "producer": "writer",
+      "size": 1519,
+      "sha256": "d92e199a86159f692baabad26c74e12feabe3ca694e9531ac21424f2071bfc71"
+    },
+    {
+      "path": "List/ip/apple_services.conf",
+      "producer": "writer",
+      "size": 872,
+      "sha256": "651c89aac64974db6717af6b6c26605260d0fa3c1f3d770dafd2c2cfdeba3e9f"
+    },
+    {
+      "path": "List/ip/cdn.conf",
+      "producer": "writer",
+      "size": 629,
+      "sha256": "fc7d00fabe69dfc0bea64ffd9c4b1bc5f1a0fe3fd63963090719ffe818d483ab"
+    },
+    {
+      "path": "List/ip/china.conf",
+      "producer": "writer",
+      "size": 234170,
+      "sha256": "1d07646159999d4fa7eb566781df6b1a2a40fc2d62bbf29acb1b9bf1e859814e"
+    },
+    {
+      "path": "List/ip/domestic.conf",
+      "producer": "writer",
+      "size": 624,
+      "sha256": "9531bf39f34f23aaf50cd205501e01406a7e944ad9eca858f7950bed2282ce5a"
+    },
+    {
+      "path": "List/ip/download.conf",
+      "producer": "writer",
+      "size": 952,
+      "sha256": "81fffd18b4fc42f1e0094f53ea8c900a1a9eda2a1d20277ee49d5e8f99c230a8"
+    },
+    {
+      "path": "List/ip/lan.conf",
+      "producer": "writer",
+      "size": 751,
+      "sha256": "3b9bdef3631778d87fc1f34ba91704fffb6b89206660a2eeb53e9be718eda0ce"
+    },
+    {
+      "path": "List/ip/neteasemusic.conf",
+      "producer": "writer",
+      "size": 1152,
+      "sha256": "a35e1b7b9fc3ceb4fc791b954dce3e1dbafe08bd147f1c02a308c22a525590c6"
+    },
+    {
+      "path": "List/ip/openai.no-resolve.conf",
+      "producer": "writer",
+      "size": 1600,
+      "sha256": "3127f10e448cafd654940e6afa51f598a34e853e57b62d5db9cc362f976d7ea2"
+    },
+    {
+      "path": "List/ip/private.resolve.conf",
+      "producer": "writer",
+      "size": 918,
+      "sha256": "dc9419d3b65eb5e7d499aba663c1ab8b170f5d7250454d0030b5255a3f6d52a6"
+    },
+    {
+      "path": "List/ip/reject.conf",
+      "producer": "writer",
+      "size": 22350,
+      "sha256": "fa26d33b6943d3cebe0ebda595edebbd91af30b2318361d45e21f6ea4666ead6"
+    },
+    {
+      "path": "List/ip/stream.conf",
+      "producer": "writer",
+      "size": 1927,
+      "sha256": "f83b016fe35405d69213222d1a99fd71db01dfa484c6d157e4a2fe7aba7660fe"
+    },
+    {
+      "path": "List/ip/stream_eu.conf",
+      "producer": "writer",
+      "size": 512,
+      "sha256": "ea0faae9d6c689d8ea6cbdba77eab5ef3abbd8046ba6c8f3e7d21b33b3b2ca37"
+    },
+    {
+      "path": "List/ip/stream_hk.conf",
+      "producer": "writer",
+      "size": 574,
+      "sha256": "142a098efae56ea5a09f2ee6e6495e4c475445404daf82f9244c83cc811f271a"
+    },
+    {
+      "path": "List/ip/stream_jp.conf",
+      "producer": "writer",
+      "size": 573,
+      "sha256": "5b3ffab086c863d67f224c780c8d6eb21d1141d0ce07a915975272cd37136431"
+    },
+    {
+      "path": "List/ip/stream_kr.conf",
+      "producer": "writer",
+      "size": 509,
+      "sha256": "6058d3649f73b3c3e1b4e8a4937f8c12917e0eeca08dc7c3f35b5a108c5488f8"
+    },
+    {
+      "path": "List/ip/stream_tw.conf",
+      "producer": "writer",
+      "size": 587,
+      "sha256": "11139f87cf3ee5409135a4cda6c43a9875fac96011e4bc6a1cccc577b40d28d9"
+    },
+    {
+      "path": "List/ip/stream_us.conf",
+      "producer": "writer",
+      "size": 663,
+      "sha256": "d3ee3cf84ffa8ce9b815a1d3bdffadb9ea667e73e837de5b3f0fa908c425f5da"
+    },
+    {
+      "path": "List/ip/telegram.no-resolve.conf",
+      "producer": "writer",
+      "size": 1212,
+      "sha256": "d869f57a7efcb26140beddd355e3525fd654a0fce750bcd7d0afefc9c924111b"
+    },
+    {
+      "path": "List/ip/telegram_asn.conf",
+      "producer": "writer",
+      "size": 743,
+      "sha256": "65aaa8a2cd870bde51f7a338a7a19ebf30d3e5d337c6d6c46787b611a4c8b336"
+    },
+    {
+      "path": "List/ip/teleproto.conf",
+      "producer": "writer",
+      "size": 1174,
+      "sha256": "4e6bee81e5cd9763850ed282bc3c782773a0641bc7571fe1a44b47461b8419d1"
+    },
+    {
+      "path": "List/non_ip/ai.conf",
+      "producer": "writer",
+      "size": 2090,
+      "sha256": "1c9ae7b48b7daa552caa6d1d34c2e1567b8e8ebbf7213376622bed5047dffd58"
+    },
+    {
+      "path": "List/non_ip/apple_cn.conf",
+      "producer": "writer",
+      "size": 884,
+      "sha256": "d4d0c7df4aef734ec96f9d5f97669190ec4eb5b67aebf79351b54928f0c5859c"
+    },
+    {
+      "path": "List/non_ip/apple_intelligence.conf",
+      "producer": "writer",
+      "size": 689,
+      "sha256": "f389779ba8e5adbd443358a1a3ee557ec5080b84092cfe02e281432abce00989"
+    },
+    {
+      "path": "List/non_ip/apple_services.conf",
+      "producer": "writer",
+      "size": 1215,
+      "sha256": "dc5b559bc642dd49ff686f149e7592ad66b95015a84f603d73da96cc5c685899"
+    },
+    {
+      "path": "List/non_ip/cdn.conf",
+      "producer": "writer",
+      "size": 3547,
+      "sha256": "8bbdfb8c6b96ab9f2bb226dd0966d764cdc7e670923a597237e72ee5a830d72a"
+    },
+    {
+      "path": "List/non_ip/china.conf",
+      "producer": "writer",
+      "size": 823,
+      "sha256": "45ecbf68218cb30630355898bf6949adf1d487d5bfbbb84418e3d5acce0064a8"
+    },
+    {
+      "path": "List/non_ip/cloudmounter.conf",
+      "producer": "writer",
+      "size": 3019,
+      "sha256": "6d29156975462bac915058d7d69c7b01813b737c82f385c97f154967bf8d254a"
+    },
+    {
+      "path": "List/non_ip/direct.conf",
+      "producer": "writer",
+      "size": 6367,
+      "sha256": "b81a60c164eb84e33a5634a591da3a2b3284c5e0af62e3a5de5fe1f5edafb0c6"
+    },
+    {
+      "path": "List/non_ip/domestic.conf",
+      "producer": "writer",
+      "size": 22767,
+      "sha256": "2a51ddd5d06b5088bee89cd16b324c83f837ac4525566298b47810f39594968c"
+    },
+    {
+      "path": "List/non_ip/domestic_cdn.conf",
+      "producer": "writer",
+      "size": 1191,
+      "sha256": "e11d23218fd6775e9a02051cd147ba3f25aa96194ca3b53f9ba195581f374c1a"
+    },
+    {
+      "path": "List/non_ip/download.conf",
+      "producer": "writer",
+      "size": 932,
+      "sha256": "e9f95398f37b6aec3b2b3c4c68800504c617f8370471016deb992ab16ff87c34"
+    },
+    {
+      "path": "List/non_ip/global.conf",
+      "producer": "writer",
+      "size": 3943,
+      "sha256": "f36b7c75e326c679fbdb361aeefcd884d84b0500e9ecc3f7d460756ce98710cc"
+    },
+    {
+      "path": "List/non_ip/lan.conf",
+      "producer": "writer",
+      "size": 1926,
+      "sha256": "b1aa6670c67b5e87acf91a5bd6fafeaa28534741cc20b62567ccf4fd69bfaec4"
+    },
+    {
+      "path": "List/non_ip/microsoft.conf",
+      "producer": "writer",
+      "size": 1241,
+      "sha256": "19a62ff5b7d431db8a8bc3ca2d7fa64a4a0f429bdf5da6d061523517fa6e3162"
+    },
+    {
+      "path": "List/non_ip/microsoft_cdn.conf",
+      "producer": "writer",
+      "size": 3171,
+      "sha256": "2c9570551a34e72f0b4612dd9be6a3bd6ece1a8f825e42c1504c382de6f1cb9b"
+    },
+    {
+      "path": "List/non_ip/neteasemusic.conf",
+      "producer": "writer",
+      "size": 666,
+      "sha256": "76a5c820d718e30855dc7775b20fd15c9da84b00535506385837f6a5d60a7ac9"
+    },
+    {
+      "path": "List/non_ip/reject-drop.conf",
+      "producer": "writer",
+      "size": 1418,
+      "sha256": "3673f86711485d9040a83d80173667872d456a2efcc0ee6833bab5bd0ace9024"
+    },
+    {
+      "path": "List/non_ip/reject-no-drop.conf",
+      "producer": "writer",
+      "size": 1966,
+      "sha256": "0e90d1eeca69ae96aae42f14243714c0195b9db8c0600391ed62af656bb2916a"
+    },
+    {
+      "path": "List/non_ip/reject-url-regex.conf",
+      "producer": "writer",
+      "size": 12250,
+      "sha256": "2c2f3b090bda4fcb13f79e94239de4c561280f148ac83ecfbdf9336c80329dec"
+    },
+    {
+      "path": "List/non_ip/reject.conf",
+      "producer": "writer",
+      "size": 13238,
+      "sha256": "927df0c33ddc0c8362d2a5383a92bb449ac55dfad6e669fd1cc3986cb3dacfa7"
+    },
+    {
+      "path": "List/non_ip/sogouinput.conf",
+      "producer": "writer",
+      "size": 937,
+      "sha256": "f6e10009835be625180930ddc0c7a9f15aa414442814ed046c5cfa6ab33db100"
+    },
+    {
+      "path": "List/non_ip/stream.conf",
+      "producer": "writer",
+      "size": 10545,
+      "sha256": "b0f0d7be68e3264ac98bf30f3f92cf9bbdd35017ab35aeeda7e9a77bab196070"
+    },
+    {
+      "path": "List/non_ip/stream_eu.conf",
+      "producer": "writer",
+      "size": 762,
+      "sha256": "ee5ed4db7d0f1e975fa5f5d7686e7ff37599367522a6eb7f75000425b4c59c61"
+    },
+    {
+      "path": "List/non_ip/stream_hk.conf",
+      "producer": "writer",
+      "size": 1616,
+      "sha256": "4955226f9e06163279ef0e304c7d2788866a2f46f558ed113ad2cdd5c4727929"
+    },
+    {
+      "path": "List/non_ip/stream_jp.conf",
+      "producer": "writer",
+      "size": 1279,
+      "sha256": "9485ed827cc102fbe37fcfc4a37f615614f3e8e48e886e3fe44f9164079911ef"
+    },
+    {
+      "path": "List/non_ip/stream_kr.conf",
+      "producer": "writer",
+      "size": 585,
+      "sha256": "b56b0797c5287bd2e9864228d2154c45e2860f63bd496a14b958b4836fc9a84b"
+    },
+    {
+      "path": "List/non_ip/stream_tw.conf",
+      "producer": "writer",
+      "size": 1670,
+      "sha256": "ad06e7dbcb05590cbc3ee0624811c9dc8a500b52eacc05c5340302027b12c6b1"
+    },
+    {
+      "path": "List/non_ip/stream_us.conf",
+      "producer": "writer",
+      "size": 2017,
+      "sha256": "dccafdf6ab128b224edaa5de49c22fb7a9e11bce64f7c73dd12b7e62232a4727"
+    },
+    {
+      "path": "List/non_ip/telegram.conf",
+      "producer": "writer",
+      "size": 565,
+      "sha256": "217c712e95857ee7fbb72f44c670130353e2a8c5dab08dfdedfdce9b16efab82"
+    },
+    {
+      "path": "Mock/200.array.json",
+      "producer": "buildPublic static assets",
+      "size": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "Mock/200.json",
+      "producer": "buildPublic static assets",
+      "size": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "Mock/200.txt",
+      "producer": "buildPublic static assets",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Mock/addthis-com_addthis_widget.js",
+      "producer": "buildPublic static assets",
+      "size": 337,
+      "sha256": "0c324e50f4b978a93d9ea399dc6c00bfe5bc7c9e4bc5a491a539343908a4535b"
+    },
+    {
+      "path": "Mock/amazon-adsystem-com_amazon-apstag.js",
+      "producer": "downloadMockAssets",
+      "size": 1713,
+      "sha256": "6d4bcf2a273911439dcf3bb247b7acd71d02f1d3ca8b1bedc59ad3b1960bc97b"
+    },
+    {
+      "path": "Mock/ampproject-org_v0.js",
+      "producer": "buildPublic static assets",
+      "size": 305,
+      "sha256": "a9121b9c725cc12ef5d26c08b491fa0f34f4153273a2c03f6c470e8b5f848e70"
+    },
+    {
+      "path": "Mock/doubleclick-net_instream_ad_status.js",
+      "producer": "buildPublic static assets",
+      "size": 29,
+      "sha256": "eed0dc1fdb5d97ed188ae16fd5e1024a5bb744af47340346be2146300a6c54b9"
+    },
+    {
+      "path": "Mock/nomo.json",
+      "producer": "buildPublic static assets",
+      "size": 94790,
+      "sha256": "1758135c1dbadfd58b46aae9b4f04401ed87a192305c3b36121b5512e661d456"
+    },
+    {
+      "path": "Mock/securepubads-g-doubleclick-net_tag_js_gpt.js",
+      "producer": "buildPublic static assets",
+      "size": 3831,
+      "sha256": "52688d48cdc2e8e73dea9a29366679a72e239d10cb652c3fa7ebb6539b13b055"
+    },
+    {
+      "path": "Mock/static-chartbeat-com_chartbeat_mab.js",
+      "producer": "buildPublic static assets",
+      "size": 272,
+      "sha256": "3d4c81216d334706b517935ae9dbc4e3dacdcd5bc433d7e97839da9b92c03869"
+    },
+    {
+      "path": "Mock/widgets-outbrain-com_outbrain.js",
+      "producer": "buildPublic static assets",
+      "size": 997,
+      "sha256": "fd99981a941b3dbf77303a860ba8f1ea31288adda310b733eabc51e441965104"
+    },
+    {
+      "path": "Mock/www-google-analytics-com_analytics.js",
+      "producer": "downloadMockAssets",
+      "size": 4676,
+      "sha256": "2420c48f85c529182c83debd405f95f1439faa1cb1a26629dbef55e239907e61"
+    },
+    {
+      "path": "Mock/www-google-analytics-com_cx_api.js",
+      "producer": "buildPublic static assets",
+      "size": 300,
+      "sha256": "8ddb6e6348171b1eaeb3dbc2b22fee0ba8ced9e2560f5081bc486a65cf8006c2"
+    },
+    {
+      "path": "Mock/www-google-analytics-com_ga.js",
+      "producer": "downloadMockAssets",
+      "size": 5397,
+      "sha256": "1255b492eb7f1692ab2ad14e53a127e631cccfaf5b654ef9c1e2f459955a28e1"
+    },
+    {
+      "path": "Mock/www-google-analytics-com_inpage_linkid.js",
+      "producer": "buildPublic static assets",
+      "size": 96,
+      "sha256": "dc092398eb30b2d7066efc197512d821cab784fc0d1bbd1bc6c7beefcdb59ebe"
+    },
+    {
+      "path": "Mock/www-googlesyndication-com_adsbygoogle.js",
+      "producer": "downloadMockAssets",
+      "size": 4144,
+      "sha256": "2b009a2e432009a224ee8065036c40ee3abb751474617b16a983a6836f86ee21"
+    },
+    {
+      "path": "Mock/www-googletagservices-com_gpt.js",
+      "producer": "downloadMockAssets",
+      "size": 19274,
+      "sha256": "af03bdce9374b739fd2a6f6613d74653f8d1f0f1d2ee7d8917beb004bc03ea9b"
+    },
+    {
+      "path": "Modules/Rules/sukka_local_dns_mapping/alibaba.conf",
+      "producer": "writer",
+      "size": 2917,
+      "sha256": "9204b1b6751474a48884b1e2e7e2f65d5692b3c4292275366ad5e112bf5ca76c"
+    },
+    {
+      "path": "Modules/Rules/sukka_local_dns_mapping/baidu.conf",
+      "producer": "writer",
+      "size": 1496,
+      "sha256": "b67c26815e8005da8ff752e9618ccdd04576a32cfdd7222880c8912cd6c7e791"
+    },
+    {
+      "path": "Modules/Rules/sukka_local_dns_mapping/bilibili.conf",
+      "producer": "writer",
+      "size": 1096,
+      "sha256": "4e0d582b70e3ef308edf3aebfb92e61117360097a1f7ef041f791e2c259a0865"
+    },
+    {
+      "path": "Modules/Rules/sukka_local_dns_mapping/bytedance.conf",
+      "producer": "writer",
+      "size": 2563,
+      "sha256": "019159f189c69e1bea4cb8c4f307a9249b3700e03b59e61093493f4908fe8f83"
+    },
+    {
+      "path": "Modules/Rules/sukka_local_dns_mapping/hotspot_captive_portal.conf",
+      "producer": "writer",
+      "size": 786,
+      "sha256": "35217a99fcdbdcc63090272cc3b02984ef2fd1302ab39830effe44cf452096c8"
+    },
+    {
+      "path": "Modules/Rules/sukka_local_dns_mapping/lan_with_realip.conf",
+      "producer": "writer",
+      "size": 785,
+      "sha256": "58778048657e85cea0541d27c3f8ee2155f4f226fd4a7c58b7b49cc32f962f4d"
+    },
+    {
+      "path": "Modules/Rules/sukka_local_dns_mapping/lan_without_real_ip.conf",
+      "producer": "writer",
+      "size": 1980,
+      "sha256": "7c4b5dedb2b9839a3ff2c24ce8a213aa9224e16fd4457e8da403f392d0258e80"
+    },
+    {
+      "path": "Modules/Rules/sukka_local_dns_mapping/lancache.conf",
+      "producer": "writer",
+      "size": 4737,
+      "sha256": "b0d633de2a3e22175d7d57273c0ef89b614be58a309aae30aef1176ee528e03c"
+    },
+    {
+      "path": "Modules/Rules/sukka_local_dns_mapping/qihoo360.conf",
+      "producer": "writer",
+      "size": 1213,
+      "sha256": "561325c5004fcd1b6bdafd035a167a383b636e4eb8f878616780a908f71bfb1f"
+    },
+    {
+      "path": "Modules/Rules/sukka_local_dns_mapping/tencent.conf",
+      "producer": "writer",
+      "size": 1949,
+      "sha256": "de63d6b5a2a0221353b8d6554cd2fb6ec779a10ceada3e65fcaac85d2ee36026"
+    },
+    {
+      "path": "Modules/Rules/sukka_local_dns_mapping/xiaomi.conf",
+      "producer": "writer",
+      "size": 1149,
+      "sha256": "2a3b702fb660df5e06d10adb1234efdc7ed309d62f45b64692a7ada9f44138ef"
+    },
+    {
+      "path": "Modules/google_cn_307.sgmodule",
+      "producer": "buildPublic static assets",
+      "size": 223,
+      "sha256": "795fdf51bdfd9be36fa435025fbca47f89ded59800906986ae783966c0c63b1f"
+    },
+    {
+      "path": "Modules/sukka_common_always_realip.sgmodule",
+      "producer": "writer",
+      "size": 310,
+      "sha256": "e22c13227e554cfeaabe353203ee631e4f2612d6420f0fd9320ef951797d1de4"
+    },
+    {
+      "path": "Modules/sukka_disable_netease_music_v2_update_check.sgmodule",
+      "producer": "buildPublic static assets",
+      "size": 985,
+      "sha256": "2f8f627a785745e884140d9cc6621f14b5a7b35247034a4bad8bd398fd524c49"
+    },
+    {
+      "path": "Modules/sukka_enhance_adblock.sgmodule",
+      "producer": "buildPublic static assets",
+      "size": 1981,
+      "sha256": "10196f1cceb871fa8c1365aa1d7057c723d678568c267c01612bba72e0b95e56"
+    },
+    {
+      "path": "Modules/sukka_local_dns_mapping.sgmodule",
+      "producer": "writer",
+      "size": 1597,
+      "sha256": "df95b133c66658163f6e4868eb78dd054f1ec7b81a2fe6601fff373064d13632"
+    },
+    {
+      "path": "Modules/sukka_mitm_all_hostnames.sgmodule",
+      "producer": "buildPublic static assets",
+      "size": 279,
+      "sha256": "d0bdee36a1fd59734a35ed84b61d98dde3238fa20e2c2108e18b647fd20ce3aa"
+    },
+    {
+      "path": "Modules/sukka_mitm_hostnames.sgmodule",
+      "producer": "writer",
+      "size": 3131,
+      "sha256": "8782b7dccb800da4f526712f3d0611dfd835a3b5f10ceea73066530cd112bf5b"
+    },
+    {
+      "path": "Modules/sukka_surge_network_test_domain.sgmodule",
+      "producer": "buildPublic static assets",
+      "size": 215,
+      "sha256": "884c771308948df8be352e20e6bbc76d3499c3d88dc14c9106f58ea46f6657e6"
+    },
+    {
+      "path": "Modules/sukka_url_redirect.sgmodule",
+      "producer": "writer",
+      "size": 9448,
+      "sha256": "4504c8f9f8597aad9560bd950fd370b944a3c65d556a7733d08d5fbe62e9212e"
+    },
+    {
+      "path": "Modules/sukka_url_redirect_minimum.sgmodule",
+      "producer": "writer",
+      "size": 1913,
+      "sha256": "4a6f4f06b3ba6674c3453112feb3268395238170c598bf5dc61563435aa3e8a6"
+    },
+    {
+      "path": "NOTICE",
+      "producer": "buildPublic attribution",
+      "size": 491,
+      "sha256": "fa33f5b9b0dcb10d27611988a17a9bdca1596f76c1eebb79c3a043a1683f8cff"
+    },
+    {
+      "path": "README.md",
+      "producer": "writer",
+      "size": 365,
+      "sha256": "c20c72354ca9fc90d1b5a49f327657b2bd2bb240d990a0e40ae3585cbfc85bd2"
+    },
+    {
+      "path": "Shadowrocket/domainset/advertising.conf",
+      "producer": "writer",
+      "size": 27967,
+      "sha256": "09e3bb163a53ab61a151ae3961299404978398169768eb32a0ca7bfa6841eace"
+    },
+    {
+      "path": "Shadowrocket/domainset/ai-other.conf",
+      "producer": "writer",
+      "size": 6414,
+      "sha256": "fd10cd91d96f360133e19e52062cb2e29700483cedb2d210af4dbacedb4027bc"
+    },
+    {
+      "path": "Shadowrocket/domainset/anthropic.conf",
+      "producer": "writer",
+      "size": 962,
+      "sha256": "da4c7d5a8275d11ed5281f29fe7327e0f7448f9ead53d3288ecf2e780a2aa022"
+    },
+    {
+      "path": "Shadowrocket/domainset/apple-cn.conf",
+      "producer": "writer",
+      "size": 987,
+      "sha256": "b3006d9b938bed585e9ffcb0d5d402d4a6c06eb6d86252198cbeffc2b9c9b392"
+    },
+    {
+      "path": "Shadowrocket/domainset/apple-intelligence.conf",
+      "producer": "writer",
+      "size": 841,
+      "sha256": "2c663f6dce9d42d955916f003485078e40964f3dbe889076f233d191b12a5040"
+    },
+    {
+      "path": "Shadowrocket/domainset/apple-music.conf",
+      "producer": "writer",
+      "size": 1015,
+      "sha256": "9867f6ac7da4ea9d4b565e4263e4407870815bdb909350da74a8725b7fe6067d"
+    },
+    {
+      "path": "Shadowrocket/domainset/apple-tv.conf",
+      "producer": "writer",
+      "size": 912,
+      "sha256": "0f241f284b95ef405bc06d5967dc22e74b3ee918c7a1579c98e36c3eb3e64665"
+    },
+    {
+      "path": "Shadowrocket/domainset/apple.conf",
+      "producer": "writer",
+      "size": 51537,
+      "sha256": "e9e2b34523da25b89be49d87b46509c9f8e209e46fe79943ab603200d68ae273"
+    },
+    {
+      "path": "Shadowrocket/domainset/apple_cdn.conf",
+      "producer": "writer",
+      "size": 6760,
+      "sha256": "beb0202c299b33f5158a3999b4e76b047dc4bc077afe3065eb71bb3930f79e93"
+    },
+    {
+      "path": "Shadowrocket/domainset/aws.conf",
+      "producer": "writer",
+      "size": 2988,
+      "sha256": "994aff86b01c89172d37d8d1a30f76c0f3931447f85a135fd4babb9a18a1d2b8"
+    },
+    {
+      "path": "Shadowrocket/domainset/bilibili-intl.conf",
+      "producer": "writer",
+      "size": 1114,
+      "sha256": "0b6cb762b9fbede4c7ba0a8fa020c900a38303793dea90343a517cb252dfd9cd"
+    },
+    {
+      "path": "Shadowrocket/domainset/bilibili.conf",
+      "producer": "writer",
+      "size": 2076,
+      "sha256": "76fd1d947518ccb0d43e8d5f86c703ed506894a6f125f5328cdbabbc30a8a191"
+    },
+    {
+      "path": "Shadowrocket/domainset/cdn-cn.conf",
+      "producer": "writer",
+      "size": 3116,
+      "sha256": "53d7d90f634a41a2bfeb35dc22d5cdf4253289d53be4ab2858ff727f3b7dc70d"
+    },
+    {
+      "path": "Shadowrocket/domainset/cdn-global.conf",
+      "producer": "writer",
+      "size": 6449,
+      "sha256": "cba5a9d6160e26b5de7bad9e6a10460e2bd4f4eef7594c65890cf0580bb5995a"
+    },
+    {
+      "path": "Shadowrocket/domainset/cdn.conf",
+      "producer": "writer",
+      "size": 130028,
+      "sha256": "f55cbae2278846a6d5092de38a5f83e637039cd33f7fa0f8697b0c166bc45024"
+    },
+    {
+      "path": "Shadowrocket/domainset/china.conf",
+      "producer": "writer",
+      "size": 22770,
+      "sha256": "fc8e5a6b2f202b90b593f19214f3a27b346fbd4ea02fc7784ac6e3744c008e8a"
+    },
+    {
+      "path": "Shadowrocket/domainset/cloudflare.conf",
+      "producer": "writer",
+      "size": 3069,
+      "sha256": "5d5fa5d0805febe2e1bf5fbd62180053073903853aac4702050a32e73c8989df"
+    },
+    {
+      "path": "Shadowrocket/domainset/copilot.conf",
+      "producer": "writer",
+      "size": 933,
+      "sha256": "f2c15545a7d40e489f575de8287320facb9cff384a8c67dbc3dfdb317d74f4c2"
+    },
+    {
+      "path": "Shadowrocket/domainset/developer.conf",
+      "producer": "writer",
+      "size": 19657,
+      "sha256": "3f5be5083355acb549ac805f94e40eb9b5bfa96fe1fec074f1c3337d3f98e0af"
+    },
+    {
+      "path": "Shadowrocket/domainset/digitalocean.conf",
+      "producer": "writer",
+      "size": 853,
+      "sha256": "1eb9e992610d1402993d58173f5eac79e2d52dae1c5456aee4ce6f83e813f3e5"
+    },
+    {
+      "path": "Shadowrocket/domainset/discord.conf",
+      "producer": "writer",
+      "size": 1534,
+      "sha256": "0d28580aea0293e95fb10ed12ec30bffcf139754e780f03289e66821760b661d"
+    },
+    {
+      "path": "Shadowrocket/domainset/disney.conf",
+      "producer": "writer",
+      "size": 7375,
+      "sha256": "c60650e020114b43569d219688ddcd007e0742ae328a8bc1ea9d621563b89386"
+    },
+    {
+      "path": "Shadowrocket/domainset/docker.conf",
+      "producer": "writer",
+      "size": 903,
+      "sha256": "c7d765d535390c196ca322f0ac3e19c431ab608a7428d4219d6db782d697760a"
+    },
+    {
+      "path": "Shadowrocket/domainset/download.conf",
+      "producer": "writer",
+      "size": 62840,
+      "sha256": "a4c2b5a3218b204864a8a97da0e5e750e3bcef429d9ab501b883c4718c2b864c"
+    },
+    {
+      "path": "Shadowrocket/domainset/downloads.conf",
+      "producer": "writer",
+      "size": 62973,
+      "sha256": "90b3344b0f8eaa3a5d953d925417e1c83bfe5ed63e49f45988978c70a1f36297"
+    },
+    {
+      "path": "Shadowrocket/domainset/epic-games.conf",
+      "producer": "writer",
+      "size": 1558,
+      "sha256": "29c32df07236db64ee278cd3407440da8b34f7a2b491e742d537cb6a4e86d91f"
+    },
+    {
+      "path": "Shadowrocket/domainset/facebook.conf",
+      "producer": "writer",
+      "size": 12489,
+      "sha256": "f06a11ace2c2f4e700d0ab69d7d542150903c717873b0025ddb0ca06cd178249"
+    },
+    {
+      "path": "Shadowrocket/domainset/game-download.conf",
+      "producer": "writer",
+      "size": 2417,
+      "sha256": "0df258d880a32b98b6df32f5b1500a6ac5aea503179e570b9c37b88c6acb62c8"
+    },
+    {
+      "path": "Shadowrocket/domainset/game-downloads.conf",
+      "producer": "writer",
+      "size": 2417,
+      "sha256": "056bf7ca856e2023fadef6e4613dd398a253651044690ee8788fee6c4818efef"
+    },
+    {
+      "path": "Shadowrocket/domainset/games.conf",
+      "producer": "writer",
+      "size": 33525,
+      "sha256": "34e7320db0bde0740593670ea31a83261f4a5471bbfb72dd8b335ce9d34d6a9f"
+    },
+    {
+      "path": "Shadowrocket/domainset/gemini.conf",
+      "producer": "writer",
+      "size": 2278,
+      "sha256": "55715eae42582c402863cdc011068c1085a652f33e9307c085675e0e05bf5d81"
+    },
+    {
+      "path": "Shadowrocket/domainset/github.conf",
+      "producer": "writer",
+      "size": 2977,
+      "sha256": "014627149c4550297a477727e4b97dcc8392ad041306fe01df865543a129f926"
+    },
+    {
+      "path": "Shadowrocket/domainset/gitlab.conf",
+      "producer": "writer",
+      "size": 819,
+      "sha256": "fe7156615094786760b91af6efa43602d7d0747b274417396d1e780f977be597"
+    },
+    {
+      "path": "Shadowrocket/domainset/global.conf",
+      "producer": "writer",
+      "size": 33311,
+      "sha256": "6330821c846b52530c9eb7626fa13622bf0fe63733b177ff654cc06ab6f9cc4a"
+    },
+    {
+      "path": "Shadowrocket/domainset/google-fcm.conf",
+      "producer": "writer",
+      "size": 1009,
+      "sha256": "2cd93a51c4f738467f984f3826775d4873c662823e36f996e551cc54e319b5ef"
+    },
+    {
+      "path": "Shadowrocket/domainset/google.conf",
+      "producer": "writer",
+      "size": 23832,
+      "sha256": "32c23dc6eeadb763059b57b4eee7eb1525ac4e50fbf03d3b21bf41ffaa2e7df3"
+    },
+    {
+      "path": "Shadowrocket/domainset/hbo.conf",
+      "producer": "writer",
+      "size": 2399,
+      "sha256": "0cb043de42bf42c3a74ed3edf9b8b4af83e7dd480fc3451c02f33a53f3ec68ed"
+    },
+    {
+      "path": "Shadowrocket/domainset/icloud.conf",
+      "producer": "writer",
+      "size": 2107,
+      "sha256": "f5655e28eb47409bbedd2a5110cf4744adc2405026574b9d6e46681dbddfca0f"
+    },
+    {
+      "path": "Shadowrocket/domainset/icloud_private_relay.conf",
+      "producer": "writer",
+      "size": 718,
+      "sha256": "03b4d86d721901dd12e714463e78ceaddb0321ebd024c4df0a30f4aa96310e19"
+    },
+    {
+      "path": "Shadowrocket/domainset/instagram.conf",
+      "producer": "writer",
+      "size": 2926,
+      "sha256": "8d1112bf504a7fefe6bc2dd24184d90c3a1e7bd42329c2d248ec310b2a333915"
+    },
+    {
+      "path": "Shadowrocket/domainset/jetbrains.conf",
+      "producer": "writer",
+      "size": 1297,
+      "sha256": "bc4baa953515f7d3c941266caf510f1cb632b2ade4ef5e56e259a8fc3d9df188"
+    },
+    {
+      "path": "Shadowrocket/domainset/microsoft.conf",
+      "producer": "writer",
+      "size": 20055,
+      "sha256": "190aa8e2b675a6cfd83fafdb7591748894fa99c6a88741274db2df4f5f8554bd"
+    },
+    {
+      "path": "Shadowrocket/domainset/netflix.conf",
+      "producer": "writer",
+      "size": 1401,
+      "sha256": "6fd2c3c661f96b0a56f0ebf7bae3e26e7d19eaeb608d8f91e26f842bee297aa8"
+    },
+    {
+      "path": "Shadowrocket/domainset/nintendo.conf",
+      "producer": "writer",
+      "size": 4557,
+      "sha256": "4837464ed5fbd3498d54fa58d32e390a30a9bf1e99d07629c643e446eeb46d29"
+    },
+    {
+      "path": "Shadowrocket/domainset/npm.conf",
+      "producer": "writer",
+      "size": 736,
+      "sha256": "2e34a2a5f90c50a45708ca83ed935cf11303eaac3397668c4b52f40efee23c66"
+    },
+    {
+      "path": "Shadowrocket/domainset/onedrive.conf",
+      "producer": "writer",
+      "size": 1166,
+      "sha256": "53af54d6eea5c945db5468c083f860cc7c555b725413f54eca2af2c9ba260d36"
+    },
+    {
+      "path": "Shadowrocket/domainset/openai.conf",
+      "producer": "writer",
+      "size": 1406,
+      "sha256": "6953e6df684bccd89f4991d20cd5fb6b528d07215ba35493670b07cc96f23747"
+    },
+    {
+      "path": "Shadowrocket/domainset/perplexity.conf",
+      "producer": "writer",
+      "size": 820,
+      "sha256": "3f2d43eed86c2f73b95e440d73117631e5ba0d83bb8105f51a323c574ba28303"
+    },
+    {
+      "path": "Shadowrocket/domainset/playstation.conf",
+      "producer": "writer",
+      "size": 797,
+      "sha256": "bd8eec68ad0fd35182ecfb7618afac5518bd11c18fb8db1d889bbd6835d13574"
+    },
+    {
+      "path": "Shadowrocket/domainset/primevideo.conf",
+      "producer": "writer",
+      "size": 1442,
+      "sha256": "8e9c0896b35cdced5127cd42ecba895cbd6a8e45c0db2ccbc7e36217b755804e"
+    },
+    {
+      "path": "Shadowrocket/domainset/private.conf",
+      "producer": "writer",
+      "size": 2085,
+      "sha256": "66a571fbbd083773bd735219fc9bdcfdabee5c1cc5c9a4ee1e3218e447f06d14"
+    },
+    {
+      "path": "Shadowrocket/domainset/python.conf",
+      "producer": "writer",
+      "size": 810,
+      "sha256": "45e73b6dc79cc722d559ae20e85cd8215e8c88462e4b63292eb3262bd8c78478"
+    },
+    {
+      "path": "Shadowrocket/domainset/reddit.conf",
+      "producer": "writer",
+      "size": 1014,
+      "sha256": "362de16f7f6e62cc6238348cc69e60c922e966ade57c82ff7e081c9b2e485d81"
+    },
+    {
+      "path": "Shadowrocket/domainset/reject.conf",
+      "producer": "writer",
+      "size": 4947874,
+      "sha256": "93fd542dcbfa5023cadcc6b3d8367846a8e2be4330fc60077e0450de062e967e"
+    },
+    {
+      "path": "Shadowrocket/domainset/reject_extra.conf",
+      "producer": "writer",
+      "size": 2539747,
+      "sha256": "abdfeb296db16c663d06f09677d2286b334d91f587631701d3df5a1efbb0b709"
+    },
+    {
+      "path": "Shadowrocket/domainset/reject_phishing.conf",
+      "producer": "writer",
+      "size": 4630168,
+      "sha256": "55c711697c39923589b28f733d603da1306f33a0e450ee387d92ead5913562a5"
+    },
+    {
+      "path": "Shadowrocket/domainset/speedtest.conf",
+      "producer": "writer",
+      "size": 112903,
+      "sha256": "0a830775cdef81976212460d339fb0526df61b56a8a1bab43c920fb955413cb5"
+    },
+    {
+      "path": "Shadowrocket/domainset/spotify.conf",
+      "producer": "writer",
+      "size": 1474,
+      "sha256": "87c843b6c193057328fbaebb8e1d5038a00bbe7cb30e09a4828a1dbda056c146"
+    },
+    {
+      "path": "Shadowrocket/domainset/steam-cn.conf",
+      "producer": "writer",
+      "size": 1287,
+      "sha256": "f23c2fceac576735095294ca882ae0f63d6a6128f1b9edcc485eeb0bd8fc2378"
+    },
+    {
+      "path": "Shadowrocket/domainset/steam.conf",
+      "producer": "writer",
+      "size": 2613,
+      "sha256": "4f7fc02e84b896bd6b259c7fcd5efe33484605a03acdb507ed1610ef0bb9cf44"
+    },
+    {
+      "path": "Shadowrocket/domainset/telegram.conf",
+      "producer": "writer",
+      "size": 1212,
+      "sha256": "37b898e9329dbac3350aa9b04c138bb9040dfeb7c38549feda389f5d3f3922b4"
+    },
+    {
+      "path": "Shadowrocket/domainset/tiktok.conf",
+      "producer": "writer",
+      "size": 1817,
+      "sha256": "fa02540d4ebf7908c1714ede3ef7e183da25e37612cb23144178571eaeed4752"
+    },
+    {
+      "path": "Shadowrocket/domainset/twitch.conf",
+      "producer": "writer",
+      "size": 1831,
+      "sha256": "2706bc0d933b0f016f2bccaf2a8a6fca681c213a344c1a6208aaede4e56b1c03"
+    },
+    {
+      "path": "Shadowrocket/domainset/twitter.conf",
+      "producer": "writer",
+      "size": 1323,
+      "sha256": "e9750adbb6a3831183662774d44de469693a6be284479e8bdf77b48b5ba2d836"
+    },
+    {
+      "path": "Shadowrocket/domainset/whatsapp.conf",
+      "producer": "writer",
+      "size": 975,
+      "sha256": "84e9df4f10cd687e419d45538020eff2a2ab2a8bb750043a90dfedccebaffe35"
+    },
+    {
+      "path": "Shadowrocket/domainset/xai.conf",
+      "producer": "writer",
+      "size": 756,
+      "sha256": "9d9a278848953e4d20e50f75c188c96fa2cf15132ed8a5fdea2b0efdc5d34c99"
+    },
+    {
+      "path": "Shadowrocket/domainset/xbox.conf",
+      "producer": "writer",
+      "size": 1959,
+      "sha256": "0a99bd00f97d73c2e80bf46ad78c4d9df6b10cfb0af94b3d5f0acb9417ad9f2a"
+    },
+    {
+      "path": "Shadowrocket/domainset/youtube.conf",
+      "producer": "writer",
+      "size": 5511,
+      "sha256": "a3244cdf0b0e35c813f5dd0a5d7d06833c8500caa84a53db6fe9ee9c6bb46fcf"
+    },
+    {
+      "path": "Shadowrocket/ip/ai.conf",
+      "producer": "writer",
+      "size": 1519,
+      "sha256": "d92e199a86159f692baabad26c74e12feabe3ca694e9531ac21424f2071bfc71"
+    },
+    {
+      "path": "Shadowrocket/ip/apple_services.conf",
+      "producer": "writer",
+      "size": 872,
+      "sha256": "651c89aac64974db6717af6b6c26605260d0fa3c1f3d770dafd2c2cfdeba3e9f"
+    },
+    {
+      "path": "Shadowrocket/ip/cdn.conf",
+      "producer": "writer",
+      "size": 629,
+      "sha256": "fc7d00fabe69dfc0bea64ffd9c4b1bc5f1a0fe3fd63963090719ffe818d483ab"
+    },
+    {
+      "path": "Shadowrocket/ip/china.conf",
+      "producer": "writer",
+      "size": 234170,
+      "sha256": "1d07646159999d4fa7eb566781df6b1a2a40fc2d62bbf29acb1b9bf1e859814e"
+    },
+    {
+      "path": "Shadowrocket/ip/domestic.conf",
+      "producer": "writer",
+      "size": 624,
+      "sha256": "9531bf39f34f23aaf50cd205501e01406a7e944ad9eca858f7950bed2282ce5a"
+    },
+    {
+      "path": "Shadowrocket/ip/download.conf",
+      "producer": "writer",
+      "size": 952,
+      "sha256": "81fffd18b4fc42f1e0094f53ea8c900a1a9eda2a1d20277ee49d5e8f99c230a8"
+    },
+    {
+      "path": "Shadowrocket/ip/lan.conf",
+      "producer": "writer",
+      "size": 751,
+      "sha256": "3b9bdef3631778d87fc1f34ba91704fffb6b89206660a2eeb53e9be718eda0ce"
+    },
+    {
+      "path": "Shadowrocket/ip/neteasemusic.conf",
+      "producer": "writer",
+      "size": 1152,
+      "sha256": "a35e1b7b9fc3ceb4fc791b954dce3e1dbafe08bd147f1c02a308c22a525590c6"
+    },
+    {
+      "path": "Shadowrocket/ip/openai.no-resolve.conf",
+      "producer": "writer",
+      "size": 1600,
+      "sha256": "3127f10e448cafd654940e6afa51f598a34e853e57b62d5db9cc362f976d7ea2"
+    },
+    {
+      "path": "Shadowrocket/ip/private.resolve.conf",
+      "producer": "writer",
+      "size": 918,
+      "sha256": "dc9419d3b65eb5e7d499aba663c1ab8b170f5d7250454d0030b5255a3f6d52a6"
+    },
+    {
+      "path": "Shadowrocket/ip/reject.conf",
+      "producer": "writer",
+      "size": 22350,
+      "sha256": "fa26d33b6943d3cebe0ebda595edebbd91af30b2318361d45e21f6ea4666ead6"
+    },
+    {
+      "path": "Shadowrocket/ip/stream.conf",
+      "producer": "writer",
+      "size": 1927,
+      "sha256": "f83b016fe35405d69213222d1a99fd71db01dfa484c6d157e4a2fe7aba7660fe"
+    },
+    {
+      "path": "Shadowrocket/ip/stream_eu.conf",
+      "producer": "writer",
+      "size": 512,
+      "sha256": "ea0faae9d6c689d8ea6cbdba77eab5ef3abbd8046ba6c8f3e7d21b33b3b2ca37"
+    },
+    {
+      "path": "Shadowrocket/ip/stream_hk.conf",
+      "producer": "writer",
+      "size": 574,
+      "sha256": "142a098efae56ea5a09f2ee6e6495e4c475445404daf82f9244c83cc811f271a"
+    },
+    {
+      "path": "Shadowrocket/ip/stream_jp.conf",
+      "producer": "writer",
+      "size": 573,
+      "sha256": "5b3ffab086c863d67f224c780c8d6eb21d1141d0ce07a915975272cd37136431"
+    },
+    {
+      "path": "Shadowrocket/ip/stream_kr.conf",
+      "producer": "writer",
+      "size": 509,
+      "sha256": "6058d3649f73b3c3e1b4e8a4937f8c12917e0eeca08dc7c3f35b5a108c5488f8"
+    },
+    {
+      "path": "Shadowrocket/ip/stream_tw.conf",
+      "producer": "writer",
+      "size": 587,
+      "sha256": "11139f87cf3ee5409135a4cda6c43a9875fac96011e4bc6a1cccc577b40d28d9"
+    },
+    {
+      "path": "Shadowrocket/ip/stream_us.conf",
+      "producer": "writer",
+      "size": 663,
+      "sha256": "d3ee3cf84ffa8ce9b815a1d3bdffadb9ea667e73e837de5b3f0fa908c425f5da"
+    },
+    {
+      "path": "Shadowrocket/ip/telegram.no-resolve.conf",
+      "producer": "writer",
+      "size": 1212,
+      "sha256": "d869f57a7efcb26140beddd355e3525fd654a0fce750bcd7d0afefc9c924111b"
+    },
+    {
+      "path": "Shadowrocket/ip/telegram_asn.conf",
+      "producer": "writer",
+      "size": 743,
+      "sha256": "65aaa8a2cd870bde51f7a338a7a19ebf30d3e5d337c6d6c46787b611a4c8b336"
+    },
+    {
+      "path": "Shadowrocket/ip/teleproto.conf",
+      "producer": "writer",
+      "size": 1174,
+      "sha256": "4e6bee81e5cd9763850ed282bc3c782773a0641bc7571fe1a44b47461b8419d1"
+    },
+    {
+      "path": "Shadowrocket/non_ip/ai.conf",
+      "producer": "writer",
+      "size": 2090,
+      "sha256": "1c9ae7b48b7daa552caa6d1d34c2e1567b8e8ebbf7213376622bed5047dffd58"
+    },
+    {
+      "path": "Shadowrocket/non_ip/apple_cn.conf",
+      "producer": "writer",
+      "size": 884,
+      "sha256": "d4d0c7df4aef734ec96f9d5f97669190ec4eb5b67aebf79351b54928f0c5859c"
+    },
+    {
+      "path": "Shadowrocket/non_ip/apple_intelligence.conf",
+      "producer": "writer",
+      "size": 689,
+      "sha256": "f389779ba8e5adbd443358a1a3ee557ec5080b84092cfe02e281432abce00989"
+    },
+    {
+      "path": "Shadowrocket/non_ip/apple_services.conf",
+      "producer": "writer",
+      "size": 1215,
+      "sha256": "dc5b559bc642dd49ff686f149e7592ad66b95015a84f603d73da96cc5c685899"
+    },
+    {
+      "path": "Shadowrocket/non_ip/cdn.conf",
+      "producer": "writer",
+      "size": 3547,
+      "sha256": "8bbdfb8c6b96ab9f2bb226dd0966d764cdc7e670923a597237e72ee5a830d72a"
+    },
+    {
+      "path": "Shadowrocket/non_ip/china.conf",
+      "producer": "writer",
+      "size": 823,
+      "sha256": "45ecbf68218cb30630355898bf6949adf1d487d5bfbbb84418e3d5acce0064a8"
+    },
+    {
+      "path": "Shadowrocket/non_ip/cloudmounter.conf",
+      "producer": "writer",
+      "size": 3019,
+      "sha256": "6d29156975462bac915058d7d69c7b01813b737c82f385c97f154967bf8d254a"
+    },
+    {
+      "path": "Shadowrocket/non_ip/direct.conf",
+      "producer": "writer",
+      "size": 6367,
+      "sha256": "b81a60c164eb84e33a5634a591da3a2b3284c5e0af62e3a5de5fe1f5edafb0c6"
+    },
+    {
+      "path": "Shadowrocket/non_ip/domestic.conf",
+      "producer": "writer",
+      "size": 22767,
+      "sha256": "2a51ddd5d06b5088bee89cd16b324c83f837ac4525566298b47810f39594968c"
+    },
+    {
+      "path": "Shadowrocket/non_ip/domestic_cdn.conf",
+      "producer": "writer",
+      "size": 1191,
+      "sha256": "e11d23218fd6775e9a02051cd147ba3f25aa96194ca3b53f9ba195581f374c1a"
+    },
+    {
+      "path": "Shadowrocket/non_ip/download.conf",
+      "producer": "writer",
+      "size": 932,
+      "sha256": "e9f95398f37b6aec3b2b3c4c68800504c617f8370471016deb992ab16ff87c34"
+    },
+    {
+      "path": "Shadowrocket/non_ip/global.conf",
+      "producer": "writer",
+      "size": 3943,
+      "sha256": "f36b7c75e326c679fbdb361aeefcd884d84b0500e9ecc3f7d460756ce98710cc"
+    },
+    {
+      "path": "Shadowrocket/non_ip/lan.conf",
+      "producer": "writer",
+      "size": 1926,
+      "sha256": "b1aa6670c67b5e87acf91a5bd6fafeaa28534741cc20b62567ccf4fd69bfaec4"
+    },
+    {
+      "path": "Shadowrocket/non_ip/microsoft.conf",
+      "producer": "writer",
+      "size": 1241,
+      "sha256": "19a62ff5b7d431db8a8bc3ca2d7fa64a4a0f429bdf5da6d061523517fa6e3162"
+    },
+    {
+      "path": "Shadowrocket/non_ip/microsoft_cdn.conf",
+      "producer": "writer",
+      "size": 3171,
+      "sha256": "2c9570551a34e72f0b4612dd9be6a3bd6ece1a8f825e42c1504c382de6f1cb9b"
+    },
+    {
+      "path": "Shadowrocket/non_ip/neteasemusic.conf",
+      "producer": "writer",
+      "size": 666,
+      "sha256": "76a5c820d718e30855dc7775b20fd15c9da84b00535506385837f6a5d60a7ac9"
+    },
+    {
+      "path": "Shadowrocket/non_ip/reject-drop.conf",
+      "producer": "writer",
+      "size": 1418,
+      "sha256": "3673f86711485d9040a83d80173667872d456a2efcc0ee6833bab5bd0ace9024"
+    },
+    {
+      "path": "Shadowrocket/non_ip/reject-no-drop.conf",
+      "producer": "writer",
+      "size": 1966,
+      "sha256": "0e90d1eeca69ae96aae42f14243714c0195b9db8c0600391ed62af656bb2916a"
+    },
+    {
+      "path": "Shadowrocket/non_ip/reject-url-regex.conf",
+      "producer": "writer",
+      "size": 12250,
+      "sha256": "2c2f3b090bda4fcb13f79e94239de4c561280f148ac83ecfbdf9336c80329dec"
+    },
+    {
+      "path": "Shadowrocket/non_ip/reject.conf",
+      "producer": "writer",
+      "size": 13238,
+      "sha256": "927df0c33ddc0c8362d2a5383a92bb449ac55dfad6e669fd1cc3986cb3dacfa7"
+    },
+    {
+      "path": "Shadowrocket/non_ip/sogouinput.conf",
+      "producer": "writer",
+      "size": 937,
+      "sha256": "f6e10009835be625180930ddc0c7a9f15aa414442814ed046c5cfa6ab33db100"
+    },
+    {
+      "path": "Shadowrocket/non_ip/stream.conf",
+      "producer": "writer",
+      "size": 10545,
+      "sha256": "b0f0d7be68e3264ac98bf30f3f92cf9bbdd35017ab35aeeda7e9a77bab196070"
+    },
+    {
+      "path": "Shadowrocket/non_ip/stream_eu.conf",
+      "producer": "writer",
+      "size": 762,
+      "sha256": "ee5ed4db7d0f1e975fa5f5d7686e7ff37599367522a6eb7f75000425b4c59c61"
+    },
+    {
+      "path": "Shadowrocket/non_ip/stream_hk.conf",
+      "producer": "writer",
+      "size": 1616,
+      "sha256": "4955226f9e06163279ef0e304c7d2788866a2f46f558ed113ad2cdd5c4727929"
+    },
+    {
+      "path": "Shadowrocket/non_ip/stream_jp.conf",
+      "producer": "writer",
+      "size": 1279,
+      "sha256": "9485ed827cc102fbe37fcfc4a37f615614f3e8e48e886e3fe44f9164079911ef"
+    },
+    {
+      "path": "Shadowrocket/non_ip/stream_kr.conf",
+      "producer": "writer",
+      "size": 585,
+      "sha256": "b56b0797c5287bd2e9864228d2154c45e2860f63bd496a14b958b4836fc9a84b"
+    },
+    {
+      "path": "Shadowrocket/non_ip/stream_tw.conf",
+      "producer": "writer",
+      "size": 1670,
+      "sha256": "ad06e7dbcb05590cbc3ee0624811c9dc8a500b52eacc05c5340302027b12c6b1"
+    },
+    {
+      "path": "Shadowrocket/non_ip/stream_us.conf",
+      "producer": "writer",
+      "size": 2017,
+      "sha256": "dccafdf6ab128b224edaa5de49c22fb7a9e11bce64f7c73dd12b7e62232a4727"
+    },
+    {
+      "path": "Shadowrocket/non_ip/telegram.conf",
+      "producer": "writer",
+      "size": 565,
+      "sha256": "217c712e95857ee7fbb72f44c670130353e2a8c5dab08dfdedfdce9b16efab82"
+    },
+    {
+      "path": "Surfboard/ip/ai.conf",
+      "producer": "writer",
+      "size": 1505,
+      "sha256": "0defc1b180e34b2de65a8adeb843bf74a4d4a0ace0842959394cbf9e9b836756"
+    },
+    {
+      "path": "Surfboard/ip/apple_services.conf",
+      "producer": "writer",
+      "size": 872,
+      "sha256": "651c89aac64974db6717af6b6c26605260d0fa3c1f3d770dafd2c2cfdeba3e9f"
+    },
+    {
+      "path": "Surfboard/ip/cdn.conf",
+      "producer": "writer",
+      "size": 629,
+      "sha256": "fc7d00fabe69dfc0bea64ffd9c4b1bc5f1a0fe3fd63963090719ffe818d483ab"
+    },
+    {
+      "path": "Surfboard/ip/china.conf",
+      "producer": "writer",
+      "size": 234170,
+      "sha256": "1d07646159999d4fa7eb566781df6b1a2a40fc2d62bbf29acb1b9bf1e859814e"
+    },
+    {
+      "path": "Surfboard/ip/domestic.conf",
+      "producer": "writer",
+      "size": 624,
+      "sha256": "9531bf39f34f23aaf50cd205501e01406a7e944ad9eca858f7950bed2282ce5a"
+    },
+    {
+      "path": "Surfboard/ip/download.conf",
+      "producer": "writer",
+      "size": 952,
+      "sha256": "81fffd18b4fc42f1e0094f53ea8c900a1a9eda2a1d20277ee49d5e8f99c230a8"
+    },
+    {
+      "path": "Surfboard/ip/lan.conf",
+      "producer": "writer",
+      "size": 751,
+      "sha256": "3b9bdef3631778d87fc1f34ba91704fffb6b89206660a2eeb53e9be718eda0ce"
+    },
+    {
+      "path": "Surfboard/ip/neteasemusic.conf",
+      "producer": "writer",
+      "size": 1152,
+      "sha256": "a35e1b7b9fc3ceb4fc791b954dce3e1dbafe08bd147f1c02a308c22a525590c6"
+    },
+    {
+      "path": "Surfboard/ip/openai.no-resolve.conf",
+      "producer": "writer",
+      "size": 1600,
+      "sha256": "3127f10e448cafd654940e6afa51f598a34e853e57b62d5db9cc362f976d7ea2"
+    },
+    {
+      "path": "Surfboard/ip/private.resolve.conf",
+      "producer": "writer",
+      "size": 918,
+      "sha256": "dc9419d3b65eb5e7d499aba663c1ab8b170f5d7250454d0030b5255a3f6d52a6"
+    },
+    {
+      "path": "Surfboard/ip/reject.conf",
+      "producer": "writer",
+      "size": 22161,
+      "sha256": "343d8ba3a64bbfab1fdb5834f8044cd98f249479661696c26d15e3fd2279e4ed"
+    },
+    {
+      "path": "Surfboard/ip/stream.conf",
+      "producer": "writer",
+      "size": 1927,
+      "sha256": "f83b016fe35405d69213222d1a99fd71db01dfa484c6d157e4a2fe7aba7660fe"
+    },
+    {
+      "path": "Surfboard/ip/stream_eu.conf",
+      "producer": "writer",
+      "size": 512,
+      "sha256": "ea0faae9d6c689d8ea6cbdba77eab5ef3abbd8046ba6c8f3e7d21b33b3b2ca37"
+    },
+    {
+      "path": "Surfboard/ip/stream_hk.conf",
+      "producer": "writer",
+      "size": 574,
+      "sha256": "142a098efae56ea5a09f2ee6e6495e4c475445404daf82f9244c83cc811f271a"
+    },
+    {
+      "path": "Surfboard/ip/stream_jp.conf",
+      "producer": "writer",
+      "size": 573,
+      "sha256": "5b3ffab086c863d67f224c780c8d6eb21d1141d0ce07a915975272cd37136431"
+    },
+    {
+      "path": "Surfboard/ip/stream_kr.conf",
+      "producer": "writer",
+      "size": 509,
+      "sha256": "6058d3649f73b3c3e1b4e8a4937f8c12917e0eeca08dc7c3f35b5a108c5488f8"
+    },
+    {
+      "path": "Surfboard/ip/stream_tw.conf",
+      "producer": "writer",
+      "size": 587,
+      "sha256": "11139f87cf3ee5409135a4cda6c43a9875fac96011e4bc6a1cccc577b40d28d9"
+    },
+    {
+      "path": "Surfboard/ip/stream_us.conf",
+      "producer": "writer",
+      "size": 663,
+      "sha256": "d3ee3cf84ffa8ce9b815a1d3bdffadb9ea667e73e837de5b3f0fa908c425f5da"
+    },
+    {
+      "path": "Surfboard/ip/telegram.no-resolve.conf",
+      "producer": "writer",
+      "size": 1212,
+      "sha256": "d869f57a7efcb26140beddd355e3525fd654a0fce750bcd7d0afefc9c924111b"
+    },
+    {
+      "path": "Surfboard/ip/telegram_asn.conf",
+      "producer": "writer",
+      "size": 677,
+      "sha256": "0813cc26e9452e52760cf8969553575c18653ca250c558c61282073f48422444"
+    },
+    {
+      "path": "Surfboard/ip/teleproto.conf",
+      "producer": "writer",
+      "size": 1174,
+      "sha256": "4e6bee81e5cd9763850ed282bc3c782773a0641bc7571fe1a44b47461b8419d1"
+    },
+    {
+      "path": "Surfboard/non_ip/ai.conf",
+      "producer": "writer",
+      "size": 2014,
+      "sha256": "0bea4faf24e4566d154fd680e1cb001230035915d11bcfee2b386c4a6a852297"
+    },
+    {
+      "path": "Surfboard/non_ip/apple_cn.conf",
+      "producer": "writer",
+      "size": 884,
+      "sha256": "d4d0c7df4aef734ec96f9d5f97669190ec4eb5b67aebf79351b54928f0c5859c"
+    },
+    {
+      "path": "Surfboard/non_ip/apple_intelligence.conf",
+      "producer": "writer",
+      "size": 689,
+      "sha256": "f389779ba8e5adbd443358a1a3ee557ec5080b84092cfe02e281432abce00989"
+    },
+    {
+      "path": "Surfboard/non_ip/apple_services.conf",
+      "producer": "writer",
+      "size": 1215,
+      "sha256": "dc5b559bc642dd49ff686f149e7592ad66b95015a84f603d73da96cc5c685899"
+    },
+    {
+      "path": "Surfboard/non_ip/cdn.conf",
+      "producer": "writer",
+      "size": 1358,
+      "sha256": "cfd61afc08c9bf65506f737c4848fd177a207b4c28e59cebe4ef835dbaab9e66"
+    },
+    {
+      "path": "Surfboard/non_ip/china.conf",
+      "producer": "writer",
+      "size": 695,
+      "sha256": "bf23b72ba851cb0d6ba5e675306f05e688b3b743aa75ae722bbc293b6024c70c"
+    },
+    {
+      "path": "Surfboard/non_ip/cloudmounter.conf",
+      "producer": "writer",
+      "size": 490,
+      "sha256": "6ff4f3b89deb327c3b1d898a3a6c48782bc8013a29de25c0a16e360cfe989f78"
+    },
+    {
+      "path": "Surfboard/non_ip/direct.conf",
+      "producer": "writer",
+      "size": 6337,
+      "sha256": "b44244542777e2ac45e0a3f1a1febef82fe66e21de01c88ae275c7be341e7b61"
+    },
+    {
+      "path": "Surfboard/non_ip/domestic.conf",
+      "producer": "writer",
+      "size": 22639,
+      "sha256": "908871fcb6980a2fd5ae959b4ea8720c11c1df33bbec83bc17af1b0635fad4da"
+    },
+    {
+      "path": "Surfboard/non_ip/domestic_cdn.conf",
+      "producer": "writer",
+      "size": 1163,
+      "sha256": "744c815b230acb33cc91149ba31fb32d1a6635d174a1c18518e395ed1dc08a81"
+    },
+    {
+      "path": "Surfboard/non_ip/download.conf",
+      "producer": "writer",
+      "size": 565,
+      "sha256": "a93d1b4347201e7f96e713e341ff24d0ca728b7bb20dbacc079fc14fdeb88a1d"
+    },
+    {
+      "path": "Surfboard/non_ip/global.conf",
+      "producer": "writer",
+      "size": 3926,
+      "sha256": "70dd12dcd5bcbdd224a1f710cd94f7a3e18ffb5e9cedecff73695385c7109a7a"
+    },
+    {
+      "path": "Surfboard/non_ip/lan.conf",
+      "producer": "writer",
+      "size": 1926,
+      "sha256": "b1aa6670c67b5e87acf91a5bd6fafeaa28534741cc20b62567ccf4fd69bfaec4"
+    },
+    {
+      "path": "Surfboard/non_ip/microsoft.conf",
+      "producer": "writer",
+      "size": 1241,
+      "sha256": "19a62ff5b7d431db8a8bc3ca2d7fa64a4a0f429bdf5da6d061523517fa6e3162"
+    },
+    {
+      "path": "Surfboard/non_ip/microsoft_cdn.conf",
+      "producer": "writer",
+      "size": 3082,
+      "sha256": "6d48b19bbce8f4765488df71d325c5afa924e1646977b2b524eee7c36e1dd823"
+    },
+    {
+      "path": "Surfboard/non_ip/neteasemusic.conf",
+      "producer": "writer",
+      "size": 584,
+      "sha256": "350289026eac00c644bc652c06dfd429fe08f6b1859d9b42f5faf9e2126c868a"
+    },
+    {
+      "path": "Surfboard/non_ip/reject-drop.conf",
+      "producer": "writer",
+      "size": 1382,
+      "sha256": "f0f142442de7017946e3d99f1c9bc774cc677ac426d068cbae5016bd4948dc2b"
+    },
+    {
+      "path": "Surfboard/non_ip/reject-no-drop.conf",
+      "producer": "writer",
+      "size": 1660,
+      "sha256": "bc30af7b86a32482a22e9127701ad0e5a71a40ebbe209aef24677dcbe6130b4d"
+    },
+    {
+      "path": "Surfboard/non_ip/reject-url-regex.conf",
+      "producer": "writer",
+      "size": 666,
+      "sha256": "567c0b73ff0f9b03c57882014814454032c39abcabe9ecd2527eb56d542d6d9a"
+    },
+    {
+      "path": "Surfboard/non_ip/reject.conf",
+      "producer": "writer",
+      "size": 12607,
+      "sha256": "2fc42d9535352c45ce9a2b60cd0e10d6a51e7b82b2fa8d314959ca404d3c02cd"
+    },
+    {
+      "path": "Surfboard/non_ip/sogouinput.conf",
+      "producer": "writer",
+      "size": 870,
+      "sha256": "c6635948ee49c34d3b2729106ee6fa7eef5f7fbd478ab50dcac535471231e048"
+    },
+    {
+      "path": "Surfboard/non_ip/stream.conf",
+      "producer": "writer",
+      "size": 9509,
+      "sha256": "0eb1f528d08e30a95a62fe54806d571d53102b70686343baf6817e834a29544c"
+    },
+    {
+      "path": "Surfboard/non_ip/stream_eu.conf",
+      "producer": "writer",
+      "size": 715,
+      "sha256": "6a114b8d9a2fbd71a6334412b64d7f00e1e4ac81d1621c9019aa91c55a1817c5"
+    },
+    {
+      "path": "Surfboard/non_ip/stream_hk.conf",
+      "producer": "writer",
+      "size": 1583,
+      "sha256": "79dfc5dadf0a6fd1a2b7e345347a3c73e6283fc82019cbf59083bc9080047652"
+    },
+    {
+      "path": "Surfboard/non_ip/stream_jp.conf",
+      "producer": "writer",
+      "size": 1238,
+      "sha256": "10fe30ad6fbbe534c2a71626d2b60dca96e7b3ac96af15266fbe275384040f80"
+    },
+    {
+      "path": "Surfboard/non_ip/stream_kr.conf",
+      "producer": "writer",
+      "size": 564,
+      "sha256": "24d1367b4ea5c0c41455ef9df0a4c385c857663b5b38bd0403b9411d020717bf"
+    },
+    {
+      "path": "Surfboard/non_ip/stream_tw.conf",
+      "producer": "writer",
+      "size": 1585,
+      "sha256": "7028be05da830f6d7877c7d2e213b135f022fdf8e5822dba77a31c80a12244fa"
+    },
+    {
+      "path": "Surfboard/non_ip/stream_us.conf",
+      "producer": "writer",
+      "size": 1828,
+      "sha256": "73365c550f3354f395d995089b3b5556c8ac72b5ddcd940790ba2a8fefdc4963"
+    },
+    {
+      "path": "Surfboard/non_ip/telegram.conf",
+      "producer": "writer",
+      "size": 565,
+      "sha256": "217c712e95857ee7fbb72f44c670130353e2a8c5dab08dfdedfdce9b16efab82"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "producer": "buildPublic attribution",
+      "size": 2292,
+      "sha256": "753e26b6db66e889571d16bdf2fa482be95b59d693e5c78cfc530ef469887db0"
+    },
+    {
+      "path": "_headers",
+      "producer": "writer",
+      "size": 1440,
+      "sha256": "c299d64eb121f0eb26266e88b0870a25ff526d5877312192b903ade1280cf9c8"
+    },
+    {
+      "path": "deploy-check.txt",
+      "producer": "writer",
+      "size": 41,
+      "sha256": "68308376a2bcef31a8fae0760e191ebaf77fedeeaf2c9ba4f718ea4bfe1fdbd3"
+    },
+    {
+      "path": "index.html",
+      "producer": "writer",
+      "size": 117131,
+      "sha256": "31d9eb05e75086a2a65e1033616a86e27d58c22351607b06cf8743413345e987"
+    },
+    {
+      "path": "sing-box/domainset/advertising.json",
+      "producer": "writer",
+      "size": 25878,
+      "sha256": "e857e7a9b3e7ef4c69838b8d57dff5390f0c28f63efbeb21e1a72648a2bb6f16"
+    },
+    {
+      "path": "sing-box/domainset/ai-other.json",
+      "producer": "writer",
+      "size": 5583,
+      "sha256": "3d93a71695f9bc4f9a7bce0aa9d1a0dfa65786721fc8b0136a1c2d60a6a1ca66"
+    },
+    {
+      "path": "sing-box/domainset/anthropic.json",
+      "producer": "writer",
+      "size": 441,
+      "sha256": "e6047dacb962cbc1ecf0be65f02e8602e7821366d10b204b5a5c8579afc578e9"
+    },
+    {
+      "path": "sing-box/domainset/apple-cn.json",
+      "producer": "writer",
+      "size": 475,
+      "sha256": "570204f40c2bb1bd91466043c744f0cc3f67ef5aac7453737412ba6414b38711"
+    },
+    {
+      "path": "sing-box/domainset/apple-intelligence.json",
+      "producer": "writer",
+      "size": 363,
+      "sha256": "74338efcee5be8830cde0bfb1c21c7c15dba9834f227722f055984c614060e25"
+    },
+    {
+      "path": "sing-box/domainset/apple-music.json",
+      "producer": "writer",
+      "size": 490,
+      "sha256": "959bbb80ca400bb2b8dda91b92e8d6a80e6a77ac06997c566af255c0de928d8e"
+    },
+    {
+      "path": "sing-box/domainset/apple-tv.json",
+      "producer": "writer",
+      "size": 441,
+      "sha256": "3b21ccee0809a842e57f59e6c56cdf0e1af26fe40e6ed56b40c5b7f70e3f4cf5"
+    },
+    {
+      "path": "sing-box/domainset/apple.json",
+      "producer": "writer",
+      "size": 46646,
+      "sha256": "8859c5bf164a694fff0b0888037bf96bf10454a3c24a06bff41bbaf63caf30e1"
+    },
+    {
+      "path": "sing-box/domainset/apple_cdn.json",
+      "producer": "writer",
+      "size": 5833,
+      "sha256": "2634140ec36ad3f3cb96c61fdfcb00795ff7856744fd4f381a046cf6a1ecc1ce"
+    },
+    {
+      "path": "sing-box/domainset/aws.json",
+      "producer": "writer",
+      "size": 2273,
+      "sha256": "d0f30a77b708327829972418123b2c73a0eb1a25d0a3ba4cd57648dc37364bcc"
+    },
+    {
+      "path": "sing-box/domainset/bilibili-intl.json",
+      "producer": "writer",
+      "size": 587,
+      "sha256": "d1597c178b90d62a86ef1e294e7b815c733051846568b40abb199cc796a904f3"
+    },
+    {
+      "path": "sing-box/domainset/bilibili.json",
+      "producer": "writer",
+      "size": 1427,
+      "sha256": "c6373a0567b57b92d756a678c9b011f5482d22573e2d36662fa6bc893d92089a"
+    },
+    {
+      "path": "sing-box/domainset/cdn-cn.json",
+      "producer": "writer",
+      "size": 2350,
+      "sha256": "5cd577f78274db177c6f7fa58cc0419148982f26097b56f634253408b1bfcf77"
+    },
+    {
+      "path": "sing-box/domainset/cdn-global.json",
+      "producer": "writer",
+      "size": 5372,
+      "sha256": "1f0a81419514f925721308a93a3cfc1fbf57ddbaec0a415dac383a35beb99a8c"
+    },
+    {
+      "path": "sing-box/domainset/cdn.json",
+      "producer": "writer",
+      "size": 139790,
+      "sha256": "e0e36b17ec65bc4e4e5ce3028868427950c4d739cfa91354e495099920cc6a19"
+    },
+    {
+      "path": "sing-box/domainset/china.json",
+      "producer": "writer",
+      "size": 19847,
+      "sha256": "d69304533dbac084e60d030593745adaeb5dbf3de34629e7789a75f2918a9af7"
+    },
+    {
+      "path": "sing-box/domainset/cloudflare.json",
+      "producer": "writer",
+      "size": 2350,
+      "sha256": "23ad21a3c1dcc8b7dafcdf57bd6de4b174445f7baa731bfd36478d277b5232fa"
+    },
+    {
+      "path": "sing-box/domainset/copilot.json",
+      "producer": "writer",
+      "size": 455,
+      "sha256": "99b25d394a21eb92095881a2d0384e259b9d303de3acfa6eb8a2fae3c09ca150"
+    },
+    {
+      "path": "sing-box/domainset/developer.json",
+      "producer": "writer",
+      "size": 17764,
+      "sha256": "25ef39a5b6b884a96befec0f89f0c9028b8d563528020ab6b09898c3e3b67beb"
+    },
+    {
+      "path": "sing-box/domainset/digitalocean.json",
+      "producer": "writer",
+      "size": 343,
+      "sha256": "82e2806041b241f5668c23cf80e417cfd1f64bdb4aa33679abcda111619f2b48"
+    },
+    {
+      "path": "sing-box/domainset/discord.json",
+      "producer": "writer",
+      "size": 992,
+      "sha256": "2345743e45d8f8150ed881281f4d20068791a75073be983970b98cfd71becd8d"
+    },
+    {
+      "path": "sing-box/domainset/disney.json",
+      "producer": "writer",
+      "size": 6265,
+      "sha256": "60646dd6ef7012ddb36ac99e8fd45c8de3d2a954cc47385c511f96102e8b000e"
+    },
+    {
+      "path": "sing-box/domainset/docker.json",
+      "producer": "writer",
+      "size": 429,
+      "sha256": "89995017609ef85038aa56a73df9449c9bdb0d9a0ca04785c17837039047ae62"
+    },
+    {
+      "path": "sing-box/domainset/download.json",
+      "producer": "writer",
+      "size": 66600,
+      "sha256": "25bf22647dd2f97b700c588c3f3808841948cddcbe7ee06b1f0a80b9e7e1af82"
+    },
+    {
+      "path": "sing-box/domainset/downloads.json",
+      "producer": "writer",
+      "size": 66600,
+      "sha256": "25bf22647dd2f97b700c588c3f3808841948cddcbe7ee06b1f0a80b9e7e1af82"
+    },
+    {
+      "path": "sing-box/domainset/epic-games.json",
+      "producer": "writer",
+      "size": 977,
+      "sha256": "fc2afa0ab1fc0ce8859bd3ef8f480178c8e6fe96c8f3966a0ce338d0f4c0241d"
+    },
+    {
+      "path": "sing-box/domainset/facebook.json",
+      "producer": "writer",
+      "size": 10813,
+      "sha256": "3fece1dd45e5f710824b4e4674ca0ee80775e5d6bafce8c7d506129ec84c8c1b"
+    },
+    {
+      "path": "sing-box/domainset/game-download.json",
+      "producer": "writer",
+      "size": 1993,
+      "sha256": "444eb1e37cac1845da1e4e82c5fd212c333e1f42201e774b12a696583a6a931b"
+    },
+    {
+      "path": "sing-box/domainset/game-downloads.json",
+      "producer": "writer",
+      "size": 1993,
+      "sha256": "444eb1e37cac1845da1e4e82c5fd212c333e1f42201e774b12a696583a6a931b"
+    },
+    {
+      "path": "sing-box/domainset/games.json",
+      "producer": "writer",
+      "size": 30366,
+      "sha256": "4ea7e36c7fcb401e87b1a96b4581c05d701c5b10888014d5e5f5f4e6ac294f7a"
+    },
+    {
+      "path": "sing-box/domainset/gemini.json",
+      "producer": "writer",
+      "size": 1760,
+      "sha256": "52dd088ff2302e583fadf120130ccd8ccceb6b86a7356e24f6d5983790ee7a58"
+    },
+    {
+      "path": "sing-box/domainset/github.json",
+      "producer": "writer",
+      "size": 2525,
+      "sha256": "9ae9a9a32aa6b214683d65ac350538ad6e269c76a57879956c471b55963f3baa"
+    },
+    {
+      "path": "sing-box/domainset/gitlab.json",
+      "producer": "writer",
+      "size": 269,
+      "sha256": "3219674016577b8671f60241b1de061bbb10f7b34cdb0c3463166bc5d52e26ee"
+    },
+    {
+      "path": "sing-box/domainset/global.json",
+      "producer": "writer",
+      "size": 29064,
+      "sha256": "ad4a2af0ac3645f0c2830336ff7fe0f7cb5ff12a9af3efa162f79e85df753499"
+    },
+    {
+      "path": "sing-box/domainset/google-fcm.json",
+      "producer": "writer",
+      "size": 566,
+      "sha256": "b8b6869499aa1a94a405828e4983b170b4ec559670a6e8022f0ecb3cf2449ffe"
+    },
+    {
+      "path": "sing-box/domainset/google.json",
+      "producer": "writer",
+      "size": 20952,
+      "sha256": "a3ff7c4ffce36fed86826d825b42e082ac1d41904b259153521788d182c61b41"
+    },
+    {
+      "path": "sing-box/domainset/hbo.json",
+      "producer": "writer",
+      "size": 1720,
+      "sha256": "683b1c1950e7a753f6e9fb83ef7a503f70bbbbea1628c0d26c37319d36b781fc"
+    },
+    {
+      "path": "sing-box/domainset/icloud.json",
+      "producer": "writer",
+      "size": 1460,
+      "sha256": "04b798bda83f789d1743e21791390abfc3c14cbfda017fc889ff3f98e3a0f989"
+    },
+    {
+      "path": "sing-box/domainset/icloud_private_relay.json",
+      "producer": "writer",
+      "size": 366,
+      "sha256": "5fda25b5b87d335e3039e59d5441301ee917ff842b74b5b3a78fa9c2126e963d"
+    },
+    {
+      "path": "sing-box/domainset/instagram.json",
+      "producer": "writer",
+      "size": 2220,
+      "sha256": "c30e9109bc2b3be183bca6b756cbdfe114012d6ccbf2d9d6b21a47b74f4412ce"
+    },
+    {
+      "path": "sing-box/domainset/jetbrains.json",
+      "producer": "writer",
+      "size": 738,
+      "sha256": "318107f3ae457fa271cd9b63667bf1ff06685b6492c03903a48ae1ad78380224"
+    },
+    {
+      "path": "sing-box/domainset/microsoft.json",
+      "producer": "writer",
+      "size": 17781,
+      "sha256": "4667622f7c6b7e9e66c9647388606bf0a1f1bd74b33aac02cac94c01b2ba016b"
+    },
+    {
+      "path": "sing-box/domainset/netflix.json",
+      "producer": "writer",
+      "size": 840,
+      "sha256": "5e818cc79ee2a9df4b01c8822ba337530f3581aaf66371a9502036be454049b3"
+    },
+    {
+      "path": "sing-box/domainset/nintendo.json",
+      "producer": "writer",
+      "size": 3695,
+      "sha256": "7078982f5967bc9832d5dc7ed27b90f4d036256ad5bffeb67866b3aedd561744"
+    },
+    {
+      "path": "sing-box/domainset/npm.json",
+      "producer": "writer",
+      "size": 204,
+      "sha256": "dc5d03359b29b4295867a64663075df9e555d677e8047aaea8bb425d98a37130"
+    },
+    {
+      "path": "sing-box/domainset/onedrive.json",
+      "producer": "writer",
+      "size": 629,
+      "sha256": "279693ffdffd8069670aa73b18a7f4ea1f5f6f31137a4990dc62afb91de402e3"
+    },
+    {
+      "path": "sing-box/domainset/openai.json",
+      "producer": "writer",
+      "size": 932,
+      "sha256": "2dabc2169e2c108ac25f1136b0c0ff12d0e7e5e5e65865682ba3169ec845060e"
+    },
+    {
+      "path": "sing-box/domainset/perplexity.json",
+      "producer": "writer",
+      "size": 273,
+      "sha256": "0e8e493d145852a1824f256b2364be3a78ae30805813638ba63f9cd21eebdda2"
+    },
+    {
+      "path": "sing-box/domainset/playstation.json",
+      "producer": "writer",
+      "size": 294,
+      "sha256": "005a27d816f178516526954d4c1b08226ae6b048a9c60900620ea885d0ba7c5f"
+    },
+    {
+      "path": "sing-box/domainset/primevideo.json",
+      "producer": "writer",
+      "size": 968,
+      "sha256": "c39b89ecd87cc42a617cab159142712f61cb3911e7fa817a92d20433ac192e32"
+    },
+    {
+      "path": "sing-box/domainset/private.json",
+      "producer": "writer",
+      "size": 1515,
+      "sha256": "fc8c6c8d6f9cc730f6d4e5db12e559a7870f415a1bc81cff2570d86ecb5b617a"
+    },
+    {
+      "path": "sing-box/domainset/python.json",
+      "producer": "writer",
+      "size": 306,
+      "sha256": "8d6462c1e9fde684f5744d4f58b16681d04a7990247399ff759c8b07c4b8c08a"
+    },
+    {
+      "path": "sing-box/domainset/reddit.json",
+      "producer": "writer",
+      "size": 491,
+      "sha256": "8115b56a0655b93df733697c7bbc7babe50d567febb09fd1c91d5110dbd4c548"
+    },
+    {
+      "path": "sing-box/domainset/reject.json",
+      "producer": "writer",
+      "size": 4532845,
+      "sha256": "f59c5a03abc41998541f3738e59ecbdf493bc3dc2780b2e654ca33024ac9daa9"
+    },
+    {
+      "path": "sing-box/domainset/reject_extra.json",
+      "producer": "writer",
+      "size": 2304324,
+      "sha256": "adcf838c741513ebb72c0ada55f0ac11a3ab90dce33362840d0ee5f8bd57a8d9"
+    },
+    {
+      "path": "sing-box/domainset/reject_phishing.json",
+      "producer": "writer",
+      "size": 4225374,
+      "sha256": "7cf6be35ce381ed17b1fa935b72a662c3d4b6c904a9d894b6336fe6a314d2920"
+    },
+    {
+      "path": "sing-box/domainset/speedtest.json",
+      "producer": "writer",
+      "size": 125483,
+      "sha256": "86477f698b3a6d665a17dc433671b173a43f4092bf76e1dccc4508d7096cbbdd"
+    },
+    {
+      "path": "sing-box/domainset/spotify.json",
+      "producer": "writer",
+      "size": 983,
+      "sha256": "f14ba742d08b7ed0021761b8ff24c657ba5eaf057e72dc52921bbb3013e184c7"
+    },
+    {
+      "path": "sing-box/domainset/steam-cn.json",
+      "producer": "writer",
+      "size": 778,
+      "sha256": "d9a16ddf46fc5a78cb82e8bdf0da1ed3fbd98ab3990b03430542d21965cd0933"
+    },
+    {
+      "path": "sing-box/domainset/steam.json",
+      "producer": "writer",
+      "size": 2092,
+      "sha256": "ef9f81213cdd4e5587c4e87c95e09846e16f5102d31ccb3dbe830903216d2671"
+    },
+    {
+      "path": "sing-box/domainset/telegram.json",
+      "producer": "writer",
+      "size": 660,
+      "sha256": "d5fdafb30667b755d15198dc4647ce5b00f78b7f0f4127b368a7607f340fccdb"
+    },
+    {
+      "path": "sing-box/domainset/tiktok.json",
+      "producer": "writer",
+      "size": 1280,
+      "sha256": "3f967414f653a281755cadd0f060883cfc657cdc67fee611dba0a79e7ec2fd5e"
+    },
+    {
+      "path": "sing-box/domainset/twitch.json",
+      "producer": "writer",
+      "size": 1440,
+      "sha256": "468c5461713f356107cd9466052f8bf174293cb4ced419fb05d9379edc78739f"
+    },
+    {
+      "path": "sing-box/domainset/twitter.json",
+      "producer": "writer",
+      "size": 763,
+      "sha256": "fa6550c4d1417dbc584e1bb1edf61cb10fd5b1ae283e5e94e708c536e7953c85"
+    },
+    {
+      "path": "sing-box/domainset/whatsapp.json",
+      "producer": "writer",
+      "size": 453,
+      "sha256": "057888c5e3197b9f33b367359ac8a4bee67acf0e0d8f2c851cee5ec7583ed640"
+    },
+    {
+      "path": "sing-box/domainset/xai.json",
+      "producer": "writer",
+      "size": 213,
+      "sha256": "e05bd3bea6be24816f183c6b554db4cef67fbf0f766c33a053c5641c8d2754ff"
+    },
+    {
+      "path": "sing-box/domainset/xbox.json",
+      "producer": "writer",
+      "size": 1337,
+      "sha256": "75f56f7518af78c75a65497d215ad38532c163e3e5521f82f0a25e447674a59d"
+    },
+    {
+      "path": "sing-box/domainset/youtube.json",
+      "producer": "writer",
+      "size": 4490,
+      "sha256": "251038ea85aed71a5b5816eb1b1195e6c92425378e584255494801709d8806a8"
+    },
+    {
+      "path": "sing-box/ip/ai.json",
+      "producer": "writer",
+      "size": 833,
+      "sha256": "9f42b55c3cf8b9ad8465d74be0572ea2e23c0f695d17c763d325a91895aa4263"
+    },
+    {
+      "path": "sing-box/ip/apple_services.json",
+      "producer": "writer",
+      "size": 451,
+      "sha256": "87af24e45b69368d60700e451c242ce956e9343fae2ea3af93242d904255933d"
+    },
+    {
+      "path": "sing-box/ip/cdn.json",
+      "producer": "writer",
+      "size": 242,
+      "sha256": "df8385249fc785fa376de94b33d7215a3f21d48796fd87041262176eca22cc04"
+    },
+    {
+      "path": "sing-box/ip/china.json",
+      "producer": "writer",
+      "size": 259049,
+      "sha256": "cb226ab524670e7d23ebb193b78ffd05805000dc6402ea9d82d1983dee04b44b"
+    },
+    {
+      "path": "sing-box/ip/domestic.json",
+      "producer": "writer",
+      "size": 215,
+      "sha256": "487a13ff8b8f3108a539d92a81d4ae88dac418952e74fe823818b9e2b1004b17"
+    },
+    {
+      "path": "sing-box/ip/download.json",
+      "producer": "writer",
+      "size": 483,
+      "sha256": "08c1a206297712d207462563ab5bdd2582109a8a7f46c26672a3a52273edcaa8"
+    },
+    {
+      "path": "sing-box/ip/lan.json",
+      "producer": "writer",
+      "size": 439,
+      "sha256": "2788c1c76881a277792951a97d9221265bb58d54fa46a09bc973de40971509b8"
+    },
+    {
+      "path": "sing-box/ip/neteasemusic.json",
+      "producer": "writer",
+      "size": 669,
+      "sha256": "dc5a92b99c1baff71fb04941141c521a056559a4058dbcb8a30a2d2233fa3a8a"
+    },
+    {
+      "path": "sing-box/ip/openai.no-resolve.json",
+      "producer": "writer",
+      "size": 833,
+      "sha256": "9f42b55c3cf8b9ad8465d74be0572ea2e23c0f695d17c763d325a91895aa4263"
+    },
+    {
+      "path": "sing-box/ip/private.resolve.json",
+      "producer": "writer",
+      "size": 439,
+      "sha256": "2788c1c76881a277792951a97d9221265bb58d54fa46a09bc973de40971509b8"
+    },
+    {
+      "path": "sing-box/ip/reject.json",
+      "producer": "writer",
+      "size": 21814,
+      "sha256": "18f54c11259676f861784f7329a09701d138803d188703cfa9d18f9ba0062b92"
+    },
+    {
+      "path": "sing-box/ip/stream.json",
+      "producer": "writer",
+      "size": 692,
+      "sha256": "fd1bb16847834eadd0720019c231e3582035ad37e92a3889478e9e277acdf778"
+    },
+    {
+      "path": "sing-box/ip/stream_eu.json",
+      "producer": "writer",
+      "size": 161,
+      "sha256": "71d2f756b4d083a69445cb6248d56d686de7ee4df5e67bc8a18febceadbe37ca"
+    },
+    {
+      "path": "sing-box/ip/stream_hk.json",
+      "producer": "writer",
+      "size": 161,
+      "sha256": "71d2f756b4d083a69445cb6248d56d686de7ee4df5e67bc8a18febceadbe37ca"
+    },
+    {
+      "path": "sing-box/ip/stream_jp.json",
+      "producer": "writer",
+      "size": 161,
+      "sha256": "71d2f756b4d083a69445cb6248d56d686de7ee4df5e67bc8a18febceadbe37ca"
+    },
+    {
+      "path": "sing-box/ip/stream_kr.json",
+      "producer": "writer",
+      "size": 161,
+      "sha256": "71d2f756b4d083a69445cb6248d56d686de7ee4df5e67bc8a18febceadbe37ca"
+    },
+    {
+      "path": "sing-box/ip/stream_tw.json",
+      "producer": "writer",
+      "size": 161,
+      "sha256": "71d2f756b4d083a69445cb6248d56d686de7ee4df5e67bc8a18febceadbe37ca"
+    },
+    {
+      "path": "sing-box/ip/stream_us.json",
+      "producer": "writer",
+      "size": 161,
+      "sha256": "71d2f756b4d083a69445cb6248d56d686de7ee4df5e67bc8a18febceadbe37ca"
+    },
+    {
+      "path": "sing-box/ip/telegram.no-resolve.json",
+      "producer": "writer",
+      "size": 517,
+      "sha256": "2606fb83cf590cb6cecb4cbf534d92d506c192a4d91b1b28be2e5f9fe62f457c"
+    },
+    {
+      "path": "sing-box/ip/telegram_asn.json",
+      "producer": "writer",
+      "size": 161,
+      "sha256": "71d2f756b4d083a69445cb6248d56d686de7ee4df5e67bc8a18febceadbe37ca"
+    },
+    {
+      "path": "sing-box/ip/teleproto.json",
+      "producer": "writer",
+      "size": 572,
+      "sha256": "8b0ed0b40e819acba69813fdbb4b5ea5036f3860a17c6d4be47629ad706d6cc0"
+    },
+    {
+      "path": "sing-box/non_ip/ai.json",
+      "producer": "writer",
+      "size": 1623,
+      "sha256": "6f063edafa610c2437289ca593061d8ddb6d5daac46bff738a8db095158dfe4e"
+    },
+    {
+      "path": "sing-box/non_ip/apple_cn.json",
+      "producer": "writer",
+      "size": 475,
+      "sha256": "570204f40c2bb1bd91466043c744f0cc3f67ef5aac7453737412ba6414b38711"
+    },
+    {
+      "path": "sing-box/non_ip/apple_intelligence.json",
+      "producer": "writer",
+      "size": 351,
+      "sha256": "2b1a9fab0128ad0a258b34f204a4ff8b6ebe4076803158e06ba180ab3c073f29"
+    },
+    {
+      "path": "sing-box/non_ip/apple_services.json",
+      "producer": "writer",
+      "size": 848,
+      "sha256": "d4e7576d89cff8bfd606a6b605e71594a0ffa9db784c1a4926364f1e6f527274"
+    },
+    {
+      "path": "sing-box/non_ip/cdn.json",
+      "producer": "writer",
+      "size": 3298,
+      "sha256": "a58c691053e38f400831eedf7a98ce0c11c901b34b912aed487d8d5f917c6fe3"
+    },
+    {
+      "path": "sing-box/non_ip/china.json",
+      "producer": "writer",
+      "size": 204,
+      "sha256": "8a0cc970b99acbcc23fec93263586f75541a4fdb084f9270d779836a4155b5a6"
+    },
+    {
+      "path": "sing-box/non_ip/cloudmounter.json",
+      "producer": "writer",
+      "size": 161,
+      "sha256": "71d2f756b4d083a69445cb6248d56d686de7ee4df5e67bc8a18febceadbe37ca"
+    },
+    {
+      "path": "sing-box/non_ip/direct.json",
+      "producer": "writer",
+      "size": 5531,
+      "sha256": "7b46bcd327d00e14a470c3e88f658d802d4e9a58d472b2cca537d1c19d069c57"
+    },
+    {
+      "path": "sing-box/non_ip/domestic.json",
+      "producer": "writer",
+      "size": 19890,
+      "sha256": "e442879f30fc2704a71339b6da11d5bf66bb2e48b5f196ded829b474f6d360c4"
+    },
+    {
+      "path": "sing-box/non_ip/domestic_cdn.json",
+      "producer": "writer",
+      "size": 658,
+      "sha256": "4418f512b15c1933b68f055ae2f60d3ab6deb8c3c93993da4cb640ffd538c825"
+    },
+    {
+      "path": "sing-box/non_ip/download.json",
+      "producer": "writer",
+      "size": 544,
+      "sha256": "b9086d548cb76cae77a52a6955b7c55773117249125fcf2893307aa50d895311"
+    },
+    {
+      "path": "sing-box/non_ip/global.json",
+      "producer": "writer",
+      "size": 3175,
+      "sha256": "ecdbcb3fc5fecc5641b180867279016418f86f0ae86e0e1e19555dd91cf4f6a9"
+    },
+    {
+      "path": "sing-box/non_ip/lan.json",
+      "producer": "writer",
+      "size": 1515,
+      "sha256": "fc8c6c8d6f9cc730f6d4e5db12e559a7870f415a1bc81cff2570d86ecb5b617a"
+    },
+    {
+      "path": "sing-box/non_ip/microsoft.json",
+      "producer": "writer",
+      "size": 812,
+      "sha256": "7a88cbe0c34ca7a1df81ad984c822110bac8306ff3c36e2b204d7e00121a926f"
+    },
+    {
+      "path": "sing-box/non_ip/microsoft_cdn.json",
+      "producer": "writer",
+      "size": 2503,
+      "sha256": "eda9056927c042be2aa11d99b71e5afa0db7a7ee41b9a4252d1bc845032194c1"
+    },
+    {
+      "path": "sing-box/non_ip/neteasemusic.json",
+      "producer": "writer",
+      "size": 195,
+      "sha256": "ef5c9f8c72f68476ed785c76b644bc6b9a8ad0ff624285d7895b67d082c756e1"
+    },
+    {
+      "path": "sing-box/non_ip/reject-drop.json",
+      "producer": "writer",
+      "size": 1010,
+      "sha256": "a70cced640dddaab9a98e27c345231d7a4f0835e07388475ed07fb20890d0a4a"
+    },
+    {
+      "path": "sing-box/non_ip/reject-no-drop.json",
+      "producer": "writer",
+      "size": 1515,
+      "sha256": "d62e199666e0eb1c7619e9b30aa79413457fa68904b8f99525bd3de7db3b8c13"
+    },
+    {
+      "path": "sing-box/non_ip/reject-url-regex.json",
+      "producer": "writer",
+      "size": 161,
+      "sha256": "71d2f756b4d083a69445cb6248d56d686de7ee4df5e67bc8a18febceadbe37ca"
+    },
+    {
+      "path": "sing-box/non_ip/reject.json",
+      "producer": "writer",
+      "size": 10263,
+      "sha256": "ea299c403973b2b8a5b47b7353b20d06b9a8959a7fb78abce9bb6dbf2fab66c0"
+    },
+    {
+      "path": "sing-box/non_ip/sogouinput.json",
+      "producer": "writer",
+      "size": 500,
+      "sha256": "ea7d610d45245e83b06c1e611140396e75ecbd22890be0247dac8f65eafcad16"
+    },
+    {
+      "path": "sing-box/non_ip/stream.json",
+      "producer": "writer",
+      "size": 8071,
+      "sha256": "2422ee000174e1843fc6c8b84f35e45c42c5a24602e47be973d851385213b563"
+    },
+    {
+      "path": "sing-box/non_ip/stream_eu.json",
+      "producer": "writer",
+      "size": 318,
+      "sha256": "d660f8839e24b26d5c54f8070ff9554ccf5615bf7b7cabb3c7c3a74eb4aa9872"
+    },
+    {
+      "path": "sing-box/non_ip/stream_hk.json",
+      "producer": "writer",
+      "size": 1189,
+      "sha256": "bcd0721814970ba4c4f6adbd58be72858ce54d5e2006caf085f953c627e32139"
+    },
+    {
+      "path": "sing-box/non_ip/stream_jp.json",
+      "producer": "writer",
+      "size": 769,
+      "sha256": "d91a8669f839e7aba6fd74bdfb26ad1a9b9f55c78573e72abba7eef790c8bba0"
+    },
+    {
+      "path": "sing-box/non_ip/stream_kr.json",
+      "producer": "writer",
+      "size": 198,
+      "sha256": "4e1430e8ee8da13548ce01b44b95c95816b08f55c0e003ae5dc6d2a214873467"
+    },
+    {
+      "path": "sing-box/non_ip/stream_tw.json",
+      "producer": "writer",
+      "size": 1226,
+      "sha256": "5a32f76e04397431f74b0c81b4f1ca5d1735b9afd2bf6cfda6973c5cfca81c19"
+    },
+    {
+      "path": "sing-box/non_ip/stream_us.json",
+      "producer": "writer",
+      "size": 1359,
+      "sha256": "6911156fc94eb2819cf3df076d2b5ebaf1ff8b4fd46ee3dc97ae2694b08be2fc"
+    },
+    {
+      "path": "sing-box/non_ip/telegram.json",
+      "producer": "writer",
+      "size": 173,
+      "sha256": "69901029d8f85d9f7172ec4441a49b9edf24a1c0578f74135015cba2270d7f3b"
+    }
+  ]
+}

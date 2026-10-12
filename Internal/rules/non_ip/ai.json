@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "category": "ai",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "ai",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 1,
+        "examples": [
+          "https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/ai.conf",
+            "line": 62,
+            "text": "URL-REGEX,https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "ai",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 1,
+        "examples": [
+          "https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/ai.conf",
+            "line": 62,
+            "text": "URL-REGEX,https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

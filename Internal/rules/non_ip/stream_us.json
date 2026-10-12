@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "category": "stream_us",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "stream_us",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 9,
+        "examples": [
+          "FOX NOW*",
+          "FOXPlus*",
+          "Hulu*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_us",
+            "line": 4,
+            "text": "USER-AGENT,FOX NOW*"
+          },
+          {
+            "file": "generated:stream_us",
+            "line": 9,
+            "text": "USER-AGENT,FOXPlus*"
+          },
+          {
+            "file": "generated:stream_us",
+            "line": 15,
+            "text": "USER-AGENT,Hulu*"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "stream_us",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 9,
+        "examples": [
+          "FOX NOW*",
+          "FOXPlus*",
+          "Hulu*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_us",
+            "line": 4,
+            "text": "USER-AGENT,FOX NOW*"
+          },
+          {
+            "file": "generated:stream_us",
+            "line": 9,
+            "text": "USER-AGENT,FOXPlus*"
+          },
+          {
+            "file": "generated:stream_us",
+            "line": 15,
+            "text": "USER-AGENT,Hulu*"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

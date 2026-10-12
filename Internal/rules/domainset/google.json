@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "category": "google",
+  "partition": "domainset",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [],
+    "singbox": []
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

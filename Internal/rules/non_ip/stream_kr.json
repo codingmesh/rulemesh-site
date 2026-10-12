@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "category": "stream_kr",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "stream_kr",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "Naver TV*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_kr",
+            "line": 1,
+            "text": "USER-AGENT,Naver TV*"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "stream_kr",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "Naver TV*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_kr",
+            "line": 1,
+            "text": "USER-AGENT,Naver TV*"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

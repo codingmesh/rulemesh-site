@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "category": "stream_jp",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "stream_jp",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "AbemaTV*",
+          "Niconico*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_jp",
+            "line": 18,
+            "text": "USER-AGENT,AbemaTV*"
+          },
+          {
+            "file": "generated:stream_jp",
+            "line": 23,
+            "text": "USER-AGENT,Niconico*"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "stream_jp",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "AbemaTV*",
+          "Niconico*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_jp",
+            "line": 18,
+            "text": "USER-AGENT,AbemaTV*"
+          },
+          {
+            "file": "generated:stream_jp",
+            "line": 23,
+            "text": "USER-AGENT,Niconico*"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

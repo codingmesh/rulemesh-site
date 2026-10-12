@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "category": "global",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "global",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "Roam*"
+        ],
+        "origins": [
+          {
+            "file": "generated:global",
+            "line": 10,
+            "text": "USER-AGENT,Roam*"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "global",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "Roam*"
+        ],
+        "origins": [
+          {
+            "file": "generated:global",
+            "line": 10,
+            "text": "USER-AGENT,Roam*"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

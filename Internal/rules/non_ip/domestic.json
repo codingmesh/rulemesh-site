@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "category": "domestic",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "domestic",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 3,
+        "examples": [
+          "%E4%BC%98%E9%85%B7*",
+          "%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
+          "TeslaMap"
+        ],
+        "origins": [
+          {
+            "file": "generated:domestic",
+            "line": 1,
+            "text": "USER-AGENT,%E4%BC%98%E9%85%B7*"
+          },
+          {
+            "file": "generated:domestic",
+            "line": 2,
+            "text": "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*"
+          },
+          {
+            "file": "generated:domestic",
+            "line": 179,
+            "text": "USER-AGENT,TeslaMap"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "domestic",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 3,
+        "examples": [
+          "%E4%BC%98%E9%85%B7*",
+          "%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
+          "TeslaMap"
+        ],
+        "origins": [
+          {
+            "file": "generated:domestic",
+            "line": 1,
+            "text": "USER-AGENT,%E4%BC%98%E9%85%B7*"
+          },
+          {
+            "file": "generated:domestic",
+            "line": 2,
+            "text": "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*"
+          },
+          {
+            "file": "generated:domestic",
+            "line": 179,
+            "text": "USER-AGENT,TeslaMap"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

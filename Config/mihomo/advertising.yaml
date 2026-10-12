@@ -14,113 +14,134 @@ proxy-groups:
     proxies:
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-anthropic
     type: select
     proxies:
       - RuleMesh-ai
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-openai
     type: select
     proxies:
       - RuleMesh-ai
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-gemini
     type: select
     proxies:
       - RuleMesh-ai
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-ai-other
     type: select
     proxies:
       - RuleMesh-ai
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-social
     type: select
     proxies:
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-telegram
     type: select
     proxies:
       - RuleMesh-social
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-streaming
     type: select
     proxies:
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-youtube
     type: select
     proxies:
       - RuleMesh-streaming
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-netflix
     type: select
     proxies:
       - RuleMesh-streaming
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-developer
     type: select
     proxies:
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-apple
     type: select
     proxies:
       - DIRECT
       - RuleMesh-Nodes
+      - REPLACE-ME
   - name: RuleMesh-google
     type: select
     proxies:
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-microsoft
     type: select
     proxies:
       - DIRECT
       - RuleMesh-Nodes
+      - REPLACE-ME
   - name: RuleMesh-games
     type: select
     proxies:
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-downloads
     type: select
     proxies:
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-direct
     type: select
     proxies:
       - DIRECT
       - RuleMesh-Nodes
+      - REPLACE-ME
   - name: RuleMesh-china
     type: select
     proxies:
       - DIRECT
       - RuleMesh-Nodes
+      - REPLACE-ME
   - name: RuleMesh-private
     type: select
     proxies:
       - DIRECT
       - RuleMesh-Nodes
+      - REPLACE-ME
   - name: RuleMesh-advertising
     type: select
     proxies:
       - REJECT
       - DIRECT
+      - REPLACE-ME
   - name: RuleMesh-fallback
     type: select
     proxies:
       - RuleMesh-Nodes
       - DIRECT
+      - REPLACE-ME
 rule-providers:
   rulemesh-domainset-advertising:
     type: http
@@ -402,6 +423,13 @@ rule-providers:
     url: https://codingmesh.github.io/ruleset/Clash/domainset/apple-cn.txt
     path: ./rulemesh/rulemesh-domainset-apple-cn.txt
     interval: 86400
+  rulemesh-non_ip-apple_cn:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/apple_cn.txt
+    path: ./rulemesh/rulemesh-non_ip-apple_cn.txt
+    interval: 86400
   rulemesh-domainset-icloud:
     type: http
     behavior: domain
@@ -479,13 +507,6 @@ rule-providers:
     url: https://codingmesh.github.io/ruleset/Clash/domainset/gitlab.txt
     path: ./rulemesh/rulemesh-domainset-gitlab.txt
     interval: 86400
-  rulemesh-non_ip-gitlab:
-    type: http
-    behavior: classical
-    format: text
-    url: https://codingmesh.github.io/ruleset/Clash/non_ip/gitlab.txt
-    path: ./rulemesh/rulemesh-non_ip-gitlab.txt
-    interval: 86400
   rulemesh-domainset-jetbrains:
     type: http
     behavior: domain
@@ -506,6 +527,13 @@ rule-providers:
     format: text
     url: https://codingmesh.github.io/ruleset/Clash/domainset/steam-cn.txt
     path: ./rulemesh/rulemesh-domainset-steam-cn.txt
+    interval: 86400
+  rulemesh-domainset-game-download:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/game-download.txt
+    path: ./rulemesh/rulemesh-domainset-game-download.txt
     interval: 86400
   rulemesh-domainset-game-downloads:
     type: http
@@ -710,26 +738,12 @@ rule-providers:
     url: https://codingmesh.github.io/ruleset/Clash/domainset/apple_cdn.txt
     path: ./rulemesh/rulemesh-domainset-apple_cdn.txt
     interval: 86400
-  rulemesh-non_ip-apple_cn:
-    type: http
-    behavior: classical
-    format: text
-    url: https://codingmesh.github.io/ruleset/Clash/non_ip/apple_cn.txt
-    path: ./rulemesh/rulemesh-non_ip-apple_cn.txt
-    interval: 86400
   rulemesh-non_ip-apple_services:
     type: http
     behavior: classical
     format: text
     url: https://codingmesh.github.io/ruleset/Clash/non_ip/apple_services.txt
     path: ./rulemesh/rulemesh-non_ip-apple_services.txt
-    interval: 86400
-  rulemesh-domainset-game-download:
-    type: http
-    behavior: domain
-    format: text
-    url: https://codingmesh.github.io/ruleset/Clash/domainset/game-download.txt
-    path: ./rulemesh/rulemesh-domainset-game-download.txt
     interval: 86400
   rulemesh-domainset-icloud_private_relay:
     type: http
@@ -843,13 +857,6 @@ rule-providers:
     url: https://codingmesh.github.io/ruleset/Clash/ip/ai.txt
     path: ./rulemesh/rulemesh-ip-ai.txt
     interval: 86400
-  rulemesh-ip-telegram:
-    type: http
-    behavior: classical
-    format: text
-    url: https://codingmesh.github.io/ruleset/Clash/ip/telegram.txt
-    path: ./rulemesh/rulemesh-ip-telegram.txt
-    interval: 86400
   rulemesh-ip-telegram-no-resolve:
     type: http
     behavior: classical
@@ -870,6 +877,13 @@ rule-providers:
     format: text
     url: https://codingmesh.github.io/ruleset/Clash/ip/cdn.txt
     path: ./rulemesh/rulemesh-ip-cdn.txt
+    interval: 86400
+  rulemesh-ip-china:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/china.txt
+    path: ./rulemesh/rulemesh-ip-china.txt
     interval: 86400
   rulemesh-ip-domestic:
     type: http
@@ -996,6 +1010,7 @@ rules:
   - RULE-SET,rulemesh-domainset-bilibili-intl,RuleMesh-streaming
   - RULE-SET,rulemesh-domainset-bilibili,RuleMesh-china
   - RULE-SET,rulemesh-domainset-apple-cn,RuleMesh-china
+  - RULE-SET,rulemesh-non_ip-apple_cn,RuleMesh-china
   - RULE-SET,rulemesh-domainset-icloud,RuleMesh-apple
   - RULE-SET,rulemesh-domainset-apple-music,RuleMesh-apple
   - RULE-SET,rulemesh-domainset-apple-tv,RuleMesh-apple
@@ -1007,10 +1022,10 @@ rules:
   - RULE-SET,rulemesh-domainset-docker,RuleMesh-developer
   - RULE-SET,rulemesh-domainset-github,RuleMesh-developer
   - RULE-SET,rulemesh-domainset-gitlab,RuleMesh-developer
-  - RULE-SET,rulemesh-non_ip-gitlab,RuleMesh-developer
   - RULE-SET,rulemesh-domainset-jetbrains,RuleMesh-developer
   - RULE-SET,rulemesh-domainset-developer,RuleMesh-developer
   - RULE-SET,rulemesh-domainset-steam-cn,RuleMesh-china
+  - RULE-SET,rulemesh-domainset-game-download,RuleMesh-downloads
   - RULE-SET,rulemesh-domainset-game-downloads,RuleMesh-downloads
   - RULE-SET,rulemesh-domainset-steam,RuleMesh-games
   - RULE-SET,rulemesh-domainset-epic-games,RuleMesh-games
@@ -1040,9 +1055,7 @@ rules:
   - RULE-SET,rulemesh-non_ip-neteasemusic,RuleMesh-china
   - RULE-SET,rulemesh-non_ip-sogouinput,RuleMesh-china
   - RULE-SET,rulemesh-domainset-apple_cdn,RuleMesh-apple
-  - RULE-SET,rulemesh-non_ip-apple_cn,RuleMesh-china
   - RULE-SET,rulemesh-non_ip-apple_services,RuleMesh-apple
-  - RULE-SET,rulemesh-domainset-game-download,RuleMesh-downloads
   - RULE-SET,rulemesh-domainset-icloud_private_relay,RuleMesh-apple
   - RULE-SET,rulemesh-non_ip-stream,RuleMesh-streaming
   - RULE-SET,rulemesh-non_ip-stream_eu,RuleMesh-streaming
@@ -1059,10 +1072,10 @@ rules:
   - RULE-SET,rulemesh-ip-private-resolve,RuleMesh-private
   - RULE-SET,rulemesh-ip-openai-no-resolve,RuleMesh-openai
   - RULE-SET,rulemesh-ip-ai,RuleMesh-ai-other
-  - RULE-SET,rulemesh-ip-telegram,RuleMesh-telegram
   - RULE-SET,rulemesh-ip-telegram-no-resolve,RuleMesh-telegram
   - RULE-SET,rulemesh-ip-download,RuleMesh-downloads
   - RULE-SET,rulemesh-ip-cdn,RuleMesh-downloads
+  - RULE-SET,rulemesh-ip-china,RuleMesh-china
   - RULE-SET,rulemesh-ip-domestic,RuleMesh-china
   - RULE-SET,rulemesh-ip-neteasemusic,RuleMesh-china
   - RULE-SET,rulemesh-ip-apple_services,RuleMesh-apple

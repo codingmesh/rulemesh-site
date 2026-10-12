@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "category": "neteasemusic",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "neteasemusic",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90",
+          "NeteaseMusic*"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/neteasemusic.conf",
+            "line": 4,
+            "text": "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90"
+          },
+          {
+            "file": "Source/non_ip/neteasemusic.conf",
+            "line": 5,
+            "text": "USER-AGENT,NeteaseMusic*"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "neteasemusic",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90",
+          "NeteaseMusic*"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/neteasemusic.conf",
+            "line": 4,
+            "text": "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90"
+          },
+          {
+            "file": "Source/non_ip/neteasemusic.conf",
+            "line": 5,
+            "text": "USER-AGENT,NeteaseMusic*"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

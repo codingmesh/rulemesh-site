@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "category": "neteasemusic",
+  "partition": "ip",
+  "resolutionMode": "existing-only",
+  "targets": {
+    "mihomo": [],
+    "singbox": []
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

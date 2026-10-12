@@ -9,9 +9,26 @@
         "type": "URL-REGEX",
         "count": 3,
         "examples": [
-          "URL-REGEX,/igd\\.xml",
-          "URL-REGEX,/\\d+/resolve",
-          "URL-REGEX,/\\d+/sign_d"
+          "/igd\\.xml",
+          "/\\d+/resolve",
+          "/\\d+/sign_d"
+        ],
+        "origins": [
+          {
+            "file": "generated:reject",
+            "line": 203,
+            "text": "URL-REGEX,/igd\\.xml"
+          },
+          {
+            "file": "generated:reject",
+            "line": 240,
+            "text": "URL-REGEX,/\\d+/resolve"
+          },
+          {
+            "file": "generated:reject",
+            "line": 338,
+            "text": "URL-REGEX,/\\d+/sign_d"
+          }
         ]
       },
       {
@@ -21,6 +38,13 @@
         "count": 1,
         "examples": [
           "AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/reject-no-drop.conf",
+            "line": 61,
+            "text": "AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))"
+          }
         ]
       },
       {
@@ -29,9 +53,26 @@
         "type": "URL-REGEX",
         "count": 176,
         "examples": [
-          "URL-REGEX,^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite",
-          "URL-REGEX,^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)",
-          "URL-REGEX,^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+          "^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite",
+          "^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)",
+          "^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 13,
+            "text": "URL-REGEX,^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite"
+          },
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 23,
+            "text": "URL-REGEX,^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)"
+          },
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 26,
+            "text": "URL-REGEX,^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+          }
         ]
       },
       {
@@ -40,7 +81,14 @@
         "type": "USER-AGENT",
         "count": 1,
         "examples": [
-          "USER-AGENT,%E8%BF%85%E9%9B%B7"
+          "%E8%BF%85%E9%9B%B7"
+        ],
+        "origins": [
+          {
+            "file": "generated:direct",
+            "line": 34,
+            "text": "USER-AGENT,%E8%BF%85%E9%9B%B7"
+          }
         ]
       },
       {
@@ -49,7 +97,14 @@
         "type": "URL-REGEX",
         "count": 1,
         "examples": [
-          "URL-REGEX,https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+          "https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/ai.conf",
+            "line": 62,
+            "text": "URL-REGEX,https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+          }
         ]
       },
       {
@@ -58,8 +113,20 @@
         "type": "URL-REGEX",
         "count": 2,
         "examples": [
-          "URL-REGEX,^http://www\\.microsoft\\.com/pki/",
-          "URL-REGEX,^http://www\\.microsoft\\.com/pkiops/"
+          "^http://www\\.microsoft\\.com/pki/",
+          "^http://www\\.microsoft\\.com/pkiops/"
+        ],
+        "origins": [
+          {
+            "file": "generated:microsoft_cdn",
+            "line": 1,
+            "text": "URL-REGEX,^http://www\\.microsoft\\.com/pki/"
+          },
+          {
+            "file": "generated:microsoft_cdn",
+            "line": 2,
+            "text": "URL-REGEX,^http://www\\.microsoft\\.com/pkiops/"
+          }
         ]
       },
       {
@@ -68,7 +135,14 @@
         "type": "URL-REGEX",
         "count": 1,
         "examples": [
-          "URL-REGEX,^http://(.+)\\.gvt\\d\\.com/edgedl"
+          "^http://(.+)\\.gvt\\d\\.com/edgedl"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/download.conf",
+            "line": 21,
+            "text": "URL-REGEX,^http://(.+)\\.gvt\\d\\.com/edgedl"
+          }
         ]
       },
       {
@@ -80,6 +154,23 @@
           "AND,((DOMAIN-SUFFIX,sharepoint.com),(PROCESS-NAME,*CloudMounter))",
           "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,10.0.0.0/8))",
           "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,172.16.0.0/12))"
+        ],
+        "origins": [
+          {
+            "file": "generated:cloudmounter",
+            "line": 1,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(PROCESS-NAME,*CloudMounter))"
+          },
+          {
+            "file": "generated:cloudmounter",
+            "line": 2,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,10.0.0.0/8))"
+          },
+          {
+            "file": "generated:cloudmounter",
+            "line": 3,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,172.16.0.0/12))"
+          }
         ]
       },
       {
@@ -88,9 +179,26 @@
         "type": "USER-AGENT",
         "count": 3,
         "examples": [
-          "USER-AGENT,%E4%BC%98%E9%85%B7*",
-          "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
-          "USER-AGENT,TeslaMap"
+          "%E4%BC%98%E9%85%B7*",
+          "%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
+          "TeslaMap"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/china.conf",
+            "line": 6,
+            "text": "USER-AGENT,%E4%BC%98%E9%85%B7*"
+          },
+          {
+            "file": "Source/non_ip/china.conf",
+            "line": 7,
+            "text": "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*"
+          },
+          {
+            "file": "Source/non_ip/china.conf",
+            "line": 8,
+            "text": "USER-AGENT,TeslaMap"
+          }
         ]
       },
       {
@@ -99,9 +207,26 @@
         "type": "USER-AGENT",
         "count": 3,
         "examples": [
-          "USER-AGENT,%E4%BC%98%E9%85%B7*",
-          "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
-          "USER-AGENT,TeslaMap"
+          "%E4%BC%98%E9%85%B7*",
+          "%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
+          "TeslaMap"
+        ],
+        "origins": [
+          {
+            "file": "generated:domestic",
+            "line": 1,
+            "text": "USER-AGENT,%E4%BC%98%E9%85%B7*"
+          },
+          {
+            "file": "generated:domestic",
+            "line": 2,
+            "text": "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*"
+          },
+          {
+            "file": "generated:domestic",
+            "line": 179,
+            "text": "USER-AGENT,TeslaMap"
+          }
         ]
       },
       {
@@ -110,8 +235,20 @@
         "type": "USER-AGENT",
         "count": 2,
         "examples": [
-          "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90",
-          "USER-AGENT,NeteaseMusic*"
+          "%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90",
+          "NeteaseMusic*"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/neteasemusic.conf",
+            "line": 4,
+            "text": "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90"
+          },
+          {
+            "file": "Source/non_ip/neteasemusic.conf",
+            "line": 5,
+            "text": "USER-AGENT,NeteaseMusic*"
+          }
         ]
       },
       {
@@ -120,8 +257,20 @@
         "type": "USER-AGENT",
         "count": 2,
         "examples": [
-          "USER-AGENT,SogouInput",
-          "USER-AGENT,com.sogou.sogouinput.BaseKeyboard"
+          "SogouInput",
+          "com.sogou.sogouinput.BaseKeyboard"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/sogouinput.conf",
+            "line": 7,
+            "text": "USER-AGENT,SogouInput"
+          },
+          {
+            "file": "Source/non_ip/sogouinput.conf",
+            "line": 8,
+            "text": "USER-AGENT,com.sogou.sogouinput.BaseKeyboard"
+          }
         ]
       },
       {
@@ -130,9 +279,26 @@
         "type": "USER-AGENT",
         "count": 49,
         "examples": [
-          "USER-AGENT,AbemaTV*",
-          "USER-AGENT,InstantVideo.US*",
-          "USER-AGENT,Prime Video*"
+          "AbemaTV*",
+          "InstantVideo.US*",
+          "Prime Video*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream",
+            "line": 17,
+            "text": "USER-AGENT,AbemaTV*"
+          },
+          {
+            "file": "generated:stream",
+            "line": 44,
+            "text": "USER-AGENT,InstantVideo.US*"
+          },
+          {
+            "file": "generated:stream",
+            "line": 45,
+            "text": "USER-AGENT,Prime Video*"
+          }
         ]
       },
       {
@@ -141,8 +307,20 @@
         "type": "USER-AGENT",
         "count": 2,
         "examples": [
-          "USER-AGENT,ITV_Player*",
-          "USER-AGENT,BBCiPlayer*"
+          "ITV_Player*",
+          "BBCiPlayer*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_eu",
+            "line": 3,
+            "text": "USER-AGENT,ITV_Player*"
+          },
+          {
+            "file": "generated:stream_eu",
+            "line": 10,
+            "text": "USER-AGENT,BBCiPlayer*"
+          }
         ]
       },
       {
@@ -151,8 +329,20 @@
         "type": "USER-AGENT",
         "count": 2,
         "examples": [
-          "USER-AGENT,Viu*",
-          "USER-AGENT,mytv*"
+          "Viu*",
+          "mytv*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_hk",
+            "line": 13,
+            "text": "USER-AGENT,Viu*"
+          },
+          {
+            "file": "generated:stream_hk",
+            "line": 17,
+            "text": "USER-AGENT,mytv*"
+          }
         ]
       },
       {
@@ -161,8 +351,20 @@
         "type": "USER-AGENT",
         "count": 2,
         "examples": [
-          "USER-AGENT,AbemaTV*",
-          "USER-AGENT,Niconico*"
+          "AbemaTV*",
+          "Niconico*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_jp",
+            "line": 18,
+            "text": "USER-AGENT,AbemaTV*"
+          },
+          {
+            "file": "generated:stream_jp",
+            "line": 23,
+            "text": "USER-AGENT,Niconico*"
+          }
         ]
       },
       {
@@ -171,7 +373,14 @@
         "type": "USER-AGENT",
         "count": 1,
         "examples": [
-          "USER-AGENT,Naver TV*"
+          "Naver TV*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_kr",
+            "line": 1,
+            "text": "USER-AGENT,Naver TV*"
+          }
         ]
       },
       {
@@ -180,9 +389,26 @@
         "type": "USER-AGENT",
         "count": 4,
         "examples": [
-          "USER-AGENT,com.kktv.ios.kktv*",
-          "USER-AGENT,KKTV*",
-          "USER-AGENT,LINE TV*"
+          "com.kktv.ios.kktv*",
+          "KKTV*",
+          "LINE TV*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_tw",
+            "line": 4,
+            "text": "USER-AGENT,com.kktv.ios.kktv*"
+          },
+          {
+            "file": "generated:stream_tw",
+            "line": 5,
+            "text": "USER-AGENT,KKTV*"
+          },
+          {
+            "file": "generated:stream_tw",
+            "line": 14,
+            "text": "USER-AGENT,LINE TV*"
+          }
         ]
       },
       {
@@ -191,9 +417,26 @@
         "type": "USER-AGENT",
         "count": 9,
         "examples": [
-          "USER-AGENT,FOX NOW*",
-          "USER-AGENT,FOXPlus*",
-          "USER-AGENT,Hulu*"
+          "FOX NOW*",
+          "FOXPlus*",
+          "Hulu*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_us",
+            "line": 4,
+            "text": "USER-AGENT,FOX NOW*"
+          },
+          {
+            "file": "generated:stream_us",
+            "line": 9,
+            "text": "USER-AGENT,FOXPlus*"
+          },
+          {
+            "file": "generated:stream_us",
+            "line": 15,
+            "text": "USER-AGENT,Hulu*"
+          }
         ]
       },
       {
@@ -202,7 +445,14 @@
         "type": "USER-AGENT",
         "count": 1,
         "examples": [
-          "USER-AGENT,Roam*"
+          "Roam*"
+        ],
+        "origins": [
+          {
+            "file": "generated:global",
+            "line": 10,
+            "text": "USER-AGENT,Roam*"
+          }
         ]
       }
     ],
@@ -213,9 +463,26 @@
         "type": "URL-REGEX",
         "count": 3,
         "examples": [
-          "URL-REGEX,/igd\\.xml",
-          "URL-REGEX,/\\d+/resolve",
-          "URL-REGEX,/\\d+/sign_d"
+          "/igd\\.xml",
+          "/\\d+/resolve",
+          "/\\d+/sign_d"
+        ],
+        "origins": [
+          {
+            "file": "generated:reject",
+            "line": 203,
+            "text": "URL-REGEX,/igd\\.xml"
+          },
+          {
+            "file": "generated:reject",
+            "line": 240,
+            "text": "URL-REGEX,/\\d+/resolve"
+          },
+          {
+            "file": "generated:reject",
+            "line": 338,
+            "text": "URL-REGEX,/\\d+/sign_d"
+          }
         ]
       },
       {
@@ -225,6 +492,13 @@
         "count": 1,
         "examples": [
           "AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/reject-no-drop.conf",
+            "line": 61,
+            "text": "AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))"
+          }
         ]
       },
       {
@@ -233,9 +507,26 @@
         "type": "URL-REGEX",
         "count": 176,
         "examples": [
-          "URL-REGEX,^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite",
-          "URL-REGEX,^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)",
-          "URL-REGEX,^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+          "^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite",
+          "^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)",
+          "^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 13,
+            "text": "URL-REGEX,^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite"
+          },
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 23,
+            "text": "URL-REGEX,^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)"
+          },
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 26,
+            "text": "URL-REGEX,^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+          }
         ]
       },
       {
@@ -244,7 +535,14 @@
         "type": "USER-AGENT",
         "count": 1,
         "examples": [
-          "USER-AGENT,%E8%BF%85%E9%9B%B7"
+          "%E8%BF%85%E9%9B%B7"
+        ],
+        "origins": [
+          {
+            "file": "generated:direct",
+            "line": 34,
+            "text": "USER-AGENT,%E8%BF%85%E9%9B%B7"
+          }
         ]
       },
       {
@@ -253,7 +551,24 @@
         "type": "PROCESS-NAME-WILDCARD",
         "count": 1,
         "examples": [
-          "PROCESS-NAME,qbittorrent*"
+          "qbittorrent*"
+        ],
+        "origins": [
+          {
+            "file": "generated:direct",
+            "line": 5,
+            "text": "PROCESS-NAME,v2ray"
+          },
+          {
+            "file": "generated:direct",
+            "line": 6,
+            "text": "PROCESS-NAME,xray"
+          },
+          {
+            "file": "generated:direct",
+            "line": 7,
+            "text": "PROCESS-NAME,ss-local"
+          }
         ]
       },
       {
@@ -262,7 +577,14 @@
         "type": "URL-REGEX",
         "count": 1,
         "examples": [
-          "URL-REGEX,https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+          "https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/ai.conf",
+            "line": 62,
+            "text": "URL-REGEX,https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+          }
         ]
       },
       {
@@ -271,8 +593,20 @@
         "type": "URL-REGEX",
         "count": 2,
         "examples": [
-          "URL-REGEX,^http://www\\.microsoft\\.com/pki/",
-          "URL-REGEX,^http://www\\.microsoft\\.com/pkiops/"
+          "^http://www\\.microsoft\\.com/pki/",
+          "^http://www\\.microsoft\\.com/pkiops/"
+        ],
+        "origins": [
+          {
+            "file": "generated:microsoft_cdn",
+            "line": 1,
+            "text": "URL-REGEX,^http://www\\.microsoft\\.com/pki/"
+          },
+          {
+            "file": "generated:microsoft_cdn",
+            "line": 2,
+            "text": "URL-REGEX,^http://www\\.microsoft\\.com/pkiops/"
+          }
         ]
       },
       {
@@ -281,7 +615,14 @@
         "type": "URL-REGEX",
         "count": 1,
         "examples": [
-          "URL-REGEX,^http://(.+)\\.gvt\\d\\.com/edgedl"
+          "^http://(.+)\\.gvt\\d\\.com/edgedl"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/download.conf",
+            "line": 21,
+            "text": "URL-REGEX,^http://(.+)\\.gvt\\d\\.com/edgedl"
+          }
         ]
       },
       {
@@ -293,6 +634,23 @@
           "AND,((DOMAIN-SUFFIX,sharepoint.com),(PROCESS-NAME,*CloudMounter))",
           "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,10.0.0.0/8))",
           "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,172.16.0.0/12))"
+        ],
+        "origins": [
+          {
+            "file": "generated:cloudmounter",
+            "line": 1,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(PROCESS-NAME,*CloudMounter))"
+          },
+          {
+            "file": "generated:cloudmounter",
+            "line": 2,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,10.0.0.0/8))"
+          },
+          {
+            "file": "generated:cloudmounter",
+            "line": 3,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,172.16.0.0/12))"
+          }
         ]
       },
       {
@@ -301,9 +659,26 @@
         "type": "USER-AGENT",
         "count": 3,
         "examples": [
-          "USER-AGENT,%E4%BC%98%E9%85%B7*",
-          "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
-          "USER-AGENT,TeslaMap"
+          "%E4%BC%98%E9%85%B7*",
+          "%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
+          "TeslaMap"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/china.conf",
+            "line": 6,
+            "text": "USER-AGENT,%E4%BC%98%E9%85%B7*"
+          },
+          {
+            "file": "Source/non_ip/china.conf",
+            "line": 7,
+            "text": "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*"
+          },
+          {
+            "file": "Source/non_ip/china.conf",
+            "line": 8,
+            "text": "USER-AGENT,TeslaMap"
+          }
         ]
       },
       {
@@ -312,9 +687,26 @@
         "type": "USER-AGENT",
         "count": 3,
         "examples": [
-          "USER-AGENT,%E4%BC%98%E9%85%B7*",
-          "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
-          "USER-AGENT,TeslaMap"
+          "%E4%BC%98%E9%85%B7*",
+          "%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
+          "TeslaMap"
+        ],
+        "origins": [
+          {
+            "file": "generated:domestic",
+            "line": 1,
+            "text": "USER-AGENT,%E4%BC%98%E9%85%B7*"
+          },
+          {
+            "file": "generated:domestic",
+            "line": 2,
+            "text": "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*"
+          },
+          {
+            "file": "generated:domestic",
+            "line": 179,
+            "text": "USER-AGENT,TeslaMap"
+          }
         ]
       },
       {
@@ -323,8 +715,20 @@
         "type": "USER-AGENT",
         "count": 2,
         "examples": [
-          "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90",
-          "USER-AGENT,NeteaseMusic*"
+          "%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90",
+          "NeteaseMusic*"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/neteasemusic.conf",
+            "line": 4,
+            "text": "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90"
+          },
+          {
+            "file": "Source/non_ip/neteasemusic.conf",
+            "line": 5,
+            "text": "USER-AGENT,NeteaseMusic*"
+          }
         ]
       },
       {
@@ -333,8 +737,20 @@
         "type": "USER-AGENT",
         "count": 2,
         "examples": [
-          "USER-AGENT,SogouInput",
-          "USER-AGENT,com.sogou.sogouinput.BaseKeyboard"
+          "SogouInput",
+          "com.sogou.sogouinput.BaseKeyboard"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/sogouinput.conf",
+            "line": 7,
+            "text": "USER-AGENT,SogouInput"
+          },
+          {
+            "file": "Source/non_ip/sogouinput.conf",
+            "line": 8,
+            "text": "USER-AGENT,com.sogou.sogouinput.BaseKeyboard"
+          }
         ]
       },
       {
@@ -343,9 +759,26 @@
         "type": "USER-AGENT",
         "count": 49,
         "examples": [
-          "USER-AGENT,AbemaTV*",
-          "USER-AGENT,InstantVideo.US*",
-          "USER-AGENT,Prime Video*"
+          "AbemaTV*",
+          "InstantVideo.US*",
+          "Prime Video*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream",
+            "line": 17,
+            "text": "USER-AGENT,AbemaTV*"
+          },
+          {
+            "file": "generated:stream",
+            "line": 44,
+            "text": "USER-AGENT,InstantVideo.US*"
+          },
+          {
+            "file": "generated:stream",
+            "line": 45,
+            "text": "USER-AGENT,Prime Video*"
+          }
         ]
       },
       {
@@ -354,8 +787,20 @@
         "type": "USER-AGENT",
         "count": 2,
         "examples": [
-          "USER-AGENT,ITV_Player*",
-          "USER-AGENT,BBCiPlayer*"
+          "ITV_Player*",
+          "BBCiPlayer*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_eu",
+            "line": 3,
+            "text": "USER-AGENT,ITV_Player*"
+          },
+          {
+            "file": "generated:stream_eu",
+            "line": 10,
+            "text": "USER-AGENT,BBCiPlayer*"
+          }
         ]
       },
       {
@@ -364,8 +809,20 @@
         "type": "USER-AGENT",
         "count": 2,
         "examples": [
-          "USER-AGENT,Viu*",
-          "USER-AGENT,mytv*"
+          "Viu*",
+          "mytv*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_hk",
+            "line": 13,
+            "text": "USER-AGENT,Viu*"
+          },
+          {
+            "file": "generated:stream_hk",
+            "line": 17,
+            "text": "USER-AGENT,mytv*"
+          }
         ]
       },
       {
@@ -374,8 +831,20 @@
         "type": "USER-AGENT",
         "count": 2,
         "examples": [
-          "USER-AGENT,AbemaTV*",
-          "USER-AGENT,Niconico*"
+          "AbemaTV*",
+          "Niconico*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_jp",
+            "line": 18,
+            "text": "USER-AGENT,AbemaTV*"
+          },
+          {
+            "file": "generated:stream_jp",
+            "line": 23,
+            "text": "USER-AGENT,Niconico*"
+          }
         ]
       },
       {
@@ -384,7 +853,14 @@
         "type": "USER-AGENT",
         "count": 1,
         "examples": [
-          "USER-AGENT,Naver TV*"
+          "Naver TV*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_kr",
+            "line": 1,
+            "text": "USER-AGENT,Naver TV*"
+          }
         ]
       },
       {
@@ -393,9 +869,26 @@
         "type": "USER-AGENT",
         "count": 4,
         "examples": [
-          "USER-AGENT,com.kktv.ios.kktv*",
-          "USER-AGENT,KKTV*",
-          "USER-AGENT,LINE TV*"
+          "com.kktv.ios.kktv*",
+          "KKTV*",
+          "LINE TV*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_tw",
+            "line": 4,
+            "text": "USER-AGENT,com.kktv.ios.kktv*"
+          },
+          {
+            "file": "generated:stream_tw",
+            "line": 5,
+            "text": "USER-AGENT,KKTV*"
+          },
+          {
+            "file": "generated:stream_tw",
+            "line": 14,
+            "text": "USER-AGENT,LINE TV*"
+          }
         ]
       },
       {
@@ -404,9 +897,26 @@
         "type": "USER-AGENT",
         "count": 9,
         "examples": [
-          "USER-AGENT,FOX NOW*",
-          "USER-AGENT,FOXPlus*",
-          "USER-AGENT,Hulu*"
+          "FOX NOW*",
+          "FOXPlus*",
+          "Hulu*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_us",
+            "line": 4,
+            "text": "USER-AGENT,FOX NOW*"
+          },
+          {
+            "file": "generated:stream_us",
+            "line": 9,
+            "text": "USER-AGENT,FOXPlus*"
+          },
+          {
+            "file": "generated:stream_us",
+            "line": 15,
+            "text": "USER-AGENT,Hulu*"
+          }
         ]
       },
       {
@@ -415,7 +925,14 @@
         "type": "USER-AGENT",
         "count": 1,
         "examples": [
-          "USER-AGENT,Roam*"
+          "Roam*"
+        ],
+        "origins": [
+          {
+            "file": "generated:global",
+            "line": 10,
+            "text": "USER-AGENT,Roam*"
+          }
         ]
       },
       {
@@ -424,10 +941,11 @@
         "type": "IP-ASN",
         "count": 15,
         "examples": [
-          "IP-ASN,1012",
-          "IP-ASN,945",
-          "IP-ASN,401111"
-        ]
+          "1012",
+          "945",
+          "401111"
+        ],
+        "origins": []
       },
       {
         "category": "reject",
@@ -436,6 +954,23 @@
         "count": 1,
         "examples": [
           "Mixed no-resolve and resolve-allowed inputs are conservatively evaluated before DNS resolution."
+        ],
+        "origins": [
+          {
+            "file": "generated:reject",
+            "line": 1,
+            "text": "IP-CIDR,169.254.169.254/32,no-resolve"
+          },
+          {
+            "file": "generated:reject",
+            "line": 2,
+            "text": "IP-CIDR,0.0.0.0/24"
+          },
+          {
+            "file": "generated:reject",
+            "line": 3,
+            "text": "IP-CIDR,101.227.97.240/32,no-resolve"
+          }
         ]
       },
       {
@@ -444,7 +979,14 @@
         "type": "IP-ASN",
         "count": 1,
         "examples": [
-          "IP-ASN,399358"
+          "399358"
+        ],
+        "origins": [
+          {
+            "file": "generated:ai",
+            "line": 1,
+            "text": "IP-ASN,399358"
+          }
         ]
       },
       {
@@ -454,6 +996,13 @@
         "count": 1,
         "examples": [
           "Mixed no-resolve and resolve-allowed inputs are conservatively evaluated before DNS resolution."
+        ],
+        "origins": [
+          {
+            "file": "generated:ai",
+            "line": 1,
+            "text": "IP-ASN,399358"
+          }
         ]
       },
       {
@@ -462,9 +1011,26 @@
         "type": "IP-ASN",
         "count": 5,
         "examples": [
-          "IP-ASN,62041",
-          "IP-ASN,62014",
-          "IP-ASN,59930"
+          "62041",
+          "62014",
+          "59930"
+        ],
+        "origins": [
+          {
+            "file": "Source/ip/telegram_asn.conf",
+            "line": 6,
+            "text": "IP-ASN,62041"
+          },
+          {
+            "file": "Source/ip/telegram_asn.conf",
+            "line": 8,
+            "text": "IP-ASN,62014"
+          },
+          {
+            "file": "Source/ip/telegram_asn.conf",
+            "line": 10,
+            "text": "IP-ASN,59930"
+          }
         ]
       }
     ]

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "category": "epic-games",
+  "partition": "domainset",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [],
+    "singbox": []
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

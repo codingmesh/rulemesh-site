@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "category": "stream_tw",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "stream_tw",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 4,
+        "examples": [
+          "com.kktv.ios.kktv*",
+          "KKTV*",
+          "LINE TV*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_tw",
+            "line": 4,
+            "text": "USER-AGENT,com.kktv.ios.kktv*"
+          },
+          {
+            "file": "generated:stream_tw",
+            "line": 5,
+            "text": "USER-AGENT,KKTV*"
+          },
+          {
+            "file": "generated:stream_tw",
+            "line": 14,
+            "text": "USER-AGENT,LINE TV*"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "stream_tw",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 4,
+        "examples": [
+          "com.kktv.ios.kktv*",
+          "KKTV*",
+          "LINE TV*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_tw",
+            "line": 4,
+            "text": "USER-AGENT,com.kktv.ios.kktv*"
+          },
+          {
+            "file": "generated:stream_tw",
+            "line": 5,
+            "text": "USER-AGENT,KKTV*"
+          },
+          {
+            "file": "generated:stream_tw",
+            "line": 14,
+            "text": "USER-AGENT,LINE TV*"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "category": "stream_eu",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "stream_eu",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "ITV_Player*",
+          "BBCiPlayer*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_eu",
+            "line": 3,
+            "text": "USER-AGENT,ITV_Player*"
+          },
+          {
+            "file": "generated:stream_eu",
+            "line": 10,
+            "text": "USER-AGENT,BBCiPlayer*"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "stream_eu",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "ITV_Player*",
+          "BBCiPlayer*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_eu",
+            "line": 3,
+            "text": "USER-AGENT,ITV_Player*"
+          },
+          {
+            "file": "generated:stream_eu",
+            "line": 10,
+            "text": "USER-AGENT,BBCiPlayer*"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

@@ -13,7 +13,9 @@
         "pinyin.sogou.com",
         "shouji.sogou.com",
         "account.sogou.com"
-      ],
+      ]
+    },
+    {
       "process_name": ["SogouInput", "SogouTaskManager", "SogouServices"]
     }
   ]

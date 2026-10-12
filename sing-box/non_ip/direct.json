@@ -191,7 +191,9 @@
         "elsevier",
         "deepdyve",
         "els-cdn"
-      ],
+      ]
+    },
+    {
       "process_name": [
         "v2ray",
         "xray",

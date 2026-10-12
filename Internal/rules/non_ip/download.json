@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "category": "download",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "download",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 1,
+        "examples": [
+          "^http://(.+)\\.gvt\\d\\.com/edgedl"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/download.conf",
+            "line": 21,
+            "text": "URL-REGEX,^http://(.+)\\.gvt\\d\\.com/edgedl"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "download",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 1,
+        "examples": [
+          "^http://(.+)\\.gvt\\d\\.com/edgedl"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/download.conf",
+            "line": 21,
+            "text": "URL-REGEX,^http://(.+)\\.gvt\\d\\.com/edgedl"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

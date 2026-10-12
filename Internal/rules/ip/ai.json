@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "category": "ai",
+  "partition": "ip",
+  "resolutionMode": "mixed-existing-only",
+  "targets": {
+    "mihomo": [],
+    "singbox": [
+      {
+        "category": "ai",
+        "partition": "ip",
+        "type": "IP-ASN",
+        "count": 1,
+        "examples": [
+          "399358"
+        ],
+        "origins": [
+          {
+            "file": "generated:ai",
+            "line": 1,
+            "text": "IP-ASN,399358"
+          }
+        ]
+      },
+      {
+        "category": "ai",
+        "partition": "ip",
+        "type": "MIXED-RESOLUTION",
+        "count": 1,
+        "examples": [
+          "Mixed no-resolve and resolve-allowed inputs are conservatively evaluated before DNS resolution."
+        ],
+        "origins": [
+          {
+            "file": "generated:ai",
+            "line": 1,
+            "text": "IP-ASN,399358"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

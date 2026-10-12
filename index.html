@@ -563,7 +563,7 @@
       }
       .site-nav { display:flex; flex-wrap:wrap; gap:.6rem; margin-bottom:2.5rem }
       .site-nav a, .client-switch button { border:1px solid var(--muted-border-color); border-radius:.5rem; color:var(--color); padding:.5rem .8rem; text-decoration:none; background:transparent; cursor:pointer }
-      .site-nav a[aria-current=page], .client-switch button[aria-selected=true] { background:var(--primary); border-color:var(--primary); color:var(--primary-inverse) }
+      .site-nav a[aria-current=page], .client-switch button[aria-selected=true] { background:#08749d; border-color:#08749d; color:#fff }
       [data-view][hidden], [data-client-panel][hidden] { display:none }
       .intro { max-width:48rem; color:var(--color) }
       .entry-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(14rem,1fr)); gap:1rem; margin:2rem 0 }
@@ -571,13 +571,13 @@
       .entry h2 { margin-bottom:.5rem }
       .client-switch { display:flex; flex-wrap:wrap; gap:.5rem; margin:1.5rem 0 }
       .actions { display:flex; flex-wrap:wrap; gap:.65rem; margin:1rem 0 }
-      .actions a, .actions button { border:0; border-radius:.5rem; background:var(--primary); color:var(--primary-inverse); padding:.55rem .85rem; text-decoration:none }
+      .actions a, .actions button { border:0; border-radius:.5rem; background:#08749d; color:#fff; padding:.55rem .85rem; text-decoration:none }
       .actions a.secondary, .actions button.secondary { background:var(--secondary); color:var(--secondary-inverse) }
       .artifact-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(16rem,1fr)); gap:1rem; margin:1rem 0 1.5rem }
       .artifact { border:1px solid var(--muted-border-color); border-radius:.65rem; padding:1rem }
       .artifact h4 { margin:0 0 .4rem }
       .artifact p { margin:.35rem 0 }
-      .path { display:block; color:var(--muted-color); font-size:.85rem }
+      .path { display:block; color:var(--color); font-size:.85rem }
       .validated { color:var(--ins-color); font-weight:700 }
       .import-composed { border-top:1px solid var(--muted-border-color); margin-top:1.25rem; padding-top:1rem }
       .import-composed label { display:block; font-weight:700 }
@@ -590,7 +590,7 @@
         <main class="container">
           <h1>RuleMesh</h1>
           <nav class="site-nav" aria-label="RuleMesh sections"><a href="#overview" data-nav="overview">Overview</a><a href="#rules" data-nav="rules">Rulesets</a><a href="#configs" data-nav="configs">Client Configs</a><a href="https://github.com/codingmesh/rulemesh">Source</a></nav>
-          <section id="overview" data-view="overview"><p class="intro">Maintained multi-client rulesets and configurations for Shadowrocket, Surge, Mihomo and sing-box, built directly on SukkaW/Surge.</p><div class="entry-grid"><article class="entry"><h2>Rulesets</h2><p>Browse every generated client format in the inherited Sukka directory.</p><p><a href="#rules">Open rulesets</a></p></article><article class="entry"><h2>Client configs</h2><p>Import Shadowrocket directly or compose a configuration with your existing nodes.</p><p><a href="#configs">Open configs</a></p></article><article class="entry"><h2>Maintenance</h2><p>Pinned sources, custom overrides, native validation and reproducible publication.</p><p><a href="https://github.com/codingmesh/rulemesh">Open source</a></p></article></div><p>Last Build: 2026-10-12T09:44:17.278Z</p><p>Based on <a href="https://github.com/SukkaW/Surge">SukkaW/Surge</a> | <a href="LICENSE">AGPL-3.0</a></p></section>
+          <section id="overview" data-view="overview"><p class="intro">Maintained multi-client rulesets and configurations for Shadowrocket, Surge, Mihomo and sing-box, built directly on SukkaW/Surge.</p><div class="entry-grid"><article class="entry"><h2>Rulesets</h2><p>Browse every generated client format in the inherited Sukka directory.</p><p><a href="#rules">Open rulesets</a></p></article><article class="entry"><h2>Client configs</h2><p>Import Shadowrocket directly or compose a configuration with your existing nodes.</p><p><a href="#configs">Open configs</a></p></article><article class="entry"><h2>Maintenance</h2><p>Pinned sources, custom overrides, native validation and reproducible publication.</p><p><a href="https://github.com/codingmesh/rulemesh">Open source</a></p></article></div><p><a href="Internal/artifact-manifest.json">Build inputs and artifact hashes</a></p><p>Based on <a href="https://github.com/SukkaW/Surge">SukkaW/Surge</a> | <a href="LICENSE">AGPL-3.0</a></p></section>
           <section id="rules" data-view="rules" hidden><h2>Rulesets</h2><ul class="tree">
         <li class="folder">
           <details open>
@@ -765,8 +765,6 @@
       
         <li class="file"><a class="file-link" href="List/non_ip/download.conf">download.conf</a></li>
       
-        <li class="file"><a class="file-link" href="List/non_ip/gitlab.conf">gitlab.conf</a></li>
-      
         <li class="file"><a class="file-link" href="List/non_ip/global.conf">global.conf</a></li>
       
         <li class="file"><a class="file-link" href="List/non_ip/lan.conf">lan.conf</a></li>
@@ -816,6 +814,8 @@
       
         <li class="file"><a class="file-link" href="List/ip/cdn.conf">cdn.conf</a></li>
       
+        <li class="file"><a class="file-link" href="List/ip/china.conf">china.conf</a></li>
+      
         <li class="file"><a class="file-link" href="List/ip/domestic.conf">domestic.conf</a></li>
       
         <li class="file"><a class="file-link" href="List/ip/download.conf">download.conf</a></li>
@@ -843,8 +843,6 @@
         <li class="file"><a class="file-link" href="List/ip/stream_tw.conf">stream_tw.conf</a></li>
       
         <li class="file"><a class="file-link" href="List/ip/stream_us.conf">stream_us.conf</a></li>
-      
-        <li class="file"><a class="file-link" href="List/ip/telegram.conf">telegram.conf</a></li>
       
         <li class="file"><a class="file-link" href="List/ip/telegram.no-resolve.conf">telegram.no-resolve.conf</a></li>
       
@@ -1080,6 +1078,8 @@
       
         <li class="file"><a class="file-link" href="Shadowrocket/ip/cdn.conf">cdn.conf</a></li>
       
+        <li class="file"><a class="file-link" href="Shadowrocket/ip/china.conf">china.conf</a></li>
+      
         <li class="file"><a class="file-link" href="Shadowrocket/ip/domestic.conf">domestic.conf</a></li>
       
         <li class="file"><a class="file-link" href="Shadowrocket/ip/download.conf">download.conf</a></li>
@@ -1159,8 +1159,6 @@
         <li class="file"><a class="file-link" href="Clash/domainset/cdn.txt">cdn.txt</a></li>
       
         <li class="file"><a class="file-link" href="Clash/domainset/china.txt">china.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="Clash/domainset/clash_fake_ip_filter.txt">clash_fake_ip_filter.txt</a></li>
       
         <li class="file"><a class="file-link" href="Clash/domainset/cloudflare.txt">cloudflare.txt</a></li>
       
@@ -1295,8 +1293,6 @@
       
         <li class="file"><a class="file-link" href="Clash/non_ip/download.txt">download.txt</a></li>
       
-        <li class="file"><a class="file-link" href="Clash/non_ip/gitlab.txt">gitlab.txt</a></li>
-      
         <li class="file"><a class="file-link" href="Clash/non_ip/global.txt">global.txt</a></li>
       
         <li class="file"><a class="file-link" href="Clash/non_ip/lan.txt">lan.txt</a></li>
@@ -1346,6 +1342,8 @@
       
         <li class="file"><a class="file-link" href="Clash/ip/cdn.txt">cdn.txt</a></li>
       
+        <li class="file"><a class="file-link" href="Clash/ip/china.txt">china.txt</a></li>
+      
         <li class="file"><a class="file-link" href="Clash/ip/domestic.txt">domestic.txt</a></li>
       
         <li class="file"><a class="file-link" href="Clash/ip/download.txt">download.txt</a></li>
@@ -1375,8 +1373,6 @@
         <li class="file"><a class="file-link" href="Clash/ip/stream_us.txt">stream_us.txt</a></li>
       
         <li class="file"><a class="file-link" href="Clash/ip/telegram.no-resolve.txt">telegram.no-resolve.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="Clash/ip/telegram.txt">telegram.txt</a></li>
       
         <li class="file"><a class="file-link" href="Clash/ip/telegram_asn.txt">telegram_asn.txt</a></li>
       
@@ -1561,8 +1557,6 @@
       
         <li class="file"><a class="file-link" href="sing-box/non_ip/download.json">download.json</a></li>
       
-        <li class="file"><a class="file-link" href="sing-box/non_ip/gitlab.json">gitlab.json</a></li>
-      
         <li class="file"><a class="file-link" href="sing-box/non_ip/global.json">global.json</a></li>
       
         <li class="file"><a class="file-link" href="sing-box/non_ip/lan.json">lan.json</a></li>
@@ -1612,6 +1606,8 @@
       
         <li class="file"><a class="file-link" href="sing-box/ip/cdn.json">cdn.json</a></li>
       
+        <li class="file"><a class="file-link" href="sing-box/ip/china.json">china.json</a></li>
+      
         <li class="file"><a class="file-link" href="sing-box/ip/domestic.json">domestic.json</a></li>
       
         <li class="file"><a class="file-link" href="sing-box/ip/download.json">download.json</a></li>
@@ -1639,8 +1635,6 @@
         <li class="file"><a class="file-link" href="sing-box/ip/stream_tw.json">stream_tw.json</a></li>
       
         <li class="file"><a class="file-link" href="sing-box/ip/stream_us.json">stream_us.json</a></li>
-      
-        <li class="file"><a class="file-link" href="sing-box/ip/telegram.json">telegram.json</a></li>
       
         <li class="file"><a class="file-link" href="sing-box/ip/telegram.no-resolve.json">telegram.no-resolve.json</a></li>
       
@@ -1683,8 +1677,6 @@
         <li class="file"><a class="file-link" href="Surfboard/non_ip/domestic_cdn.conf">domestic_cdn.conf</a></li>
       
         <li class="file"><a class="file-link" href="Surfboard/non_ip/download.conf">download.conf</a></li>
-      
-        <li class="file"><a class="file-link" href="Surfboard/non_ip/gitlab.conf">gitlab.conf</a></li>
       
         <li class="file"><a class="file-link" href="Surfboard/non_ip/global.conf">global.conf</a></li>
       
@@ -1735,6 +1727,8 @@
       
         <li class="file"><a class="file-link" href="Surfboard/ip/cdn.conf">cdn.conf</a></li>
       
+        <li class="file"><a class="file-link" href="Surfboard/ip/china.conf">china.conf</a></li>
+      
         <li class="file"><a class="file-link" href="Surfboard/ip/domestic.conf">domestic.conf</a></li>
       
         <li class="file"><a class="file-link" href="Surfboard/ip/download.conf">download.conf</a></li>
@@ -1763,136 +1757,11 @@
       
         <li class="file"><a class="file-link" href="Surfboard/ip/stream_us.conf">stream_us.conf</a></li>
       
-        <li class="file"><a class="file-link" href="Surfboard/ip/telegram.conf">telegram.conf</a></li>
-      
         <li class="file"><a class="file-link" href="Surfboard/ip/telegram.no-resolve.conf">telegram.no-resolve.conf</a></li>
       
         <li class="file"><a class="file-link" href="Surfboard/ip/telegram_asn.conf">telegram_asn.conf</a></li>
       
         <li class="file"><a class="file-link" href="Surfboard/ip/teleproto.conf">teleproto.conf</a></li>
-      </ul>
-          </details>
-        </li>
-      </ul>
-          </details>
-        </li>
-      
-        <li class="folder">
-          <details open>
-            <summary>LegacyClashPremium</summary>
-            <ul>
-        <li class="folder">
-          <details >
-            <summary>non_ip</summary>
-            <ul>
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/ai.txt">ai.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/apple_cn.txt">apple_cn.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/apple_intelligence.txt">apple_intelligence.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/apple_services.txt">apple_services.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/cdn.txt">cdn.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/china.txt">china.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/cloudmounter.txt">cloudmounter.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/direct.txt">direct.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/domestic.txt">domestic.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/domestic_cdn.txt">domestic_cdn.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/download.txt">download.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/gitlab.txt">gitlab.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/global.txt">global.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/lan.txt">lan.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/microsoft.txt">microsoft.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/microsoft_cdn.txt">microsoft_cdn.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/neteasemusic.txt">neteasemusic.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/reject-drop.txt">reject-drop.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/reject-no-drop.txt">reject-no-drop.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/reject-url-regex.txt">reject-url-regex.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/reject.txt">reject.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/sogouinput.txt">sogouinput.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/stream.txt">stream.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/stream_eu.txt">stream_eu.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/stream_hk.txt">stream_hk.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/stream_jp.txt">stream_jp.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/stream_kr.txt">stream_kr.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/stream_tw.txt">stream_tw.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/stream_us.txt">stream_us.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/non_ip/telegram.txt">telegram.txt</a></li>
-      </ul>
-          </details>
-        </li>
-      
-        <li class="folder">
-          <details >
-            <summary>ip</summary>
-            <ul>
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/ai.txt">ai.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/apple_services.txt">apple_services.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/cdn.txt">cdn.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/domestic.txt">domestic.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/download.txt">download.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/lan.txt">lan.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/neteasemusic.txt">neteasemusic.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/openai.no-resolve.txt">openai.no-resolve.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/private.resolve.txt">private.resolve.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/reject.txt">reject.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/stream.txt">stream.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/stream_eu.txt">stream_eu.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/stream_hk.txt">stream_hk.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/stream_jp.txt">stream_jp.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/stream_kr.txt">stream_kr.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/stream_tw.txt">stream_tw.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/stream_us.txt">stream_us.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/telegram.no-resolve.txt">telegram.no-resolve.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/telegram.txt">telegram.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/telegram_asn.txt">telegram_asn.txt</a></li>
-      
-        <li class="file"><a class="file-link" href="LegacyClashPremium/ip/teleproto.txt">teleproto.txt</a></li>
       </ul>
           </details>
         </li>
@@ -1922,8 +1791,6 @@
       
         <li class="file"><a class="file-link" href="Modules/Rules/sukka_local_dns_mapping/hotspot_captive_portal.conf">hotspot_captive_portal.conf</a></li>
       
-        <li class="file"><a class="file-link" href="Modules/Rules/sukka_local_dns_mapping/lan.conf">lan.conf</a></li>
-      
         <li class="file"><a class="file-link" href="Modules/Rules/sukka_local_dns_mapping/lan_with_realip.conf">lan_with_realip.conf</a></li>
       
         <li class="file"><a class="file-link" href="Modules/Rules/sukka_local_dns_mapping/lan_without_real_ip.conf">lan_without_real_ip.conf</a></li>
@@ -1931,8 +1798,6 @@
         <li class="file"><a class="file-link" href="Modules/Rules/sukka_local_dns_mapping/lancache.conf">lancache.conf</a></li>
       
         <li class="file"><a class="file-link" href="Modules/Rules/sukka_local_dns_mapping/qihoo360.conf">qihoo360.conf</a></li>
-      
-        <li class="file"><a class="file-link" href="Modules/Rules/sukka_local_dns_mapping/router.conf">router.conf</a></li>
       
         <li class="file"><a class="file-link" href="Modules/Rules/sukka_local_dns_mapping/tencent.conf">tencent.conf</a></li>
       
@@ -1963,8 +1828,6 @@
         <li class="file"><a class="file-link" href="Modules/sukka_url_redirect.sgmodule">sukka_url_redirect.sgmodule</a></li>
       
         <li class="file"><a class="file-link" href="Modules/sukka_url_redirect_minimum.sgmodule">sukka_url_redirect_minimum.sgmodule</a></li>
-      
-        <li class="file"><a class="file-link" href="Modules/sukka_url_rewrite.sgmodule">sukka_url_rewrite.sgmodule</a></li>
       </ul>
           </details>
         </li>
@@ -2014,8 +1877,6 @@
           <details >
             <summary>Internal</summary>
             <ul>
-        <li class="file"><a class="file-link" href="Internal/appprofile.php">appprofile.php</a></li>
-      
         <li class="file"><a class="file-link" href="Internal/august_asn.txt">august_asn.txt</a></li>
       
         <li class="file"><a class="file-link" href="Internal/clash_fake_ip_filter.yaml">clash_fake_ip_filter.yaml</a></li>
@@ -2059,28 +1920,320 @@
       
         <li class="file"><a class="file-link" href="Internal/reject-adguardhome.txt">reject-adguardhome.txt</a></li>
       
-        <li class="file"><a class="file-link" href="Internal/reject-stats.txt">reject-stats.txt</a></li>
+        <li class="folder">
+          <details >
+            <summary>rules</summary>
+            <ul>
+        <li class="folder">
+          <details >
+            <summary>domainset</summary>
+            <ul>
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/advertising.json">advertising.json</a></li>
       
-        <li class="file"><a class="file-link" href="Internal/reversed-chn-cidr.txt">reversed-chn-cidr.txt</a></li>
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/ai-other.json">ai-other.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/anthropic.json">anthropic.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/apple-cn.json">apple-cn.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/apple-intelligence.json">apple-intelligence.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/apple-music.json">apple-music.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/apple-tv.json">apple-tv.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/apple.json">apple.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/apple_cdn.json">apple_cdn.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/aws.json">aws.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/bilibili-intl.json">bilibili-intl.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/bilibili.json">bilibili.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/cdn-cn.json">cdn-cn.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/cdn-global.json">cdn-global.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/cdn.json">cdn.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/china.json">china.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/cloudflare.json">cloudflare.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/copilot.json">copilot.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/developer.json">developer.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/digitalocean.json">digitalocean.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/discord.json">discord.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/disney.json">disney.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/docker.json">docker.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/download.json">download.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/downloads.json">downloads.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/epic-games.json">epic-games.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/facebook.json">facebook.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/game-download.json">game-download.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/game-downloads.json">game-downloads.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/games.json">games.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/gemini.json">gemini.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/github.json">github.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/gitlab.json">gitlab.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/global.json">global.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/google-fcm.json">google-fcm.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/google.json">google.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/hbo.json">hbo.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/icloud.json">icloud.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/icloud_private_relay.json">icloud_private_relay.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/instagram.json">instagram.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/jetbrains.json">jetbrains.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/microsoft.json">microsoft.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/netflix.json">netflix.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/nintendo.json">nintendo.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/npm.json">npm.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/onedrive.json">onedrive.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/openai.json">openai.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/perplexity.json">perplexity.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/playstation.json">playstation.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/primevideo.json">primevideo.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/private.json">private.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/python.json">python.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/reddit.json">reddit.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/reject.json">reject.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/reject_extra.json">reject_extra.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/reject_phishing.json">reject_phishing.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/speedtest.json">speedtest.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/spotify.json">spotify.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/steam-cn.json">steam-cn.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/steam.json">steam.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/telegram.json">telegram.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/tiktok.json">tiktok.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/twitch.json">twitch.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/twitter.json">twitter.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/whatsapp.json">whatsapp.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/xai.json">xai.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/xbox.json">xbox.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/domainset/youtube.json">youtube.json</a></li>
+      </ul>
+          </details>
+        </li>
+      
+        <li class="folder">
+          <details >
+            <summary>non_ip</summary>
+            <ul>
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/ai.json">ai.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/apple_cn.json">apple_cn.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/apple_intelligence.json">apple_intelligence.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/apple_services.json">apple_services.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/cdn.json">cdn.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/china.json">china.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/cloudmounter.json">cloudmounter.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/direct.json">direct.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/domestic.json">domestic.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/domestic_cdn.json">domestic_cdn.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/download.json">download.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/global.json">global.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/lan.json">lan.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/microsoft.json">microsoft.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/microsoft_cdn.json">microsoft_cdn.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/neteasemusic.json">neteasemusic.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/reject-drop.json">reject-drop.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/reject-no-drop.json">reject-no-drop.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/reject-url-regex.json">reject-url-regex.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/reject.json">reject.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/sogouinput.json">sogouinput.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/stream.json">stream.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/stream_eu.json">stream_eu.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/stream_hk.json">stream_hk.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/stream_jp.json">stream_jp.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/stream_kr.json">stream_kr.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/stream_tw.json">stream_tw.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/stream_us.json">stream_us.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/non_ip/telegram.json">telegram.json</a></li>
+      </ul>
+          </details>
+        </li>
+      
+        <li class="folder">
+          <details >
+            <summary>ip</summary>
+            <ul>
+        <li class="file"><a class="file-link" href="Internal/rules/ip/ai.json">ai.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/apple_services.json">apple_services.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/cdn.json">cdn.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/china.json">china.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/domestic.json">domestic.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/download.json">download.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/lan.json">lan.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/neteasemusic.json">neteasemusic.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/openai.no-resolve.json">openai.no-resolve.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/private.resolve.json">private.resolve.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/reject.json">reject.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/stream.json">stream.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/stream_eu.json">stream_eu.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/stream_hk.json">stream_hk.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/stream_jp.json">stream_jp.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/stream_kr.json">stream_kr.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/stream_tw.json">stream_tw.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/stream_us.json">stream_us.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/telegram.no-resolve.json">telegram.no-resolve.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/telegram_asn.json">telegram_asn.json</a></li>
+      
+        <li class="file"><a class="file-link" href="Internal/rules/ip/teleproto.json">teleproto.json</a></li>
+      </ul>
+          </details>
+        </li>
+      </ul>
+          </details>
+        </li>
       
         <li class="file"><a class="file-link" href="Internal/sukka_ubo_url_redirect_filters.txt">sukka_ubo_url_redirect_filters.txt</a></li>
       </ul>
           </details>
         </li>
-      
-        <li class="file"><a class="file-link" href="LICENSE">LICENSE</a></li>
-      
-        <li class="file"><a class="file-link" href="NOTICE">NOTICE</a></li>
-      
-        <li class="file"><a class="file-link" href="README.md">README.md</a></li>
-      
-        <li class="file"><a class="file-link" href="THIRD_PARTY_NOTICES.md">THIRD_PARTY_NOTICES.md</a></li>
-      
-        <li class="file"><a class="file-link" href="deploy-check.txt">deploy-check.txt</a></li>
       </ul></section>
-          <section id="configs" data-view="configs" hidden><h2>Client Configs</h2><p>Every published configuration artifact is listed here. Switching clients only changes focus; credentials and private node definitions are never hosted.</p><p>Every card can open its client, copy the public URL or show the file. Shadowrocket profiles are ready to use with existing client nodes. Surge, Mihomo and sing-box files contain a <code>REPLACE-ME</code> placeholder: direct import is useful for inspection, while a working profile must first be composed with your node base.</p><p>Choose a default node once, then adjust AI, social and streaming families or override individual services such as Anthropic, OpenAI, Telegram, YouTube and Netflix. Standard profiles contain no advertising rules; advertising profiles evaluate rejection before general routing.</p><div class="client-switch" role="tablist"><button type="button" data-client="shadowrocket" aria-selected="true">Shadowrocket</button><button type="button" data-client="surge" aria-selected="false">Surge</button><button type="button" data-client="mihomo" aria-selected="false">Clash Verge / Mihomo</button><button type="button" data-client="singbox" aria-selected="false">sing-box</button></div><div data-client-panel="shadowrocket"><h3>Shadowrocket</h3><p class="validated">Validated: URL import, update, all referenced rule resources and native rule matching.</p><div class="artifact-list"><article class="artifact"><h4>Standard</h4><span class="path">Config/Shadowrocket/standard.conf</span><div class="actions"><a href="shadowrocket://config/add/https://codingmesh.github.io/ruleset/Config/Shadowrocket/standard.conf">Open &amp; Import in Shadowrocket</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/Shadowrocket/standard.conf">Copy URL</button><a class="secondary" href="Config/Shadowrocket/standard.conf">View Config</a><a class="secondary" href="Config/Shadowrocket/standard.svg">QR</a></div></article><article class="artifact"><h4>Advertising</h4><span class="path">Config/Shadowrocket/advertising.conf</span><div class="actions"><a href="shadowrocket://config/add/https://codingmesh.github.io/ruleset/Config/Shadowrocket/advertising.conf">Open &amp; Import in Shadowrocket</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/Shadowrocket/advertising.conf">Copy URL</button><a class="secondary" href="Config/Shadowrocket/advertising.conf">View Config</a><a class="secondary" href="Config/Shadowrocket/advertising.svg">QR</a></div></article></div><p>Rules: <code>Shadowrocket/{domainset,non_ip,ip}/</code></p></div><div data-client-panel="surge" hidden><h3>Surge</h3><p class="validated">Validated with Surge CLI for standard and advertising variants.</p><div class="artifact-list"><article class="artifact"><h4>Standard</h4><span class="path">Config/surge/standard.conf</span><div class="actions"><a href="surge:///install-config?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fsurge%2Fstandard.conf">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/surge/standard.conf">Copy URL</button><a class="secondary" href="Config/surge/standard.conf">View Template</a></div></article><article class="artifact"><h4>Advertising</h4><span class="path">Config/surge/advertising.conf</span><div class="actions"><a href="surge:///install-config?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fsurge%2Fadvertising.conf">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/surge/advertising.conf">Copy URL</button><a class="secondary" href="Config/surge/advertising.conf">View Template</a></div></article></div><p><code>pnpm run config -- compose surge --nodes /absolute/path/base.conf</code></p><div class="import-composed" data-import-client="surge"><h4>Import composed config</h4><label>Composed HTTPS config URL<input type="url" inputmode="url" placeholder="https://example.com/rulemesh.conf"></label><button type="button" data-import-open>Open &amp; Import in Surge</button><p class="import-error" aria-live="polite"></p></div><p>Rules: <code>List/{domainset,non_ip,ip}/</code></p></div><div data-client-panel="mihomo" hidden><h3>Clash Verge Rev / Mihomo</h3><p class="validated">Validated with Mihomo 1.19.32, domain MRS compilation and loopback routing.</p><div class="artifact-list"><article class="artifact"><h4>Standard</h4><span class="path">Config/mihomo/standard.yaml</span><div class="actions"><a href="clash://install-config?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fmihomo%2Fstandard.yaml">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/mihomo/standard.yaml">Copy URL</button><a class="secondary" href="Config/mihomo/standard.yaml">View Template</a></div></article><article class="artifact"><h4>Advertising</h4><span class="path">Config/mihomo/advertising.yaml</span><div class="actions"><a href="clash://install-config?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fmihomo%2Fadvertising.yaml">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/mihomo/advertising.yaml">Copy URL</button><a class="secondary" href="Config/mihomo/advertising.yaml">View Template</a></div></article></div><p><code>pnpm run config -- compose mihomo --nodes /absolute/path/base.yaml</code></p><div class="import-composed" data-import-client="mihomo"><h4>Import composed config</h4><label>Composed HTTPS config URL<input type="url" inputmode="url" placeholder="https://example.com/rulemesh.yaml"></label><button type="button" data-import-open>Open &amp; Import in Clash Verge Rev</button><p class="import-error" aria-live="polite"></p></div><p>Rules: <code>Clash/{domainset,non_ip,ip}/</code></p></div><div data-client-panel="singbox" hidden><h3>sing-box</h3><p class="validated">Validated with sing-box 1.14.3, complete SRS compilation and loopback routing.</p><div class="artifact-list"><article class="artifact"><h4>Standard</h4><span class="path">Config/singbox/standard.json</span><div class="actions"><a href="sing-box://import-remote-profile?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fsingbox%2Fstandard.json#RuleMesh%20Standard">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/singbox/standard.json">Copy URL</button><a class="secondary" href="Config/singbox/standard.json">View Template</a></div></article><article class="artifact"><h4>Advertising</h4><span class="path">Config/singbox/advertising.json</span><div class="actions"><a href="sing-box://import-remote-profile?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fsingbox%2Fadvertising.json#RuleMesh%20Advertising">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/singbox/advertising.json">Copy URL</button><a class="secondary" href="Config/singbox/advertising.json">View Template</a></div></article></div><p><code>pnpm run config -- compose singbox --nodes /absolute/path/base.json</code></p><div class="import-composed" data-import-client="singbox"><h4>Import composed config</h4><label>Composed HTTPS config URL<input type="url" inputmode="url" placeholder="https://example.com/rulemesh.json"></label><button type="button" data-import-open>Open &amp; Import in sing-box</button><p class="import-error" aria-live="polite"></p></div><p>Rules: <code>sing-box/{domainset,non_ip,ip}/</code></p></div><p><a href="Config/README.md">Configuration manifest</a> · <a href="Config/capability-gaps.json">Capability gaps</a></p></section>
+          <section id="configs" data-view="configs" hidden><h2>Client Configs</h2><p>Every published configuration artifact is listed here. Switching clients only changes focus; credentials and node definitions are never hosted.</p><p>Every card can open its client, copy the public URL or show the file. Shadowrocket profiles use existing client nodes. Surge, Mihomo and sing-box files contain a <code>REPLACE-ME</code> placeholder and must first be composed with your node base.</p><p>Choose a default node, then adjust families and individual services in your client. Standard profiles exclude advertising; advertising profiles evaluate rejection before general routing.</p><div class="client-switch" role="tablist" aria-label="Client format"><button type="button" role="tab" id="client-tab-shadowrocket" aria-controls="client-panel-shadowrocket" tabindex="0" data-client="shadowrocket" aria-selected="true">Shadowrocket</button><button type="button" role="tab" id="client-tab-surge" aria-controls="client-panel-surge" tabindex="-1" data-client="surge" aria-selected="false">Surge</button><button type="button" role="tab" id="client-tab-mihomo" aria-controls="client-panel-mihomo" tabindex="-1" data-client="mihomo" aria-selected="false">Mihomo / Clash Verge Rev</button><button type="button" role="tab" id="client-tab-singbox" aria-controls="client-panel-singbox" tabindex="-1" data-client="singbox" aria-selected="false">sing-box</button></div><div id="client-panel-shadowrocket" role="tabpanel" aria-labelledby="client-tab-shadowrocket" data-client-panel="shadowrocket"><h3>Shadowrocket</h3><p>Complete profile using your existing client nodes.</p><div class="artifact-list"><article class="artifact"><h4>Standard</h4><span class="path">Config/Shadowrocket/standard.conf</span><div class="actions"><a href="shadowrocket://config/add/https://codingmesh.github.io/ruleset/Config/Shadowrocket/standard.conf">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/Shadowrocket/standard.conf">Copy URL</button><a class="secondary" href="Config/Shadowrocket/standard.conf">View Config</a><a class="secondary" href="Config/Shadowrocket/standard.svg">QR</a></div></article><article class="artifact"><h4>Advertising</h4><span class="path">Config/Shadowrocket/advertising.conf</span><div class="actions"><a href="shadowrocket://config/add/https://codingmesh.github.io/ruleset/Config/Shadowrocket/advertising.conf">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/Shadowrocket/advertising.conf">Copy URL</button><a class="secondary" href="Config/Shadowrocket/advertising.conf">View Config</a><a class="secondary" href="Config/Shadowrocket/advertising.svg">QR</a></div></article></div><p>Rules: <code>Shadowrocket/{domainset,non_ip,ip}/</code></p></div><div id="client-panel-surge" role="tabpanel" aria-labelledby="client-tab-surge" data-client-panel="surge" hidden><h3>Surge</h3><p>Structural template: compose with your real nodes before use.</p><div class="artifact-list"><article class="artifact"><h4>Standard</h4><span class="path">Config/surge/standard.conf</span><div class="actions"><a href="surge:///install-config?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fsurge%2Fstandard.conf">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/surge/standard.conf">Copy URL</button><a class="secondary" href="Config/surge/standard.conf">View Template</a></div></article><article class="artifact"><h4>Advertising</h4><span class="path">Config/surge/advertising.conf</span><div class="actions"><a href="surge:///install-config?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fsurge%2Fadvertising.conf">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/surge/advertising.conf">Copy URL</button><a class="secondary" href="Config/surge/advertising.conf">View Template</a></div></article></div><p><code>pnpm run config -- compose surge --nodes /absolute/path/base.conf</code></p><div class="import-composed" data-import-client="surge"><h4>Import composed config</h4><label>Composed HTTPS config URL<input type="url" inputmode="url" placeholder="https://example.com/rulemesh.conf"></label><button type="button" data-import-open>Open &amp; Import in Surge</button><p class="import-error" aria-live="polite"></p></div><p>Rules: <code>List/{domainset,non_ip,ip}/</code></p></div><div id="client-panel-mihomo" role="tabpanel" aria-labelledby="client-tab-mihomo" data-client-panel="mihomo" hidden><h3>Mihomo / Clash Verge Rev</h3><p>Structural template: compose with your real nodes before use.</p><div class="artifact-list"><article class="artifact"><h4>Standard</h4><span class="path">Config/mihomo/standard.yaml</span><div class="actions"><a href="clash://install-config?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fmihomo%2Fstandard.yaml">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/mihomo/standard.yaml">Copy URL</button><a class="secondary" href="Config/mihomo/standard.yaml">View Template</a></div></article><article class="artifact"><h4>Advertising</h4><span class="path">Config/mihomo/advertising.yaml</span><div class="actions"><a href="clash://install-config?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fmihomo%2Fadvertising.yaml">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/mihomo/advertising.yaml">Copy URL</button><a class="secondary" href="Config/mihomo/advertising.yaml">View Template</a></div></article></div><p><code>pnpm run config -- compose mihomo --nodes /absolute/path/base.yaml</code></p><div class="import-composed" data-import-client="mihomo"><h4>Import composed config</h4><label>Composed HTTPS config URL<input type="url" inputmode="url" placeholder="https://example.com/rulemesh.yaml"></label><button type="button" data-import-open>Open &amp; Import in Mihomo / Clash Verge Rev</button><p class="import-error" aria-live="polite"></p></div><p>Rules: <code>Clash/{domainset,non_ip,ip}/</code></p></div><div id="client-panel-singbox" role="tabpanel" aria-labelledby="client-tab-singbox" data-client-panel="singbox" hidden><h3>sing-box</h3><p>Structural template: compose with your real nodes before use.</p><div class="artifact-list"><article class="artifact"><h4>Standard</h4><span class="path">Config/singbox/standard.json</span><div class="actions"><a href="sing-box://import-remote-profile?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fsingbox%2Fstandard.json#RuleMesh%20Standard">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/singbox/standard.json">Copy URL</button><a class="secondary" href="Config/singbox/standard.json">View Template</a></div></article><article class="artifact"><h4>Advertising</h4><span class="path">Config/singbox/advertising.json</span><div class="actions"><a href="sing-box://import-remote-profile?url=https%3A%2F%2Fcodingmesh.github.io%2Fruleset%2FConfig%2Fsingbox%2Fadvertising.json#RuleMesh%20Advertising">Open &amp; Import</a><button class="secondary" type="button" data-copy-url="https://codingmesh.github.io/ruleset/Config/singbox/advertising.json">Copy URL</button><a class="secondary" href="Config/singbox/advertising.json">View Template</a></div></article></div><p><code>pnpm run config -- compose singbox --nodes /absolute/path/base.json</code></p><div class="import-composed" data-import-client="singbox"><h4>Import composed config</h4><label>Composed HTTPS config URL<input type="url" inputmode="url" placeholder="https://example.com/rulemesh.json"></label><button type="button" data-import-open>Open &amp; Import in sing-box</button><p class="import-error" aria-live="polite"></p></div><p>Rules: <code>sing-box/{domainset,non_ip,ip}/</code></p></div><p><a href="Config/README.md">Configuration manifest</a> · <a href="Config/capability-gaps.json">Capability gaps</a></p></section>
         </main>
-        <script>const views=[...document.querySelectorAll('[data-view]')],nav=[...document.querySelectorAll('[data-nav]')];function showView(){const name=location.hash.slice(1)||'overview';for(const view of views)view.hidden=view.dataset.view!==name;for(const link of nav)link.setAttribute('aria-current',link.dataset.nav===name?'page':'false')}addEventListener('hashchange',showView);showView();const clientButtons=[...document.querySelectorAll('[data-client]')],clientPanels=[...document.querySelectorAll('[data-client-panel]')];for(const button of clientButtons)button.addEventListener('click',()=>{for(const candidate of clientButtons)candidate.setAttribute('aria-selected',String(candidate===button));for(const panel of clientPanels)panel.hidden=panel.dataset.clientPanel!==button.dataset.client});const importSchemes={surge:url=>'surge:///install-config?url='+encodeURIComponent(url),mihomo:url=>'clash://install-config?url='+encodeURIComponent(url),singbox:url=>'sing-box://import-remote-profile?url='+encodeURIComponent(url)+'#RuleMesh'};async function copyUrl(button){const value=button.dataset.copyUrl;try{await navigator.clipboard.writeText(value)}catch{const field=document.createElement('textarea');field.value=value;field.setAttribute('readonly','');field.style.position='fixed';field.style.opacity='0';document.body.append(field);field.select();document.execCommand('copy');field.remove()}const label=button.textContent;button.textContent='Copied';setTimeout(()=>button.textContent=label,1500)}for(const button of document.querySelectorAll('[data-copy-url]'))button.addEventListener('click',()=>void copyUrl(button));for(const form of document.querySelectorAll('[data-import-client]'))form.querySelector('[data-import-open]').addEventListener('click',()=>{const input=form.querySelector('input'),error=form.querySelector('.import-error');try{const url=new URL(input.value);if(url.protocol!=='https:')throw new Error('Use an HTTPS URL');error.textContent='';location.href=importSchemes[form.dataset.importClient](url.href)}catch(reason){error.textContent=reason instanceof Error?reason.message:'Invalid configuration URL'}})</script>
+        <script>const views=[...document.querySelectorAll('[data-view]')],nav=[...document.querySelectorAll('[data-nav]')];function showView(){const name=location.hash.slice(1)||'overview';for(const view of views)view.hidden=view.dataset.view!==name;for(const link of nav)link.setAttribute('aria-current',link.dataset.nav===name?'page':'false')}addEventListener('hashchange',showView);showView();
+const definitions={"shadowrocket":{"prefix":"shadowrocket://config/add/","encoded":false,"fragment":false},"surge":{"prefix":"surge:///install-config?url=","encoded":true,"fragment":false},"mihomo":{"prefix":"clash://install-config?url=","encoded":true,"fragment":false},"singbox":{"prefix":"sing-box://import-remote-profile?url=","encoded":true,"fragment":true}};
+const clientButtons=[...document.querySelectorAll('[data-client]')];
+const clientPanels=[...document.querySelectorAll('[data-client-panel]')];
+for(const button of clientButtons)button.addEventListener('click',()=>{
+  for(const candidate of clientButtons){candidate.setAttribute('aria-selected',String(candidate===button));candidate.tabIndex=candidate===button?0:-1;}
+  for(const panel of clientPanels)panel.hidden=panel.dataset.clientPanel!==button.dataset.client;
+});
+for(const button of clientButtons)button.addEventListener('keydown',event=>{
+  const index=clientButtons.indexOf(button),last=clientButtons.length-1;
+  let next=index;
+  if(event.key==='ArrowRight')next=(index+1)%clientButtons.length;
+  else if(event.key==='ArrowLeft')next=(index+last)%clientButtons.length;
+  else if(event.key==='Home')next=0;
+  else if(event.key==='End')next=last;
+  else return;
+  event.preventDefault();clientButtons[next].click();clientButtons[next].focus();
+});
+async function copyUrl(button){
+  const label=button.textContent;
+  try{
+    const value=button.dataset.copyUrl;
+    try{await navigator.clipboard.writeText(value)}catch{
+      const field=document.createElement('textarea');field.value=value;field.setAttribute('readonly','');
+      field.style.position='fixed';field.style.opacity='0';document.body.append(field);field.select();
+      const copied=document.execCommand('copy');field.remove();
+      if(!copied)throw new Error('Clipboard unavailable');
+    }
+    button.textContent='Copied';
+  }catch{button.textContent='Copy failed'}
+  setTimeout(()=>button.textContent=label,1500);
+}
+for(const button of document.querySelectorAll('[data-copy-url]'))button.addEventListener('click',()=>void copyUrl(button));
+for(const form of document.querySelectorAll('[data-import-client]'))form.querySelector('[data-import-open]').addEventListener('click',()=>{
+  const input=form.querySelector('input'),error=form.querySelector('.import-error');
+  try{
+    const url=new URL(input.value);if(url.protocol!=='https:'||url.username||url.password)throw new Error('Use a plain HTTPS URL');
+    const definition=definitions[form.dataset.importClient];
+    if(!definition)throw new Error('Unknown client');
+    error.textContent='';
+    location.href=definition.prefix+(definition.encoded?encodeURIComponent(url.href):url.href)+(definition.fragment?'#RuleMesh':'');
+  }catch(reason){error.textContent=reason instanceof Error?reason.message:'Invalid configuration URL'}
+});</script>
       </body>
     </html>
   

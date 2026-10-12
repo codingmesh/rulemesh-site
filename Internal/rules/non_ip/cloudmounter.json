@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "category": "cloudmounter",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "cloudmounter",
+        "partition": "non_ip",
+        "type": "AND",
+        "count": 40,
+        "examples": [
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(PROCESS-NAME,*CloudMounter))",
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,10.0.0.0/8))",
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,172.16.0.0/12))"
+        ],
+        "origins": [
+          {
+            "file": "generated:cloudmounter",
+            "line": 1,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(PROCESS-NAME,*CloudMounter))"
+          },
+          {
+            "file": "generated:cloudmounter",
+            "line": 2,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,10.0.0.0/8))"
+          },
+          {
+            "file": "generated:cloudmounter",
+            "line": 3,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,172.16.0.0/12))"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "cloudmounter",
+        "partition": "non_ip",
+        "type": "AND",
+        "count": 40,
+        "examples": [
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(PROCESS-NAME,*CloudMounter))",
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,10.0.0.0/8))",
+          "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,172.16.0.0/12))"
+        ],
+        "origins": [
+          {
+            "file": "generated:cloudmounter",
+            "line": 1,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(PROCESS-NAME,*CloudMounter))"
+          },
+          {
+            "file": "generated:cloudmounter",
+            "line": 2,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,10.0.0.0/8))"
+          },
+          {
+            "file": "generated:cloudmounter",
+            "line": 3,
+            "text": "AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,172.16.0.0/12))"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

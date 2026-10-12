@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "category": "reject",
+  "partition": "ip",
+  "resolutionMode": "mixed-existing-only",
+  "targets": {
+    "mihomo": [],
+    "singbox": [
+      {
+        "category": "reject",
+        "partition": "ip",
+        "type": "IP-ASN",
+        "count": 15,
+        "examples": [
+          "1012",
+          "945",
+          "401111"
+        ],
+        "origins": []
+      },
+      {
+        "category": "reject",
+        "partition": "ip",
+        "type": "MIXED-RESOLUTION",
+        "count": 1,
+        "examples": [
+          "Mixed no-resolve and resolve-allowed inputs are conservatively evaluated before DNS resolution."
+        ],
+        "origins": [
+          {
+            "file": "generated:reject",
+            "line": 1,
+            "text": "IP-CIDR,169.254.169.254/32,no-resolve"
+          },
+          {
+            "file": "generated:reject",
+            "line": 2,
+            "text": "IP-CIDR,0.0.0.0/24"
+          },
+          {
+            "file": "generated:reject",
+            "line": 3,
+            "text": "IP-CIDR,101.227.97.240/32,no-resolve"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

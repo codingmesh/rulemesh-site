@@ -281,7 +281,9 @@
         "-spotify-com",
         "-tiktokcdn-com",
         "tvbanywhere"
-      ],
+      ]
+    },
+    {
       "process_name": [
         "com.amazon.avod.thirdpartyclient",
         "tv",

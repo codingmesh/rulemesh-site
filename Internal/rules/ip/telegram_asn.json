@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "category": "telegram_asn",
+  "partition": "ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [],
+    "singbox": [
+      {
+        "category": "telegram_asn",
+        "partition": "ip",
+        "type": "IP-ASN",
+        "count": 5,
+        "examples": [
+          "62041",
+          "62014",
+          "59930"
+        ],
+        "origins": [
+          {
+            "file": "Source/ip/telegram_asn.conf",
+            "line": 6,
+            "text": "IP-ASN,62041"
+          },
+          {
+            "file": "Source/ip/telegram_asn.conf",
+            "line": 8,
+            "text": "IP-ASN,62014"
+          },
+          {
+            "file": "Source/ip/telegram_asn.conf",
+            "line": 10,
+            "text": "IP-ASN,59930"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

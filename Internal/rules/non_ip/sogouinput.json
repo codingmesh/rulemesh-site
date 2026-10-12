@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "category": "sogouinput",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "sogouinput",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "SogouInput",
+          "com.sogou.sogouinput.BaseKeyboard"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/sogouinput.conf",
+            "line": 7,
+            "text": "USER-AGENT,SogouInput"
+          },
+          {
+            "file": "Source/non_ip/sogouinput.conf",
+            "line": 8,
+            "text": "USER-AGENT,com.sogou.sogouinput.BaseKeyboard"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "sogouinput",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "SogouInput",
+          "com.sogou.sogouinput.BaseKeyboard"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/sogouinput.conf",
+            "line": 7,
+            "text": "USER-AGENT,SogouInput"
+          },
+          {
+            "file": "Source/non_ip/sogouinput.conf",
+            "line": 8,
+            "text": "USER-AGENT,com.sogou.sogouinput.BaseKeyboard"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

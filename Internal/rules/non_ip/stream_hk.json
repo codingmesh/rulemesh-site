@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "category": "stream_hk",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "stream_hk",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "Viu*",
+          "mytv*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_hk",
+            "line": 13,
+            "text": "USER-AGENT,Viu*"
+          },
+          {
+            "file": "generated:stream_hk",
+            "line": 17,
+            "text": "USER-AGENT,mytv*"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "stream_hk",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 2,
+        "examples": [
+          "Viu*",
+          "mytv*"
+        ],
+        "origins": [
+          {
+            "file": "generated:stream_hk",
+            "line": 13,
+            "text": "USER-AGENT,Viu*"
+          },
+          {
+            "file": "generated:stream_hk",
+            "line": 17,
+            "text": "USER-AGENT,mytv*"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

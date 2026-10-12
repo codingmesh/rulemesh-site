@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Stream Services: All
-# Last Updated: 2026-10-12T06:23:29.225Z
+# Last Updated: 2026-10-12T19:17:20.208Z
 # Size: 287
 # License: AGPL 3.0
 # Homepage: https://codingmesh.github.io/ruleset/

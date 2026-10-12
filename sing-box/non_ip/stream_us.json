@@ -49,7 +49,9 @@
         "paramountplus.com",
         "discoveryplus.co.uk",
         "production-public.tubi.io"
-      ],
+      ]
+    },
+    {
       "process_name": ["com.hulu.plus"]
     }
   ]

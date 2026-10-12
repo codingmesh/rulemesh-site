@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Local DNS Mapping for Mihomo NameServer Policy (lancache)
-# Last Updated: 2026-10-12T06:23:30.533Z
-# Size: 122
+# Last Updated: 2026-10-12T19:17:21.987Z
+# Size: 123
 # License: AGPL 3.0
 # Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
@@ -11,7 +11,7 @@
 # is similar to the RULE-SET referenced by sukka_local_dns_mapping.sgmodule.
 # Do not use this file in your Rule section.
 #
-# $content-hash-v1$:1JyVkPdbXw7_WDxwtiSIJiCuvBRBqCPHpPjCL4ZnlMQ$
+# $content-hash-v1$:0R7L1Wu_c51Y-u71FMBVbGGJibOwYw39bsFgXONFWzE$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN,wg.gcdn.co
@@ -126,6 +126,7 @@ DOMAIN,receive-lp1.dg.srv.nintendo.net
 DOMAIN,riotgamespatcher-a.akamaihd.net
 DOMAIN-SUFFIX,gs2.sonycoment.loris-e.llnwd.net
 DOMAIN,epicgames-download1.akamaized.net
+DOMAIN,assets1.xboxlive.com.edgesuite.net
 DOMAIN,live.patcher.elderscrollsonline.com
 DOMAIN,idbe-wup.cdn.nintendo.net.edgekey.net
 DOMAIN,level3.nwhttppatch.crypticstudios.com

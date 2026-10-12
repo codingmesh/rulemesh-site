@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "category": "direct",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "direct",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "%E8%BF%85%E9%9B%B7"
+        ],
+        "origins": [
+          {
+            "file": "generated:direct",
+            "line": 34,
+            "text": "USER-AGENT,%E8%BF%85%E9%9B%B7"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "direct",
+        "partition": "non_ip",
+        "type": "USER-AGENT",
+        "count": 1,
+        "examples": [
+          "%E8%BF%85%E9%9B%B7"
+        ],
+        "origins": [
+          {
+            "file": "generated:direct",
+            "line": 34,
+            "text": "USER-AGENT,%E8%BF%85%E9%9B%B7"
+          }
+        ]
+      },
+      {
+        "category": "direct",
+        "partition": "non_ip",
+        "type": "PROCESS-NAME-WILDCARD",
+        "count": 1,
+        "examples": [
+          "qbittorrent*"
+        ],
+        "origins": [
+          {
+            "file": "generated:direct",
+            "line": 5,
+            "text": "PROCESS-NAME,v2ray"
+          },
+          {
+            "file": "generated:direct",
+            "line": 6,
+            "text": "PROCESS-NAME,xray"
+          },
+          {
+            "file": "generated:direct",
+            "line": 7,
+            "text": "PROCESS-NAME,ss-local"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

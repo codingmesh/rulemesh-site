@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "category": "lan",
+  "partition": "ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [],
+    "singbox": []
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

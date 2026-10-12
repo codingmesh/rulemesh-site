@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "category": "apple_services",
+  "partition": "non_ip",
+  "resolutionMode": "existing-only",
+  "targets": {
+    "mihomo": [],
+    "singbox": []
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

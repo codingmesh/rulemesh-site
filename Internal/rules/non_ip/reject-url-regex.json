@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "category": "reject-url-regex",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "reject-url-regex",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 176,
+        "examples": [
+          "^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite",
+          "^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)",
+          "^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 13,
+            "text": "URL-REGEX,^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite"
+          },
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 23,
+            "text": "URL-REGEX,^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)"
+          },
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 26,
+            "text": "URL-REGEX,^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "reject-url-regex",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 176,
+        "examples": [
+          "^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite",
+          "^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)",
+          "^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+        ],
+        "origins": [
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 13,
+            "text": "URL-REGEX,^https?://premiumyva\\.appspot\\.com/vmclickstoadvertisersite"
+          },
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 23,
+            "text": "URL-REGEX,^https?://service\\.4gtv\\.tv/4gtv/Data/(GetAD|ADLog)"
+          },
+          {
+            "file": "Source/non_ip/reject-url-regex.conf",
+            "line": 26,
+            "text": "URL-REGEX,^https?://cover\\.baidu\\.com/cover/page/dspSwitchAds/"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}

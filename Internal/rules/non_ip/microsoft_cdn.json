@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "category": "microsoft_cdn",
+  "partition": "non_ip",
+  "resolutionMode": "resolve",
+  "targets": {
+    "mihomo": [
+      {
+        "category": "microsoft_cdn",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 2,
+        "examples": [
+          "^http://www\\.microsoft\\.com/pki/",
+          "^http://www\\.microsoft\\.com/pkiops/"
+        ],
+        "origins": [
+          {
+            "file": "generated:microsoft_cdn",
+            "line": 1,
+            "text": "URL-REGEX,^http://www\\.microsoft\\.com/pki/"
+          },
+          {
+            "file": "generated:microsoft_cdn",
+            "line": 2,
+            "text": "URL-REGEX,^http://www\\.microsoft\\.com/pkiops/"
+          }
+        ]
+      }
+    ],
+    "singbox": [
+      {
+        "category": "microsoft_cdn",
+        "partition": "non_ip",
+        "type": "URL-REGEX",
+        "count": 2,
+        "examples": [
+          "^http://www\\.microsoft\\.com/pki/",
+          "^http://www\\.microsoft\\.com/pkiops/"
+        ],
+        "origins": [
+          {
+            "file": "generated:microsoft_cdn",
+            "line": 1,
+            "text": "URL-REGEX,^http://www\\.microsoft\\.com/pki/"
+          },
+          {
+            "file": "generated:microsoft_cdn",
+            "line": 2,
+            "text": "URL-REGEX,^http://www\\.microsoft\\.com/pkiops/"
+          }
+        ]
+      }
+    ]
+  },
+  "projections": {
+    "mihomo": [],
+    "singbox": []
+  }
+}
