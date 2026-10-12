@@ -734,12 +734,12 @@
       "bytes": 169
     },
     "changes.json": {
-      "sha256": "e6a3b0c0cf4d3a1f1c628c87282544d96d279362235a1ca55e942adbe17cba01",
-      "bytes": 6094
+      "sha256": "55401daaa84ee24934d72669a4c61c706680a7833823a7304923b5e7c461ebd6",
+      "bytes": 132
     },
     "changes.md": {
-      "sha256": "1e03a67de20ddabc5cdb184b857f3d0f1431a79e0ba732306baca427d1804cb2",
-      "bytes": 202
+      "sha256": "877b9331bf534940068ef7f8b7f6202a479fb8720ca45bcc5375db72a6e980ef",
+      "bytes": 184
     },
     "compatibility/paths.json": {
       "sha256": "ae72b963d8f573772faad47b7f0767fd6777e31c673deb9bb475546a105b2bd7",
@@ -750,7 +750,7 @@
       "bytes": 15778
     },
     "deploy-check.txt": {
-      "sha256": "e273f591ddf8b801b8b84ea1ea2d82a646b509bd1f8d4a04b38504fa9353144d",
+      "sha256": "b1c5d496384cbe4e628c3699c0b6a68dbc54dff7efc47c509232cdd6723f0598",
       "bytes": 41
     },
     "descriptors/advertising.json": {
@@ -2126,7 +2126,7 @@
       "bytes": 4428
     },
     "status.json": {
-      "sha256": "4819ea99e9f2cebc2ee502d9a2c393db76ff7b4290d4d7ec50aa5e51615f035e",
+      "sha256": "a636f35922d2d343882c3a98ecc6605c4f620d742c6c9ab89d35b14ad0cbdd78",
       "bytes": 246
     },
     "surge/domainset/advertising.list": {

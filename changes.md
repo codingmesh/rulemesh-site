@@ -1,9 +1,9 @@
 # RuleMesh site changes
 
-Mode: structure
+Mode: none
 
-Configuration update required: yes
+Configuration update required: no
 
-Added: 91; removed: 0; changed: 68.
+Added: 0; removed: 0; changed: 0.
 
-Refresh or re-compose the complete client configuration according to the client guide.
+Existing configurations may refresh their already referenced rule resources.
