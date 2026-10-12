@@ -1,4 +1,4 @@
-# RuleMesh routing fragment: fixed site URLs. Add your own node configuration.
+# RuleMesh advanced routing fragment; not a complete config. Fixed site URLs.
 [Rule]
 DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/private.list,private
 DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/anthropic.list,anthropic
@@ -46,7 +46,6 @@ DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/epic-games
 DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/playstation.list,games
 DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/xbox.list,games
 DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/nintendo.list,games
-DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/advertising.list,advertising
 DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/downloads.list,downloads
 DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/apple.list,apple
 DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/google.list,google
@@ -57,8 +56,10 @@ DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/cloudflare
 DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/games.list,games
 DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/cdn-cn.list,china
 DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/cdn-global.list,downloads
-RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/non_ip/china.list,china
-RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/non_ip/global.list,fallback
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/china.list,china
+RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/non_ip/china.extra.list,china
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/global.list,fallback
+RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/non_ip/global.extra.list,fallback
 RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/ip/openai.no-resolve.list,openai,no-resolve
 RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/ip/telegram.no-resolve.list,telegram,no-resolve
 RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/ip/private.resolve.list,private

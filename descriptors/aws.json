@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/aws.list",
+    "surge/domainset/aws.list",
     "shadowrocket/non_ip/aws.list",
     "mihomo/domain/aws.txt",
     "sing-box/non_ip/aws.json",
-    "surge/domainset/aws.list"
+    "sing-box/domainset/aws.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/aws.list",
+    "shadowrocket/non_ip/aws.list",
+    "mihomo/domain/aws.txt",
+    "sing-box/non_ip/aws.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "aws",
+      "target": "surge",
+      "path": "surge/domainset/aws.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-aws",
+      "behavior": "domain",
+      "rules": 77
+    },
+    {
+      "category": "aws",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/aws.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-aws",
+      "behavior": "classical",
+      "rules": 77
+    },
+    {
+      "category": "aws",
+      "target": "mihomo",
+      "path": "mihomo/domain/aws.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-aws",
+      "behavior": "domain",
+      "rules": 77
+    },
+    {
+      "category": "aws",
+      "target": "singbox",
+      "path": "sing-box/domainset/aws.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-aws",
+      "behavior": "classical",
+      "rules": 77
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

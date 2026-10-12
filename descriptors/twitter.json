@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/twitter.list",
+    "surge/domainset/twitter.list",
     "shadowrocket/non_ip/twitter.list",
     "mihomo/domain/twitter.txt",
     "sing-box/non_ip/twitter.json",
-    "surge/domainset/twitter.list"
+    "sing-box/domainset/twitter.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/twitter.list",
+    "shadowrocket/non_ip/twitter.list",
+    "mihomo/domain/twitter.txt",
+    "sing-box/non_ip/twitter.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "twitter",
+      "target": "surge",
+      "path": "surge/domainset/twitter.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-twitter",
+      "behavior": "domain",
+      "rules": 24
+    },
+    {
+      "category": "twitter",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/twitter.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-twitter",
+      "behavior": "classical",
+      "rules": 24
+    },
+    {
+      "category": "twitter",
+      "target": "mihomo",
+      "path": "mihomo/domain/twitter.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-twitter",
+      "behavior": "domain",
+      "rules": 24
+    },
+    {
+      "category": "twitter",
+      "target": "singbox",
+      "path": "sing-box/domainset/twitter.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-twitter",
+      "behavior": "classical",
+      "rules": 24
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

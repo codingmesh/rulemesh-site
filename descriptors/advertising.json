@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/advertising.list",
+    "surge/domainset/advertising.list",
     "shadowrocket/non_ip/advertising.list",
     "mihomo/domain/advertising.txt",
     "sing-box/non_ip/advertising.json",
-    "surge/domainset/advertising.list"
+    "sing-box/domainset/advertising.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/advertising.list",
+    "shadowrocket/non_ip/advertising.list",
+    "mihomo/domain/advertising.txt",
+    "sing-box/non_ip/advertising.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "advertising",
+      "target": "surge",
+      "path": "surge/domainset/advertising.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-advertising",
+      "behavior": "domain",
+      "rules": 899
+    },
+    {
+      "category": "advertising",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/advertising.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-advertising",
+      "behavior": "classical",
+      "rules": 899
+    },
+    {
+      "category": "advertising",
+      "target": "mihomo",
+      "path": "mihomo/domain/advertising.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-advertising",
+      "behavior": "domain",
+      "rules": 899
+    },
+    {
+      "category": "advertising",
+      "target": "singbox",
+      "path": "sing-box/domainset/advertising.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-advertising",
+      "behavior": "classical",
+      "rules": 899
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

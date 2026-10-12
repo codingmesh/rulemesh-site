@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/youtube.list",
+    "surge/domainset/youtube.list",
     "shadowrocket/non_ip/youtube.list",
     "mihomo/domain/youtube.txt",
     "sing-box/non_ip/youtube.json",
-    "surge/domainset/youtube.list"
+    "sing-box/domainset/youtube.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/youtube.list",
+    "shadowrocket/non_ip/youtube.list",
+    "mihomo/domain/youtube.txt",
+    "sing-box/non_ip/youtube.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "youtube",
+      "target": "surge",
+      "path": "surge/domainset/youtube.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-youtube",
+      "behavior": "domain",
+      "rules": 177
+    },
+    {
+      "category": "youtube",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/youtube.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-youtube",
+      "behavior": "classical",
+      "rules": 177
+    },
+    {
+      "category": "youtube",
+      "target": "mihomo",
+      "path": "mihomo/domain/youtube.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-youtube",
+      "behavior": "domain",
+      "rules": 177
+    },
+    {
+      "category": "youtube",
+      "target": "singbox",
+      "path": "sing-box/domainset/youtube.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-youtube",
+      "behavior": "classical",
+      "rules": 177
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

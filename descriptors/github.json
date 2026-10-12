@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/github.list",
+    "surge/domainset/github.list",
     "shadowrocket/non_ip/github.list",
     "mihomo/domain/github.txt",
     "sing-box/non_ip/github.json",
-    "surge/domainset/github.list"
+    "sing-box/domainset/github.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/github.list",
+    "shadowrocket/non_ip/github.list",
+    "mihomo/domain/github.txt",
+    "sing-box/non_ip/github.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "github",
+      "target": "surge",
+      "path": "surge/domainset/github.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-github",
+      "behavior": "domain",
+      "rules": 59
+    },
+    {
+      "category": "github",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/github.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-github",
+      "behavior": "classical",
+      "rules": 59
+    },
+    {
+      "category": "github",
+      "target": "mihomo",
+      "path": "mihomo/domain/github.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-github",
+      "behavior": "domain",
+      "rules": 59
+    },
+    {
+      "category": "github",
+      "target": "singbox",
+      "path": "sing-box/domainset/github.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-github",
+      "behavior": "classical",
+      "rules": 59
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

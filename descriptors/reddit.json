@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/reddit.list",
+    "surge/domainset/reddit.list",
     "shadowrocket/non_ip/reddit.list",
     "mihomo/domain/reddit.txt",
     "sing-box/non_ip/reddit.json",
-    "surge/domainset/reddit.list"
+    "sing-box/domainset/reddit.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/reddit.list",
+    "shadowrocket/non_ip/reddit.list",
+    "mihomo/domain/reddit.txt",
+    "sing-box/non_ip/reddit.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "reddit",
+      "target": "surge",
+      "path": "surge/domainset/reddit.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-reddit",
+      "behavior": "domain",
+      "rules": 12
+    },
+    {
+      "category": "reddit",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/reddit.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-reddit",
+      "behavior": "classical",
+      "rules": 12
+    },
+    {
+      "category": "reddit",
+      "target": "mihomo",
+      "path": "mihomo/domain/reddit.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-reddit",
+      "behavior": "domain",
+      "rules": 12
+    },
+    {
+      "category": "reddit",
+      "target": "singbox",
+      "path": "sing-box/domainset/reddit.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-reddit",
+      "behavior": "classical",
+      "rules": 12
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

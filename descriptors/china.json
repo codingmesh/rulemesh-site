@@ -9,30 +9,96 @@
   ],
   "outputs": [
     "surge/non_ip/china.list",
+    "surge/domainset/china.list",
+    "surge/non_ip/china.extra.list",
+    "shadowrocket/non_ip/china.list",
+    "shadowrocket/non_ip/china.domains.list",
+    "shadowrocket/non_ip/china.extra.list",
+    "mihomo/classical/china.txt",
+    "mihomo/domain/china.txt",
+    "mihomo/classical/china.extra.txt",
+    "sing-box/non_ip/china.json",
+    "sing-box/domainset/china.json",
+    "sing-box/non_ip/china.extra.json"
+  ],
+  "completeRepresentations": [
+    "surge/non_ip/china.list",
     "shadowrocket/non_ip/china.list",
     "mihomo/classical/china.txt",
     "sing-box/non_ip/china.json"
   ],
-  "unavailableFormats": [
+  "ruleSets": [
     {
-      "format": "surge/domainset",
-      "reason": "This category contains non-domain-set predicates; use the complete non_ip ruleset",
-      "ruleIds": [
-        "252b637645d8dea6664a",
-        "948e3182893fc7ccc3e8",
-        "f2f25c5c040f643fa17d",
-        "b1ababc0675a16aa71b7"
-      ]
+      "category": "china",
+      "target": "surge",
+      "path": "surge/domainset/china.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-china",
+      "behavior": "domain",
+      "rules": 867
     },
     {
-      "format": "mihomo/domain",
-      "reason": "Non-domain predicates require classical output or a declared target gap",
-      "ruleIds": [
-        "252b637645d8dea6664a",
-        "948e3182893fc7ccc3e8",
-        "f2f25c5c040f643fa17d",
-        "b1ababc0675a16aa71b7"
-      ]
+      "category": "china",
+      "target": "surge",
+      "path": "surge/non_ip/china.extra.list",
+      "partition": "non_ip",
+      "tag": "RuleMesh-Data-china.extra",
+      "behavior": "classical",
+      "rules": 4
+    },
+    {
+      "category": "china",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/china.domains.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-china",
+      "behavior": "domain",
+      "rules": 867
+    },
+    {
+      "category": "china",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/china.extra.list",
+      "partition": "non_ip",
+      "tag": "RuleMesh-Data-china.extra",
+      "behavior": "classical",
+      "rules": 4
+    },
+    {
+      "category": "china",
+      "target": "mihomo",
+      "path": "mihomo/domain/china.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-china",
+      "behavior": "domain",
+      "rules": 867
+    },
+    {
+      "category": "china",
+      "target": "mihomo",
+      "path": "mihomo/classical/china.extra.txt",
+      "partition": "non_ip",
+      "tag": "RuleMesh-Data-china.extra",
+      "behavior": "classical",
+      "rules": 1
+    },
+    {
+      "category": "china",
+      "target": "singbox",
+      "path": "sing-box/domainset/china.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-china",
+      "behavior": "classical",
+      "rules": 867
+    },
+    {
+      "category": "china",
+      "target": "singbox",
+      "path": "sing-box/non_ip/china.extra.json",
+      "partition": "non_ip",
+      "tag": "RuleMesh-Data-china.extra",
+      "behavior": "classical",
+      "rules": 1
     }
   ],
   "capabilityGaps": [
@@ -49,7 +115,7 @@
           "license": "AGPL-3.0"
         }
       ],
-      "reason": "No native field; design 0.7 declares this target-specific gap"
+      "reason": "No native field; design 0.9 declares this target-specific gap"
     },
     {
       "target": "mihomo",
@@ -64,7 +130,7 @@
           "license": "AGPL-3.0"
         }
       ],
-      "reason": "No native field; design 0.7 declares this target-specific gap"
+      "reason": "No native field; design 0.9 declares this target-specific gap"
     },
     {
       "target": "mihomo",
@@ -79,7 +145,7 @@
           "license": "AGPL-3.0"
         }
       ],
-      "reason": "No native field; design 0.7 declares this target-specific gap"
+      "reason": "No native field; design 0.9 declares this target-specific gap"
     },
     {
       "target": "singbox",
@@ -94,7 +160,7 @@
           "license": "AGPL-3.0"
         }
       ],
-      "reason": "No native field; design 0.7 declares this target-specific gap"
+      "reason": "No native field; design 0.9 declares this target-specific gap"
     },
     {
       "target": "singbox",
@@ -109,7 +175,7 @@
           "license": "AGPL-3.0"
         }
       ],
-      "reason": "No native field; design 0.7 declares this target-specific gap"
+      "reason": "No native field; design 0.9 declares this target-specific gap"
     },
     {
       "target": "singbox",
@@ -124,7 +190,7 @@
           "license": "AGPL-3.0"
         }
       ],
-      "reason": "No native field; design 0.7 declares this target-specific gap"
+      "reason": "No native field; design 0.9 declares this target-specific gap"
     }
   ],
   "imports": [
@@ -139,5 +205,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

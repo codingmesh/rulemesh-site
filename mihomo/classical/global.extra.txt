@@ -1,0 +1,14 @@
+# RuleMesh: global
+# Licenses: AGPL-3.0
+# Sources: sukka-global-domains
+# Modified: normalized source view and explicit public overrides
+# See THIRD_PARTY_NOTICES.md and category descriptor for attribution and coverage
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,browserleaks
+DOMAIN-KEYWORD,discord
+DOMAIN-KEYWORD,dropbox
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,pinterest
+DOMAIN-KEYWORD,sci-hub
+DOMAIN-KEYWORD,whatsapp

@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/icloud.list",
+    "surge/domainset/icloud.list",
     "shadowrocket/non_ip/icloud.list",
     "mihomo/domain/icloud.txt",
     "sing-box/non_ip/icloud.json",
-    "surge/domainset/icloud.list"
+    "sing-box/domainset/icloud.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/icloud.list",
+    "shadowrocket/non_ip/icloud.list",
+    "mihomo/domain/icloud.txt",
+    "sing-box/non_ip/icloud.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "icloud",
+      "target": "surge",
+      "path": "surge/domainset/icloud.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-icloud",
+      "behavior": "domain",
+      "rules": 53
+    },
+    {
+      "category": "icloud",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/icloud.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-icloud",
+      "behavior": "classical",
+      "rules": 53
+    },
+    {
+      "category": "icloud",
+      "target": "mihomo",
+      "path": "mihomo/domain/icloud.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-icloud",
+      "behavior": "domain",
+      "rules": 53
+    },
+    {
+      "category": "icloud",
+      "target": "singbox",
+      "path": "sing-box/domainset/icloud.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-icloud",
+      "behavior": "classical",
+      "rules": 53
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/apple-intelligence.list",
+    "surge/domainset/apple-intelligence.list",
     "shadowrocket/non_ip/apple-intelligence.list",
     "mihomo/domain/apple-intelligence.txt",
     "sing-box/non_ip/apple-intelligence.json",
-    "surge/domainset/apple-intelligence.list"
+    "sing-box/domainset/apple-intelligence.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/apple-intelligence.list",
+    "shadowrocket/non_ip/apple-intelligence.list",
+    "mihomo/domain/apple-intelligence.txt",
+    "sing-box/non_ip/apple-intelligence.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "apple-intelligence",
+      "target": "surge",
+      "path": "surge/domainset/apple-intelligence.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-intelligence",
+      "behavior": "domain",
+      "rules": 5
+    },
+    {
+      "category": "apple-intelligence",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/apple-intelligence.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-intelligence",
+      "behavior": "classical",
+      "rules": 5
+    },
+    {
+      "category": "apple-intelligence",
+      "target": "mihomo",
+      "path": "mihomo/domain/apple-intelligence.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-intelligence",
+      "behavior": "domain",
+      "rules": 5
+    },
+    {
+      "category": "apple-intelligence",
+      "target": "singbox",
+      "path": "sing-box/domainset/apple-intelligence.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-intelligence",
+      "behavior": "classical",
+      "rules": 5
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

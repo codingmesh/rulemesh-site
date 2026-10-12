@@ -11,16 +11,104 @@
   ],
   "outputs": [
     "surge/non_ip/openai.list",
+    "surge/domainset/openai.list",
     "shadowrocket/non_ip/openai.list",
     "mihomo/domain/openai.txt",
     "sing-box/non_ip/openai.json",
-    "surge/domainset/openai.list",
+    "sing-box/domainset/openai.json",
     "surge/ip/openai.no-resolve.list",
     "shadowrocket/ip/openai.no-resolve.list",
     "mihomo/ipcidr/openai.no-resolve.txt",
     "sing-box/ip/openai.no-resolve.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/openai.list",
+    "shadowrocket/non_ip/openai.list",
+    "mihomo/domain/openai.txt",
+    "sing-box/non_ip/openai.json",
+    "surge/ip/openai.no-resolve.list",
+    "shadowrocket/ip/openai.no-resolve.list",
+    "mihomo/ipcidr/openai.no-resolve.txt",
+    "sing-box/ip/openai.no-resolve.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "openai",
+      "target": "surge",
+      "path": "surge/domainset/openai.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-openai",
+      "behavior": "domain",
+      "rules": 22
+    },
+    {
+      "category": "openai",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/openai.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-openai",
+      "behavior": "classical",
+      "rules": 22
+    },
+    {
+      "category": "openai",
+      "target": "mihomo",
+      "path": "mihomo/domain/openai.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-openai",
+      "behavior": "domain",
+      "rules": 22
+    },
+    {
+      "category": "openai",
+      "target": "singbox",
+      "path": "sing-box/domainset/openai.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-openai",
+      "behavior": "classical",
+      "rules": 22
+    },
+    {
+      "category": "openai",
+      "target": "surge",
+      "path": "surge/ip/openai.no-resolve.list",
+      "partition": "ip",
+      "tag": "RuleMesh-Data-openai.no-resolve",
+      "behavior": "classical",
+      "resolution": "existing-only",
+      "rules": 23
+    },
+    {
+      "category": "openai",
+      "target": "shadowrocket",
+      "path": "shadowrocket/ip/openai.no-resolve.list",
+      "partition": "ip",
+      "tag": "RuleMesh-Data-openai.no-resolve",
+      "behavior": "classical",
+      "resolution": "existing-only",
+      "rules": 23
+    },
+    {
+      "category": "openai",
+      "target": "mihomo",
+      "path": "mihomo/ipcidr/openai.no-resolve.txt",
+      "partition": "ip",
+      "tag": "RuleMesh-Data-openai.no-resolve",
+      "behavior": "ipcidr",
+      "resolution": "existing-only",
+      "rules": 23
+    },
+    {
+      "category": "openai",
+      "target": "singbox",
+      "path": "sing-box/ip/openai.no-resolve.json",
+      "partition": "ip",
+      "tag": "RuleMesh-Data-openai.no-resolve",
+      "behavior": "ipcidr",
+      "resolution": "existing-only",
+      "rules": 23
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -41,5 +129,5 @@
   "dataOnly": true,
   "requiresProfile": true,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

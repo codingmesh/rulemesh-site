@@ -10,16 +10,104 @@
   ],
   "outputs": [
     "surge/non_ip/private.list",
+    "surge/domainset/private.list",
     "shadowrocket/non_ip/private.list",
     "mihomo/domain/private.txt",
     "sing-box/non_ip/private.json",
-    "surge/domainset/private.list",
+    "sing-box/domainset/private.json",
     "surge/ip/private.resolve.list",
     "shadowrocket/ip/private.resolve.list",
     "mihomo/ipcidr/private.resolve.txt",
     "sing-box/ip/private.resolve.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/private.list",
+    "shadowrocket/non_ip/private.list",
+    "mihomo/domain/private.txt",
+    "sing-box/non_ip/private.json",
+    "surge/ip/private.resolve.list",
+    "shadowrocket/ip/private.resolve.list",
+    "mihomo/ipcidr/private.resolve.txt",
+    "sing-box/ip/private.resolve.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "private",
+      "target": "surge",
+      "path": "surge/domainset/private.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-private",
+      "behavior": "domain",
+      "rules": 49
+    },
+    {
+      "category": "private",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/private.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-private",
+      "behavior": "classical",
+      "rules": 49
+    },
+    {
+      "category": "private",
+      "target": "mihomo",
+      "path": "mihomo/domain/private.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-private",
+      "behavior": "domain",
+      "rules": 49
+    },
+    {
+      "category": "private",
+      "target": "singbox",
+      "path": "sing-box/domainset/private.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-private",
+      "behavior": "classical",
+      "rules": 49
+    },
+    {
+      "category": "private",
+      "target": "surge",
+      "path": "surge/ip/private.resolve.list",
+      "partition": "ip",
+      "tag": "RuleMesh-Data-private.resolve",
+      "behavior": "classical",
+      "resolution": "resolve-allowed",
+      "rules": 11
+    },
+    {
+      "category": "private",
+      "target": "shadowrocket",
+      "path": "shadowrocket/ip/private.resolve.list",
+      "partition": "ip",
+      "tag": "RuleMesh-Data-private.resolve",
+      "behavior": "classical",
+      "resolution": "resolve-allowed",
+      "rules": 11
+    },
+    {
+      "category": "private",
+      "target": "mihomo",
+      "path": "mihomo/ipcidr/private.resolve.txt",
+      "partition": "ip",
+      "tag": "RuleMesh-Data-private.resolve",
+      "behavior": "ipcidr",
+      "resolution": "resolve-allowed",
+      "rules": 11
+    },
+    {
+      "category": "private",
+      "target": "singbox",
+      "path": "sing-box/ip/private.resolve.json",
+      "partition": "ip",
+      "tag": "RuleMesh-Data-private.resolve",
+      "behavior": "ipcidr",
+      "resolution": "resolve-allowed",
+      "rules": 11
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -40,5 +128,5 @@
   "dataOnly": true,
   "requiresProfile": true,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/perplexity.list",
+    "surge/domainset/perplexity.list",
     "shadowrocket/non_ip/perplexity.list",
     "mihomo/domain/perplexity.txt",
     "sing-box/non_ip/perplexity.json",
-    "surge/domainset/perplexity.list"
+    "sing-box/domainset/perplexity.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/perplexity.list",
+    "shadowrocket/non_ip/perplexity.list",
+    "mihomo/domain/perplexity.txt",
+    "sing-box/non_ip/perplexity.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "perplexity",
+      "target": "surge",
+      "path": "surge/domainset/perplexity.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-perplexity",
+      "behavior": "domain",
+      "rules": 5
+    },
+    {
+      "category": "perplexity",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/perplexity.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-perplexity",
+      "behavior": "classical",
+      "rules": 5
+    },
+    {
+      "category": "perplexity",
+      "target": "mihomo",
+      "path": "mihomo/domain/perplexity.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-perplexity",
+      "behavior": "domain",
+      "rules": 5
+    },
+    {
+      "category": "perplexity",
+      "target": "singbox",
+      "path": "sing-box/domainset/perplexity.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-perplexity",
+      "behavior": "classical",
+      "rules": 5
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

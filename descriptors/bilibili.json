@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/bilibili.list",
+    "surge/domainset/bilibili.list",
     "shadowrocket/non_ip/bilibili.list",
     "mihomo/domain/bilibili.txt",
     "sing-box/non_ip/bilibili.json",
-    "surge/domainset/bilibili.list"
+    "sing-box/domainset/bilibili.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/bilibili.list",
+    "shadowrocket/non_ip/bilibili.list",
+    "mihomo/domain/bilibili.txt",
+    "sing-box/non_ip/bilibili.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "bilibili",
+      "target": "surge",
+      "path": "surge/domainset/bilibili.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-bilibili",
+      "behavior": "domain",
+      "rules": 53
+    },
+    {
+      "category": "bilibili",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/bilibili.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-bilibili",
+      "behavior": "classical",
+      "rules": 53
+    },
+    {
+      "category": "bilibili",
+      "target": "mihomo",
+      "path": "mihomo/domain/bilibili.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-bilibili",
+      "behavior": "domain",
+      "rules": 53
+    },
+    {
+      "category": "bilibili",
+      "target": "singbox",
+      "path": "sing-box/domainset/bilibili.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-bilibili",
+      "behavior": "classical",
+      "rules": 53
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

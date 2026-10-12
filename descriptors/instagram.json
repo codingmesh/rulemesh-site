@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/instagram.list",
+    "surge/domainset/instagram.list",
     "shadowrocket/non_ip/instagram.list",
     "mihomo/domain/instagram.txt",
     "sing-box/non_ip/instagram.json",
-    "surge/domainset/instagram.list"
+    "sing-box/domainset/instagram.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/instagram.list",
+    "shadowrocket/non_ip/instagram.list",
+    "mihomo/domain/instagram.txt",
+    "sing-box/non_ip/instagram.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "instagram",
+      "target": "surge",
+      "path": "surge/domainset/instagram.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-instagram",
+      "behavior": "domain",
+      "rules": 72
+    },
+    {
+      "category": "instagram",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/instagram.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-instagram",
+      "behavior": "classical",
+      "rules": 72
+    },
+    {
+      "category": "instagram",
+      "target": "mihomo",
+      "path": "mihomo/domain/instagram.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-instagram",
+      "behavior": "domain",
+      "rules": 72
+    },
+    {
+      "category": "instagram",
+      "target": "singbox",
+      "path": "sing-box/domainset/instagram.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-instagram",
+      "behavior": "classical",
+      "rules": 72
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

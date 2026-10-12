@@ -1,4 +1,4 @@
-# RuleMesh routing fragment: fixed site URLs. Add your own node configuration.
+# RuleMesh advanced routing fragment; not a complete config. Fixed site URLs.
 [Rule]
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/private.list,private
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/anthropic.list,anthropic
@@ -46,7 +46,6 @@ RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/epic-gam
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/playstation.list,games
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/xbox.list,games
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/nintendo.list,games
-RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/advertising.list,advertising
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/downloads.list,downloads
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/apple.list,apple
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/google.list,google
@@ -57,8 +56,10 @@ RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/cloudfla
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/games.list,games
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/cdn-cn.list,china
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/cdn-global.list,downloads
-RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/china.list,china
-RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/global.list,fallback
+RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/china.domains.list,china
+RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/china.extra.list,china
+RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/global.domains.list,fallback
+RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/non_ip/global.extra.list,fallback
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/ip/openai.no-resolve.list,openai,no-resolve
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/ip/telegram.no-resolve.list,telegram,no-resolve
 RULE-SET,https://codingmesh.github.io/rulemesh-site/shadowrocket/ip/private.resolve.list,private

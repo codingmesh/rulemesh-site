@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/apple-music.list",
+    "surge/domainset/apple-music.list",
     "shadowrocket/non_ip/apple-music.list",
     "mihomo/domain/apple-music.txt",
     "sing-box/non_ip/apple-music.json",
-    "surge/domainset/apple-music.list"
+    "sing-box/domainset/apple-music.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/apple-music.list",
+    "shadowrocket/non_ip/apple-music.list",
+    "mihomo/domain/apple-music.txt",
+    "sing-box/non_ip/apple-music.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "apple-music",
+      "target": "surge",
+      "path": "surge/domainset/apple-music.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-music",
+      "behavior": "domain",
+      "rules": 11
+    },
+    {
+      "category": "apple-music",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/apple-music.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-music",
+      "behavior": "classical",
+      "rules": 11
+    },
+    {
+      "category": "apple-music",
+      "target": "mihomo",
+      "path": "mihomo/domain/apple-music.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-music",
+      "behavior": "domain",
+      "rules": 11
+    },
+    {
+      "category": "apple-music",
+      "target": "singbox",
+      "path": "sing-box/domainset/apple-music.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-music",
+      "behavior": "classical",
+      "rules": 11
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

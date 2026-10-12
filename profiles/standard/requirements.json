@@ -1,5 +1,5 @@
 {
   "status": "experimental",
-  "profile": "standard",
-  "templates": "Local reference fragments only. Import the complete Shadowrocket config; other targets use local node-base compose. Device acceptance remains required."
+  "variant": "standard",
+  "templates": "Use the complete client template with your node base. These routing fragments are advanced references only. Device acceptance is separate."
 }

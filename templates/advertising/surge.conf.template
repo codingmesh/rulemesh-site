@@ -1,0 +1,165 @@
+# Complete template: supply your own Proxy entries or use config compose.
+[Proxy]
+__RULEMESH_NODE__ = __RULEMESH_PROXY_DEFINITION__
+
+[Proxy Group]
+RuleMesh-Nodes = select,include-all-proxies=true
+RuleMesh-anthropic = select,RuleMesh-Nodes,DIRECT
+RuleMesh-openai = select,RuleMesh-Nodes,DIRECT
+RuleMesh-gemini = select,RuleMesh-Nodes,DIRECT
+RuleMesh-ai-other = select,RuleMesh-Nodes,DIRECT
+RuleMesh-telegram = select,RuleMesh-Nodes,DIRECT
+RuleMesh-social = select,RuleMesh-Nodes,DIRECT
+RuleMesh-youtube = select,RuleMesh-Nodes,DIRECT
+RuleMesh-netflix = select,RuleMesh-Nodes,DIRECT
+RuleMesh-streaming = select,RuleMesh-Nodes,DIRECT
+RuleMesh-developer = select,RuleMesh-Nodes,DIRECT
+RuleMesh-apple = select,DIRECT,RuleMesh-Nodes
+RuleMesh-google = select,RuleMesh-Nodes,DIRECT
+RuleMesh-microsoft = select,DIRECT,RuleMesh-Nodes
+RuleMesh-games = select,RuleMesh-Nodes,DIRECT
+RuleMesh-downloads = select,RuleMesh-Nodes,DIRECT
+RuleMesh-china = select,DIRECT,RuleMesh-Nodes
+RuleMesh-private = select,DIRECT,RuleMesh-Nodes
+RuleMesh-advertising = select,REJECT,RuleMesh-Nodes,DIRECT
+RuleMesh-fallback = select,RuleMesh-Nodes,DIRECT
+
+[Rule]
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/private.list,RuleMesh-private
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/advertising.list,RuleMesh-advertising
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/anthropic.list,RuleMesh-anthropic
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/openai.list,RuleMesh-openai
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/gemini.list,RuleMesh-gemini
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/copilot.list,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/xai.list,RuleMesh-ai-other
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/perplexity.list,RuleMesh-ai-other
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/apple-intelligence.list,RuleMesh-ai-other
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/ai-other.list,RuleMesh-ai-other
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/telegram.list,RuleMesh-telegram
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/discord.list,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/whatsapp.list,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/twitter.list,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/instagram.list,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/facebook.list,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/reddit.list,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/youtube.list,RuleMesh-youtube
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/netflix.list,RuleMesh-netflix
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/disney.list,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/hbo.list,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/primevideo.list,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/twitch.list,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/tiktok.list,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/spotify.list,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/bilibili-intl.list,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/bilibili.list,RuleMesh-china
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/apple-cn.list,RuleMesh-china
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/icloud.list,RuleMesh-apple
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/apple-music.list,RuleMesh-apple
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/apple-tv.list,RuleMesh-apple
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/google-fcm.list,RuleMesh-google
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/onedrive.list,RuleMesh-microsoft
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/npm.list,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/python.list,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/docker.list,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/github.list,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/gitlab.list,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/jetbrains.list,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/developer.list,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/steam-cn.list,RuleMesh-china
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/game-downloads.list,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/steam.list,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/epic-games.list,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/playstation.list,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/xbox.list,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/nintendo.list,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/downloads.list,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/apple.list,RuleMesh-apple
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/google.list,RuleMesh-google
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/microsoft.list,RuleMesh-microsoft
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/aws.list,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/digitalocean.list,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/cloudflare.list,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/games.list,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/cdn-cn.list,RuleMesh-china
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/cdn-global.list,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/china.list,RuleMesh-china
+RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/non_ip/china.extra.list,RuleMesh-china
+DOMAIN-SET,https://codingmesh.github.io/rulemesh-site/surge/domainset/global.list,RuleMesh-fallback
+RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/non_ip/global.extra.list,RuleMesh-fallback
+RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/ip/openai.no-resolve.list,RuleMesh-openai,no-resolve
+RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/ip/telegram.no-resolve.list,RuleMesh-telegram,no-resolve
+RULE-SET,https://codingmesh.github.io/rulemesh-site/surge/ip/private.resolve.list,RuleMesh-private
+GEOIP,CN,RuleMesh-china
+FINAL,RuleMesh-fallback
+
+[Host]
+*.local = server:system
+*.lan = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/private.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/advertising.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/anthropic.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/openai.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/gemini.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/copilot.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/xai.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/perplexity.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/apple-intelligence.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/ai-other.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/telegram.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/discord.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/whatsapp.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/twitter.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/instagram.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/facebook.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/reddit.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/youtube.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/netflix.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/disney.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/hbo.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/primevideo.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/twitch.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/tiktok.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/spotify.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/bilibili-intl.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/bilibili.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/apple-cn.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/icloud.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/apple-music.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/apple-tv.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/google-fcm.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/onedrive.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/npm.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/python.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/docker.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/github.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/gitlab.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/jetbrains.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/developer.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/steam-cn.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/game-downloads.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/steam.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/epic-games.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/playstation.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/xbox.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/nintendo.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/downloads.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/apple.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/google.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/microsoft.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/aws.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/digitalocean.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/cloudflare.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/games.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/cdn-cn.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/cdn-global.list = server:https://cloudflare-dns.com/dns-query
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/china.list = server:system
+RULE-SET:https://codingmesh.github.io/rulemesh-site/surge/non_ip/china.extra.list = server:system
+DOMAIN-SET:https://codingmesh.github.io/rulemesh-site/surge/domainset/global.list = server:https://cloudflare-dns.com/dns-query
+RULE-SET:https://codingmesh.github.io/rulemesh-site/surge/non_ip/global.extra.list = server:https://cloudflare-dns.com/dns-query
+
+[General]
+dns-server = system
+encrypted-dns-server = https://cloudflare-dns.com/dns-query
+encrypted-dns-follow-outbound-mode = true
+ipv6 = false
+# Local compose: regenerate after node or configuration structure changes; no public credential hosting.

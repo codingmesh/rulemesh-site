@@ -2,6 +2,10 @@
 
 RuleMesh tooling and original additions are MIT licensed. This does not replace the licenses of imported data or generated datasets.
 
+## Tooling dependencies
+
+Domain trie compaction uses hntrie 1.2.0 and IPv4 CIDR compaction uses fast-cidr-tools 0.3.4, both maintained by Sukka under MIT. Exact dependency versions and integrity values are pinned in package-lock.json. License texts are preserved in licenses/hntrie-MIT.txt and licenses/fast-cidr-tools-MIT.txt. These libraries are used through their public APIs; RuleMesh does not copy the AGPL build implementation from SukkaW/Surge.
+
 ## Sukka data
 
 Author: Sukka / SukkaW. Sources: SukkaLab/ruleset.skk.moe output revision fb2480119a3dd21e5f95f7eabf1ff98988e32289, associated source reference SukkaW/Surge 6172daf80ac3f9a1d2dbdb9ad6b559554aa8ac62.
@@ -20,7 +24,7 @@ Modifications: format conversion, normalization, and a documented official claud
 
 Sukka china_ip/chnroutes2 has conflicting CC BY-SA version declarations; geographical IPv4 is not imported or published in this milestone. Other advanced types and untraced source combinations are not automatically included. These are limitations, not claims that such flows are fully covered.
 
-This local milestone includes original snapshots, transformations, notices and source code. The source project is hosted at https://github.com/codingmesh/rulemesh. Experimental release packages retain these notices, full third-party license texts, exact inputs and the source-code commit. Their actual verification status is recorded separately. No stable subscription endpoint is currently provided.
+The source project is hosted at https://github.com/codingmesh/rulemesh. The fixed experimental site includes these notices, full third-party license texts and its source-code commit. Actual device verification status is recorded separately; GitHub Releases are historical only and are not a user delivery channel.
 
 ## Official numerical network facts
 

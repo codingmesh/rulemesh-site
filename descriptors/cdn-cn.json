@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/cdn-cn.list",
+    "surge/domainset/cdn-cn.list",
     "shadowrocket/non_ip/cdn-cn.list",
     "mihomo/domain/cdn-cn.txt",
     "sing-box/non_ip/cdn-cn.json",
-    "surge/domainset/cdn-cn.list"
+    "sing-box/domainset/cdn-cn.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/cdn-cn.list",
+    "shadowrocket/non_ip/cdn-cn.list",
+    "mihomo/domain/cdn-cn.txt",
+    "sing-box/non_ip/cdn-cn.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "cdn-cn",
+      "target": "surge",
+      "path": "surge/domainset/cdn-cn.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-cdn-cn",
+      "behavior": "domain",
+      "rules": 93
+    },
+    {
+      "category": "cdn-cn",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/cdn-cn.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-cdn-cn",
+      "behavior": "classical",
+      "rules": 93
+    },
+    {
+      "category": "cdn-cn",
+      "target": "mihomo",
+      "path": "mihomo/domain/cdn-cn.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-cdn-cn",
+      "behavior": "domain",
+      "rules": 93
+    },
+    {
+      "category": "cdn-cn",
+      "target": "singbox",
+      "path": "sing-box/domainset/cdn-cn.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-cdn-cn",
+      "behavior": "classical",
+      "rules": 93
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

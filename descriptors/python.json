@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/python.list",
+    "surge/domainset/python.list",
     "shadowrocket/non_ip/python.list",
     "mihomo/domain/python.txt",
     "sing-box/non_ip/python.json",
-    "surge/domainset/python.list"
+    "sing-box/domainset/python.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/python.list",
+    "shadowrocket/non_ip/python.list",
+    "mihomo/domain/python.txt",
+    "sing-box/non_ip/python.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "python",
+      "target": "surge",
+      "path": "surge/domainset/python.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-python",
+      "behavior": "domain",
+      "rules": 6
+    },
+    {
+      "category": "python",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/python.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-python",
+      "behavior": "classical",
+      "rules": 6
+    },
+    {
+      "category": "python",
+      "target": "mihomo",
+      "path": "mihomo/domain/python.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-python",
+      "behavior": "domain",
+      "rules": 6
+    },
+    {
+      "category": "python",
+      "target": "singbox",
+      "path": "sing-box/domainset/python.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-python",
+      "behavior": "classical",
+      "rules": 6
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

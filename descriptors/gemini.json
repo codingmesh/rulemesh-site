@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/gemini.list",
+    "surge/domainset/gemini.list",
     "shadowrocket/non_ip/gemini.list",
     "mihomo/domain/gemini.txt",
     "sing-box/non_ip/gemini.json",
-    "surge/domainset/gemini.list"
+    "sing-box/domainset/gemini.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/gemini.list",
+    "shadowrocket/non_ip/gemini.list",
+    "mihomo/domain/gemini.txt",
+    "sing-box/non_ip/gemini.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "gemini",
+      "target": "surge",
+      "path": "surge/domainset/gemini.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-gemini",
+      "behavior": "domain",
+      "rules": 46
+    },
+    {
+      "category": "gemini",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/gemini.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-gemini",
+      "behavior": "classical",
+      "rules": 46
+    },
+    {
+      "category": "gemini",
+      "target": "mihomo",
+      "path": "mihomo/domain/gemini.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-gemini",
+      "behavior": "domain",
+      "rules": 46
+    },
+    {
+      "category": "gemini",
+      "target": "singbox",
+      "path": "sing-box/domainset/gemini.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-gemini",
+      "behavior": "classical",
+      "rules": 46
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

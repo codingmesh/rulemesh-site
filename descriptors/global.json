@@ -9,42 +9,96 @@
   ],
   "outputs": [
     "surge/non_ip/global.list",
+    "surge/domainset/global.list",
+    "surge/non_ip/global.extra.list",
+    "shadowrocket/non_ip/global.list",
+    "shadowrocket/non_ip/global.domains.list",
+    "shadowrocket/non_ip/global.extra.list",
+    "mihomo/classical/global.txt",
+    "mihomo/domain/global.txt",
+    "mihomo/classical/global.extra.txt",
+    "sing-box/non_ip/global.json",
+    "sing-box/domainset/global.json",
+    "sing-box/non_ip/global.extra.json"
+  ],
+  "completeRepresentations": [
+    "surge/non_ip/global.list",
     "shadowrocket/non_ip/global.list",
     "mihomo/classical/global.txt",
     "sing-box/non_ip/global.json"
   ],
-  "unavailableFormats": [
+  "ruleSets": [
     {
-      "format": "surge/domainset",
-      "reason": "This category contains non-domain-set predicates; use the complete non_ip ruleset",
-      "ruleIds": [
-        "fac69df7b38e1deca916",
-        "d5dc4bf59037cf6c5950",
-        "c6804a5c64bf0e051817",
-        "14b7e35a37ea2db25dec",
-        "33744f459bc4180babd2",
-        "8f758b9f523e505ad6f0",
-        "fb30f35a1b4b25a599f5",
-        "0e0de496822ae6826d1c",
-        "d91c3b89ef1d7013b756",
-        "4ecbba55940a52e0ac8b"
-      ]
+      "category": "global",
+      "target": "surge",
+      "path": "surge/domainset/global.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-global",
+      "behavior": "domain",
+      "rules": 1264
     },
     {
-      "format": "mihomo/domain",
-      "reason": "Non-domain predicates require classical output or a declared target gap",
-      "ruleIds": [
-        "fac69df7b38e1deca916",
-        "d5dc4bf59037cf6c5950",
-        "c6804a5c64bf0e051817",
-        "14b7e35a37ea2db25dec",
-        "33744f459bc4180babd2",
-        "8f758b9f523e505ad6f0",
-        "fb30f35a1b4b25a599f5",
-        "0e0de496822ae6826d1c",
-        "d91c3b89ef1d7013b756",
-        "4ecbba55940a52e0ac8b"
-      ]
+      "category": "global",
+      "target": "surge",
+      "path": "surge/non_ip/global.extra.list",
+      "partition": "non_ip",
+      "tag": "RuleMesh-Data-global.extra",
+      "behavior": "classical",
+      "rules": 10
+    },
+    {
+      "category": "global",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/global.domains.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-global",
+      "behavior": "domain",
+      "rules": 1264
+    },
+    {
+      "category": "global",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/global.extra.list",
+      "partition": "non_ip",
+      "tag": "RuleMesh-Data-global.extra",
+      "behavior": "classical",
+      "rules": 10
+    },
+    {
+      "category": "global",
+      "target": "mihomo",
+      "path": "mihomo/domain/global.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-global",
+      "behavior": "domain",
+      "rules": 1264
+    },
+    {
+      "category": "global",
+      "target": "mihomo",
+      "path": "mihomo/classical/global.extra.txt",
+      "partition": "non_ip",
+      "tag": "RuleMesh-Data-global.extra",
+      "behavior": "classical",
+      "rules": 9
+    },
+    {
+      "category": "global",
+      "target": "singbox",
+      "path": "sing-box/domainset/global.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-global",
+      "behavior": "classical",
+      "rules": 1264
+    },
+    {
+      "category": "global",
+      "target": "singbox",
+      "path": "sing-box/non_ip/global.extra.json",
+      "partition": "non_ip",
+      "tag": "RuleMesh-Data-global.extra",
+      "behavior": "classical",
+      "rules": 9
     }
   ],
   "capabilityGaps": [
@@ -61,7 +115,7 @@
           "license": "AGPL-3.0"
         }
       ],
-      "reason": "No native field; design 0.7 declares this target-specific gap"
+      "reason": "No native field; design 0.9 declares this target-specific gap"
     },
     {
       "target": "singbox",
@@ -76,7 +130,7 @@
           "license": "AGPL-3.0"
         }
       ],
-      "reason": "No native field; design 0.7 declares this target-specific gap"
+      "reason": "No native field; design 0.9 declares this target-specific gap"
     }
   ],
   "imports": [
@@ -91,5 +145,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/discord.list",
+    "surge/domainset/discord.list",
     "shadowrocket/non_ip/discord.list",
     "mihomo/domain/discord.txt",
     "sing-box/non_ip/discord.json",
-    "surge/domainset/discord.list"
+    "sing-box/domainset/discord.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/discord.list",
+    "shadowrocket/non_ip/discord.list",
+    "mihomo/domain/discord.txt",
+    "sing-box/non_ip/discord.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "discord",
+      "target": "surge",
+      "path": "surge/domainset/discord.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-discord",
+      "behavior": "domain",
+      "rules": 28
+    },
+    {
+      "category": "discord",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/discord.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-discord",
+      "behavior": "classical",
+      "rules": 28
+    },
+    {
+      "category": "discord",
+      "target": "mihomo",
+      "path": "mihomo/domain/discord.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-discord",
+      "behavior": "domain",
+      "rules": 28
+    },
+    {
+      "category": "discord",
+      "target": "singbox",
+      "path": "sing-box/domainset/discord.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-discord",
+      "behavior": "classical",
+      "rules": 28
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

@@ -5,373 +5,505 @@
         "type": "remote",
         "tag": "RuleMesh-Data-private",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/private.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/private.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-anthropic",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/anthropic.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/anthropic.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-openai",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/openai.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/openai.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-gemini",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/gemini.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/gemini.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-copilot",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/copilot.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/copilot.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-xai",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/xai.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/xai.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-perplexity",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/perplexity.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/perplexity.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-apple-intelligence",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/apple-intelligence.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/apple-intelligence.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-ai-other",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/ai-other.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/ai-other.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-telegram",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/telegram.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/telegram.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-discord",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/discord.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/discord.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-whatsapp",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/whatsapp.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/whatsapp.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-twitter",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/twitter.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/twitter.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-instagram",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/instagram.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/instagram.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-facebook",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/facebook.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/facebook.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-reddit",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/reddit.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/reddit.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-youtube",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/youtube.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/youtube.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-netflix",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/netflix.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/netflix.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-disney",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/disney.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/disney.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-hbo",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/hbo.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/hbo.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-primevideo",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/primevideo.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/primevideo.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-twitch",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/twitch.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/twitch.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-tiktok",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/tiktok.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/tiktok.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-spotify",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/spotify.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/spotify.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-bilibili-intl",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/bilibili-intl.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/bilibili-intl.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-bilibili",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/bilibili.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/bilibili.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-apple-cn",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/apple-cn.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/apple-cn.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-icloud",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/icloud.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/icloud.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-apple-music",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/apple-music.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/apple-music.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-apple-tv",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/apple-tv.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/apple-tv.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-google-fcm",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/google-fcm.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/google-fcm.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-onedrive",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/onedrive.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/onedrive.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-npm",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/npm.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/npm.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-python",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/python.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/python.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-docker",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/docker.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/docker.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-github",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/github.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/github.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-gitlab",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/gitlab.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/gitlab.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-jetbrains",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/jetbrains.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/jetbrains.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-developer",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/developer.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/developer.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-steam-cn",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/steam-cn.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/steam-cn.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-game-downloads",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/game-downloads.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/game-downloads.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-steam",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/steam.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/steam.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-epic-games",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/epic-games.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/epic-games.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-playstation",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/playstation.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/playstation.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-xbox",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/xbox.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/xbox.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-nintendo",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/nintendo.json"
-      },
-      {
-        "type": "remote",
-        "tag": "RuleMesh-Data-advertising",
-        "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/advertising.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/nintendo.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-downloads",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/downloads.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/downloads.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-apple",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/apple.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/apple.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-google",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/google.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/google.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-microsoft",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/microsoft.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/microsoft.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-aws",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/aws.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/aws.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-digitalocean",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/digitalocean.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/digitalocean.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-cloudflare",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/cloudflare.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/cloudflare.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-games",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/games.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/games.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-cdn-cn",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/cdn-cn.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/cdn-cn.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-cdn-global",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/cdn-global.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/cdn-global.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-china",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/china.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/china.json",
+        "update_interval": "1d",
+        "http_client": {}
+      },
+      {
+        "type": "remote",
+        "tag": "RuleMesh-Data-china.extra",
+        "format": "source",
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/china.extra.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-global",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/global.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/domainset/global.json",
+        "update_interval": "1d",
+        "http_client": {}
+      },
+      {
+        "type": "remote",
+        "tag": "RuleMesh-Data-global.extra",
+        "format": "source",
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/non_ip/global.extra.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-openai.no-resolve",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/ip/openai.no-resolve.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/ip/openai.no-resolve.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-telegram.no-resolve",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/ip/telegram.no-resolve.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/ip/telegram.no-resolve.json",
+        "update_interval": "1d",
+        "http_client": {}
       },
       {
         "type": "remote",
         "tag": "RuleMesh-Data-private.resolve",
         "format": "source",
-        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/ip/private.resolve.json"
+        "url": "https://codingmesh.github.io/rulemesh-site/sing-box/ip/private.resolve.json",
+        "update_interval": "1d",
+        "http_client": {}
       }
     ],
     "rules": [
@@ -699,13 +831,6 @@
       },
       {
         "rule_set": [
-          "RuleMesh-Data-advertising"
-        ],
-        "action": "route",
-        "outbound": "advertising"
-      },
-      {
-        "rule_set": [
           "RuleMesh-Data-downloads"
         ],
         "action": "route",
@@ -783,7 +908,21 @@
       },
       {
         "rule_set": [
+          "RuleMesh-Data-china.extra"
+        ],
+        "action": "route",
+        "outbound": "china"
+      },
+      {
+        "rule_set": [
           "RuleMesh-Data-global"
+        ],
+        "action": "route",
+        "outbound": "fallback"
+      },
+      {
+        "rule_set": [
+          "RuleMesh-Data-global.extra"
         ],
         "action": "route",
         "outbound": "fallback"

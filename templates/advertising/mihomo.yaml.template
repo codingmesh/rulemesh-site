@@ -1,0 +1,669 @@
+# Complete template: replace the entire proxies/provider input using config compose.
+proxies:
+  - name: __RULEMESH_NODE__
+    type: __RULEMESH_NODE_TYPE__
+    server: __RULEMESH_SERVER__
+    port: __RULEMESH_PORT__
+ipv6: false
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  proxy-server-nameserver:
+    - system
+  nameserver:
+    - https://cloudflare-dns.com/dns-query#RuleMesh-Nodes
+  direct-nameserver:
+    - system
+  nameserver-policy:
+    +.local:
+      - system
+    +.lan:
+      - system
+    rule-set:RuleMesh-Data-private:
+      - system
+    rule-set:RuleMesh-Data-bilibili:
+      - system
+    rule-set:RuleMesh-Data-apple-cn:
+      - system
+    rule-set:RuleMesh-Data-icloud:
+      - system
+    rule-set:RuleMesh-Data-apple-music:
+      - system
+    rule-set:RuleMesh-Data-apple-tv:
+      - system
+    rule-set:RuleMesh-Data-onedrive:
+      - system
+    rule-set:RuleMesh-Data-steam-cn:
+      - system
+    rule-set:RuleMesh-Data-apple:
+      - system
+    rule-set:RuleMesh-Data-microsoft:
+      - system
+    rule-set:RuleMesh-Data-cdn-cn:
+      - system
+    rule-set:RuleMesh-Data-china:
+      - system
+    rule-set:RuleMesh-Data-china.extra:
+      - system
+mode: rule
+proxy-groups:
+  - name: RuleMesh-Nodes
+    type: select
+    proxies:
+      - __RULEMESH_NODE__
+  - name: RuleMesh-anthropic
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-openai
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-gemini
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-ai-other
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-telegram
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-social
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-youtube
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-netflix
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-streaming
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-developer
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-apple
+    type: select
+    proxies:
+      - DIRECT
+      - RuleMesh-Nodes
+  - name: RuleMesh-google
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - RuleMesh-Nodes
+  - name: RuleMesh-games
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-downloads
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-china
+    type: select
+    proxies:
+      - DIRECT
+      - RuleMesh-Nodes
+  - name: RuleMesh-private
+    type: select
+    proxies:
+      - DIRECT
+      - RuleMesh-Nodes
+  - name: RuleMesh-advertising
+    type: select
+    proxies:
+      - REJECT
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-fallback
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+rule-providers:
+  RuleMesh-Data-private:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/private.txt
+    path: ./rulemesh-rules/RuleMesh-Data-private.txt
+    interval: 86400
+  RuleMesh-Data-advertising:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/advertising.txt
+    path: ./rulemesh-rules/RuleMesh-Data-advertising.txt
+    interval: 86400
+  RuleMesh-Data-anthropic:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/anthropic.txt
+    path: ./rulemesh-rules/RuleMesh-Data-anthropic.txt
+    interval: 86400
+  RuleMesh-Data-openai:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/openai.txt
+    path: ./rulemesh-rules/RuleMesh-Data-openai.txt
+    interval: 86400
+  RuleMesh-Data-gemini:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/gemini.txt
+    path: ./rulemesh-rules/RuleMesh-Data-gemini.txt
+    interval: 86400
+  RuleMesh-Data-copilot:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/copilot.txt
+    path: ./rulemesh-rules/RuleMesh-Data-copilot.txt
+    interval: 86400
+  RuleMesh-Data-xai:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/xai.txt
+    path: ./rulemesh-rules/RuleMesh-Data-xai.txt
+    interval: 86400
+  RuleMesh-Data-perplexity:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/perplexity.txt
+    path: ./rulemesh-rules/RuleMesh-Data-perplexity.txt
+    interval: 86400
+  RuleMesh-Data-apple-intelligence:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/apple-intelligence.txt
+    path: ./rulemesh-rules/RuleMesh-Data-apple-intelligence.txt
+    interval: 86400
+  RuleMesh-Data-ai-other:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/ai-other.txt
+    path: ./rulemesh-rules/RuleMesh-Data-ai-other.txt
+    interval: 86400
+  RuleMesh-Data-telegram:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/telegram.txt
+    path: ./rulemesh-rules/RuleMesh-Data-telegram.txt
+    interval: 86400
+  RuleMesh-Data-discord:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/discord.txt
+    path: ./rulemesh-rules/RuleMesh-Data-discord.txt
+    interval: 86400
+  RuleMesh-Data-whatsapp:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/whatsapp.txt
+    path: ./rulemesh-rules/RuleMesh-Data-whatsapp.txt
+    interval: 86400
+  RuleMesh-Data-twitter:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/twitter.txt
+    path: ./rulemesh-rules/RuleMesh-Data-twitter.txt
+    interval: 86400
+  RuleMesh-Data-instagram:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/instagram.txt
+    path: ./rulemesh-rules/RuleMesh-Data-instagram.txt
+    interval: 86400
+  RuleMesh-Data-facebook:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/facebook.txt
+    path: ./rulemesh-rules/RuleMesh-Data-facebook.txt
+    interval: 86400
+  RuleMesh-Data-reddit:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/reddit.txt
+    path: ./rulemesh-rules/RuleMesh-Data-reddit.txt
+    interval: 86400
+  RuleMesh-Data-youtube:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/youtube.txt
+    path: ./rulemesh-rules/RuleMesh-Data-youtube.txt
+    interval: 86400
+  RuleMesh-Data-netflix:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/netflix.txt
+    path: ./rulemesh-rules/RuleMesh-Data-netflix.txt
+    interval: 86400
+  RuleMesh-Data-disney:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/disney.txt
+    path: ./rulemesh-rules/RuleMesh-Data-disney.txt
+    interval: 86400
+  RuleMesh-Data-hbo:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/hbo.txt
+    path: ./rulemesh-rules/RuleMesh-Data-hbo.txt
+    interval: 86400
+  RuleMesh-Data-primevideo:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/primevideo.txt
+    path: ./rulemesh-rules/RuleMesh-Data-primevideo.txt
+    interval: 86400
+  RuleMesh-Data-twitch:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/twitch.txt
+    path: ./rulemesh-rules/RuleMesh-Data-twitch.txt
+    interval: 86400
+  RuleMesh-Data-tiktok:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/tiktok.txt
+    path: ./rulemesh-rules/RuleMesh-Data-tiktok.txt
+    interval: 86400
+  RuleMesh-Data-spotify:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/spotify.txt
+    path: ./rulemesh-rules/RuleMesh-Data-spotify.txt
+    interval: 86400
+  RuleMesh-Data-bilibili-intl:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/bilibili-intl.txt
+    path: ./rulemesh-rules/RuleMesh-Data-bilibili-intl.txt
+    interval: 86400
+  RuleMesh-Data-bilibili:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/bilibili.txt
+    path: ./rulemesh-rules/RuleMesh-Data-bilibili.txt
+    interval: 86400
+  RuleMesh-Data-apple-cn:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/apple-cn.txt
+    path: ./rulemesh-rules/RuleMesh-Data-apple-cn.txt
+    interval: 86400
+  RuleMesh-Data-icloud:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/icloud.txt
+    path: ./rulemesh-rules/RuleMesh-Data-icloud.txt
+    interval: 86400
+  RuleMesh-Data-apple-music:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/apple-music.txt
+    path: ./rulemesh-rules/RuleMesh-Data-apple-music.txt
+    interval: 86400
+  RuleMesh-Data-apple-tv:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/apple-tv.txt
+    path: ./rulemesh-rules/RuleMesh-Data-apple-tv.txt
+    interval: 86400
+  RuleMesh-Data-google-fcm:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/google-fcm.txt
+    path: ./rulemesh-rules/RuleMesh-Data-google-fcm.txt
+    interval: 86400
+  RuleMesh-Data-onedrive:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/onedrive.txt
+    path: ./rulemesh-rules/RuleMesh-Data-onedrive.txt
+    interval: 86400
+  RuleMesh-Data-npm:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/npm.txt
+    path: ./rulemesh-rules/RuleMesh-Data-npm.txt
+    interval: 86400
+  RuleMesh-Data-python:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/python.txt
+    path: ./rulemesh-rules/RuleMesh-Data-python.txt
+    interval: 86400
+  RuleMesh-Data-docker:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/docker.txt
+    path: ./rulemesh-rules/RuleMesh-Data-docker.txt
+    interval: 86400
+  RuleMesh-Data-github:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/github.txt
+    path: ./rulemesh-rules/RuleMesh-Data-github.txt
+    interval: 86400
+  RuleMesh-Data-gitlab:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/gitlab.txt
+    path: ./rulemesh-rules/RuleMesh-Data-gitlab.txt
+    interval: 86400
+  RuleMesh-Data-jetbrains:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/jetbrains.txt
+    path: ./rulemesh-rules/RuleMesh-Data-jetbrains.txt
+    interval: 86400
+  RuleMesh-Data-developer:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/developer.txt
+    path: ./rulemesh-rules/RuleMesh-Data-developer.txt
+    interval: 86400
+  RuleMesh-Data-steam-cn:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/steam-cn.txt
+    path: ./rulemesh-rules/RuleMesh-Data-steam-cn.txt
+    interval: 86400
+  RuleMesh-Data-game-downloads:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/game-downloads.txt
+    path: ./rulemesh-rules/RuleMesh-Data-game-downloads.txt
+    interval: 86400
+  RuleMesh-Data-steam:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/steam.txt
+    path: ./rulemesh-rules/RuleMesh-Data-steam.txt
+    interval: 86400
+  RuleMesh-Data-epic-games:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/epic-games.txt
+    path: ./rulemesh-rules/RuleMesh-Data-epic-games.txt
+    interval: 86400
+  RuleMesh-Data-playstation:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/playstation.txt
+    path: ./rulemesh-rules/RuleMesh-Data-playstation.txt
+    interval: 86400
+  RuleMesh-Data-xbox:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/xbox.txt
+    path: ./rulemesh-rules/RuleMesh-Data-xbox.txt
+    interval: 86400
+  RuleMesh-Data-nintendo:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/nintendo.txt
+    path: ./rulemesh-rules/RuleMesh-Data-nintendo.txt
+    interval: 86400
+  RuleMesh-Data-downloads:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/downloads.txt
+    path: ./rulemesh-rules/RuleMesh-Data-downloads.txt
+    interval: 86400
+  RuleMesh-Data-apple:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/apple.txt
+    path: ./rulemesh-rules/RuleMesh-Data-apple.txt
+    interval: 86400
+  RuleMesh-Data-google:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/google.txt
+    path: ./rulemesh-rules/RuleMesh-Data-google.txt
+    interval: 86400
+  RuleMesh-Data-microsoft:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/microsoft.txt
+    path: ./rulemesh-rules/RuleMesh-Data-microsoft.txt
+    interval: 86400
+  RuleMesh-Data-aws:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/aws.txt
+    path: ./rulemesh-rules/RuleMesh-Data-aws.txt
+    interval: 86400
+  RuleMesh-Data-digitalocean:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/digitalocean.txt
+    path: ./rulemesh-rules/RuleMesh-Data-digitalocean.txt
+    interval: 86400
+  RuleMesh-Data-cloudflare:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/cloudflare.txt
+    path: ./rulemesh-rules/RuleMesh-Data-cloudflare.txt
+    interval: 86400
+  RuleMesh-Data-games:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/games.txt
+    path: ./rulemesh-rules/RuleMesh-Data-games.txt
+    interval: 86400
+  RuleMesh-Data-cdn-cn:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/cdn-cn.txt
+    path: ./rulemesh-rules/RuleMesh-Data-cdn-cn.txt
+    interval: 86400
+  RuleMesh-Data-cdn-global:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/cdn-global.txt
+    path: ./rulemesh-rules/RuleMesh-Data-cdn-global.txt
+    interval: 86400
+  RuleMesh-Data-china:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/china.txt
+    path: ./rulemesh-rules/RuleMesh-Data-china.txt
+    interval: 86400
+  RuleMesh-Data-china.extra:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/classical/china.extra.txt
+    path: ./rulemesh-rules/RuleMesh-Data-china.extra.txt
+    interval: 86400
+  RuleMesh-Data-global:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/global.txt
+    path: ./rulemesh-rules/RuleMesh-Data-global.txt
+    interval: 86400
+  RuleMesh-Data-global.extra:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/classical/global.extra.txt
+    path: ./rulemesh-rules/RuleMesh-Data-global.extra.txt
+    interval: 86400
+  RuleMesh-Data-openai.no-resolve:
+    type: http
+    behavior: ipcidr
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/ipcidr/openai.no-resolve.txt
+    path: ./rulemesh-rules/RuleMesh-Data-openai.no-resolve.txt
+    interval: 86400
+  RuleMesh-Data-telegram.no-resolve:
+    type: http
+    behavior: ipcidr
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/ipcidr/telegram.no-resolve.txt
+    path: ./rulemesh-rules/RuleMesh-Data-telegram.no-resolve.txt
+    interval: 86400
+  RuleMesh-Data-private.resolve:
+    type: http
+    behavior: ipcidr
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/ipcidr/private.resolve.txt
+    path: ./rulemesh-rules/RuleMesh-Data-private.resolve.txt
+    interval: 86400
+rules:
+  - RULE-SET,RuleMesh-Data-private,RuleMesh-private
+  - RULE-SET,RuleMesh-Data-advertising,RuleMesh-advertising
+  - RULE-SET,RuleMesh-Data-anthropic,RuleMesh-anthropic
+  - RULE-SET,RuleMesh-Data-openai,RuleMesh-openai
+  - RULE-SET,RuleMesh-Data-gemini,RuleMesh-gemini
+  - RULE-SET,RuleMesh-Data-copilot,RuleMesh-developer
+  - RULE-SET,RuleMesh-Data-xai,RuleMesh-ai-other
+  - RULE-SET,RuleMesh-Data-perplexity,RuleMesh-ai-other
+  - RULE-SET,RuleMesh-Data-apple-intelligence,RuleMesh-ai-other
+  - RULE-SET,RuleMesh-Data-ai-other,RuleMesh-ai-other
+  - RULE-SET,RuleMesh-Data-telegram,RuleMesh-telegram
+  - RULE-SET,RuleMesh-Data-discord,RuleMesh-social
+  - RULE-SET,RuleMesh-Data-whatsapp,RuleMesh-social
+  - RULE-SET,RuleMesh-Data-twitter,RuleMesh-social
+  - RULE-SET,RuleMesh-Data-instagram,RuleMesh-social
+  - RULE-SET,RuleMesh-Data-facebook,RuleMesh-social
+  - RULE-SET,RuleMesh-Data-reddit,RuleMesh-social
+  - RULE-SET,RuleMesh-Data-youtube,RuleMesh-youtube
+  - RULE-SET,RuleMesh-Data-netflix,RuleMesh-netflix
+  - RULE-SET,RuleMesh-Data-disney,RuleMesh-streaming
+  - RULE-SET,RuleMesh-Data-hbo,RuleMesh-streaming
+  - RULE-SET,RuleMesh-Data-primevideo,RuleMesh-streaming
+  - RULE-SET,RuleMesh-Data-twitch,RuleMesh-streaming
+  - RULE-SET,RuleMesh-Data-tiktok,RuleMesh-streaming
+  - RULE-SET,RuleMesh-Data-spotify,RuleMesh-streaming
+  - RULE-SET,RuleMesh-Data-bilibili-intl,RuleMesh-streaming
+  - RULE-SET,RuleMesh-Data-bilibili,RuleMesh-china
+  - RULE-SET,RuleMesh-Data-apple-cn,RuleMesh-china
+  - RULE-SET,RuleMesh-Data-icloud,RuleMesh-apple
+  - RULE-SET,RuleMesh-Data-apple-music,RuleMesh-apple
+  - RULE-SET,RuleMesh-Data-apple-tv,RuleMesh-apple
+  - RULE-SET,RuleMesh-Data-google-fcm,RuleMesh-google
+  - RULE-SET,RuleMesh-Data-onedrive,RuleMesh-microsoft
+  - RULE-SET,RuleMesh-Data-npm,RuleMesh-developer
+  - RULE-SET,RuleMesh-Data-python,RuleMesh-developer
+  - RULE-SET,RuleMesh-Data-docker,RuleMesh-developer
+  - RULE-SET,RuleMesh-Data-github,RuleMesh-developer
+  - RULE-SET,RuleMesh-Data-gitlab,RuleMesh-developer
+  - RULE-SET,RuleMesh-Data-jetbrains,RuleMesh-developer
+  - RULE-SET,RuleMesh-Data-developer,RuleMesh-developer
+  - RULE-SET,RuleMesh-Data-steam-cn,RuleMesh-china
+  - RULE-SET,RuleMesh-Data-game-downloads,RuleMesh-downloads
+  - RULE-SET,RuleMesh-Data-steam,RuleMesh-games
+  - RULE-SET,RuleMesh-Data-epic-games,RuleMesh-games
+  - RULE-SET,RuleMesh-Data-playstation,RuleMesh-games
+  - RULE-SET,RuleMesh-Data-xbox,RuleMesh-games
+  - RULE-SET,RuleMesh-Data-nintendo,RuleMesh-games
+  - RULE-SET,RuleMesh-Data-downloads,RuleMesh-downloads
+  - RULE-SET,RuleMesh-Data-apple,RuleMesh-apple
+  - RULE-SET,RuleMesh-Data-google,RuleMesh-google
+  - RULE-SET,RuleMesh-Data-microsoft,RuleMesh-microsoft
+  - RULE-SET,RuleMesh-Data-aws,RuleMesh-downloads
+  - RULE-SET,RuleMesh-Data-digitalocean,RuleMesh-downloads
+  - RULE-SET,RuleMesh-Data-cloudflare,RuleMesh-downloads
+  - RULE-SET,RuleMesh-Data-games,RuleMesh-games
+  - RULE-SET,RuleMesh-Data-cdn-cn,RuleMesh-china
+  - RULE-SET,RuleMesh-Data-cdn-global,RuleMesh-downloads
+  - RULE-SET,RuleMesh-Data-china,RuleMesh-china
+  - RULE-SET,RuleMesh-Data-china.extra,RuleMesh-china
+  - RULE-SET,RuleMesh-Data-global,RuleMesh-fallback
+  - RULE-SET,RuleMesh-Data-global.extra,RuleMesh-fallback
+  - RULE-SET,RuleMesh-Data-openai.no-resolve,RuleMesh-openai,no-resolve
+  - RULE-SET,RuleMesh-Data-telegram.no-resolve,RuleMesh-telegram,no-resolve
+  - RULE-SET,RuleMesh-Data-private.resolve,RuleMesh-private
+  - GEOIP,CN,RuleMesh-china
+  - MATCH,RuleMesh-fallback

@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/hbo.list",
+    "surge/domainset/hbo.list",
     "shadowrocket/non_ip/hbo.list",
     "mihomo/domain/hbo.txt",
     "sing-box/non_ip/hbo.json",
-    "surge/domainset/hbo.list"
+    "sing-box/domainset/hbo.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/hbo.list",
+    "shadowrocket/non_ip/hbo.list",
+    "mihomo/domain/hbo.txt",
+    "sing-box/non_ip/hbo.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "hbo",
+      "target": "surge",
+      "path": "surge/domainset/hbo.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-hbo",
+      "behavior": "domain",
+      "rules": 65
+    },
+    {
+      "category": "hbo",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/hbo.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-hbo",
+      "behavior": "classical",
+      "rules": 65
+    },
+    {
+      "category": "hbo",
+      "target": "mihomo",
+      "path": "mihomo/domain/hbo.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-hbo",
+      "behavior": "domain",
+      "rules": 65
+    },
+    {
+      "category": "hbo",
+      "target": "singbox",
+      "path": "sing-box/domainset/hbo.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-hbo",
+      "behavior": "classical",
+      "rules": 65
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

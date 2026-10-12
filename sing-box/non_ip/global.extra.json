@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_keyword": [
+        "blogspot",
+        "browserleaks",
+        "discord",
+        "dropbox",
+        "facebook",
+        "google",
+        "pinterest",
+        "sci-hub",
+        "whatsapp"
+      ]
+    }
+  ]
+}

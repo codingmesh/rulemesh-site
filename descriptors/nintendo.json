@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/nintendo.list",
+    "surge/domainset/nintendo.list",
     "shadowrocket/non_ip/nintendo.list",
     "mihomo/domain/nintendo.txt",
     "sing-box/non_ip/nintendo.json",
-    "surge/domainset/nintendo.list"
+    "sing-box/domainset/nintendo.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/nintendo.list",
+    "shadowrocket/non_ip/nintendo.list",
+    "mihomo/domain/nintendo.txt",
+    "sing-box/non_ip/nintendo.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "nintendo",
+      "target": "surge",
+      "path": "surge/domainset/nintendo.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-nintendo",
+      "behavior": "domain",
+      "rules": 124
+    },
+    {
+      "category": "nintendo",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/nintendo.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-nintendo",
+      "behavior": "classical",
+      "rules": 124
+    },
+    {
+      "category": "nintendo",
+      "target": "mihomo",
+      "path": "mihomo/domain/nintendo.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-nintendo",
+      "behavior": "domain",
+      "rules": 124
+    },
+    {
+      "category": "nintendo",
+      "target": "singbox",
+      "path": "sing-box/domainset/nintendo.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-nintendo",
+      "behavior": "classical",
+      "rules": 124
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

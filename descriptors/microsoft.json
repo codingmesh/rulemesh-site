@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/microsoft.list",
+    "surge/domainset/microsoft.list",
     "shadowrocket/non_ip/microsoft.list",
     "mihomo/domain/microsoft.txt",
     "sing-box/non_ip/microsoft.json",
-    "surge/domainset/microsoft.list"
+    "sing-box/domainset/microsoft.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/microsoft.list",
+    "shadowrocket/non_ip/microsoft.list",
+    "mihomo/domain/microsoft.txt",
+    "sing-box/non_ip/microsoft.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "microsoft",
+      "target": "surge",
+      "path": "surge/domainset/microsoft.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-microsoft",
+      "behavior": "domain",
+      "rules": 637
+    },
+    {
+      "category": "microsoft",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/microsoft.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-microsoft",
+      "behavior": "classical",
+      "rules": 637
+    },
+    {
+      "category": "microsoft",
+      "target": "mihomo",
+      "path": "mihomo/domain/microsoft.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-microsoft",
+      "behavior": "domain",
+      "rules": 637
+    },
+    {
+      "category": "microsoft",
+      "target": "singbox",
+      "path": "sing-box/domainset/microsoft.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-microsoft",
+      "behavior": "classical",
+      "rules": 637
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

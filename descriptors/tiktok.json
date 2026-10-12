@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/tiktok.list",
+    "surge/domainset/tiktok.list",
     "shadowrocket/non_ip/tiktok.list",
     "mihomo/domain/tiktok.txt",
     "sing-box/non_ip/tiktok.json",
-    "surge/domainset/tiktok.list"
+    "sing-box/domainset/tiktok.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/tiktok.list",
+    "shadowrocket/non_ip/tiktok.list",
+    "mihomo/domain/tiktok.txt",
+    "sing-box/non_ip/tiktok.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "tiktok",
+      "target": "surge",
+      "path": "surge/domainset/tiktok.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-tiktok",
+      "behavior": "domain",
+      "rules": 36
+    },
+    {
+      "category": "tiktok",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/tiktok.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-tiktok",
+      "behavior": "classical",
+      "rules": 36
+    },
+    {
+      "category": "tiktok",
+      "target": "mihomo",
+      "path": "mihomo/domain/tiktok.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-tiktok",
+      "behavior": "domain",
+      "rules": 36
+    },
+    {
+      "category": "tiktok",
+      "target": "singbox",
+      "path": "sing-box/domainset/tiktok.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-tiktok",
+      "behavior": "classical",
+      "rules": 36
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

@@ -1,0 +1,6 @@
+# RuleMesh: china
+# Licenses: AGPL-3.0
+# Sources: sukka-china-domains
+# Modified: normalized source view and explicit public overrides
+# See THIRD_PARTY_NOTICES.md and category descriptor for attribution and coverage
+DOMAIN-WILDCARD,qhimgs?.com

@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/downloads.list",
+    "surge/domainset/downloads.list",
     "shadowrocket/non_ip/downloads.list",
     "mihomo/domain/downloads.txt",
     "sing-box/non_ip/downloads.json",
-    "surge/domainset/downloads.list"
+    "sing-box/domainset/downloads.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/downloads.list",
+    "shadowrocket/non_ip/downloads.list",
+    "mihomo/domain/downloads.txt",
+    "sing-box/non_ip/downloads.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "downloads",
+      "target": "surge",
+      "path": "surge/domainset/downloads.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-downloads",
+      "behavior": "domain",
+      "rules": 1971
+    },
+    {
+      "category": "downloads",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/downloads.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-downloads",
+      "behavior": "classical",
+      "rules": 1971
+    },
+    {
+      "category": "downloads",
+      "target": "mihomo",
+      "path": "mihomo/domain/downloads.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-downloads",
+      "behavior": "domain",
+      "rules": 1971
+    },
+    {
+      "category": "downloads",
+      "target": "singbox",
+      "path": "sing-box/domainset/downloads.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-downloads",
+      "behavior": "classical",
+      "rules": 1971
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

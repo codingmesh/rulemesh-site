@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/xai.list",
+    "surge/domainset/xai.list",
     "shadowrocket/non_ip/xai.list",
     "mihomo/domain/xai.txt",
     "sing-box/non_ip/xai.json",
-    "surge/domainset/xai.list"
+    "sing-box/domainset/xai.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/xai.list",
+    "shadowrocket/non_ip/xai.list",
+    "mihomo/domain/xai.txt",
+    "sing-box/non_ip/xai.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "xai",
+      "target": "surge",
+      "path": "surge/domainset/xai.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-xai",
+      "behavior": "domain",
+      "rules": 4
+    },
+    {
+      "category": "xai",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/xai.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-xai",
+      "behavior": "classical",
+      "rules": 4
+    },
+    {
+      "category": "xai",
+      "target": "mihomo",
+      "path": "mihomo/domain/xai.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-xai",
+      "behavior": "domain",
+      "rules": 4
+    },
+    {
+      "category": "xai",
+      "target": "singbox",
+      "path": "sing-box/domainset/xai.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-xai",
+      "behavior": "classical",
+      "rules": 4
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

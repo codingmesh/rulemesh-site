@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/spotify.list",
+    "surge/domainset/spotify.list",
     "shadowrocket/non_ip/spotify.list",
     "mihomo/domain/spotify.txt",
     "sing-box/non_ip/spotify.json",
-    "surge/domainset/spotify.list"
+    "sing-box/domainset/spotify.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/spotify.list",
+    "shadowrocket/non_ip/spotify.list",
+    "mihomo/domain/spotify.txt",
+    "sing-box/non_ip/spotify.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "spotify",
+      "target": "surge",
+      "path": "surge/domainset/spotify.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-spotify",
+      "behavior": "domain",
+      "rules": 25
+    },
+    {
+      "category": "spotify",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/spotify.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-spotify",
+      "behavior": "classical",
+      "rules": 25
+    },
+    {
+      "category": "spotify",
+      "target": "mihomo",
+      "path": "mihomo/domain/spotify.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-spotify",
+      "behavior": "domain",
+      "rules": 25
+    },
+    {
+      "category": "spotify",
+      "target": "singbox",
+      "path": "sing-box/domainset/spotify.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-spotify",
+      "behavior": "classical",
+      "rules": 25
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

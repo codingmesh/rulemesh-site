@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/epic-games.list",
+    "surge/domainset/epic-games.list",
     "shadowrocket/non_ip/epic-games.list",
     "mihomo/domain/epic-games.txt",
     "sing-box/non_ip/epic-games.json",
-    "surge/domainset/epic-games.list"
+    "sing-box/domainset/epic-games.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/epic-games.list",
+    "shadowrocket/non_ip/epic-games.list",
+    "mihomo/domain/epic-games.txt",
+    "sing-box/non_ip/epic-games.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "epic-games",
+      "target": "surge",
+      "path": "surge/domainset/epic-games.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-epic-games",
+      "behavior": "domain",
+      "rules": 30
+    },
+    {
+      "category": "epic-games",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/epic-games.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-epic-games",
+      "behavior": "classical",
+      "rules": 30
+    },
+    {
+      "category": "epic-games",
+      "target": "mihomo",
+      "path": "mihomo/domain/epic-games.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-epic-games",
+      "behavior": "domain",
+      "rules": 30
+    },
+    {
+      "category": "epic-games",
+      "target": "singbox",
+      "path": "sing-box/domainset/epic-games.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-epic-games",
+      "behavior": "classical",
+      "rules": 30
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

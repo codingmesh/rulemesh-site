@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/onedrive.list",
+    "surge/domainset/onedrive.list",
     "shadowrocket/non_ip/onedrive.list",
     "mihomo/domain/onedrive.txt",
     "sing-box/non_ip/onedrive.json",
-    "surge/domainset/onedrive.list"
+    "sing-box/domainset/onedrive.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/onedrive.list",
+    "shadowrocket/non_ip/onedrive.list",
+    "mihomo/domain/onedrive.txt",
+    "sing-box/non_ip/onedrive.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "onedrive",
+      "target": "surge",
+      "path": "surge/domainset/onedrive.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-onedrive",
+      "behavior": "domain",
+      "rules": 16
+    },
+    {
+      "category": "onedrive",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/onedrive.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-onedrive",
+      "behavior": "classical",
+      "rules": 16
+    },
+    {
+      "category": "onedrive",
+      "target": "mihomo",
+      "path": "mihomo/domain/onedrive.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-onedrive",
+      "behavior": "domain",
+      "rules": 16
+    },
+    {
+      "category": "onedrive",
+      "target": "singbox",
+      "path": "sing-box/domainset/onedrive.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-onedrive",
+      "behavior": "classical",
+      "rules": 16
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

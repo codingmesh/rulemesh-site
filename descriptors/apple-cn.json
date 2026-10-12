@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/apple-cn.list",
+    "surge/domainset/apple-cn.list",
     "shadowrocket/non_ip/apple-cn.list",
     "mihomo/domain/apple-cn.txt",
     "sing-box/non_ip/apple-cn.json",
-    "surge/domainset/apple-cn.list"
+    "sing-box/domainset/apple-cn.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/apple-cn.list",
+    "shadowrocket/non_ip/apple-cn.list",
+    "mihomo/domain/apple-cn.txt",
+    "sing-box/non_ip/apple-cn.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "apple-cn",
+      "target": "surge",
+      "path": "surge/domainset/apple-cn.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-cn",
+      "behavior": "domain",
+      "rules": 9
+    },
+    {
+      "category": "apple-cn",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/apple-cn.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-cn",
+      "behavior": "classical",
+      "rules": 9
+    },
+    {
+      "category": "apple-cn",
+      "target": "mihomo",
+      "path": "mihomo/domain/apple-cn.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-cn",
+      "behavior": "domain",
+      "rules": 9
+    },
+    {
+      "category": "apple-cn",
+      "target": "singbox",
+      "path": "sing-box/domainset/apple-cn.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-apple-cn",
+      "behavior": "classical",
+      "rules": 9
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

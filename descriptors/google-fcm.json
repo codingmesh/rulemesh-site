@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/google-fcm.list",
+    "surge/domainset/google-fcm.list",
     "shadowrocket/non_ip/google-fcm.list",
     "mihomo/domain/google-fcm.txt",
     "sing-box/non_ip/google-fcm.json",
-    "surge/domainset/google-fcm.list"
+    "sing-box/domainset/google-fcm.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/google-fcm.list",
+    "shadowrocket/non_ip/google-fcm.list",
+    "mihomo/domain/google-fcm.txt",
+    "sing-box/non_ip/google-fcm.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "google-fcm",
+      "target": "surge",
+      "path": "surge/domainset/google-fcm.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-google-fcm",
+      "behavior": "domain",
+      "rules": 12
+    },
+    {
+      "category": "google-fcm",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/google-fcm.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-google-fcm",
+      "behavior": "classical",
+      "rules": 12
+    },
+    {
+      "category": "google-fcm",
+      "target": "mihomo",
+      "path": "mihomo/domain/google-fcm.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-google-fcm",
+      "behavior": "domain",
+      "rules": 12
+    },
+    {
+      "category": "google-fcm",
+      "target": "singbox",
+      "path": "sing-box/domainset/google-fcm.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-google-fcm",
+      "behavior": "classical",
+      "rules": 12
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

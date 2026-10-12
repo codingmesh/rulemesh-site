@@ -1,17 +1,9 @@
-# RuleMesh build scope
+# RuleMesh site changes
 
-Profile: standard; status: experimental until client/device acceptance.
+Mode: structure
 
-Official Telegram/Voice addresses use existing-only routing. Voice UDP 3478/TCP 443 conditions are not represented.
-OpenAI Azure WebPubSub regex is outside the selected plain domain view. sing-box country data comes from the local node base.
+Configuration update required: yes
 
-## Declared target gaps
+Added: 91; removed: 0; changed: 68.
 
-- mihomo/china/948e3182893fc7ccc3e8: user-agent; declared-gap; sukka-china-domains:882
-- mihomo/china/f2f25c5c040f643fa17d: user-agent; declared-gap; sukka-china-domains:883
-- mihomo/china/b1ababc0675a16aa71b7: user-agent; declared-gap; sukka-china-domains:884
-- mihomo/global/4ecbba55940a52e0ac8b: user-agent; declared-gap; sukka-global-domains:1287
-- singbox/china/948e3182893fc7ccc3e8: user-agent; declared-gap; sukka-china-domains:882
-- singbox/china/f2f25c5c040f643fa17d: user-agent; declared-gap; sukka-china-domains:883
-- singbox/china/b1ababc0675a16aa71b7: user-agent; declared-gap; sukka-china-domains:884
-- singbox/global/4ecbba55940a52e0ac8b: user-agent; declared-gap; sukka-global-domains:1287
+Refresh or re-compose the complete client configuration according to the client guide.

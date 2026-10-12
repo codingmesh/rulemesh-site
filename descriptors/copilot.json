@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/copilot.list",
+    "surge/domainset/copilot.list",
     "shadowrocket/non_ip/copilot.list",
     "mihomo/domain/copilot.txt",
     "sing-box/non_ip/copilot.json",
-    "surge/domainset/copilot.list"
+    "sing-box/domainset/copilot.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/copilot.list",
+    "shadowrocket/non_ip/copilot.list",
+    "mihomo/domain/copilot.txt",
+    "sing-box/non_ip/copilot.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "copilot",
+      "target": "surge",
+      "path": "surge/domainset/copilot.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-copilot",
+      "behavior": "domain",
+      "rules": 6
+    },
+    {
+      "category": "copilot",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/copilot.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-copilot",
+      "behavior": "classical",
+      "rules": 6
+    },
+    {
+      "category": "copilot",
+      "target": "mihomo",
+      "path": "mihomo/domain/copilot.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-copilot",
+      "behavior": "domain",
+      "rules": 6
+    },
+    {
+      "category": "copilot",
+      "target": "singbox",
+      "path": "sing-box/domainset/copilot.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-copilot",
+      "behavior": "classical",
+      "rules": 6
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }

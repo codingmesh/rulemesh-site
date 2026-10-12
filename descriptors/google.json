@@ -9,12 +9,56 @@
   ],
   "outputs": [
     "surge/non_ip/google.list",
+    "surge/domainset/google.list",
     "shadowrocket/non_ip/google.list",
     "mihomo/domain/google.txt",
     "sing-box/non_ip/google.json",
-    "surge/domainset/google.list"
+    "sing-box/domainset/google.json"
   ],
-  "unavailableFormats": [],
+  "completeRepresentations": [
+    "surge/non_ip/google.list",
+    "shadowrocket/non_ip/google.list",
+    "mihomo/domain/google.txt",
+    "sing-box/non_ip/google.json"
+  ],
+  "ruleSets": [
+    {
+      "category": "google",
+      "target": "surge",
+      "path": "surge/domainset/google.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-google",
+      "behavior": "domain",
+      "rules": 847
+    },
+    {
+      "category": "google",
+      "target": "shadowrocket",
+      "path": "shadowrocket/non_ip/google.list",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-google",
+      "behavior": "classical",
+      "rules": 847
+    },
+    {
+      "category": "google",
+      "target": "mihomo",
+      "path": "mihomo/domain/google.txt",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-google",
+      "behavior": "domain",
+      "rules": 847
+    },
+    {
+      "category": "google",
+      "target": "singbox",
+      "path": "sing-box/domainset/google.json",
+      "partition": "domainset",
+      "tag": "RuleMesh-Data-google",
+      "behavior": "classical",
+      "rules": 847
+    }
+  ],
   "capabilityGaps": [],
   "imports": [
     {
@@ -28,5 +72,5 @@
   "dataOnly": true,
   "requiresProfile": false,
   "runtimeStatus": "experimental",
-  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+  "note": "Typed parts use one category policy; complete classic datasets retain existing URL semantics. Ordering and resolution require the profile."
 }
