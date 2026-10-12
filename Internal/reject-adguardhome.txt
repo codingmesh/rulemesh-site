@@ -1,10 +1,10 @@
 ! Title: Sukka's Ruleset - AdGuardHome Blocklist
-! Last modified: Mon, 12 Oct 2026 08:05:19 GMT
+! Last modified: Mon, 12 Oct 2026 09:35:55 GMT
 ! Expires: 6 hours
 ! License: https://github.com/SukkaW/Surge/blob/master/LICENSE
 ! Homepage: https://github.com/SukkaW/Surge
 ! Description: The AdGuardHome ruleset supports AD blocking, tracking protection, privacy protection, anti-mining
-! $content-hash-v1$:kUAqt5UCGAgDgXVdLwQLnUtZlebZvyvUzzin4buVStE$
+! $content-hash-v1$:KH0uM-9XvUaspXx4pMbD-fC8siG62xgjl5Y-2VGvd-0$
 !
 ||data^
 ||null^
@@ -11931,6 +11931,7 @@
 ||abkbmamulx.in^
 ||abouttill.com^
 ||abovechat.com^
+||abovesave.com^
 ||ac.art456.com^
 ||ac00qmnjz.com^
 ||accedelid.com^
@@ -12409,6 +12410,7 @@
 ||bass2poll.com^
 ||bat.heelix.be^
 ||batebalmy.com^
+||bayzhawok.com^
 ||bb.4barber.pl^
 ||bb.onjoyri.de^
 ||bbbb.goace.jp^
@@ -14814,6 +14816,7 @@
 ||mass1soma.com^
 ||massbrag.care^
 ||masternode.io^
+||mastleven.com^
 ||match2one.net^
 ||maxbounty.com^
 ||maxminers.net^
@@ -21923,6 +21926,7 @@
 ||logapi.alza.cz^
 ||loggatsiyo.cfd^
 ||logging.h3z.jp^
+||loggyevils.com^
 ||login.velpa.pl^
 ||logs.51cto.com^
 ||logs.adplay.ru^
@@ -22092,6 +22096,7 @@
 ||mdws.rpcul.com^
 ||mdws.sascu.com^
 ||mdws.wldcu.com^
+||meadowwhat.com^
 ||mealsdyce.qpon^
 ||measureadv.com^
 ||mec.hilton.com^
@@ -25700,6 +25705,7 @@
 ||yieldscale.com^
 ||yiisuvught.com^
 ||yiiwaq.mms.com^
+||yippeeidle.com^
 ||yis.gridko.com^
 ||yizj5fcwaj.com^
 ||yjdgbimchn.com^
@@ -27877,6 +27883,7 @@
 ||epicstrings.com^
 ||epsilondelta.co^
 ||epxniaadddb.com^
+||eqgjmqagdjx.com^
 ||erepsinaira.com^
 ||ericastars.cyou^
 ||errordomain.com^
@@ -28787,6 +28794,7 @@
 ||hkkstlslfdq.com^
 ||hmhzr.murad.com^
 ||hnsbb.scuba.com^
+||hnvfkwxwqcf.com^
 ||hockeyhavoc.com^
 ||hockstaxwax.com^
 ||hodlwvavzwt.com^
@@ -30123,6 +30131,7 @@
 ||ocdp.josavia.be^
 ||ocs.hagerty.com^
 ||odc.weather.com^
+||odloqsduxqha.in^
 ||odoo.nalios.com^
 ||ofbvuvopwojr.in^
 ||ofcamerupta.com^
@@ -35425,6 +35434,7 @@
 ||ddxsrk.ictjob.be^
 ||deafnitrogen.com^
 ||dealtnubbin.qpon^
+||debitsikatch.com^
 ||debonairdust.com^
 ||debonairtree.com^
 ||decidesqueak.com^
@@ -37599,6 +37609,7 @@
 ||load.vqw.iedc.si^
 ||loadedhearts.com^
 ||loadsurprise.com^
+||loamedstella.cfd^
 ||localbitcoin.com^
 ||loessfraised.com^
 ||lofi.dankmart.co^
@@ -45129,6 +45140,7 @@
 ||gleamingtrade.com^
 ||glhbd.nuudcare.it^
 ||glhjrjohcdbam.com^
+||glkwxusceaxxe.com^
 ||global.raboag.com^
 ||globaladmedia.com^
 ||globaladmedia.net^
@@ -54317,6 +54329,7 @@
 ||dullequivalent.com^
 ||dummelammelin.qpon^
 ||dump.mewcdn.online^
+||duncishwhuffle.cfd^
 ||duomoskullani.cyou^
 ||duotypesleeted.com^
 ||dupattarummage.com^
@@ -56245,7 +56258,6 @@
 ||javkagiitfkuw.site^
 ||jay.howivscode.com^
 ||jayupgtwuzpiv.site^
-||jazz.abovesave.com^
 ||jazzistagallop.com^
 ||jbmnge.samsamo.net^
 ||jbpqyfefyppfff.com^
@@ -56423,6 +56435,7 @@
 ||kdpgu.rriveter.com^
 ||kdqvwjpccicpp.site^
 ||kdsowxkljiwhz.site^
+||keeuabjiurgag.site^
 ||kelchincasasia.com^
 ||keqgptcvjzlfm.site^
 ||kernelbudstwig.com^
@@ -60753,6 +60766,7 @@
 ||sstnd.ayusudha.com^
 ||sstpo.boothpop.com^
 ||ssttags.argenta.be^
+||sszptnyhgeefg.site^
 ||st.azcardinals.com^
 ||st.bahnbusiness.de^
 ||st.boardcompany.de^
@@ -62085,6 +62099,7 @@
 ||ufuspv.nucific.com^
 ||ufzvgx.stylepit.se^
 ||ugdcxl.timeout.com^
+||ugqqupwgsleha.site^
 ||uh6.v2.net.rewe.de^
 ||uhedt.trywellbe.rs^
 ||uhenqb.manning.com^
@@ -62665,6 +62680,7 @@
 ||xhrjnsyfwxzto.site^
 ||xhvewcaloiiyk.site^
 ||xibuvdzihpjlrq.com^
+||xiphiuselflock.com^
 ||xixnvwbokfztj.site^
 ||xjdfubwlgothk.site^
 ||xjqlljxtdtddp.site^
@@ -64870,7 +64886,6 @@
 ||discover.parker.com^
 ||discreetquarter.com^
 ||diseasywending.cyou^
-||dish.yippeeidle.com^
 ||dislimnshairns.shop^
 ||distendtamlung.cyou^
 ||distiller.kano.link^
@@ -64992,6 +65007,7 @@
 ||dybajlqbohbgeqm.com^
 ||dyfgaduveazcr.space^
 ||dyngepeng.zapto.org^
+||dzenozyhybvuv.space^
 ||dznhlb.thezam.co.kr^
 ||dzqmfkhrtpeaf.space^
 ||dztatn.soulberry.jp^
@@ -65052,7 +65068,6 @@
 ||edge.foodnetwork.ca^
 ||edge.historiatv.com^
 ||edge.homenetwork.ca^
-||edge.meadowwhat.com^
 ||edge.mindchamps.org^
 ||edge.movietimetv.ca^
 ||edge.nickcanada.com^
@@ -65647,6 +65662,7 @@
 |ggx03.miguvideo.com^
 |ggx10.miguvideo.com^
 ||ggxwb.miguvideo.com^
+||gh1frz6nux2ov8.rest^
 ||gheleemtrophic.cyou^
 ||ghjyvygyimaur.space^
 ||ghnwss.fmsstores.gr^
@@ -68242,6 +68258,7 @@
 ||njewefmwpeankdn.com^
 ||njicu.tiffany.co.uk^
 ||njiohggwvhfmx.space^
+||njkmjurtegykg.space^
 ||njloqalywpljg.space^
 ||njnnmghwvpakx.space^
 ||njtwub.schneider.de^
@@ -68921,6 +68938,7 @@
 ||qeynos.speedline.se^
 ||qfmqk.monsoon.co.uk^
 ||qfnxcp.tropicspa.fr^
+||qfukqynwbmatq.space^
 ||qfvwfi.convenii.com^
 ||qgumjp.statiz.co.kr^
 ||qhxxqt.coolstuff.se^
@@ -72648,6 +72666,7 @@
 ||xwzyijhjcoijr.space^
 ||xxkcygkzdchkf.space^
 ||xxkjak.reddoorz.com^
+||xxkzjwjibpxbq.space^
 ||xxwstajt.vermund.eu^
 ||xycgec.theoutlet.ru^
 ||xynfpgupmqkvd.space^
@@ -73001,6 +73020,7 @@
 ||activity.newlook.com^
 ||acton.goldencomm.com^
 ||acton.maintainer.com^
+||actuaixfhkwpq.online^
 ||acv.aun-air-wifi.com^
 ||acv.aun-n-hikari.com^
 ||acv.auncompany.co.jp^
@@ -76007,7 +76027,6 @@
 ||hokkaidobank.rapi.jp^
 ||honeybutterbliss.com^
 ||honorablehydrant.com^
-||hoof.absentwhack.com^
 ||hornet.jeffgable.com^
 ||horse.ohseemedia.com^
 ||host.zoodipistoia.it^
@@ -76352,6 +76371,7 @@
 ||janmwbjqxiqmr.online^
 ||jaodao9j.eulerian.io^
 ||jasvvu.rurubu.travel^
+||jawxtjwcijcif.online^
 ||jbe6aa2e.eulerian.io^
 ||jcjbxydnpgqij.online^
 ||jclari.idgarages.com^
@@ -81862,6 +81882,7 @@
 ||yfyfkyqlnvfdm.online^
 ||yghelr.ipaznokcie.pl^
 ||ygxqjz.intersport.fi^
+||yhzfjzhwndqbt.online^
 ||yilzeq.bornshoes.com^
 ||yiqrzlkvqailu.online^
 ||yixhy1vpln8bjuy1.cfd^
@@ -85377,6 +85398,7 @@
 ||kgrcz.youtubegeek.com^
 ||khcdhu.saraschool.net^
 ||khfiwx.sephora.com.br^
+||khkcfyabrmicl.website^
 ||khmqf.trapkaraoke.com^
 ||khvdma.clarins.com.tw^
 ||kian.rockmelon.agency^
@@ -90104,6 +90126,7 @@
 ||ug-sg.byteoversea.com^
 ||ugapt.shoesforall.com^
 ||ugdcxl.timeout.com.hk^
+||uggbizedncnoa.website^
 ||uglwov.logic-immo.com^
 ||ugvbua.optykaworld.pl^
 ||ugws.dermachershop.de^
@@ -90312,6 +90335,7 @@
 ||wbtrkk.teufelaudio.nl^
 ||wbtrkk.teufelaudio.pl^
 ||wcdizz.vanessdeco.com^
+||wcgbetyplakno.website^
 ||wctr.khk-karlsruhe.de^
 ||wctr.moenninghoff.net^
 ||wdcgxt.fillity.com.br^
@@ -99602,6 +99626,7 @@
 ||discover.tenplay.com.au^
 ||disdubdronehexylic.qpon^
 ||disloyalmoviesfavor.com^
+||dissoulcroppedrins.qpon^
 ||djngb.lolaslashes.co.uk^
 ||djzooj.planetahuerto.es^
 ||dkrxls.uzaktangelir.com^
@@ -113278,6 +113303,7 @@
 ||join.fashionbyinforma.com^
 ||join.pharmapackeurope.com^
 ||join02.informamarkets.com^
+||joualsfelafelheroine.cyou^
 ||journal-bt.wildberries.ru^
 ||jppol.coronadoleather.com^
 ||jrqet.catholiccompany.com^
@@ -141355,6 +141381,7 @@
 ||www2-festo-com-3663994.p06.elqsandbox.com^
 ||y6iet9bunjerl62fn598wmq24o84jjwbolz38.cfd^
 ||48z7wyjdsywu.www.revistaferramental.com.br^
+||53z8qvgw8894he7znoert74jn3v1t1flji1jhk.cfd^
 ||92kvgl8w8vc1gxl1fiw3thhxww235ri8cl5wm.rest^
 ||97gglrj.5grcwkqytkrkyqzfj6p51jhrktgpt.cyou^
 |adstore-index-1252524079.file.myqcloud.com^
