@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Extra
-# Last Updated: 2026-10-12T07:29:39.047Z
-# Size: 77250
+# Last Updated: 2026-10-12T08:05:16.345Z
+# Size: 77235
 # License: AGPL 3.0
 # Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
@@ -33,7 +33,7 @@
 #   - https://ublockorigin.pages.dev/thirdparties/easylist-notifications.txt
 #   - https://urlhaus-filter.pages.dev/urlhaus-filter-domains-online.txt
 #
-# $content-hash-v1$:2NT0iBNCvLKCfkvdF3afIsa_psC5JVkLrCAw7hyZv2M$
+# $content-hash-v1$:fCp4XOFreMF2M_w9YOxnZJ2yJp-d4xcmtaG7QHmqmC8$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.4.fo
@@ -16370,7 +16370,6 @@ scx.ddns.net
 +.luxpolice.net
 +.lycheebit.com
 +.lyodsbank.com
-+.lzaussxps.com
 +.m.1svi101.com
 +.m.adbridge.de
 +.m.fexiaen.com
@@ -24655,7 +24654,6 @@ scx.ddns.net
 +.cliffsquery.com
 +.clipbongda.info
 +.cliquemidia.com
-+.clivconges.qpon
 +.clk.ourdream.ai
 +.clk.slutcam.org
 +.clkoplardir.com
@@ -26052,7 +26050,6 @@ scx.ddns.net
 +.mantrafilms.com
 +.manualranch.com
 +.maphonortea.com
-+.marblexxiii.cfd
 +.mariage-inc.com
 +.marianneowl.com
 +.marinescence.fr
@@ -30662,7 +30659,6 @@ scx.ddns.net
 +.manage.tbepc.com
 +.mangayhentai.com
 +.mangocoin.online
-+.manilioshred.cfd
 +.manitobaparks.ca
 +.manoffashion.com
 +.maomaoschout.com
@@ -30864,7 +30860,6 @@ scx.ddns.net
 +.mugen-online.com
 +.muggedregent.com
 +.mullencrisp.qpon
-+.mullitetepid.cfd
 +.multiadblock.com
 +.mungoprowess.com
 +.muraledyucks.com
@@ -43170,7 +43165,6 @@ oceansail.ddns.net
 +.rumtgbtbgtixo.site
 +.rune-luna-moon.com
 +.runnerabnegate.com
-+.runnerwailaki.qpon
 +.rushhourmining.com
 +.rushierfermata.cfd
 +.rusoezjtmlqix.site
@@ -46704,7 +46698,6 @@ oceansail.ddns.net
 +.cxrvilfjtbwxy.store
 +.cxyilbdocnfsi.space
 +.cyberprotection.pro
-+.cyclidebitumed.cyou
 +.cyclistburiels.qpon
 +.cycrtitiqxykp.space
 +.cyfiaeojxyrsu.space
@@ -47048,7 +47041,6 @@ oceansail.ddns.net
 +.eebivsjgsjktp.store
 +.eepngjlpomkcr.space
 +.eevhqgeudnqeg.space
-+.eezikzsngpoeo.space
 +.efbgeebqzeqbs.space
 +.effectivespeech.net
 +.efgnmycwzcngp.space
@@ -47121,7 +47113,6 @@ oceansail.ddns.net
 +.enchantmenttome.com
 +.encouragingblab.com
 +.encroachbuzzing.com
-+.enczylzgxxewc.space
 +.endlessaspirant.com
 +.energicsemiraw.shop
 +.engage.everyone.net
@@ -49166,7 +49157,6 @@ eu-ubqpool.ddns.net
 +.musoparhnhgye.space
 +.mutinoustickets.com
 +.mvdnfedblekcc.store
-+.mvebkgfndgcfq.space
 +.mvftmypmzprjt.space
 +.mvuzjyfunvkzw.store
 +.mvvlwyftnouio.space
@@ -53108,7 +53098,6 @@ vbk-reb0rn.ddns.net
 +.bitxnovrbzpby.online
 +.bityalezjdkmo.online
 +.biucjsmmvnzbm.online
-+.bixhdzkxhgoxr.online
 +.bizad.nikkeibp.co.jp
 +.bjquhxvicujcc.online
 +.bjuaivwbdktzz.online
@@ -55016,7 +55005,6 @@ eu-nilupool.ddns.net
 +.jlmzyefsoheod.online
 +.jltczmewqabda.online
 +.jmebwpbpvofcx.online
-+.jmmldtmdqibtg.online
 +.jmnuyfmeqpvk2zc5.cfd
 +.jmtfwapdtjqgt.online
 +.jmxqqlgsrkkrl.online
@@ -58944,7 +58932,6 @@ eu-nilupool.ddns.net
 +.bsnwicychhpjy.website
 +.bswpedrupvagj.website
 +.bswpzhhfjjqxv.website
-+.bsycpagkuxngg.website
 +.btcc.com.whecloud.com
 +.btdfqejriamjr.website
 +.bthtcgwaniavh.website
@@ -61898,7 +61885,6 @@ eu-nilupool.ddns.net
 +.securelysurfcloud.com
 +.seductiveamateurs.com
 +.seemingliveliness.com
-+.sehllvdymlrwl.website
 +.seidmaraisdeluce.cyou
 +.seitekdhgusym.website
 +.semicirclepackage.com
@@ -64600,7 +64586,6 @@ eu-nilupool.ddns.net
 +.ootypepidginoncost.com
 openburstpool.ddns.net
 +.operateturfculprit.com
-+.opiismcattannounal.cfd
 +.opposedarrangement.net
 +.ops.instantfapcams.com
 +.orbitmacro-site.online

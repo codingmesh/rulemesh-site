@@ -1,10 +1,10 @@
 ! Title: Sukka's Ruleset - AdGuardHome Blocklist
-! Last modified: Mon, 12 Oct 2026 07:29:42 GMT
+! Last modified: Mon, 12 Oct 2026 08:05:19 GMT
 ! Expires: 6 hours
 ! License: https://github.com/SukkaW/Surge/blob/master/LICENSE
 ! Homepage: https://github.com/SukkaW/Surge
 ! Description: The AdGuardHome ruleset supports AD blocking, tracking protection, privacy protection, anti-mining
-! $content-hash-v1$:4bzPaisYxBpLLORxaRwkzhA60Z5C9rLd1lfBzbQ-pxI$
+! $content-hash-v1$:kUAqt5UCGAgDgXVdLwQLnUtZlebZvyvUzzin4buVStE$
 !
 ||data^
 ||null^
@@ -14745,6 +14745,7 @@
 ||lyjq9gwob.com^
 ||lynx.inovo.io^
 ||lyo1dkdbp.com^
+||lzaussxps.com^
 ||lzu1ocasf.com^
 ||lzwdh6iwo.com^
 ||m-t.topya.com^
@@ -27053,6 +27054,7 @@
 ||clickpupbit.com^
 ||client.velpa.pl^
 ||clients.aon.com^
+||clivconges.qpon^
 ||clnbze.gol24.pl^
 ||clog.geniex.com^
 ||clog.weverse.io^
@@ -29528,6 +29530,7 @@
 ||manyielding.com^
 ||mapvaa.reloj.es^
 ||marbleseeds.com^
+||marblexxiii.cfd^
 ||market.21cn.com^
 |masdk.3g.qq.com^
 ||massivemark.com^
@@ -37740,6 +37743,7 @@
 ||manawa-mai.ac.nz^
 ||mandanelutes.cfd^
 ||mangocoin.online^
+||manilioshred.cfd^
 ||manydiamonds.com^
 ||maraemudhook.com^
 ||marascaliny.cyou^
@@ -38133,6 +38137,7 @@
 ||mts.voxiplan.com^
 ||mufopuqvafcf.com^
 ||mulchimbiber.com^
+||mullitetepid.cfd^
 ||multiplier47.top^
 ||mundi.hoctan.com^
 ||mundi.litrox.com^
@@ -58958,6 +58963,7 @@
 ||rum.api.intuit.com^
 ||rumblerloiasis.com^
 ||rumic.beacon40.com^
+||runnerwailaki.qpon^
 ||runnzk.pch-shop.de^
 ||ruqztnua.datthu.vn^
 ||rusheehederin.qpon^
@@ -64542,6 +64548,7 @@
 ||cxyfiyqatfbjx.space^
 ||cyber-pages.att.com^
 ||cyber.boozallen.com^
+||cyclidebitumed.cyou^
 ||cyeabs.luxyhair.com^
 ||cyezszhm.pammys.com^
 ||cyjpkkksawzrr.space^
@@ -65062,6 +65069,7 @@
 ||eehsd.cyclegear.com^
 ||eeloj.yotamafia.com^
 ||eetzod.bemol.com.br^
+||eezikzsngpoeo.space^
 ||ef.futuroscope.mobi^
 ||efficiency.visma.dk^
 ||efficiency.visma.fi^
@@ -65163,6 +65171,7 @@
 ||enawsu.adzuna.co.uk^
 ||encar21.net.rewe.de^
 ||encasehighlight.com^
+||enczylzgxxewc.space^
 ||endgl.cgenetool.com^
 ||endljp.dariknews.bg^
 ||enennsa.gushiwen.cn^
@@ -68129,6 +68138,7 @@
 ||mutinesalpacas.qpon^
 ||mvb46hlp9r7kph.rest^
 ||mvc.shopjapan.co.jp^
+||mvebkgfndgcfq.space^
 ||mvect.hellopest.org^
 ||mvect.shopilume.com^
 ||mvoaopmuvuors.space^
@@ -73760,6 +73770,7 @@
 ||bitcoin-rebooted.xyz^
 ||bitcoinofamerica.org^
 ||biwfzaffpksun.online^
+||bixhdzkxhgoxr.online^
 ||bizeps.tntfitness.de^
 ||bjias.petitekeep.com^
 ||bjkp1vrip25blnj.rest^
@@ -76388,6 +76399,7 @@
 ||jkodbweyhuhis.online^
 ||jlqjuiwrnprkm.online^
 ||jmhdz.nativepath.com^
+||jmmldtmdqibtg.online^
 ||jmosa.pistolpete.com^
 ||jn23.madeindesign.ch^
 ||jn23.madeindesign.it^
@@ -82952,6 +82964,7 @@
 ||bsacvjvgpgsgi.website^
 ||bsptz.shopthemint.com^
 ||bstyjo.reelflyrod.com^
+||bsycpagkuxngg.website^
 ||btcc.com.whecloud.com^
 ||btnqi.zcaddystore.com^
 ||btptod.aerzteblatt.de^
@@ -87567,6 +87580,7 @@
 ||sedge.aeropostale.com^
 ||sefg.praxis-naveed.de^
 ||segment-api.inrix.com^
+||sehllvdymlrwl.website^
 ||seifst.seifenstars.de^
 ||sejvwznhmhxwj.website^
 ||selectjeeps.acutx.org^
@@ -94960,6 +94974,7 @@
 |openjmacs.m.taobao.com^
 ||openmonitor.alipay.com^
 ||opfjj.vivobarefoot.com^
+||opiismcattannounal.cfd^
 ||opjqa.wineinsiders.com^
 ||opummf.himiwaybike.com^
 ||oqidu.handupgloves.com^
