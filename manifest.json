@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "build-a4d114e87dcb1ec3f5de6720",
+  "id": "build-c351f4c3fcf8239d6b08d0f6",
   "status": "experimental",
   "private": false,
   "semanticHash": "61fd13b0a25305ae6fbaa5db479994aca530c47f01469b2f0976e91b471609ae",
-  "contextHash": "a4d114e87dcb1ec3f5de6720e1569568e43453d1bcf097eabeb0e5cd71c8ec90",
+  "contextHash": "c351f4c3fcf8239d6b08d0f688edcbab83dac987054fd496c433ce1a7529ffab",
   "context": {
+    "site.config.json": "8d794e9c8db65038d9dbfbc33868687abd9ca8294570d47564fc341f5f345c1f",
     "sources.yaml": "21fc56627efde2042e4549ab3f92bef4752f50ee9b52153ceb2383e3fe33107e",
     "sources.lock.json": "1bdd8dcadcb59b464b8c9360609eaa990b6c9407700d50f1cc0b131fe7e63a38",
     "tracking.yaml": "f66686e99b2671ab6e08685f30e9fdec08dc1091cc2f5f10a1c3bd8be00b3b46",
@@ -22,7 +23,7 @@
     "tests/fixtures/routing.ts": "d05dc2f5153b67054e30b0dc122f1bdd33a6070b3b4ef1dea702e571faf69019",
     "profiles/standard.yaml": "cee169d8cc1e86c76423a185bfb3474500481c2497a6fc089fc2768bb281fe66",
     "src/artifact-content.ts": "28f1c6f7ee714d26a61da2d5ed139b0334b2fcbe79dee9e670a20ada84af2805",
-    "src/build.ts": "5a4ac2eedec618d7453ea6a46ff5fd7bcce9318e3e5a02cae4d8e392f7dc1030",
+    "src/build.ts": "3c3022adf4160bc237ca5a24de3bd566910db07cc731077ad512800541fb37be",
     "src/cli.ts": "406b9e19f3fccfdb688e994b0e3bae02f340f0b50a9821b8dc8d8f1c45158b58",
     "src/config-cli.ts": "0b304a63dbfe34e3762b7993aafc44ec713a5cbb495280dd3ca0314f81d9f117",
     "src/dataset.ts": "1e1a3bef8f01922e0e30751aea42fbafdaa90af4d0b2eeaf7d93a0511abbeb9f",
@@ -50,10 +51,10 @@
     "src/model/predicate.ts": "a40dc9613c228e35fa90244bbe26a25b011034bc85aaf6ff9a9e08ff432af2af",
     "src/model/semantic.ts": "0d4cec659f01dd88bb453411816b4563f553875c8404cbe0c449013a63947088",
     "src/model/types.ts": "9527606b8639eb52a92178163ae679fef755d98cf8d6d05ee915e54ce09db28d",
-    "src/native-check.ts": "ed75f76a1856035e325fccbf6ad48cf4333b782586a5018ff3fddfb4d129b220",
+    "src/native-check.ts": "5372db6a33f9b156a1aa04810e454f10233d7dbf8fc18c507c49e79e73dc834a",
     "src/output.ts": "3bf74cce2b06f315d66be5fa487b82dc12724e0471d306a0796658b17e576964",
     "src/site-cli.ts": "83a224a76d0904bfece21b6e16d6889b86cd004d761fd9c9772a04a35900c10a",
-    "src/site.ts": "578f2fc03dec4f4326d552f8dd32bdab555b8a88d3cb2c764251716ea3f07567",
+    "src/site.ts": "8ff77f24df2bcd084327d05ef6b3b6a8e01c06774964842505d7c8c93dd02a9e",
     "src/snapshot.ts": "3d1691ccb749801769d2f2560d0382654df0d17c2b6d44e23872d69fb28df278",
     "schemas/documents.schema.json": "e07eb00158b1c8faf9b0113d067b532675c3c53ebc0bcb198e19809e5dd48e0d",
     "licenses/MetaCubeX-GPL-3.0.txt": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
@@ -962,8 +963,8 @@
       "bytes": 820
     },
     "index.html": {
-      "sha256": "a7f91a057e6068b532e10fe973dd60bdd6677f08f9b4158053bc2a2afeacbbc0",
-      "bytes": 28501
+      "sha256": "f7f1384fbed799d68c0494e4438bd8a5b959b93e5ff7c2f30269c0c6390ef10a",
+      "bytes": 28557
     },
     "LICENSE": {
       "sha256": "d0769273dcd9180053cb2ee6ae5c7dd4219eb905f58cebeb54bf737905642541",
@@ -1790,8 +1791,8 @@
       "bytes": 4428
     },
     "status.json": {
-      "sha256": "f8f12eb66473a2b224c52cd454c16763da4a8caaa668bf181a170bfbfed34523",
-      "bytes": 208
+      "sha256": "3338f5e86fead6a0ebac9d207a40b635b0884ce132162a3ae933f0080872dd05",
+      "bytes": 246
     },
     "surge/domainset/advertising.list": {
       "sha256": "e3bbda0579e3fcad133f248c48969841c63d9024de40765e247d512443ec8f0f",
