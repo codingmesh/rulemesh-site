@@ -1,131 +1,18 @@
 #########################################
-# Sukka's Ruleset - General Global Services
-# Last Updated: 2026-10-12T08:20:17.619Z
-# Size: 124
+# RuleMesh Ruleset - global
+# Last Updated: 2026-10-12T08:24:39.928Z
+# Size: 10
 # License: AGPL 3.0
 # Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
-# This file contains rules for services that are NOT available inside the Mainland China.
+# Derived from SukkaLab/ruleset.skk.moe@fb2480119a3dd21e5f95f7eabf1ff98988e32289:List/non_ip/global.conf.
+# Exact provenance and transformation: https://github.com/codingmesh/rulemesh/blob/main/sources/maintained.json
 #
-# $content-hash-v1$:LlLFNVCk_mif6A5yw0XEJVBuD2JmxvPkm1lW1WyAt-M$
+# $content-hash-v1$:t0bK3X8yf9yjlcc9GZ9GwhJ9fB3MwD6_YVIDICqrXU4$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
-DOMAIN-SUFFIX,g.co
-DOMAIN-SUFFIX,goog
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,gcr.io
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,gv.com
-DOMAIN-SUFFIX,w.wiki
-DOMAIN-SUFFIX,abc.xyz
-DOMAIN-SUFFIX,run.app
-DOMAIN-SUFFIX,web.dev
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,gvt5.com
-DOMAIN-SUFFIX,gvt6.com
-DOMAIN-SUFFIX,gvt7.com
-DOMAIN-SUFFIX,gvt9.com
-DOMAIN-SUFFIX,nest.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,1e100.net
-DOMAIN-SUFFIX,circle.ms
-DOMAIN-SUFFIX,debug.com
-DOMAIN-SUFFIX,forms.gle
-DOMAIN-SUFFIX,getmdl.io
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,godoc.org
-DOMAIN-SUFFIX,googl.com
-DOMAIN-SUFFIX,page.link
-DOMAIN-SUFFIX,pages.dev
-DOMAIN-SUFFIX,tenor.com
-DOMAIN-SUFFIX,waymo.com
-DOMAIN-SUFFIX,x.company
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,chrome.com
-DOMAIN-SUFFIX,fish.audio
-DOMAIN-SUFFIX,glitch.com
-DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,webrtc.org
-DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,appspot.com
-DOMAIN-SUFFIX,blogger.com
-DOMAIN-SUFFIX,cf-ipfs.com
-DOMAIN-SUFFIX,gooogle.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,material.io
-DOMAIN-SUFFIX,one.one.one
-DOMAIN-SUFFIX,wmflabs.org
-DOMAIN-SUFFIX,workers.dev
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,autodraw.com
-DOMAIN-SUFFIX,blogblog.com
-DOMAIN-SUFFIX,capitalg.com
-DOMAIN-SUFFIX,chromium.org
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,firebase.com
-DOMAIN-SUFFIX,gmodules.com
-DOMAIN-SUFFIX,shattered.io
-DOMAIN-SUFFIX,widevine.com
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikinews.org
-DOMAIN-SUFFIX,cloudflare.tv
-DOMAIN-SUFFIX,mediawiki.org
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,synergyse.com
-DOMAIN-SUFFIX,tiltbrush.com
-DOMAIN-SUFFIX,wikibooks.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikipedia.com
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
-DOMAIN-SUFFIX,ampproject.org
-DOMAIN-SUFFIX,androidify.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare.dev
-DOMAIN-SUFFIX,dialogflow.com
-DOMAIN-SUFFIX,feedburner.com
-DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,getoutline.org
-DOMAIN-SUFFIX,gwtproject.org
-DOMAIN-SUFFIX,html5rocks.com
-DOMAIN-SUFFIX,tensorflow.org
-DOMAIN-SUFFIX,wikisource.org
-DOMAIN-SUFFIX,wikivoyage.org
-DOMAIN-SUFFIX,wiktionary.org
-DOMAIN-SUFFIX,itasoftware.com
-DOMAIN-SUFFIX,webmproject.org
-DOMAIN-SUFFIX,webpkgcache.com
-DOMAIN-SUFFIX,whatbrowser.org
-DOMAIN-SUFFIX,wikiversity.org
-DOMAIN-SUFFIX,chromestatus.com
-DOMAIN-SUFFIX,creativelab5.com
-DOMAIN-SUFFIX,madewithcode.com
-DOMAIN-SUFFIX,waveprotocol.org
-DOMAIN-SUFFIX,trycloudflare.com
-DOMAIN-SUFFIX,videodelivery.net
-DOMAIN-SUFFIX,wikifunctions.org
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,cloudflareapps.com
-DOMAIN-SUFFIX,cloudfunctions.net
-DOMAIN-SUFFIX,wmfusercontent.org
-DOMAIN-SUFFIX,cloudflare-ipfs.com
-DOMAIN-SUFFIX,polymer-project.org
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,cloudflareaccess.com
-DOMAIN-SUFFIX,cloudflarestatus.com
-DOMAIN-SUFFIX,cloudflaretunnel.com
-DOMAIN-SUFFIX,chromeexperiments.com
-DOMAIN-SUFFIX,cloudflarepreview.com
-DOMAIN-SUFFIX,cloudflareresolve.com
-DOMAIN-SUFFIX,cloudflarestorage.com
-DOMAIN-SUFFIX,wikimediafoundation.org
-DOMAIN-SUFFIX,certificate-transparency.org
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,browserleaks
 DOMAIN-KEYWORD,discord
