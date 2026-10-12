@@ -1,0 +1,945 @@
+proxies:
+  - name: REPLACE-ME
+    type: http
+    server: replace.invalid
+    port: 1
+mode: rule
+proxy-groups:
+  - name: RuleMesh-Nodes
+    type: select
+    proxies:
+      - REPLACE-ME
+  - name: RuleMesh-anthropic
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-openai
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-gemini
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-ai-other
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-telegram
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-social
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-youtube
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-netflix
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-streaming
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-developer
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-apple
+    type: select
+    proxies:
+      - DIRECT
+      - RuleMesh-Nodes
+  - name: RuleMesh-google
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - RuleMesh-Nodes
+  - name: RuleMesh-games
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-downloads
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+  - name: RuleMesh-china
+    type: select
+    proxies:
+      - DIRECT
+      - RuleMesh-Nodes
+  - name: RuleMesh-private
+    type: select
+    proxies:
+      - DIRECT
+      - RuleMesh-Nodes
+  - name: RuleMesh-fallback
+    type: select
+    proxies:
+      - RuleMesh-Nodes
+      - DIRECT
+rule-providers:
+  rulemesh-domainset-private:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/private.txt
+    path: ./rulemesh/rulemesh-domainset-private.txt
+    interval: 86400
+  rulemesh-domainset-anthropic:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/anthropic.txt
+    path: ./rulemesh/rulemesh-domainset-anthropic.txt
+    interval: 86400
+  rulemesh-domainset-openai:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/openai.txt
+    path: ./rulemesh/rulemesh-domainset-openai.txt
+    interval: 86400
+  rulemesh-domainset-gemini:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/gemini.txt
+    path: ./rulemesh/rulemesh-domainset-gemini.txt
+    interval: 86400
+  rulemesh-domainset-copilot:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/copilot.txt
+    path: ./rulemesh/rulemesh-domainset-copilot.txt
+    interval: 86400
+  rulemesh-domainset-xai:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/xai.txt
+    path: ./rulemesh/rulemesh-domainset-xai.txt
+    interval: 86400
+  rulemesh-domainset-perplexity:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/perplexity.txt
+    path: ./rulemesh/rulemesh-domainset-perplexity.txt
+    interval: 86400
+  rulemesh-domainset-apple-intelligence:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/apple-intelligence.txt
+    path: ./rulemesh/rulemesh-domainset-apple-intelligence.txt
+    interval: 86400
+  rulemesh-domainset-ai-other:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/ai-other.txt
+    path: ./rulemesh/rulemesh-domainset-ai-other.txt
+    interval: 86400
+  rulemesh-domainset-telegram:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/telegram.txt
+    path: ./rulemesh/rulemesh-domainset-telegram.txt
+    interval: 86400
+  rulemesh-domainset-discord:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/discord.txt
+    path: ./rulemesh/rulemesh-domainset-discord.txt
+    interval: 86400
+  rulemesh-domainset-whatsapp:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/whatsapp.txt
+    path: ./rulemesh/rulemesh-domainset-whatsapp.txt
+    interval: 86400
+  rulemesh-domainset-twitter:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/twitter.txt
+    path: ./rulemesh/rulemesh-domainset-twitter.txt
+    interval: 86400
+  rulemesh-domainset-instagram:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/instagram.txt
+    path: ./rulemesh/rulemesh-domainset-instagram.txt
+    interval: 86400
+  rulemesh-domainset-facebook:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/facebook.txt
+    path: ./rulemesh/rulemesh-domainset-facebook.txt
+    interval: 86400
+  rulemesh-domainset-reddit:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/reddit.txt
+    path: ./rulemesh/rulemesh-domainset-reddit.txt
+    interval: 86400
+  rulemesh-domainset-youtube:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/youtube.txt
+    path: ./rulemesh/rulemesh-domainset-youtube.txt
+    interval: 86400
+  rulemesh-domainset-netflix:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/netflix.txt
+    path: ./rulemesh/rulemesh-domainset-netflix.txt
+    interval: 86400
+  rulemesh-domainset-disney:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/disney.txt
+    path: ./rulemesh/rulemesh-domainset-disney.txt
+    interval: 86400
+  rulemesh-domainset-hbo:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/hbo.txt
+    path: ./rulemesh/rulemesh-domainset-hbo.txt
+    interval: 86400
+  rulemesh-domainset-primevideo:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/primevideo.txt
+    path: ./rulemesh/rulemesh-domainset-primevideo.txt
+    interval: 86400
+  rulemesh-domainset-twitch:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/twitch.txt
+    path: ./rulemesh/rulemesh-domainset-twitch.txt
+    interval: 86400
+  rulemesh-domainset-tiktok:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/tiktok.txt
+    path: ./rulemesh/rulemesh-domainset-tiktok.txt
+    interval: 86400
+  rulemesh-domainset-spotify:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/spotify.txt
+    path: ./rulemesh/rulemesh-domainset-spotify.txt
+    interval: 86400
+  rulemesh-domainset-bilibili-intl:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/bilibili-intl.txt
+    path: ./rulemesh/rulemesh-domainset-bilibili-intl.txt
+    interval: 86400
+  rulemesh-domainset-bilibili:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/bilibili.txt
+    path: ./rulemesh/rulemesh-domainset-bilibili.txt
+    interval: 86400
+  rulemesh-domainset-apple-cn:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/apple-cn.txt
+    path: ./rulemesh/rulemesh-domainset-apple-cn.txt
+    interval: 86400
+  rulemesh-domainset-icloud:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/icloud.txt
+    path: ./rulemesh/rulemesh-domainset-icloud.txt
+    interval: 86400
+  rulemesh-domainset-apple-music:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/apple-music.txt
+    path: ./rulemesh/rulemesh-domainset-apple-music.txt
+    interval: 86400
+  rulemesh-domainset-apple-tv:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/apple-tv.txt
+    path: ./rulemesh/rulemesh-domainset-apple-tv.txt
+    interval: 86400
+  rulemesh-domainset-google-fcm:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/google-fcm.txt
+    path: ./rulemesh/rulemesh-domainset-google-fcm.txt
+    interval: 86400
+  rulemesh-domainset-onedrive:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/onedrive.txt
+    path: ./rulemesh/rulemesh-domainset-onedrive.txt
+    interval: 86400
+  rulemesh-domainset-npm:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/npm.txt
+    path: ./rulemesh/rulemesh-domainset-npm.txt
+    interval: 86400
+  rulemesh-domainset-python:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/python.txt
+    path: ./rulemesh/rulemesh-domainset-python.txt
+    interval: 86400
+  rulemesh-domainset-docker:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/docker.txt
+    path: ./rulemesh/rulemesh-domainset-docker.txt
+    interval: 86400
+  rulemesh-domainset-github:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/github.txt
+    path: ./rulemesh/rulemesh-domainset-github.txt
+    interval: 86400
+  rulemesh-domainset-gitlab:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/gitlab.txt
+    path: ./rulemesh/rulemesh-domainset-gitlab.txt
+    interval: 86400
+  rulemesh-domainset-jetbrains:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/jetbrains.txt
+    path: ./rulemesh/rulemesh-domainset-jetbrains.txt
+    interval: 86400
+  rulemesh-domainset-developer:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/developer.txt
+    path: ./rulemesh/rulemesh-domainset-developer.txt
+    interval: 86400
+  rulemesh-domainset-steam-cn:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/steam-cn.txt
+    path: ./rulemesh/rulemesh-domainset-steam-cn.txt
+    interval: 86400
+  rulemesh-domainset-game-downloads:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/game-downloads.txt
+    path: ./rulemesh/rulemesh-domainset-game-downloads.txt
+    interval: 86400
+  rulemesh-domainset-steam:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/steam.txt
+    path: ./rulemesh/rulemesh-domainset-steam.txt
+    interval: 86400
+  rulemesh-domainset-epic-games:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/epic-games.txt
+    path: ./rulemesh/rulemesh-domainset-epic-games.txt
+    interval: 86400
+  rulemesh-domainset-playstation:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/playstation.txt
+    path: ./rulemesh/rulemesh-domainset-playstation.txt
+    interval: 86400
+  rulemesh-domainset-xbox:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/xbox.txt
+    path: ./rulemesh/rulemesh-domainset-xbox.txt
+    interval: 86400
+  rulemesh-domainset-nintendo:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/nintendo.txt
+    path: ./rulemesh/rulemesh-domainset-nintendo.txt
+    interval: 86400
+  rulemesh-domainset-downloads:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/downloads.txt
+    path: ./rulemesh/rulemesh-domainset-downloads.txt
+    interval: 86400
+  rulemesh-domainset-apple:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/apple.txt
+    path: ./rulemesh/rulemesh-domainset-apple.txt
+    interval: 86400
+  rulemesh-domainset-google:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/google.txt
+    path: ./rulemesh/rulemesh-domainset-google.txt
+    interval: 86400
+  rulemesh-domainset-microsoft:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/microsoft.txt
+    path: ./rulemesh/rulemesh-domainset-microsoft.txt
+    interval: 86400
+  rulemesh-domainset-aws:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/aws.txt
+    path: ./rulemesh/rulemesh-domainset-aws.txt
+    interval: 86400
+  rulemesh-domainset-digitalocean:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/digitalocean.txt
+    path: ./rulemesh/rulemesh-domainset-digitalocean.txt
+    interval: 86400
+  rulemesh-domainset-cloudflare:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/cloudflare.txt
+    path: ./rulemesh/rulemesh-domainset-cloudflare.txt
+    interval: 86400
+  rulemesh-domainset-games:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/games.txt
+    path: ./rulemesh/rulemesh-domainset-games.txt
+    interval: 86400
+  rulemesh-domainset-cdn-cn:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/cdn-cn.txt
+    path: ./rulemesh/rulemesh-domainset-cdn-cn.txt
+    interval: 86400
+  rulemesh-domainset-cdn-global:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/cdn-global.txt
+    path: ./rulemesh/rulemesh-domainset-cdn-global.txt
+    interval: 86400
+  rulemesh-domainset-china:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/china.txt
+    path: ./rulemesh/rulemesh-domainset-china.txt
+    interval: 86400
+  rulemesh-domainset-global:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/global.txt
+    path: ./rulemesh/rulemesh-domainset-global.txt
+    interval: 86400
+  rulemesh-domainset-apple_cdn:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/apple_cdn.txt
+    path: ./rulemesh/rulemesh-domainset-apple_cdn.txt
+    interval: 86400
+  rulemesh-domainset-cdn:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/cdn.txt
+    path: ./rulemesh/rulemesh-domainset-cdn.txt
+    interval: 86400
+  rulemesh-domainset-download:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/download.txt
+    path: ./rulemesh/rulemesh-domainset-download.txt
+    interval: 86400
+  rulemesh-domainset-game-download:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/game-download.txt
+    path: ./rulemesh/rulemesh-domainset-game-download.txt
+    interval: 86400
+  rulemesh-domainset-icloud_private_relay:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/icloud_private_relay.txt
+    path: ./rulemesh/rulemesh-domainset-icloud_private_relay.txt
+    interval: 86400
+  rulemesh-domainset-speedtest:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/domainset/speedtest.txt
+    path: ./rulemesh/rulemesh-domainset-speedtest.txt
+    interval: 86400
+  rulemesh-non_ip-lan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/lan.txt
+    path: ./rulemesh/rulemesh-non_ip-lan.txt
+    interval: 86400
+  rulemesh-non_ip-telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/telegram.txt
+    path: ./rulemesh/rulemesh-non_ip-telegram.txt
+    interval: 86400
+  rulemesh-non_ip-gitlab:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/gitlab.txt
+    path: ./rulemesh/rulemesh-non_ip-gitlab.txt
+    interval: 86400
+  rulemesh-non_ip-microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/microsoft.txt
+    path: ./rulemesh/rulemesh-non_ip-microsoft.txt
+    interval: 86400
+  rulemesh-non_ip-china:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/china.txt
+    path: ./rulemesh/rulemesh-non_ip-china.txt
+    interval: 86400
+  rulemesh-non_ip-global:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/global.txt
+    path: ./rulemesh/rulemesh-non_ip-global.txt
+    interval: 86400
+  rulemesh-non_ip-ai:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/ai.txt
+    path: ./rulemesh/rulemesh-non_ip-ai.txt
+    interval: 86400
+  rulemesh-non_ip-apple_cn:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/apple_cn.txt
+    path: ./rulemesh/rulemesh-non_ip-apple_cn.txt
+    interval: 86400
+  rulemesh-non_ip-apple_services:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/apple_services.txt
+    path: ./rulemesh/rulemesh-non_ip-apple_services.txt
+    interval: 86400
+  rulemesh-non_ip-cdn:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/cdn.txt
+    path: ./rulemesh/rulemesh-non_ip-cdn.txt
+    interval: 86400
+  rulemesh-non_ip-cloudmounter:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/cloudmounter.txt
+    path: ./rulemesh/rulemesh-non_ip-cloudmounter.txt
+    interval: 86400
+  rulemesh-non_ip-domestic:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/domestic.txt
+    path: ./rulemesh/rulemesh-non_ip-domestic.txt
+    interval: 86400
+  rulemesh-non_ip-domestic_cdn:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/domestic_cdn.txt
+    path: ./rulemesh/rulemesh-non_ip-domestic_cdn.txt
+    interval: 86400
+  rulemesh-non_ip-download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/download.txt
+    path: ./rulemesh/rulemesh-non_ip-download.txt
+    interval: 86400
+  rulemesh-non_ip-neteasemusic:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/neteasemusic.txt
+    path: ./rulemesh/rulemesh-non_ip-neteasemusic.txt
+    interval: 86400
+  rulemesh-non_ip-sogouinput:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/sogouinput.txt
+    path: ./rulemesh/rulemesh-non_ip-sogouinput.txt
+    interval: 86400
+  rulemesh-non_ip-stream:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/stream.txt
+    path: ./rulemesh/rulemesh-non_ip-stream.txt
+    interval: 86400
+  rulemesh-non_ip-stream_eu:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/stream_eu.txt
+    path: ./rulemesh/rulemesh-non_ip-stream_eu.txt
+    interval: 86400
+  rulemesh-non_ip-stream_hk:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/stream_hk.txt
+    path: ./rulemesh/rulemesh-non_ip-stream_hk.txt
+    interval: 86400
+  rulemesh-non_ip-stream_jp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/stream_jp.txt
+    path: ./rulemesh/rulemesh-non_ip-stream_jp.txt
+    interval: 86400
+  rulemesh-non_ip-stream_kr:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/stream_kr.txt
+    path: ./rulemesh/rulemesh-non_ip-stream_kr.txt
+    interval: 86400
+  rulemesh-non_ip-stream_tw:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/stream_tw.txt
+    path: ./rulemesh/rulemesh-non_ip-stream_tw.txt
+    interval: 86400
+  rulemesh-non_ip-stream_us:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/non_ip/stream_us.txt
+    path: ./rulemesh/rulemesh-non_ip-stream_us.txt
+    interval: 86400
+  rulemesh-ip-lan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/lan.txt
+    path: ./rulemesh/rulemesh-ip-lan.txt
+    interval: 86400
+  rulemesh-ip-telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/telegram.txt
+    path: ./rulemesh/rulemesh-ip-telegram.txt
+    interval: 86400
+  rulemesh-ip-ai:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/ai.txt
+    path: ./rulemesh/rulemesh-ip-ai.txt
+    interval: 86400
+  rulemesh-ip-apple_services:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/apple_services.txt
+    path: ./rulemesh/rulemesh-ip-apple_services.txt
+    interval: 86400
+  rulemesh-ip-cdn:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/cdn.txt
+    path: ./rulemesh/rulemesh-ip-cdn.txt
+    interval: 86400
+  rulemesh-ip-domestic:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/domestic.txt
+    path: ./rulemesh/rulemesh-ip-domestic.txt
+    interval: 86400
+  rulemesh-ip-download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/download.txt
+    path: ./rulemesh/rulemesh-ip-download.txt
+    interval: 86400
+  rulemesh-ip-neteasemusic:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/neteasemusic.txt
+    path: ./rulemesh/rulemesh-ip-neteasemusic.txt
+    interval: 86400
+  rulemesh-ip-private-resolve:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/private.resolve.txt
+    path: ./rulemesh/rulemesh-ip-private-resolve.txt
+    interval: 86400
+  rulemesh-ip-stream:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/stream.txt
+    path: ./rulemesh/rulemesh-ip-stream.txt
+    interval: 86400
+  rulemesh-ip-stream_eu:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/stream_eu.txt
+    path: ./rulemesh/rulemesh-ip-stream_eu.txt
+    interval: 86400
+  rulemesh-ip-stream_hk:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/stream_hk.txt
+    path: ./rulemesh/rulemesh-ip-stream_hk.txt
+    interval: 86400
+  rulemesh-ip-stream_jp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/stream_jp.txt
+    path: ./rulemesh/rulemesh-ip-stream_jp.txt
+    interval: 86400
+  rulemesh-ip-stream_kr:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/stream_kr.txt
+    path: ./rulemesh/rulemesh-ip-stream_kr.txt
+    interval: 86400
+  rulemesh-ip-stream_tw:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/stream_tw.txt
+    path: ./rulemesh/rulemesh-ip-stream_tw.txt
+    interval: 86400
+  rulemesh-ip-stream_us:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/stream_us.txt
+    path: ./rulemesh/rulemesh-ip-stream_us.txt
+    interval: 86400
+  rulemesh-ip-telegram_asn:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/telegram_asn.txt
+    path: ./rulemesh/rulemesh-ip-telegram_asn.txt
+    interval: 86400
+  rulemesh-ip-teleproto:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/ruleset/Clash/ip/teleproto.txt
+    path: ./rulemesh/rulemesh-ip-teleproto.txt
+    interval: 86400
+rules:
+  - RULE-SET,rulemesh-domainset-private,RuleMesh-private
+  - RULE-SET,rulemesh-domainset-anthropic,RuleMesh-anthropic
+  - RULE-SET,rulemesh-domainset-openai,RuleMesh-openai
+  - RULE-SET,rulemesh-domainset-gemini,RuleMesh-gemini
+  - RULE-SET,rulemesh-domainset-copilot,RuleMesh-developer
+  - RULE-SET,rulemesh-domainset-xai,RuleMesh-ai-other
+  - RULE-SET,rulemesh-domainset-perplexity,RuleMesh-ai-other
+  - RULE-SET,rulemesh-domainset-apple-intelligence,RuleMesh-ai-other
+  - RULE-SET,rulemesh-domainset-ai-other,RuleMesh-ai-other
+  - RULE-SET,rulemesh-domainset-telegram,RuleMesh-telegram
+  - RULE-SET,rulemesh-domainset-discord,RuleMesh-social
+  - RULE-SET,rulemesh-domainset-whatsapp,RuleMesh-social
+  - RULE-SET,rulemesh-domainset-twitter,RuleMesh-social
+  - RULE-SET,rulemesh-domainset-instagram,RuleMesh-social
+  - RULE-SET,rulemesh-domainset-facebook,RuleMesh-social
+  - RULE-SET,rulemesh-domainset-reddit,RuleMesh-social
+  - RULE-SET,rulemesh-domainset-youtube,RuleMesh-youtube
+  - RULE-SET,rulemesh-domainset-netflix,RuleMesh-netflix
+  - RULE-SET,rulemesh-domainset-disney,RuleMesh-streaming
+  - RULE-SET,rulemesh-domainset-hbo,RuleMesh-streaming
+  - RULE-SET,rulemesh-domainset-primevideo,RuleMesh-streaming
+  - RULE-SET,rulemesh-domainset-twitch,RuleMesh-streaming
+  - RULE-SET,rulemesh-domainset-tiktok,RuleMesh-streaming
+  - RULE-SET,rulemesh-domainset-spotify,RuleMesh-streaming
+  - RULE-SET,rulemesh-domainset-bilibili-intl,RuleMesh-streaming
+  - RULE-SET,rulemesh-domainset-bilibili,RuleMesh-china
+  - RULE-SET,rulemesh-domainset-apple-cn,RuleMesh-china
+  - RULE-SET,rulemesh-domainset-icloud,RuleMesh-apple
+  - RULE-SET,rulemesh-domainset-apple-music,RuleMesh-apple
+  - RULE-SET,rulemesh-domainset-apple-tv,RuleMesh-apple
+  - RULE-SET,rulemesh-domainset-google-fcm,RuleMesh-google
+  - RULE-SET,rulemesh-domainset-onedrive,RuleMesh-microsoft
+  - RULE-SET,rulemesh-domainset-npm,RuleMesh-developer
+  - RULE-SET,rulemesh-domainset-python,RuleMesh-developer
+  - RULE-SET,rulemesh-domainset-docker,RuleMesh-developer
+  - RULE-SET,rulemesh-domainset-github,RuleMesh-developer
+  - RULE-SET,rulemesh-domainset-gitlab,RuleMesh-developer
+  - RULE-SET,rulemesh-domainset-jetbrains,RuleMesh-developer
+  - RULE-SET,rulemesh-domainset-developer,RuleMesh-developer
+  - RULE-SET,rulemesh-domainset-steam-cn,RuleMesh-china
+  - RULE-SET,rulemesh-domainset-game-downloads,RuleMesh-downloads
+  - RULE-SET,rulemesh-domainset-steam,RuleMesh-games
+  - RULE-SET,rulemesh-domainset-epic-games,RuleMesh-games
+  - RULE-SET,rulemesh-domainset-playstation,RuleMesh-games
+  - RULE-SET,rulemesh-domainset-xbox,RuleMesh-games
+  - RULE-SET,rulemesh-domainset-nintendo,RuleMesh-games
+  - RULE-SET,rulemesh-domainset-downloads,RuleMesh-downloads
+  - RULE-SET,rulemesh-domainset-apple,RuleMesh-apple
+  - RULE-SET,rulemesh-domainset-google,RuleMesh-google
+  - RULE-SET,rulemesh-domainset-microsoft,RuleMesh-microsoft
+  - RULE-SET,rulemesh-domainset-aws,RuleMesh-downloads
+  - RULE-SET,rulemesh-domainset-digitalocean,RuleMesh-downloads
+  - RULE-SET,rulemesh-domainset-cloudflare,RuleMesh-downloads
+  - RULE-SET,rulemesh-domainset-games,RuleMesh-games
+  - RULE-SET,rulemesh-domainset-cdn-cn,RuleMesh-china
+  - RULE-SET,rulemesh-domainset-cdn-global,RuleMesh-downloads
+  - RULE-SET,rulemesh-domainset-china,RuleMesh-china
+  - RULE-SET,rulemesh-domainset-global,RuleMesh-fallback
+  - RULE-SET,rulemesh-domainset-apple_cdn,RuleMesh-apple
+  - RULE-SET,rulemesh-domainset-cdn,RuleMesh-downloads
+  - RULE-SET,rulemesh-domainset-download,RuleMesh-downloads
+  - RULE-SET,rulemesh-domainset-game-download,RuleMesh-downloads
+  - RULE-SET,rulemesh-domainset-icloud_private_relay,RuleMesh-apple
+  - RULE-SET,rulemesh-domainset-speedtest,RuleMesh-downloads
+  - RULE-SET,rulemesh-non_ip-lan,RuleMesh-private
+  - RULE-SET,rulemesh-non_ip-telegram,RuleMesh-telegram
+  - RULE-SET,rulemesh-non_ip-gitlab,RuleMesh-developer
+  - RULE-SET,rulemesh-non_ip-microsoft,RuleMesh-microsoft
+  - RULE-SET,rulemesh-non_ip-china,RuleMesh-china
+  - RULE-SET,rulemesh-non_ip-global,RuleMesh-fallback
+  - RULE-SET,rulemesh-non_ip-ai,RuleMesh-ai-other
+  - RULE-SET,rulemesh-non_ip-apple_cn,RuleMesh-china
+  - RULE-SET,rulemesh-non_ip-apple_services,RuleMesh-apple
+  - RULE-SET,rulemesh-non_ip-cdn,RuleMesh-downloads
+  - RULE-SET,rulemesh-non_ip-cloudmounter,RuleMesh-downloads
+  - RULE-SET,rulemesh-non_ip-domestic,RuleMesh-china
+  - RULE-SET,rulemesh-non_ip-domestic_cdn,RuleMesh-china
+  - RULE-SET,rulemesh-non_ip-download,RuleMesh-downloads
+  - RULE-SET,rulemesh-non_ip-neteasemusic,RuleMesh-china
+  - RULE-SET,rulemesh-non_ip-sogouinput,RuleMesh-china
+  - RULE-SET,rulemesh-non_ip-stream,RuleMesh-streaming
+  - RULE-SET,rulemesh-non_ip-stream_eu,RuleMesh-streaming
+  - RULE-SET,rulemesh-non_ip-stream_hk,RuleMesh-streaming
+  - RULE-SET,rulemesh-non_ip-stream_jp,RuleMesh-streaming
+  - RULE-SET,rulemesh-non_ip-stream_kr,RuleMesh-streaming
+  - RULE-SET,rulemesh-non_ip-stream_tw,RuleMesh-streaming
+  - RULE-SET,rulemesh-non_ip-stream_us,RuleMesh-streaming
+  - RULE-SET,rulemesh-ip-lan,RuleMesh-private
+  - RULE-SET,rulemesh-ip-telegram,RuleMesh-telegram
+  - RULE-SET,rulemesh-ip-ai,RuleMesh-ai-other
+  - RULE-SET,rulemesh-ip-apple_services,RuleMesh-apple
+  - RULE-SET,rulemesh-ip-cdn,RuleMesh-downloads
+  - RULE-SET,rulemesh-ip-domestic,RuleMesh-china
+  - RULE-SET,rulemesh-ip-download,RuleMesh-downloads
+  - RULE-SET,rulemesh-ip-neteasemusic,RuleMesh-china
+  - RULE-SET,rulemesh-ip-private-resolve,RuleMesh-private
+  - RULE-SET,rulemesh-ip-stream,RuleMesh-streaming
+  - RULE-SET,rulemesh-ip-stream_eu,RuleMesh-streaming
+  - RULE-SET,rulemesh-ip-stream_hk,RuleMesh-streaming
+  - RULE-SET,rulemesh-ip-stream_jp,RuleMesh-streaming
+  - RULE-SET,rulemesh-ip-stream_kr,RuleMesh-streaming
+  - RULE-SET,rulemesh-ip-stream_tw,RuleMesh-streaming
+  - RULE-SET,rulemesh-ip-stream_us,RuleMesh-streaming
+  - RULE-SET,rulemesh-ip-telegram_asn,RuleMesh-telegram
+  - RULE-SET,rulemesh-ip-teleproto,RuleMesh-telegram
+  - GEOIP,CN,RuleMesh-china
+  - MATCH,RuleMesh-fallback

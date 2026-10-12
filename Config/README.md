@@ -1,6 +1,3 @@
 # RuleMesh client configurations
 
-These generated configurations are intentionally excluded from the root ruleset directory.
-
-- Shadowrocket standard: `Shadowrocket/standard.conf`
-- Shadowrocket with advertising rejection: `Shadowrocket/advertising.conf`
+Shadowrocket configs are directly importable. Surge, Mihomo and sing-box files are complete structural templates; compose them with a private node base using the source repository CLI.

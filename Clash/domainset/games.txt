@@ -1,16 +1,16 @@
 #########################################
 # RuleMesh Ruleset - games
-# Last Updated: 2026-10-12T06:23:29.651Z
+# Last Updated: 2026-10-12T07:15:54.173Z
 # Size: 1116
 # License: AGPL 3.0
 # Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
-# Additional maintained category integrated into the SukkaW/Surge build pipeline.
+# Synced from MetaCubeX/meta-rules-dat@83c8208bdfae92b1caaa29745f51f233b6f1847e.
 # Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
 #
-# $content-hash-v1$:l4c4p3MNroQGWoVuJWAog8QXs2Vd5wveiuFC6eLgQhk$
+# $content-hash-v1$:YsS5Wn5sdgwstHpuLWGhct72tVDh2uB44oNKDkRZj6E$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.xbox

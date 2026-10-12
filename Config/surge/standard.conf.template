@@ -1,0 +1,138 @@
+[General]
+dns-server = system
+encrypted-dns-server = https://cloudflare-dns.com/dns-query
+encrypted-dns-follow-outbound-mode = true
+ipv6 = false
+
+[Proxy]
+REPLACE-ME = http, replace.invalid, 1
+
+[Proxy Group]
+RuleMesh-Nodes = select,include-all-proxies=true
+RuleMesh-anthropic = select,RuleMesh-Nodes,DIRECT
+RuleMesh-openai = select,RuleMesh-Nodes,DIRECT
+RuleMesh-gemini = select,RuleMesh-Nodes,DIRECT
+RuleMesh-ai-other = select,RuleMesh-Nodes,DIRECT
+RuleMesh-telegram = select,RuleMesh-Nodes,DIRECT
+RuleMesh-social = select,RuleMesh-Nodes,DIRECT
+RuleMesh-youtube = select,RuleMesh-Nodes,DIRECT
+RuleMesh-netflix = select,RuleMesh-Nodes,DIRECT
+RuleMesh-streaming = select,RuleMesh-Nodes,DIRECT
+RuleMesh-developer = select,RuleMesh-Nodes,DIRECT
+RuleMesh-apple = select,DIRECT,RuleMesh-Nodes
+RuleMesh-google = select,RuleMesh-Nodes,DIRECT
+RuleMesh-microsoft = select,DIRECT,RuleMesh-Nodes
+RuleMesh-games = select,RuleMesh-Nodes,DIRECT
+RuleMesh-downloads = select,RuleMesh-Nodes,DIRECT
+RuleMesh-china = select,DIRECT,RuleMesh-Nodes
+RuleMesh-private = select,DIRECT,RuleMesh-Nodes
+RuleMesh-fallback = select,RuleMesh-Nodes,DIRECT
+
+[Rule]
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/private.conf,RuleMesh-private
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/anthropic.conf,RuleMesh-anthropic
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/openai.conf,RuleMesh-openai
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/gemini.conf,RuleMesh-gemini
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/copilot.conf,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/xai.conf,RuleMesh-ai-other
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/perplexity.conf,RuleMesh-ai-other
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/apple-intelligence.conf,RuleMesh-ai-other
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/ai-other.conf,RuleMesh-ai-other
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/telegram.conf,RuleMesh-telegram
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/discord.conf,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/whatsapp.conf,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/twitter.conf,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/instagram.conf,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/facebook.conf,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/reddit.conf,RuleMesh-social
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/youtube.conf,RuleMesh-youtube
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/netflix.conf,RuleMesh-netflix
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/disney.conf,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/hbo.conf,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/primevideo.conf,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/twitch.conf,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/tiktok.conf,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/spotify.conf,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/bilibili-intl.conf,RuleMesh-streaming
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/bilibili.conf,RuleMesh-china
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/apple-cn.conf,RuleMesh-china
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/icloud.conf,RuleMesh-apple
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/apple-music.conf,RuleMesh-apple
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/apple-tv.conf,RuleMesh-apple
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/google-fcm.conf,RuleMesh-google
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/onedrive.conf,RuleMesh-microsoft
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/npm.conf,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/python.conf,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/docker.conf,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/github.conf,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/gitlab.conf,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/jetbrains.conf,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/developer.conf,RuleMesh-developer
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/steam-cn.conf,RuleMesh-china
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/game-downloads.conf,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/steam.conf,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/epic-games.conf,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/playstation.conf,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/xbox.conf,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/nintendo.conf,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/downloads.conf,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/apple.conf,RuleMesh-apple
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/google.conf,RuleMesh-google
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/microsoft.conf,RuleMesh-microsoft
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/aws.conf,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/digitalocean.conf,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/cloudflare.conf,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/games.conf,RuleMesh-games
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/cdn-cn.conf,RuleMesh-china
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/cdn-global.conf,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/china.conf,RuleMesh-china
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/global.conf,RuleMesh-fallback
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/apple_cdn.conf,RuleMesh-apple
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/cdn.conf,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/download.conf,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/game-download.conf,RuleMesh-downloads
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/icloud_private_relay.conf,RuleMesh-apple
+DOMAIN-SET,https://codingmesh.github.io/ruleset/List/domainset/speedtest.conf,RuleMesh-downloads
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/lan.conf,RuleMesh-private
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/telegram.conf,RuleMesh-telegram
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/gitlab.conf,RuleMesh-developer
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/microsoft.conf,RuleMesh-microsoft
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/china.conf,RuleMesh-china
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/global.conf,RuleMesh-fallback
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/ai.conf,RuleMesh-ai-other
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/apple_cn.conf,RuleMesh-china
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/apple_services.conf,RuleMesh-apple
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/cdn.conf,RuleMesh-downloads
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/cloudmounter.conf,RuleMesh-downloads
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/domestic.conf,RuleMesh-china
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/domestic_cdn.conf,RuleMesh-china
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/download.conf,RuleMesh-downloads
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/neteasemusic.conf,RuleMesh-china
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/sogouinput.conf,RuleMesh-china
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/stream.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/stream_eu.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/stream_hk.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/stream_jp.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/stream_kr.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/stream_tw.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/non_ip/stream_us.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/lan.conf,RuleMesh-private
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/telegram.conf,RuleMesh-telegram
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/ai.conf,RuleMesh-ai-other
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/apple_services.conf,RuleMesh-apple
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/cdn.conf,RuleMesh-downloads
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/domestic.conf,RuleMesh-china
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/download.conf,RuleMesh-downloads
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/neteasemusic.conf,RuleMesh-china
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/private.resolve.conf,RuleMesh-private
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/stream.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/stream_eu.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/stream_hk.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/stream_jp.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/stream_kr.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/stream_tw.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/stream_us.conf,RuleMesh-streaming
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/telegram_asn.conf,RuleMesh-telegram
+RULE-SET,https://codingmesh.github.io/ruleset/List/ip/teleproto.conf,RuleMesh-telegram
+GEOIP,CN,RuleMesh-china
+FINAL,RuleMesh-fallback
