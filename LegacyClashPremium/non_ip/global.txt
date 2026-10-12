@@ -1,22 +1,20 @@
 #########################################
-# Sukka's Ruleset - General Global Services
-# Last Updated: 2026-10-12T07:38:23.578Z
-# Size: 218
+# RuleMesh Ruleset - global
+# Last Updated: 2026-10-12T07:50:56.463Z
+# Size: 104
 # License: AGPL 3.0
 # Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
-# This file contains rules for services that are NOT available inside the Mainland China.
+# Additional maintained category integrated into the SukkaW/Surge build pipeline.
+# Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
 #
-# $content-hash-v1$:5fgmdbxWlx6yXw5lMvg39g_F0Ad47lvi8JRggBtCnxY$
+# $content-hash-v1$:HRYDjowrlresxC6MxHZGtmVHiPhs4vENM0gCM22TrNY$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
-DOMAIN-SUFFIX,g.co
-DOMAIN-SUFFIX,goog
 DOMAIN-SUFFIX,ok.ru
 DOMAIN-SUFFIX,sm.ms
-DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,acg.mn
 DOMAIN-SUFFIX,bit.ly
 DOMAIN-SUFFIX,cbc.ca
@@ -24,18 +22,13 @@ DOMAIN-SUFFIX,crt.sh
 DOMAIN-SUFFIX,dcd.gg
 DOMAIN-SUFFIX,dev.to
 DOMAIN-SUFFIX,dis.gd
-DOMAIN-SUFFIX,gcr.io
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,gv.com
 DOMAIN-SUFFIX,ipx.ac
 DOMAIN-SUFFIX,lih.kg
 DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,ouo.si
 DOMAIN-SUFFIX,pin.it
 DOMAIN-SUFFIX,uhn.cx
-DOMAIN-SUFFIX,w.wiki
 DOMAIN-SUFFIX,1lib.sk
-DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,acg.rip
 DOMAIN-SUFFIX,bash.ws
 DOMAIN-SUFFIX,lnkd.in
@@ -47,8 +40,6 @@ DOMAIN-SUFFIX,ping.sx
 DOMAIN-SUFFIX,pomf.se
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,rthk.hk
-DOMAIN-SUFFIX,run.app
-DOMAIN-SUFFIX,web.dev
 DOMAIN-SUFFIX,123av.to
 DOMAIN-SUFFIX,123av.ws
 DOMAIN-SUFFIX,7mmtv.sx
@@ -56,30 +47,11 @@ DOMAIN-SUFFIX,booth.pm
 DOMAIN-SUFFIX,buyee.jp
 DOMAIN-SUFFIX,dcard.tw
 DOMAIN-SUFFIX,fb.watch
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,gvt5.com
-DOMAIN-SUFFIX,gvt6.com
-DOMAIN-SUFFIX,gvt7.com
-DOMAIN-SUFFIX,gvt9.com
 DOMAIN-SUFFIX,jav.guru
-DOMAIN-SUFFIX,nest.com
 DOMAIN-SUFFIX,yande.re
-DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,z-lib.fm
-DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,bbc.co.uk
-DOMAIN-SUFFIX,circle.ms
-DOMAIN-SUFFIX,debug.com
 DOMAIN-SUFFIX,donmai.us
-DOMAIN-SUFFIX,forms.gle
-DOMAIN-SUFFIX,getmdl.io
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,godoc.org
-DOMAIN-SUFFIX,googl.com
 DOMAIN-SUFFIX,libgen.is
 DOMAIN-SUFFIX,libgen.st
 DOMAIN-SUFFIX,linetv.tw
@@ -88,15 +60,9 @@ DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,netaba.re
 DOMAIN-SUFFIX,netify.ai
-DOMAIN-SUFFIX,page.link
-DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,shopee.tw
-DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,tgstat.ru
-DOMAIN-SUFFIX,waymo.com
-DOMAIN-SUFFIX,x.company
 DOMAIN-SUFFIX,yandex.ru
-DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,abc.net.au
 DOMAIN-SUFFIX,archive.fo
 DOMAIN-SUFFIX,archive.is
@@ -106,11 +72,7 @@ DOMAIN-SUFFIX,avgle.guru
 DOMAIN-SUFFIX,binance.us
 DOMAIN-SUFFIX,blogimg.jp
 DOMAIN-SUFFIX,castbox.fm
-DOMAIN-SUFFIX,chrome.com
 DOMAIN-SUFFIX,ehentai.to
-DOMAIN-SUFFIX,fish.audio
-DOMAIN-SUFFIX,glitch.com
-DOMAIN-SUFFIX,golang.org
 DOMAIN-SUFFIX,libgen.lol
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,moegirl.tw
@@ -118,108 +80,33 @@ DOMAIN-SUFFIX,moegirl.uk
 DOMAIN-SUFFIX,nhncorp.jp
 DOMAIN-SUFFIX,rule34.xxx
 DOMAIN-SUFFIX,twitter.jp
-DOMAIN-SUFFIX,webrtc.org
-DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,appspot.com
-DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,booklive.jp
 DOMAIN-SUFFIX,bsky.social
-DOMAIN-SUFFIX,cf-ipfs.com
-DOMAIN-SUFFIX,gooogle.com
-DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,linegame.jp
 DOMAIN-SUFFIX,linkedin.at
-DOMAIN-SUFFIX,material.io
 DOMAIN-SUFFIX,news.com.au
 DOMAIN-SUFFIX,nhentai.xxx
-DOMAIN-SUFFIX,one.one.one
 DOMAIN-SUFFIX,transfer.it
-DOMAIN-SUFFIX,wmflabs.org
-DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,yahoo.co.jp
-DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,1password.ca
 DOMAIN-SUFFIX,1password.eu
 DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN-SUFFIX,autodraw.com
-DOMAIN-SUFFIX,blogblog.com
 DOMAIN-SUFFIX,bsky.network
-DOMAIN-SUFFIX,capitalg.com
 DOMAIN-SUFFIX,character.ai
-DOMAIN-SUFFIX,chromium.org
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,firebase.com
-DOMAIN-SUFFIX,gmodules.com
-DOMAIN-SUFFIX,shattered.io
-DOMAIN-SUFFIX,widevine.com
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikinews.org
-DOMAIN-SUFFIX,cloudflare.tv
 DOMAIN-SUFFIX,ithome.com.tw
 DOMAIN-SUFFIX,line.naver.jp
-DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,synergyse.com
-DOMAIN-SUFFIX,tiltbrush.com
-DOMAIN-SUFFIX,wikibooks.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikipedia.com
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
 DOMAIN-SUFFIX,zaobao.com.sg
-DOMAIN-SUFFIX,ampproject.org
-DOMAIN-SUFFIX,androidify.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare.dev
-DOMAIN-SUFFIX,dialogflow.com
-DOMAIN-SUFFIX,feedburner.com
-DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,getoutline.org
-DOMAIN-SUFFIX,gwtproject.org
-DOMAIN-SUFFIX,html5rocks.com
-DOMAIN-SUFFIX,tensorflow.org
-DOMAIN-SUFFIX,wikisource.org
-DOMAIN-SUFFIX,wikivoyage.org
-DOMAIN-SUFFIX,wiktionary.org
 DOMAIN-SUFFIX,dailymail.co.uk
-DOMAIN-SUFFIX,itasoftware.com
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,spankbang.party
 DOMAIN-SUFFIX,telegraph.co.uk
-DOMAIN-SUFFIX,webmproject.org
-DOMAIN-SUFFIX,webpkgcache.com
-DOMAIN-SUFFIX,whatbrowser.org
-DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,annas-archive.se
-DOMAIN-SUFFIX,chromestatus.com
-DOMAIN-SUFFIX,creativelab5.com
 DOMAIN-SUFFIX,github.community
-DOMAIN-SUFFIX,madewithcode.com
-DOMAIN-SUFFIX,waveprotocol.org
-DOMAIN-SUFFIX,trycloudflare.com
-DOMAIN-SUFFIX,videodelivery.net
-DOMAIN-SUFFIX,wikifunctions.org
 DOMAIN,addons.mozilla.org
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,cloudflareapps.com
-DOMAIN-SUFFIX,cloudfunctions.net
 DOMAIN-SUFFIX,linefriends.com.tw
-DOMAIN-SUFFIX,wmfusercontent.org
 DOMAIN-SUFFIX,1password.community
-DOMAIN-SUFFIX,cloudflare-ipfs.com
-DOMAIN-SUFFIX,polymer-project.org
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,cloudflareaccess.com
-DOMAIN-SUFFIX,cloudflarestatus.com
-DOMAIN-SUFFIX,cloudflaretunnel.com
-DOMAIN-SUFFIX,chromeexperiments.com
-DOMAIN-SUFFIX,cloudflarepreview.com
-DOMAIN-SUFFIX,cloudflareresolve.com
-DOMAIN-SUFFIX,cloudflarestorage.com
 DOMAIN-SUFFIX,lookup.dnsprivacy.co.uk
-DOMAIN-SUFFIX,wikimediafoundation.org
-DOMAIN-SUFFIX,certificate-transparency.org
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,facebook
