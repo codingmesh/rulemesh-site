@@ -2,13 +2,15 @@
   "version": 2,
   "rules": [
     {
+      "domain": ["ruleset.marker.rulemesh.invalid"],
       "domain_suffix": [
-        "api.global.bilibili.com",
-        "apm-misaka.biliapi.net",
-        "app.global.bilibili.com",
+        "ruleset.marker.rulemesh.invalid",
         "bilibili.tv",
         "biliintl.com",
         "bstarstatic.com",
+        "apm-misaka.biliapi.net",
+        "api.global.bilibili.com",
+        "app.global.bilibili.com",
         "p-bstarstatic.akamaized.net",
         "upos-bstar-mirrorakam.akamaized.net",
         "upos-bstar1-mirrorakam.akamaized.net",

@@ -2,32 +2,34 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
-        "aiv-cdn.net",
-        "amazonprimevideo.cn",
-        "amazonprimevideo.com.cn",
-        "amazonprimevideos.com",
-        "amazonvideo.cc",
-        "amazonvideo.com",
-        "prime-video.com",
-        "primevideo.cc",
-        "primevideo.com",
-        "primevideo.info",
-        "primevideo.org",
-        "primevideo.tv",
-        "prod.service.minerva.devices.a2z.com"
-      ],
       "domain": [
+        "ruleset.marker.rulemesh.invalid",
+        "msh.amazon.co.uk",
+        "static.siege-amazon.com",
+        "dmqdd6hw24ucf.cloudfront.net",
         "d1v5ir2lpwr8os.cloudfront.net",
         "d22qjgkvxw22r6.cloudfront.net",
         "d25xi40x97liuc.cloudfront.net",
         "d27xxe7juh1us6.cloudfront.net",
-        "dmqdd6hw24ucf.cloudfront.net",
         "images-eu.ssl-images-amazon.com",
         "images-fe.ssl-images-amazon.com",
-        "images-na.ssl-images-amazon.com",
-        "msh.amazon.co.uk",
-        "static.siege-amazon.com"
+        "images-na.ssl-images-amazon.com"
+      ],
+      "domain_suffix": [
+        "ruleset.marker.rulemesh.invalid",
+        "aiv-cdn.net",
+        "primevideo.cc",
+        "primevideo.tv",
+        "amazonvideo.cc",
+        "primevideo.com",
+        "primevideo.org",
+        "amazonvideo.com",
+        "prime-video.com",
+        "primevideo.info",
+        "amazonprimevideo.cn",
+        "amazonprimevideos.com",
+        "amazonprimevideo.com.cn",
+        "prod.service.minerva.devices.a2z.com"
       ]
     }
   ]

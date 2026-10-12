@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": ["ruleset.marker.rulemesh.invalid", "jav.guru", "cableav.tv", "copymanga.site", "www.coinbase.com"],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid", "mandaom.com", "crunchyroll.com"]
+    }
+  ]
+}

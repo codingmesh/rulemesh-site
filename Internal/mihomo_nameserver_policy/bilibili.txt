@@ -1,0 +1,33 @@
+#########################################
+# Sukka's Ruleset - Local DNS Mapping for Mihomo NameServer Policy (BILIBILI)
+# Last Updated: 2026-10-12T06:20:39.491Z
+# Size: 17
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# This ruleset is only used for mihomo's nameserver-policy feature, which
+# is similar to the RULE-SET referenced by sukka_local_dns_mapping.sgmodule.
+# Do not use this file in your Rule section, all entries are included in non_ip/domestic.conf already.
+#
+# $content-hash-v1$:d80aFGFPLsdMnU3YE1EinFAQnaokB16w1-wtQsyDE6Y$
+#########################################
+DOMAIN,ruleset.marker.rulemesh.invalid
+DOMAIN,acg.tv
+DOMAIN,b23.tv
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.cn
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilicdn1.com
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,bilivideo.cn
+DOMAIN-SUFFIX,bulicdn2.com
+DOMAIN-SUFFIX,bilicomic.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bilivideo.net
+DOMAIN-SUFFIX,bilicomics.com
+################## EOF ##################

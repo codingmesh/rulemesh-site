@@ -2,14 +2,21 @@
   "version": 2,
   "rules": [
     {
+      "domain": ["ruleset.marker.rulemesh.invalid", "netflix.com.edgesuite.net"],
       "domain_suffix": [
+        "ruleset.marker.rulemesh.invalid",
         "fast.com",
         "netflix.ca",
+        "nflxso.net",
         "netflix.com",
         "netflix.net",
+        "nflxext.com",
+        "nflximg.com",
+        "nflximg.net",
+        "nflxvideo.net",
+        "nflxsearch.net",
         "netflixdnstest0.com",
         "netflixdnstest1.com",
-        "netflixdnstest10.com",
         "netflixdnstest2.com",
         "netflixdnstest3.com",
         "netflixdnstest4.com",
@@ -20,15 +27,7 @@
         "netflixdnstest9.com",
         "netflixinvestor.com",
         "netflixtechblog.com",
-        "nflxext.com",
-        "nflximg.com",
-        "nflximg.net",
-        "nflxsearch.net",
-        "nflxso.net",
-        "nflxvideo.net"
-      ],
-      "domain": [
-        "netflix.com.edgesuite.net"
+        "netflixdnstest10.com"
       ]
     }
   ]

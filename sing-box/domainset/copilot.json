@@ -2,16 +2,15 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
-        "githubcopilot.com"
-      ],
       "domain": [
-        "copilot-proxy.githubusercontent.com",
-        "copilot-telemetry-service.githubusercontent.com",
-        "copilot-telemetry.githubusercontent.com",
+        "ruleset.marker.rulemesh.invalid",
         "copilot-workspace.githubnext.com",
-        "copilotprodattachments.blob.core.windows.net"
-      ]
+        "copilot-proxy.githubusercontent.com",
+        "copilot-telemetry.githubusercontent.com",
+        "copilotprodattachments.blob.core.windows.net",
+        "copilot-telemetry-service.githubusercontent.com"
+      ],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid", "githubcopilot.com"]
     }
   ]
 }

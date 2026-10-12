@@ -1,0 +1,69 @@
+#########################################
+# RuleMesh Ruleset - icloud
+# Last Updated: 2026-10-12T06:20:39.257Z
+# Size: 54
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# Additional maintained category integrated into the SukkaW/Surge build pipeline.
+# Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
+#
+# $content-hash-v1$:fmVmjNRCrGV9Dasc4eyp9UECBAvP1Tl4Js5Be_c1-ig$
+#########################################
+ruleset.marker.rulemesh.invalid
++.me.com
++.icloud.ch
++.icloud.cn
++.icloud.de
++.icloud.ee
++.icloud.fi
++.icloud.fr
++.icloud.hu
++.icloud.ie
++.icloud.is
++.icloud.jp
++.icloud.lv
++.icloud.om
++.icloud.pt
++.icloud.ro
++.icloud.se
++.icloud.si
++.icloud.sk
++.icloud.vn
++.icloud.com
++.icloud.org
++.icloudo.de
++.icloude.com
++.icloudo.com
++.icloudo.net
++.icloudos.de
++.icloudos.net
++.myicloud.net
++.mylcloud.net
++.icloud.com.cn
++.icloud.net.cn
++.icloudads.net
++.icloudbox.net
++.icloudnet.net
++.icloudpay.net
++.wwwicloud.com
++.appleicloud.cn
++.icloudapple.cn
++.icloudhome.com
++.icloudmail.net
++.ios-icloud.com
++.apple-icloud.cn
++.icloud-apple.cn
++.icloudmusic.net
++.icloudsetup.com
++.icloudsecure.net
++.icloudbrowser.net
++.applemx-icloud.com
++.icloud-content.com
++.icloud-sandbox.com
++.icloud-isupport.com
++.icloud-content.com.cn
+www-cdn.icloud.com.akadns.net
+################## EOF ##################

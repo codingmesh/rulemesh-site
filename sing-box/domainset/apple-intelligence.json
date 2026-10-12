@@ -3,12 +3,14 @@
   "rules": [
     {
       "domain": [
+        "ruleset.marker.rulemesh.invalid",
         "apple-relay.apple.com",
+        "gspe1-ssl.ls.apple.com",
         "apple-relay.cloudflare.com",
         "apple-relay.fastly-edge.com",
-        "apple-relay.mask.apple-dns.net",
-        "gspe1-ssl.ls.apple.com"
-      ]
+        "apple-relay.mask.apple-dns.net"
+      ],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid"]
     }
   ]
 }

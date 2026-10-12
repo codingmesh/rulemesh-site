@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": ["ruleset.marker.rulemesh.invalid"],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid"],
+      "ip_cidr": ["140.205.1.0/24", "162.14.0.0/18"]
+    }
+  ]
+}

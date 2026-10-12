@@ -2,12 +2,8 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
-        "grok.com",
-        "grok.x.com",
-        "grokipedia.com",
-        "x.ai"
-      ]
+      "domain": ["ruleset.marker.rulemesh.invalid"],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid", "x.ai", "grok.com", "grok.x.com", "grokipedia.com"]
     }
   ]
 }

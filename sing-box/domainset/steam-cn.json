@@ -2,28 +2,30 @@
   "version": 2,
   "rules": [
     {
+      "domain": [
+        "ruleset.marker.rulemesh.invalid",
+        "lv.queniujq.cn",
+        "xz.pphimalayanrt.com",
+        "alibaba.cdn.steampipe.steamcontent.com"
+      ],
       "domain_suffix": [
-        "client-update.queniuqe.com",
+        "ruleset.marker.rulemesh.invalid",
         "csgo.com.cn",
         "csgo.wmsj.cn",
-        "dl.steam.clngaa.com",
         "dota2.com.cn",
         "dota2.wmsj.cn",
-        "gstore.val.manlaxy.com",
-        "st.dl.bscstorage.net",
-        "st.dl.eccdnx.com",
-        "st.dl.pinyuncloud.com",
+        "wmsjsteam.com",
         "steamchina.com",
-        "steampowered.com.8686c.com",
         "steamserver.net",
-        "steamstatic.com.8686c.com",
+        "st.dl.eccdnx.com",
+        "dl.steam.clngaa.com",
+        "st.dl.bscstorage.net",
         "steamusercontent.com",
-        "wmsjsteam.com"
-      ],
-      "domain": [
-        "alibaba.cdn.steampipe.steamcontent.com",
-        "lv.queniujq.cn",
-        "xz.pphimalayanrt.com"
+        "st.dl.pinyuncloud.com",
+        "gstore.val.manlaxy.com",
+        "steamstatic.com.8686c.com",
+        "client-update.queniuqe.com",
+        "steampowered.com.8686c.com"
       ]
     }
   ]

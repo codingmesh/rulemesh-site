@@ -1,0 +1,39 @@
+#########################################
+# RuleMesh Ruleset - jetbrains
+# Last Updated: 2026-10-12T06:20:39.260Z
+# Size: 24
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# Additional maintained category integrated into the SukkaW/Surge build pipeline.
+# Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
+#
+# $content-hash-v1$:pyUBmn2SQ2cPEd1qAAVHTw42XnAy6IJp5TcLNm4qhHo$
+#########################################
+ruleset.marker.rulemesh.invalid
++.jb.gg
++.kotl.in
++.ktor.io
++.grazie.ai
++.datalore.io
++.intellij.com
++.intellij.net
++.intellij.org
++.jetbrains.ai
++.jetbrains.ru
++.jetbrains.com
++.jetbrains.dev
++.jetbrains.net
++.jetbrains.org
++.jetbrains.team
++.kotlinconf.com
++.kotlinlang.org
++.youtrack.cloud
++.jetbrains.cloud
++.jetbrains.space
++.myjetbrains.com
++.jetbrains.com.cn
++.talkingkotlin.com
+################## EOF ##################

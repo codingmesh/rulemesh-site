@@ -1,5 +1,5 @@
-# RuleMesh generated site
+# This is a Robot-managed repo containing only output
+# The source code is located at [Sukkaw/Surge](https://github.com/Sukkaw/Surge)
+# Please follow the development at the source code repo instead
 
-Generated from https://github.com/codingmesh/rulemesh. Edit sources there; this repository contains only current output.
-
-Site: https://codingmesh.github.io/rulemesh-site/
+![GitHub repo size](https://img.shields.io/github/repo-size/sukkalab/ruleset.skk.moe?style=flat-square)

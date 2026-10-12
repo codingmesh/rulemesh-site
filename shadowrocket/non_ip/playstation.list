@@ -1,9 +1,0 @@
-# RuleMesh: playstation
-# Licenses: GPL-3.0
-# Sources: meta-playstation-domains
-# Modified: normalized source view and explicit public overrides
-# See THIRD_PARTY_NOTICES.md and category descriptor for attribution and coverage
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,playstation
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com

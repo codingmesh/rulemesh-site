@@ -2,15 +2,17 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
-        "compose-spec.io",
-        "docker.com",
-        "docker.io",
-        "dockerstatic.com"
-      ],
       "domain": [
-        "docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com",
-        "docker-pinata-support.s3.amazonaws.com"
+        "ruleset.marker.rulemesh.invalid",
+        "docker-pinata-support.s3.amazonaws.com",
+        "docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com"
+      ],
+      "domain_suffix": [
+        "ruleset.marker.rulemesh.invalid",
+        "docker.io",
+        "docker.com",
+        "compose-spec.io",
+        "dockerstatic.com"
       ]
     }
   ]

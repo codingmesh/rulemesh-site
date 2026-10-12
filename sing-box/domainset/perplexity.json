@@ -2,15 +2,8 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
-        "perplexity.ai",
-        "perplexity.com",
-        "pplx.ai"
-      ],
-      "domain": [
-        "ppl-ai-file-upload.s3.amazonaws.com",
-        "pplx-res.cloudinary.com"
-      ]
+      "domain": ["ruleset.marker.rulemesh.invalid", "pplx-res.cloudinary.com", "ppl-ai-file-upload.s3.amazonaws.com"],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid", "pplx.ai", "perplexity.ai", "perplexity.com"]
     }
   ]
 }

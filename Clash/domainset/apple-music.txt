@@ -1,0 +1,27 @@
+#########################################
+# RuleMesh Ruleset - apple-music
+# Last Updated: 2026-10-12T06:20:39.157Z
+# Size: 12
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# Additional maintained category integrated into the SukkaW/Surge build pipeline.
+# Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
+#
+# $content-hash-v1$:Vs-2BeZ3dkT887F-5jkr0aVerwGi6ZxdDS8NZRUZu1Y$
+#########################################
+ruleset.marker.rulemesh.invalid
++.musickit.net
++.applemusic.co
++.applemusic.com
++.applemusic.wang
++.music.apple.com
++.applemusic.berlin
++.applemusic.com.au
++.wwwapplemusic.com
++.applemusic.hamburg
++.applemusicconnect.com
++.applemusicfestival.com
+################## EOF ##################

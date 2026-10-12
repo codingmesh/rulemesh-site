@@ -2,18 +2,20 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
-        "apple.com.cn",
-        "cn-ssl.ls.apple.com",
-        "cn.apple.com",
-        "cn.ls.apple.com",
-        "gspe19-cn-ssl.ls.apple.com",
-        "icloud.com.cn"
-      ],
       "domain": [
+        "ruleset.marker.rulemesh.invalid",
         "api.smoot.apple.cn",
-        "appleintelligencefeedback.care.apple.com",
-        "gs-loc-cn.apple.com"
+        "gs-loc-cn.apple.com",
+        "appleintelligencefeedback.care.apple.com"
+      ],
+      "domain_suffix": [
+        "ruleset.marker.rulemesh.invalid",
+        "apple.com.cn",
+        "cn.apple.com",
+        "icloud.com.cn",
+        "cn.ls.apple.com",
+        "cn-ssl.ls.apple.com",
+        "gspe19-cn-ssl.ls.apple.com"
       ]
     }
   ]

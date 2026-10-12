@@ -1,0 +1,21 @@
+#########################################
+# Sukka's Ruleset - iCloud Private Relay
+# Last Updated: 2026-10-12T06:20:39.257Z
+# Size: 7
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# This file contains domains for iCloud Private Relay Endpoint.
+#
+# $content-hash-v1$:1Xd0D90gzXyV6nMAXAHRvcLv1rVpz4up4ggZPoa8r6g$
+#########################################
+ruleset.marker.rulemesh.invalid
+mask.icloud.com
+mask-h2.icloud.com
+mask.apple-dns.net
+mask-api.icloud.com
+mask-canary.icloud.com
+canary.mask.apple-dns.net
+################## EOF ##################

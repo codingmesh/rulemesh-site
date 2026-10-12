@@ -2,18 +2,20 @@
   "version": 2,
   "rules": [
     {
+      "domain": ["ruleset.marker.rulemesh.invalid"],
       "domain_suffix": [
-        "applemusic.berlin",
-        "applemusic.co",
-        "applemusic.com.au",
-        "applemusic.com",
-        "applemusic.hamburg",
-        "applemusic.wang",
-        "applemusicconnect.com",
-        "applemusicfestival.com",
-        "music.apple.com",
+        "ruleset.marker.rulemesh.invalid",
         "musickit.net",
-        "wwwapplemusic.com"
+        "applemusic.co",
+        "applemusic.com",
+        "applemusic.wang",
+        "music.apple.com",
+        "applemusic.berlin",
+        "applemusic.com.au",
+        "wwwapplemusic.com",
+        "applemusic.hamburg",
+        "applemusicconnect.com",
+        "applemusicfestival.com"
       ]
     }
   ]

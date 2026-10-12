@@ -2,17 +2,15 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
-        "ext-twitch.tv",
-        "jtvnw.net",
-        "live-video.net",
-        "ttvnw.net",
-        "twitch.tv",
-        "twitchcdn.net",
-        "twitchcon.com",
-        "twitchsvc.net"
-      ],
       "domain": [
+        "ruleset.marker.rulemesh.invalid",
+        "d6d4ismr40iw.cloudfront.net",
+        "d6tizftlrpuof.cloudfront.net",
+        "ddacn6pr5v0tl.cloudfront.net",
+        "dgeft87wbj63p.cloudfront.net",
+        "dqrpb9wgowsf5.cloudfront.net",
+        "ds0h3roq6wcgc.cloudfront.net",
+        "dykkng5hnh52u.cloudfront.net",
         "d1g1f25tn8m2e6.cloudfront.net",
         "d1m7jfoe9zdc1j.cloudfront.net",
         "d1mhjrowxxagfy.cloudfront.net",
@@ -31,14 +29,18 @@
         "d36nr0u3xmc4mm.cloudfront.net",
         "d3aqoihi2n8ty8.cloudfront.net",
         "d3c27h4odz752x.cloudfront.net",
-        "d3vd9lfkzbru3h.cloudfront.net",
-        "d6d4ismr40iw.cloudfront.net",
-        "d6tizftlrpuof.cloudfront.net",
-        "ddacn6pr5v0tl.cloudfront.net",
-        "dgeft87wbj63p.cloudfront.net",
-        "dqrpb9wgowsf5.cloudfront.net",
-        "ds0h3roq6wcgc.cloudfront.net",
-        "dykkng5hnh52u.cloudfront.net"
+        "d3vd9lfkzbru3h.cloudfront.net"
+      ],
+      "domain_suffix": [
+        "ruleset.marker.rulemesh.invalid",
+        "jtvnw.net",
+        "ttvnw.net",
+        "twitch.tv",
+        "ext-twitch.tv",
+        "twitchcdn.net",
+        "twitchcon.com",
+        "twitchsvc.net",
+        "live-video.net"
       ]
     }
   ]

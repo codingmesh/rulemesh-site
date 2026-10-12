@@ -2,18 +2,20 @@
   "version": 2,
   "rules": [
     {
+      "domain": ["ruleset.marker.rulemesh.invalid"],
       "domain_suffix": [
+        "ruleset.marker.rulemesh.invalid",
         "wa.me",
-        "whatsapp-plus.info",
-        "whatsapp-plus.me",
-        "whatsapp-plus.net",
         "whatsapp.cc",
+        "whatsapp.tv",
         "whatsapp.com",
-        "whatsapp.info",
         "whatsapp.net",
         "whatsapp.org",
-        "whatsapp.tv",
-        "whatsappbrand.com"
+        "whatsapp.info",
+        "whatsapp-plus.me",
+        "whatsapp-plus.net",
+        "whatsappbrand.com",
+        "whatsapp-plus.info"
       ]
     }
   ]

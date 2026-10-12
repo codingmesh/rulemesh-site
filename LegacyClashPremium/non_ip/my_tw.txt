@@ -1,0 +1,21 @@
+#########################################
+# Sukka's Ruleset - TW
+# Last Updated: 2026-10-12T06:20:39.343Z
+# Size: 9
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# $content-hash-v1$:MHxRdJM0YIsVHs7p24oic6alqkOBv5XuteqKnWXJYV0$
+#########################################
+DOMAIN,ruleset.marker.rulemesh.invalid
+DOMAIN,javdb.com
+DOMAIN,mhgui.com
+DOMAIN,avbebe.com
+DOMAIN,yymanhua.com
+DOMAIN-SUFFIX,cdn.hinet.net
+DOMAIN,av.jkforum.net
+DOMAIN,www.yymanhua.com
+DOMAIN,www.manhuagui.com
+################## EOF ##################

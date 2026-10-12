@@ -1,0 +1,19 @@
+#########################################
+# RuleMesh Ruleset - npm
+# Last Updated: 2026-10-12T06:20:39.271Z
+# Size: 4
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# Additional maintained category integrated into the SukkaW/Surge build pipeline.
+# Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
+#
+# $content-hash-v1$:XGEOrR5jdBuKiBmCr6nsWuu1WixsK0pq1rQmntTfF48$
+#########################################
+ruleset.marker.rulemesh.invalid
++.npmjs.com
++.npmjs.org
++.npm.community
+################## EOF ##################

@@ -1,0 +1,35 @@
+#########################################
+# RuleMesh Ruleset - steam-cn
+# Last Updated: 2026-10-12T06:20:39.286Z
+# Size: 20
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# Additional maintained category integrated into the SukkaW/Surge build pipeline.
+# Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
+#
+# $content-hash-v1$:Z4D9nvwWNlF2H9Dw9XmCJ2BR98aGzoIPH6ZQYL2EQTA$
+#########################################
+ruleset.marker.rulemesh.invalid
++.csgo.com.cn
++.csgo.wmsj.cn
++.dota2.com.cn
++.dota2.wmsj.cn
++.wmsjsteam.com
+lv.queniujq.cn
++.steamchina.com
++.steamserver.net
++.st.dl.eccdnx.com
++.dl.steam.clngaa.com
++.st.dl.bscstorage.net
++.steamusercontent.com
+xz.pphimalayanrt.com
++.st.dl.pinyuncloud.com
++.gstore.val.manlaxy.com
++.steamstatic.com.8686c.com
++.client-update.queniuqe.com
++.steampowered.com.8686c.com
+alibaba.cdn.steampipe.steamcontent.com
+################## EOF ##################

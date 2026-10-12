@@ -1,0 +1,27 @@
+#########################################
+# RuleMesh Ruleset - bilibili-intl
+# Last Updated: 2026-10-12T06:20:39.176Z
+# Size: 12
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# Additional maintained category integrated into the SukkaW/Surge build pipeline.
+# Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
+#
+# $content-hash-v1$:A3OUGZF9QMd76e8t8cfO20XG6DZBVHQIdHA-6j9rfxg$
+#########################################
+ruleset.marker.rulemesh.invalid
++.bilibili.tv
++.biliintl.com
++.bstarstatic.com
++.apm-misaka.biliapi.net
++.api.global.bilibili.com
++.app.global.bilibili.com
++.p-bstarstatic.akamaized.net
++.upos-bstar-mirrorakam.akamaized.net
++.upos-bstar1-mirrorakam.akamaized.net
++.upos-sz-mirroralibstar1.bilivideo.com
++.upos-sz-mirrorcosbstar1.bilivideo.com
+################## EOF ##################

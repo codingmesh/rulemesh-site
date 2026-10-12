@@ -1,0 +1,27 @@
+#########################################
+# RuleMesh Ruleset - whatsapp
+# Last Updated: 2026-10-12T06:20:39.295Z
+# Size: 12
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# Additional maintained category integrated into the SukkaW/Surge build pipeline.
+# Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
+#
+# $content-hash-v1$:ysQr418ja5cN9FsDuE8HJ1UM9TWohjTnGxxGN0D6Rns$
+#########################################
+ruleset.marker.rulemesh.invalid
++.wa.me
++.whatsapp.cc
++.whatsapp.tv
++.whatsapp.com
++.whatsapp.net
++.whatsapp.org
++.whatsapp.info
++.whatsapp-plus.me
++.whatsapp-plus.net
++.whatsappbrand.com
++.whatsapp-plus.info
+################## EOF ##################

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "ruleset.marker.rulemesh.invalid",
+        "github.com",
+        "github.dev",
+        "api.github.com",
+        "alive.github.com",
+        "android.googlesource.com"
+      ],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid", "huggingface.co", "githubcopilot.com"]
+    }
+  ]
+}

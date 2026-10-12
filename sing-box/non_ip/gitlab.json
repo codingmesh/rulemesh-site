@@ -2,15 +2,8 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
-        "gitlab-static.net",
-        "gitlab.com",
-        "gitlab.io",
-        "gitlab.net"
-      ],
-      "domain": [
-        "gitlab-assets.oss-cn-hongkong.aliyuncs.com"
-      ]
+      "domain": ["7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe"],
+      "domain_suffix": ["7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe", "gitlab.com"]
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "ruleset.marker.rulemesh.invalid",
+        "javdb.com",
+        "mhgui.com",
+        "avbebe.com",
+        "yymanhua.com",
+        "av.jkforum.net",
+        "www.yymanhua.com",
+        "www.manhuagui.com"
+      ],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid", "cdn.hinet.net"]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": ["ruleset.marker.rulemesh.invalid", "oth.str.mdt.qq.com"],
+      "domain_suffix": [
+        "ruleset.marker.rulemesh.invalid",
+        "beacon.qq.com",
+        "get.sogou.com",
+        "ime.sogou.com",
+        "sginput.qq.com",
+        "macime.sogou.com",
+        "pinyin.sogou.com",
+        "shouji.sogou.com",
+        "account.sogou.com"
+      ]
+    }
+  ]
+}

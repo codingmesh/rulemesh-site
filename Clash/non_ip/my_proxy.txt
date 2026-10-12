@@ -1,0 +1,29 @@
+#########################################
+# Sukka's Ruleset - Proxy
+# Last Updated: 2026-10-12T06:20:39.339Z
+# Size: 17
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# $content-hash-v1$:VrWHu3qBA_U4vFcFSHq4sIBJu_pWuRqT_Dkh9SEdvj4$
+#########################################
+DOMAIN,ruleset.marker.rulemesh.invalid
+DOMAIN,ip.cn
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ipwho.is
+DOMAIN-SUFFIX,db-ip.com
+DOMAIN-SUFFIX,ipdata.co
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,nextdns.io
+DOMAIN-SUFFIX,ipstack.com
+DOMAIN-SUFFIX,ipregistry.co
+DOMAIN,fonts.gstatic.cn
+DOMAIN-SUFFIX,ipgeolocation.io
+DOMAIN,sglong.wechat.com
+DOMAIN,sgshort.wechat.com
+DOMAIN,fonts.googleapis.cn
+DOMAIN-SUFFIX,services.googleapis.cn
+DOMAIN,sgminorshort.wechat.com
+################## EOF ##################

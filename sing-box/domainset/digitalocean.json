@@ -2,13 +2,15 @@
   "version": 2,
   "rules": [
     {
+      "domain": ["ruleset.marker.rulemesh.invalid"],
       "domain_suffix": [
-        "digitalocean-ui.com",
-        "digitalocean.com",
-        "digitaloceanspaces.com",
+        "ruleset.marker.rulemesh.invalid",
         "do.co",
         "nginxconfig.io",
-        "ondigitalocean.com"
+        "digitalocean.com",
+        "ondigitalocean.com",
+        "digitalocean-ui.com",
+        "digitaloceanspaces.com"
       ]
     }
   ]

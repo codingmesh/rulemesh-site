@@ -1,0 +1,62 @@
+#########################################
+# RuleMesh Ruleset - gemini
+# Last Updated: 2026-10-12T06:20:39.234Z
+# Size: 47
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# Additional maintained category integrated into the SukkaW/Surge build pipeline.
+# Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
+#
+# $content-hash-v1$:qT5eKrhzR1fbbGNKInOvBn8SknDg4h7L-Mi4NXr4B6c$
+#########################################
+ruleset.marker.rulemesh.invalid
++.ai.studio
++.flow.google
++.labs.google
++.opal.google
++.deepmind.com
++.jules.google
+ai.google.dev
++.gemini.google
++.bard.google.com
++.deepmind.google
++.flow.google.com
++.labs.google.com
++.notebook.google
++.opal.google.com
++.jules.google.com
++.gemini.google.com
++.notebooklm.google
++.antigravity.google
++.gemini.gstatic.com
++.aida.googleapis.com
++.aistudio.google.com
++.generativeai.google
++.notebook.google.com
++.aicode.googleapis.com
++.makersuite.google.com
++.notebooklm.google.com
++.stitch.withgoogle.com
++.antigravity-unleash.goog
++.geller-pa.googleapis.com
+notebooklm.googleapis.com
+antigravity.googleapis.com
++.aisandbox-pa.googleapis.com
+cloudcode-pa.googleapis.com
+notebooklm-pa.googleapis.com
+antigravity-pa.googleapis.com
++.labstailwind.pa.googleapis.com
+cloudaicompanion.googleapis.com
+geminiweb-pa.clients.google.com
++.robinfrontend-pa.googleapis.com
+geminiweb-pa.clients6.google.com
+alkalicore-pa.clients6.google.com
+daily-cloudcode-pa.googleapis.com
++.generativelanguage.googleapis.com
++.proactivebackend-pa.googleapis.com
+alkalimakersuite-pa.clients6.google.com
+webchannel-alkalimakersuite-pa.clients6.google.com
+################## EOF ##################

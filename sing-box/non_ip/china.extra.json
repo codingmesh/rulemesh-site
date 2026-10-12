@@ -2,9 +2,8 @@
   "version": 2,
   "rules": [
     {
-      "domain_regex": [
-        "^qhimgs.\\.com$"
-      ]
+      "domain": ["ruleset.marker.rulemesh.invalid"],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid"]
     }
   ]
 }

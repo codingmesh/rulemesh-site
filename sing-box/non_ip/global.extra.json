@@ -2,6 +2,8 @@
   "version": 2,
   "rules": [
     {
+      "domain": ["ruleset.marker.rulemesh.invalid"],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid"],
       "domain_keyword": [
         "blogspot",
         "browserleaks",

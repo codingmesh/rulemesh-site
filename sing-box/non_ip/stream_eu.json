@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": ["ruleset.marker.rulemesh.invalid", "bbc.mp-pxcdn.com", "itvpnpmobile-a.akamaihd.net"],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid", "itv.com", "bbc.co.uk", "bbci.co.uk", "tvlicensing.co.uk"],
+      "domain_keyword": ["bbcfmt", "uk-live"]
+    }
+  ]
+}

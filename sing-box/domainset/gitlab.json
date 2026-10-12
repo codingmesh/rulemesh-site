@@ -2,15 +2,8 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
-        "gitlab-static.net",
-        "gitlab.com",
-        "gitlab.io",
-        "gitlab.net"
-      ],
-      "domain": [
-        "gitlab-assets.oss-cn-hongkong.aliyuncs.com"
-      ]
+      "domain": ["ruleset.marker.rulemesh.invalid", "gitlab-assets.oss-cn-hongkong.aliyuncs.com"],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid", "gitlab.io", "gitlab.com", "gitlab.net", "gitlab-static.net"]
     }
   ]
 }

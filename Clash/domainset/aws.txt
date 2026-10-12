@@ -1,0 +1,93 @@
+#########################################
+# RuleMesh Ruleset - aws
+# Last Updated: 2026-10-12T06:20:39.175Z
+# Size: 78
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# Additional maintained category integrated into the SukkaW/Surge build pipeline.
+# Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
+#
+# $content-hash-v1$:VzkSQps11RixRtDYEkA8-FALcuCCd9xmJsTzy8LMksQ$
+#########################################
+ruleset.marker.rulemesh.invalid
++.aws
++.aws.com
++.aws.dev
++.a2z.org.cn
++.awsapps.cn
++.awswaf.com
++.nwcddns.cn
++.route53.cn
++.amzndns.com
++.amzndns.net
++.amzndns.org
++.aws.a2z.com
++.awsapps.com
++.awstrack.me
++.amazonaws.cn
++.amazonaws.tv
++.awsstatic.cn
++.nwcdcloud.cn
++.amazonaws.biz
++.amazonaws.com
++.amazonaws.net
++.amazonaws.org
++.amazonses.com
++.amzndns-cn.cn
++.amzndns.co.uk
++.aws-border.cn
++.awsbraket.com
++.awsstatic.com
++.cloudfront.cn
++.amazonaws.info
++.amplifyapp.com
++.amzndns-cn.biz
++.amzndns-cn.com
++.amzndns-cn.net
++.aws.amazon.com
++.awsapps.com.cn
++.awsedstart.com
++.awseducate.com
++.awseducate.net
++.awseducate.org
++.cloudfront.com
++.cloudfront.net
++.nwcdinfosec.cn
++.amazonaws.co.uk
++.awsthinkbox.com
++.cdkworkshop.com
++.aesworkshops.com
++.amazonaws.com.cn
++.awsapprunner.com
++.awsautopilot.com
++.nwcdcloud.com.cn
++.sagemaker.com.cn
++.amazoncognito.com
++.amazonworkdocs.cn
++.cloudfront-cn.net
++.acmvalidations.com
++.amazonworkdocs.com
++.awsautoscaling.com
++.cloudfront-test.cn
++.amazonaws-china.com
++.awssecworkshops.com
++.containersonaws.com
++.amazonwebservices.cn
++.amplifyframework.com
++.elasticbeanstalk.com
++.thinkboxsoftware.com
++.acmvalidationsaws.com
++.amazonwebservices.com
++.amazonworkdocs.com.cn
++.aws-iot-hackathon.com
++.awsloft-stockholm.com
++.asfiovnxocqpcry.com.cn
++.amazonwebservices.com.cn
++.awsglobalaccelerator.com
++.awsloft-johannesburg.com
++.aws-icp-domain-manager.cn
++.awscommandlineinterface.com
+################## EOF ##################

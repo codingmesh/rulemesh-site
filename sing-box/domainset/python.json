@@ -2,11 +2,13 @@
   "version": 2,
   "rules": [
     {
+      "domain": ["ruleset.marker.rulemesh.invalid"],
       "domain_suffix": [
-        "pycon.org",
+        "ruleset.marker.rulemesh.invalid",
         "pypa.io",
         "pypi.io",
         "pypi.org",
+        "pycon.org",
         "python.org",
         "pythonhosted.org"
       ]

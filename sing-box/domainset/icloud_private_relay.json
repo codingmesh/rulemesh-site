@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "ruleset.marker.rulemesh.invalid",
+        "mask.icloud.com",
+        "mask-h2.icloud.com",
+        "mask.apple-dns.net",
+        "mask-api.icloud.com",
+        "mask-canary.icloud.com",
+        "canary.mask.apple-dns.net"
+      ],
+      "domain_suffix": ["ruleset.marker.rulemesh.invalid"]
+    }
+  ]
+}

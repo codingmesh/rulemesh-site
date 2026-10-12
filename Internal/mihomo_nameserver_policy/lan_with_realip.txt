@@ -1,0 +1,21 @@
+#########################################
+# Sukka's Ruleset - Local DNS Mapping for Mihomo NameServer Policy (LAN_WITH_REALIP)
+# Last Updated: 2026-10-12T06:20:39.492Z
+# Size: 5
+# License: AGPL 3.0
+# Homepage: https://codingmesh.github.io/rulemesh-site/
+# GitHub: https://github.com/codingmesh/rulemesh
+# Based on: https://github.com/SukkaW/Surge
+#
+# This ruleset is only used for mihomo's nameserver-policy feature, which
+# is similar to the RULE-SET referenced by sukka_local_dns_mapping.sgmodule.
+# Do not use this file in your Rule section, all entries are included in non_ip/domestic.conf already.
+#
+# $content-hash-v1$:ZkMIGslO3iV6Tvyd1kJx_oq4WBDyfZxTILParEJAnaU$
+#########################################
+DOMAIN,ruleset.marker.rulemesh.invalid
+DOMAIN-SUFFIX,lan
+DOMAIN-SUFFIX,internal
+DOMAIN-SUFFIX,home.arpa
+DOMAIN-SUFFIX,localdomain
+################## EOF ##################

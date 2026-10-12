@@ -2,19 +2,21 @@
   "version": 2,
   "rules": [
     {
+      "domain": ["ruleset.marker.rulemesh.invalid"],
       "domain_suffix": [
+        "ruleset.marker.rulemesh.invalid",
         "redd.it",
-        "reddit.app.link",
         "reddit.com",
-        "reddit.map.fastly.net",
+        "redditinc.com",
         "redditblog.com",
         "reddithelp.com",
-        "redditinc.com",
         "redditmail.com",
+        "reddit.app.link",
         "redditmedia.com",
         "redditspace.com",
         "redditstatic.com",
-        "redditstatus.com"
+        "redditstatus.com",
+        "reddit.map.fastly.net"
       ]
     }
   ]

@@ -1,9 +1,0 @@
-# RuleMesh: xai
-# Licenses: GPL-3.0
-# Sources: meta-xai-domains
-# Modified: normalized source view and explicit public overrides
-# See THIRD_PARTY_NOTICES.md and category descriptor for attribution and coverage
-+.grok.com
-+.grok.x.com
-+.grokipedia.com
-+.x.ai

@@ -1,6 +1,0 @@
-{
-  "schemaVersion": 1,
-  "legacyCompletePaths": true,
-  "retired": [],
-  "note": "Typed profile files use new paths. Existing complete ruleset URLs retain their original meaning. Add retired paths here with replacements and upgrade instructions before removal."
-}
