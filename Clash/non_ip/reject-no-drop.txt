@@ -1,15 +1,15 @@
 #########################################
 # Sukka's Ruleset - Reject No Drop
-# Last Updated: 2026-10-12T06:20:39.350Z
+# Last Updated: 2026-10-12T06:23:29.769Z
 # Size: 45
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # This file This file contains rules for domain should be used with REJECT-NO-DROP policy.
 #
-# $content-hash-v1$:7LiNv9QCnDra03K5dvPi-_n1E7qDpPAO4yL8eFpjr3g$
+# $content-hash-v1$:gAwrjM3yUtl1cOEYXmJxPPQ653hJj02w8fH5t9OZoZw$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN-SUFFIX,bvmlt.top

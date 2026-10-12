@@ -1,9 +1,9 @@
 #########################################
 # Sukka's Ruleset - Reject Non-IP
-# Last Updated: 2026-10-12T06:20:38.919Z
+# Last Updated: 2026-10-12T06:23:29.189Z
 # Size: 355
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
@@ -35,7 +35,7 @@
 #   - https://ublockorigin.pages.dev/thirdparties/easylist-newsletters.txt
 #   - https://ublockorigin.pages.dev/thirdparties/easylist-notifications.txt
 #
-# $content-hash-v1$:A0mjrbKLbNZ6X0oB8xHTtKGxMTfmSIeIagn0PgN7BiE$
+# $content-hash-v1$:edTFPsQ1RkaJoF0OYYcHeEm6kMNx_j2klR8FMnDkxBA$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN-SUFFIX,data

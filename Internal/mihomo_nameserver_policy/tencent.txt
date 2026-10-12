@@ -1,9 +1,9 @@
 #########################################
 # Sukka's Ruleset - Local DNS Mapping for Mihomo NameServer Policy (TENCENT)
-# Last Updated: 2026-10-12T06:20:39.491Z
+# Last Updated: 2026-10-12T06:23:29.977Z
 # Size: 50
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
@@ -11,7 +11,7 @@
 # is similar to the RULE-SET referenced by sukka_local_dns_mapping.sgmodule.
 # Do not use this file in your Rule section, all entries are included in non_ip/domestic.conf already.
 #
-# $content-hash-v1$:NUI-JU8JUET94weDT-48Gnk2QnrgwIYXTajr955xeBA$
+# $content-hash-v1$:iCSlJgtXDJ8PbeF70ek8IsKinrb4_7wDVDFVt46V0NM$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN-SUFFIX,qq.com

@@ -1,9 +1,9 @@
 #########################################
 # Sukka's Ruleset - Anti Bogus Domain
-# Last Updated: 2026-10-12T06:20:38.919Z
+# Last Updated: 2026-10-12T06:23:29.192Z
 # Size: 765
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
@@ -35,7 +35,7 @@
 #   - https://ublockorigin.pages.dev/thirdparties/easylist-newsletters.txt
 #   - https://ublockorigin.pages.dev/thirdparties/easylist-notifications.txt
 #
-# $content-hash-v1$:9FbsWl3JnE76wst6vaiHH04dhun5dJTku3RTzYhvQ34$
+# $content-hash-v1$:j9roxJjW92CmqtlHvwr6zH8lZiRpsEYp6fpQ_630r5c$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 IP-CIDR,10.72.25.0/24,no-resolve

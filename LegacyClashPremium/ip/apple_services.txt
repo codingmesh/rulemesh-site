@@ -1,15 +1,15 @@
 #########################################
 # Sukka's Ruleset - Apple IP
-# Last Updated: 2026-10-12T06:20:39.302Z
+# Last Updated: 2026-10-12T06:23:29.726Z
 # Size: 11
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # This file contains IPs owned/used by Apple, Inc.
 #
-# $content-hash-v1$:2jdtY-sj5rpZeAS4Z6rMkjLTw8Rc9r-Y_09q245GGSM$
+# $content-hash-v1$:YBBfrdzIZzsdKhnsSfdi2JDdv0h0x4QZc7RW9aXPOPk$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 IP-CIDR,17.0.0.0/8,no-resolve

@@ -1,16 +1,16 @@
 #########################################
 # Sukka's Ruleset - Game Download
-# Last Updated: 2026-10-12T06:20:39.230Z
+# Last Updated: 2026-10-12T06:23:29.647Z
 # Size: 53
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # This file contains domains for Gam download CDN domains for Steam, Epic, Blizzard, Gog, Ubisoft, EA, Xbox, PlayStation, Riot, Bethesda and more.
 # No China CDN domains are included. Those domains are included in non_ip/domestic
 #
-# $content-hash-v1$:YKAeeHKp5lESuCgDR5r9cMVncE2op3NIXVfeZGbs9L8$
+# $content-hash-v1$:Z3vsaNVzaiu8T-I5cYfcpde8Q4hcZisXyQH56A-xVjc$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.cdn.ea.com

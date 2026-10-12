@@ -1,15 +1,15 @@
 #########################################
 # Sukka's Ruleset - Stream Services IPs: Korean
-# Last Updated: 2026-10-12T06:20:38.939Z
+# Last Updated: 2026-10-12T06:23:29.229Z
 # Size: 1
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # - Naver TV
 #
-# $content-hash-v1$:rqLkTdeWm1jIoL9hFVS2Rv42imY5Eu1m0W2SMqQ2UCM$
+# $content-hash-v1$:gBjuV9NsOqlrhiI1Au5-Tgf1wL-SFDX7HjI1sC4FyaA$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 ################## EOF ##################

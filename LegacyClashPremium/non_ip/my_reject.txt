@@ -1,13 +1,13 @@
 #########################################
 # Sukka's Ruleset - Reject (REJECT-DROP)
-# Last Updated: 2026-10-12T06:20:39.342Z
+# Last Updated: 2026-10-12T06:23:29.758Z
 # Size: 54
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
-# $content-hash-v1$:B5rXXcI0zmsdATah6_cMoYUqPnBNnmiucKmkn8qBSP4$
+# $content-hash-v1$:qSRRAUvV8s80uFlypsZ9V74vagi25jb0cilc2Q3347M$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN-SUFFIX,pipi.cn

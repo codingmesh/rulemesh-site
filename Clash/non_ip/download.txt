@@ -1,15 +1,15 @@
 #########################################
 # Sukka's Ruleset - Large Files Hosting IPs
-# Last Updated: 2026-10-12T06:20:39.330Z
+# Last Updated: 2026-10-12T06:23:29.748Z
 # Size: 10
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # This file contains ruleset for software updating & large file hosting.
 #
-# $content-hash-v1$:UORNen1NMBS4S4ai55_ZQkiMqawOc7BjeHIYlSWr9fY$
+# $content-hash-v1$:eIJkTWOZoLfJ80GwnzYwru0mXYHZKST4A5Npq1wOVOE$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN-WILDCARD,download*.mediafire.com

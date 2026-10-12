@@ -1,16 +1,16 @@
 #########################################
 # RuleMesh Ruleset - discord
-# Last Updated: 2026-10-12T06:20:39.203Z
+# Last Updated: 2026-10-12T06:23:29.616Z
 # Size: 29
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # Additional maintained category integrated into the SukkaW/Surge build pipeline.
 # Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
 #
-# $content-hash-v1$:tEmUpqbhnf6yC7-aWUPwmGdQVKBD1n5t59ju4T0kW-0$
+# $content-hash-v1$:6dwRB8N5g8RH5dtALDMll7X34LXJvW73in0nHiLIXzA$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.dis.gd

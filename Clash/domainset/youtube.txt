@@ -1,16 +1,16 @@
 #########################################
 # RuleMesh Ruleset - youtube
-# Last Updated: 2026-10-12T06:20:39.301Z
+# Last Updated: 2026-10-12T06:23:29.723Z
 # Size: 178
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # Additional maintained category integrated into the SukkaW/Surge build pipeline.
 # Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
 #
-# $content-hash-v1$:Qk3dpPjmqYIHll1deWOrlrjQ8lXx_4uq-P-vbAb1E6Q$
+# $content-hash-v1$:5qT9K96vCjH_204h_wrRHTCEXKTU3Zz7L-heBbj2Brc$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.yt.be

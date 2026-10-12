@@ -1,16 +1,16 @@
 #########################################
 # RuleMesh Ruleset - developer
-# Last Updated: 2026-10-12T06:20:39.196Z
+# Last Updated: 2026-10-12T06:23:29.611Z
 # Size: 637
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # Additional maintained category integrated into the SukkaW/Surge build pipeline.
 # Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
 #
-# $content-hash-v1$:22WzwFPpJswTYpOHYo-F45cX7-JF2Sy-TGN-sDvTGEM$
+# $content-hash-v1$:KPmRR3ASF_EZdKqblNnI1XWE5UBZVk1Wi0JOt5thp94$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.java

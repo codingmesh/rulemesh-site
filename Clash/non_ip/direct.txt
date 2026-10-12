@@ -1,15 +1,15 @@
 #########################################
 # Sukka's Ruleset - Direct Rules
-# Last Updated: 2026-10-12T06:20:39.489Z
+# Last Updated: 2026-10-12T06:23:29.974Z
 # Size: 219
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # This file contains domains and process that should not be proxied.
 #
-# $content-hash-v1$:y0t3LQuv62dAv7NnmWt3pkUwjAWb0YDG-Cjxyo1rdVA$
+# $content-hash-v1$:2r0OCWojozWzUeZFpKfzKQ1fwDN4zMnyv730aaJJsoE$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN-SUFFIX,lan

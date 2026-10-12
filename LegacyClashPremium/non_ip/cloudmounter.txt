@@ -1,13 +1,13 @@
 #########################################
 # Sukka's Ruleset - CloudMounter / RaiDrive
-# Last Updated: 2026-10-12T06:20:38.939Z
+# Last Updated: 2026-10-12T06:23:29.229Z
 # Size: 1
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
-# $content-hash-v1$:MNF_IDmcxMfoubW9AASV2HOsOXdf9sRfzVZUgul76kk$
+# $content-hash-v1$:3f1KnuOCLHdkeunV0xWWk67yfWazlpl29LRG2DfC9Ic$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 ################## EOF ##################

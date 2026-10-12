@@ -1,16 +1,16 @@
 #########################################
 # RuleMesh Ruleset - primevideo
-# Last Updated: 2026-10-12T06:20:39.277Z
+# Last Updated: 2026-10-12T06:23:29.714Z
 # Size: 24
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # Additional maintained category integrated into the SukkaW/Surge build pipeline.
 # Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
 #
-# $content-hash-v1$:q8PwSuyPAPKxMIgg-cZESrd2XK7s8-EXOMFzQ1AbhBA$
+# $content-hash-v1$:Ezy2iRwlCsWtYG2axemcss-SKRKcD9NBDc7AqVkekJE$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.aiv-cdn.net

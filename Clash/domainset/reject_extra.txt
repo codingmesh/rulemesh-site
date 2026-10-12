@@ -1,9 +1,9 @@
 #########################################
 # Sukka's Ruleset - Reject Extra
-# Last Updated: 2026-10-12T06:20:38.919Z
-# Size: 77222
+# Last Updated: 2026-10-12T06:23:29.188Z
+# Size: 77228
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
@@ -33,7 +33,7 @@
 #   - https://ublockorigin.pages.dev/thirdparties/easylist-notifications.txt
 #   - https://urlhaus-filter.pages.dev/urlhaus-filter-domains-online.txt
 #
-# $content-hash-v1$:xGkKwXtPyHX3jDJ9xquXuzABqztPOo6niasjldKPZ58$
+# $content-hash-v1$:KCmNX__uarb6gcpJVAGXqeae_Gu6EfVamo7I_q3K3yc$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.4.fo
@@ -33647,6 +33647,7 @@ scx.ddns.net
 +.bowlingremind.com
 +.bowlingtastes.com
 +.boxlikepavers.com
++.boychikdevout.com
 +.boyfrienddill.com
 +.boyismkouproh.com
 +.bp.cryptolions.io
@@ -48394,6 +48395,7 @@ eu-ubqpool.ddns.net
 +.jywqcjoelqiza.space
 +.jzbhqlgvsxdwb.store
 +.jzfrcctrmyclt.space
++.jzfwmalgjmnkq.space
 +.jzhnqycanbvsn.space
 +.jziweafbssqyj.store
 +.jzy9iz6qr7y2hzj.cfd
@@ -52759,6 +52761,7 @@ vbk-reb0rn.ddns.net
 +.ahyjsrlslitla.online
 +.ahymmqagnewae.online
 +.aide-pac-national.fr
++.aifbxzmkovbwx.online
 +.aikdaibvdijmd.online
 +.aivzqagmhkndd.online
 +.aixkmxfejbsvb.online
@@ -57686,6 +57689,7 @@ eu-nilupool.ddns.net
 +.vclsyumjrbiel.online
 +.vcluuabdlvgmx.online
 +.vcndcazeifjzc.online
++.vcnliauiisazb.online
 +.vcsphxpnlxnrm.online
 +.vdbbiwvxvhzdt.online
 +.vdeukmyunderthfe.org
@@ -62438,6 +62442,7 @@ eu-nilupool.ddns.net
 +.udplgiotjursc.website
 +.ueelifzelnygx.website
 +.uegonhnxbiyrc.website
++.ueqtnozjwtwdp.website
 +.ueqvfodcymwfu.website
 +.ueujvfjkukeqf.website
 +.ufsyoynijlvgy.website
@@ -70592,6 +70597,7 @@ mepodownload.mediatek.com
 +.reasoningfashionbrood.com
 +.reasoningiconcealment.com
 +.recettes-vegetariennes.fr
++.rechurnobeismextoled.qpon
 +.recommander.quickbooks.ca
 +.rectangularfoundation.com
 +.redherring.ngadcenter.net

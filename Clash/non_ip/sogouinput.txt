@@ -1,15 +1,15 @@
 #########################################
 # Sukka's Ruleset - Sogou Input
-# Last Updated: 2026-10-12T06:20:39.357Z
+# Last Updated: 2026-10-12T06:23:29.781Z
 # Size: 13
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # This file contains rules for Sogou Input.
 #
-# $content-hash-v1$:kjG2jrqFY_ARfPSqHhwreurtb0YwckftfdMJnTFjRv0$
+# $content-hash-v1$:gj4BLAOkYRxvug3Tt5TrFn4slOQsXqq8IK_vyVPkqTc$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN-SUFFIX,beacon.qq.com

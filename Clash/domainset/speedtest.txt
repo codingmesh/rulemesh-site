@@ -1,15 +1,15 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2026-10-12T06:20:38.921Z
-# Size: 3429
+# Last Updated: 2026-10-12T06:23:29.195Z
+# Size: 3430
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # This file contains common speedtest endpoints.
 #
-# $content-hash-v1$:bY1q-r-xDA5V3s8Hi1tTz5syVu0tad6KDpWWrHyv_6A$
+# $content-hash-v1$:B_1A44ERmGFYvL4CLWIuRv4drQmsqAdXNTcqY1qB3EE$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.fast.com
@@ -2971,6 +2971,7 @@ dssd-tc.wsqm.telekom-dienste.de
 dtmd-tc.wsqm.telekom-dienste.de
 kmlpbcnu-speedtest-01.telus.com
 mumbaispeedtest.onebroadband.in
+ruleset.marker.rulemesh.invalid
 sb-speedtest-1.twmbroadband.net
 slrmpqfh-speedtest-01.telus.com
 sp1.speedy.breitband-rostock.de

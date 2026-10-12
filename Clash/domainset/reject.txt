@@ -1,9 +1,9 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2026-10-12T06:20:38.919Z
-# Size: 138532
+# Last Updated: 2026-10-12T06:23:29.188Z
+# Size: 138522
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
@@ -19,7 +19,7 @@
 #   - https://raw.githubusercontent.com/easylist/easylist/gh-pages/easyprivacy.txt
 #   - https://ublockorigin.pages.dev/filters/unbreak.min.txt
 #
-# $content-hash-v1$:Xa10d5zTFCnVUou1npxP4xZePx2PCyAxSWWKNET6Qjs$
+# $content-hash-v1$:NcamWqy8UlUyMr3m8c3hxJfEe_aytcl8UVD6aXR7sQA$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.data
@@ -40737,7 +40737,6 @@ as.aplus.pptv.com
 +.bovid.neural.love
 +.boxcargaults.qpon
 +.boxtopshankul.com
-+.boychikdevout.com
 +.bp.elietahari.com
 +.bp4apps.horus.biz
 +.bpl.marketycs.com
@@ -59982,7 +59981,6 @@ vv84.bj.bcebos.com
 +.ywttjedowyfym.site
 +.yxcruyhkddqkn.site
 +.yxsrea.lepro.co.uk
-+.yymqjghotqesw.site
 +.yysupnvlmqddp.site
 +.yywkaozqywjqux.com
 +.yz6q857w7ylbeb.cfd
@@ -62333,7 +62331,6 @@ durdcn.doglobal.net
 +.eusobjdywfqil.space
 +.evbwzanmusgzz.space
 +.eveib.directlend.ai
-+.evelinalettish.cyou
 +.event-api.hackle.io
 +.event.aimailhome.io
 +.event.boozallen.com
@@ -63839,7 +63836,6 @@ js.partnerstack.com
 +.jysgblvfnotgf.space
 +.jyyqzt.sledstore.se
 +.jzauch.motostorm.it
-+.jzfwmalgjmnkq.space
 +.k.calledelregalo.es
 +.k7j2w9.filmnadvd.cz
 +.k864.orovillemr.com
@@ -70204,7 +70200,6 @@ adsys.sinovision.net
 +.ahjcxebm.usatours.no
 +.ahnrmb.topvintage.de
 +.aia.sultanaleasl.com
-+.aifbxzmkovbwx.online
 +.aijkepdhnphlt.online
 +.aikhra.londonclub.sk
 +.aikrir.lcwaikiki.com
@@ -71763,7 +71758,6 @@ dsp.simba.taobao.com
 +.dt.thyroid-world.com
 +.dtmxst.66girls.co.kr
 +.dts.suchmeisterei.de
-+.dtvjdtshkyaue.online
 +.dtx2.delcasas.com.br
 +.dumjz.wearswoody.com
 +.dumptakapuffily.cyou
@@ -78431,7 +78425,6 @@ usage-ping.brave.com
 +.vcdzh.lizzyjames.com
 +.vcgfucemisrzr.online
 +.vchhr.hiyahealth.com
-+.vcnliauiisazb.online
 +.vde1.voyage-prive.de
 +.vdeiar.gracobaby.com
 +.vdhqxwawhltll.online
@@ -79002,7 +78995,6 @@ xray.jebe.renren.com
 +.zvzjvx.shophorne.com
 +.zxokndyjenmgz.online
 +.zycjclvhhzhqv.online
-+.zydtikqpllcmc.online
 +.zyihldjutmvmh.online
 +.zzfsli.tom-tailor.ru
 +.zzlctetvwshhm.online
@@ -87016,7 +87008,6 @@ u1.img.mobile.sina.cn
 +.udpbkh.wildfashion.ro
 +.udszpipk.bospanien.dk
 +.udzsgk.myclassico.com
-+.ueqtnozjwtwdp.website
 +.uestat.video.qiyi.com
 +.ufbxokkiootk6zpi.rest
 +.ufnkti.belleetbio.com
@@ -111412,7 +111403,6 @@ osupdateservice.yunos.com
 +.rcrmmarketing.arcsona.com
 +.rdtk.scalemyclinic.com.au
 +.reach-id.orbit.tm-awx.com
-+.rechurnobeismextoled.qpon
 +.recontent.services.tvn.pl
 +.redditstream.arborapps.io
 +.redir.bluespringcoast.com

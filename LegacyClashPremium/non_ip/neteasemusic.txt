@@ -1,15 +1,15 @@
 #########################################
 # Sukka's Ruleset - Netease Music
-# Last Updated: 2026-10-12T06:20:39.344Z
+# Last Updated: 2026-10-12T06:23:29.765Z
 # Size: 3
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # This file contains rules for Netease Music.
 #
-# $content-hash-v1$:zk3xqu-asWUNUPQia2XFQNdNBHKHwGsnhDEkMWbvoAI$
+# $content-hash-v1$:AcUA9vRqwmcjIm2xDaRZqHgFPsF5oNWGA9rfdnh_k4k$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN-SUFFIX,music.126.net

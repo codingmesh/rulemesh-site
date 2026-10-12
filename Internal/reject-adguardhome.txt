@@ -1,10 +1,10 @@
 ! Title: Sukka's Ruleset - AdGuardHome Blocklist
-! Last modified: Mon, 12 Oct 2026 06:20:43 GMT
+! Last modified: Mon, 12 Oct 2026 06:23:33 GMT
 ! Expires: 6 hours
 ! License: https://github.com/SukkaW/Surge/blob/master/LICENSE
 ! Homepage: https://github.com/SukkaW/Surge
 ! Description: The AdGuardHome ruleset supports AD blocking, tracking protection, privacy protection, anti-mining
-! $content-hash-v1$:4bzPaisYxBpLLORxaRwkzhA60Z5C9rLd1lfBzbQ-pxI$
+! $content-hash-v1$:MVlmfEYbPqzrM6yMNJTceppy-H-00VIf6oAa-_di8qQ$
 !
 ||data^
 ||null^
@@ -43378,7 +43378,6 @@
 ||bovid.neural.love^
 ||boxcargaults.qpon^
 ||boxtopshankul.com^
-||boychikdevout.com^
 ||bp.cryptolions.io^
 ||bp.elietahari.com^
 ||bp4apps.horus.biz^
@@ -62861,7 +62860,6 @@
 ||ywttjedowyfym.site^
 ||yxcruyhkddqkn.site^
 ||yxsrea.lepro.co.uk^
-||yymqjghotqesw.site^
 ||yysupnvlmqddp.site^
 ||yywkaozqywjqux.com^
 ||yz6q857w7ylbeb.cfd^
@@ -65248,7 +65246,6 @@
 ||eusobjdywfqil.space^
 ||evbwzanmusgzz.space^
 ||eveib.directlend.ai^
-||evelinalettish.cyou^
 ||event-api.hackle.io^
 ||event.aimailhome.io^
 ||event.boozallen.com^
@@ -66757,7 +66754,6 @@
 ||jysgblvfnotgf.space^
 ||jyyqzt.sledstore.se^
 ||jzauch.motostorm.it^
-||jzfwmalgjmnkq.space^
 ||k.calledelregalo.es^
 ||k7j2w9.filmnadvd.cz^
 ||k864.orovillemr.com^
@@ -73157,7 +73153,6 @@
 ||ahjcxebm.usatours.no^
 ||ahnrmb.topvintage.de^
 ||aia.sultanaleasl.com^
-||aifbxzmkovbwx.online^
 ||aijkepdhnphlt.online^
 ||aikhra.londonclub.sk^
 ||aikrir.lcwaikiki.com^
@@ -74732,7 +74727,6 @@
 ||dt.thyroid-world.com^
 ||dtmxst.66girls.co.kr^
 ||dts.suchmeisterei.de^
-||dtvjdtshkyaue.online^
 ||dtx2.delcasas.com.br^
 ||dumjz.wearswoody.com^
 ||dumptakapuffily.cyou^
@@ -81444,7 +81438,6 @@
 ||vcdzh.lizzyjames.com^
 ||vcgfucemisrzr.online^
 ||vchhr.hiyahealth.com^
-||vcnliauiisazb.online^
 ||vde1.voyage-prive.de^
 ||vdeiar.gracobaby.com^
 ||vdhqxwawhltll.online^
@@ -82018,7 +82011,6 @@
 ||zvzjvx.shophorne.com^
 ||zxokndyjenmgz.online^
 ||zycjclvhhzhqv.online^
-||zydtikqpllcmc.online^
 ||zyihldjutmvmh.online^
 ||zzfsli.tom-tailor.ru^
 ||zzlctetvwshhm.online^
@@ -90082,7 +90074,6 @@
 ||udpbkh.wildfashion.ro^
 ||udszpipk.bospanien.dk^
 ||udzsgk.myclassico.com^
-||ueqtnozjwtwdp.website^
 ||uestat.video.qiyi.com^
 ||ufbxokkiootk6zpi.rest^
 ||ufnkti.belleetbio.com^
@@ -114564,7 +114555,6 @@
 ||rcrmmarketing.arcsona.com^
 ||rdtk.scalemyclinic.com.au^
 ||reach-id.orbit.tm-awx.com^
-||rechurnobeismextoled.qpon^
 ||recontent.services.tvn.pl^
 ||redditstream.arborapps.io^
 ||redir.bluespringcoast.com^

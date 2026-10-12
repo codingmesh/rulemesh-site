@@ -1,16 +1,16 @@
 #########################################
 # RuleMesh Ruleset - google
-# Last Updated: 2026-10-12T06:20:39.249Z
+# Last Updated: 2026-10-12T06:23:29.675Z
 # Size: 848
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # Additional maintained category integrated into the SukkaW/Surge build pipeline.
 # Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
 #
-# $content-hash-v1$:4kOfVusoBYjIyUF-dckRTmpKGhYxxTRtCwXw9MvqyfI$
+# $content-hash-v1$:roiLy3hWxrK-Kv7LRn5prDbuSUnvsY9Vz9EJElMYfVE$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.gle

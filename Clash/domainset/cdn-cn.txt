@@ -1,16 +1,16 @@
 #########################################
 # RuleMesh Ruleset - cdn-cn
-# Last Updated: 2026-10-12T06:20:39.177Z
+# Last Updated: 2026-10-12T06:23:29.602Z
 # Size: 94
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # Additional maintained category integrated into the SukkaW/Surge build pipeline.
 # Provenance and license details: https://github.com/codingmesh/rulemesh/blob/main/THIRD_PARTY_NOTICES.md
 #
-# $content-hash-v1$:E0AM5JeCSn8rHbkcZ6-fZLBAJ-zACf71yzxVuMJW1WQ$
+# $content-hash-v1$:0ANJIMjkYLBUh4383KnMYHD1emvAL7bgaoB8nxbzWY0$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.qbox.me

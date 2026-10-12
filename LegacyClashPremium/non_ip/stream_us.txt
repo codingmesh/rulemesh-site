@@ -1,9 +1,9 @@
 #########################################
 # Sukka's Ruleset - Stream Services: North America
-# Last Updated: 2026-10-12T06:20:38.934Z
+# Last Updated: 2026-10-12T06:23:29.226Z
 # Size: 44
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
@@ -21,7 +21,7 @@
 # - Crackle
 # - Tubi TV
 #
-# $content-hash-v1$:JPJ0XPCDYuqccd-Awj5jZqXyuIUcGWtINdh69_uDo0I$
+# $content-hash-v1$:9tdbyLJLu1GKV0MH9cr0i_xROG_lMWXSz96Hbd-Au2c$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN-SUFFIX,fox.com

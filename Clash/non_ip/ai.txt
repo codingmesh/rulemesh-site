@@ -1,15 +1,15 @@
 #########################################
 # Sukka's Ruleset - AIGC Domains
-# Last Updated: 2026-10-12T06:20:39.318Z
+# Last Updated: 2026-10-12T06:23:29.738Z
 # Size: 52
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # This file contains domains of OpenAI, Claude.
 #
-# $content-hash-v1$:z03UIVWnQhMzmhtDeNbKAV9wavZ-f-FpKr0lhQ9HTsQ$
+# $content-hash-v1$:kw3MYg_Ee6sfftLIFZ7QpJb_y7UdANed2V5Zo09a9LU$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN-SUFFIX,g.ai

@@ -1,15 +1,15 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2026-10-12T06:20:39.326Z
+# Last Updated: 2026-10-12T06:23:29.742Z
 # Size: 25
 # License: AGPL 3.0
-# Homepage: https://codingmesh.github.io/rulemesh-site/
+# Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
 # Based on: https://github.com/SukkaW/Surge
 #
 # This file contains object storage and static assets CDN domains.
 #
-# $content-hash-v1$:xvdiDPHAD2gHqF7HL-gQzKsI4Erg_-S2UjlyYuapfFw$
+# $content-hash-v1$:0kEwr1gKcGad3XKVJof-ZK3UmppUpTfNNV3EC0aF30Y$
 #########################################
 DOMAIN,ruleset.marker.rulemesh.invalid
 DOMAIN,cdn-msp.jmcomic.me
