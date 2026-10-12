@@ -1,0 +1,376 @@
+# RuleMesh routing fragment: fixed site URLs. Add your own node configuration.
+rule-providers:
+  RuleMesh-Data-private:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/private.txt
+  RuleMesh-Data-anthropic:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/anthropic.txt
+  RuleMesh-Data-openai:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/openai.txt
+  RuleMesh-Data-gemini:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/gemini.txt
+  RuleMesh-Data-copilot:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/copilot.txt
+  RuleMesh-Data-xai:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/xai.txt
+  RuleMesh-Data-perplexity:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/perplexity.txt
+  RuleMesh-Data-apple-intelligence:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/apple-intelligence.txt
+  RuleMesh-Data-ai-other:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/ai-other.txt
+  RuleMesh-Data-telegram:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/telegram.txt
+  RuleMesh-Data-discord:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/discord.txt
+  RuleMesh-Data-whatsapp:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/whatsapp.txt
+  RuleMesh-Data-twitter:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/twitter.txt
+  RuleMesh-Data-instagram:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/instagram.txt
+  RuleMesh-Data-facebook:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/facebook.txt
+  RuleMesh-Data-reddit:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/reddit.txt
+  RuleMesh-Data-youtube:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/youtube.txt
+  RuleMesh-Data-netflix:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/netflix.txt
+  RuleMesh-Data-disney:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/disney.txt
+  RuleMesh-Data-hbo:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/hbo.txt
+  RuleMesh-Data-primevideo:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/primevideo.txt
+  RuleMesh-Data-twitch:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/twitch.txt
+  RuleMesh-Data-tiktok:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/tiktok.txt
+  RuleMesh-Data-spotify:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/spotify.txt
+  RuleMesh-Data-bilibili-intl:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/bilibili-intl.txt
+  RuleMesh-Data-bilibili:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/bilibili.txt
+  RuleMesh-Data-apple-cn:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/apple-cn.txt
+  RuleMesh-Data-icloud:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/icloud.txt
+  RuleMesh-Data-apple-music:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/apple-music.txt
+  RuleMesh-Data-apple-tv:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/apple-tv.txt
+  RuleMesh-Data-google-fcm:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/google-fcm.txt
+  RuleMesh-Data-onedrive:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/onedrive.txt
+  RuleMesh-Data-npm:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/npm.txt
+  RuleMesh-Data-python:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/python.txt
+  RuleMesh-Data-docker:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/docker.txt
+  RuleMesh-Data-github:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/github.txt
+  RuleMesh-Data-gitlab:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/gitlab.txt
+  RuleMesh-Data-jetbrains:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/jetbrains.txt
+  RuleMesh-Data-developer:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/developer.txt
+  RuleMesh-Data-steam-cn:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/steam-cn.txt
+  RuleMesh-Data-game-downloads:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/game-downloads.txt
+  RuleMesh-Data-steam:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/steam.txt
+  RuleMesh-Data-epic-games:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/epic-games.txt
+  RuleMesh-Data-playstation:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/playstation.txt
+  RuleMesh-Data-xbox:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/xbox.txt
+  RuleMesh-Data-nintendo:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/nintendo.txt
+  RuleMesh-Data-advertising:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/advertising.txt
+  RuleMesh-Data-downloads:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/downloads.txt
+  RuleMesh-Data-apple:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/apple.txt
+  RuleMesh-Data-google:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/google.txt
+  RuleMesh-Data-microsoft:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/microsoft.txt
+  RuleMesh-Data-aws:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/aws.txt
+  RuleMesh-Data-digitalocean:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/digitalocean.txt
+  RuleMesh-Data-cloudflare:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/cloudflare.txt
+  RuleMesh-Data-games:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/games.txt
+  RuleMesh-Data-cdn-cn:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/cdn-cn.txt
+  RuleMesh-Data-cdn-global:
+    type: http
+    behavior: domain
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/domain/cdn-global.txt
+  RuleMesh-Data-china:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/classical/china.txt
+  RuleMesh-Data-global:
+    type: http
+    behavior: classical
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/classical/global.txt
+  RuleMesh-Data-openai.no-resolve:
+    type: http
+    behavior: ipcidr
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/ipcidr/openai.no-resolve.txt
+  RuleMesh-Data-telegram.no-resolve:
+    type: http
+    behavior: ipcidr
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/ipcidr/telegram.no-resolve.txt
+  RuleMesh-Data-private.resolve:
+    type: http
+    behavior: ipcidr
+    format: text
+    url: https://codingmesh.github.io/rulemesh-site/mihomo/ipcidr/private.resolve.txt
+rules:
+  - RULE-SET,RuleMesh-Data-private,private
+  - RULE-SET,RuleMesh-Data-anthropic,anthropic
+  - RULE-SET,RuleMesh-Data-openai,openai
+  - RULE-SET,RuleMesh-Data-gemini,gemini
+  - RULE-SET,RuleMesh-Data-copilot,developer
+  - RULE-SET,RuleMesh-Data-xai,ai-other
+  - RULE-SET,RuleMesh-Data-perplexity,ai-other
+  - RULE-SET,RuleMesh-Data-apple-intelligence,ai-other
+  - RULE-SET,RuleMesh-Data-ai-other,ai-other
+  - RULE-SET,RuleMesh-Data-telegram,telegram
+  - RULE-SET,RuleMesh-Data-discord,social
+  - RULE-SET,RuleMesh-Data-whatsapp,social
+  - RULE-SET,RuleMesh-Data-twitter,social
+  - RULE-SET,RuleMesh-Data-instagram,social
+  - RULE-SET,RuleMesh-Data-facebook,social
+  - RULE-SET,RuleMesh-Data-reddit,social
+  - RULE-SET,RuleMesh-Data-youtube,youtube
+  - RULE-SET,RuleMesh-Data-netflix,netflix
+  - RULE-SET,RuleMesh-Data-disney,streaming
+  - RULE-SET,RuleMesh-Data-hbo,streaming
+  - RULE-SET,RuleMesh-Data-primevideo,streaming
+  - RULE-SET,RuleMesh-Data-twitch,streaming
+  - RULE-SET,RuleMesh-Data-tiktok,streaming
+  - RULE-SET,RuleMesh-Data-spotify,streaming
+  - RULE-SET,RuleMesh-Data-bilibili-intl,streaming
+  - RULE-SET,RuleMesh-Data-bilibili,china
+  - RULE-SET,RuleMesh-Data-apple-cn,china
+  - RULE-SET,RuleMesh-Data-icloud,apple
+  - RULE-SET,RuleMesh-Data-apple-music,apple
+  - RULE-SET,RuleMesh-Data-apple-tv,apple
+  - RULE-SET,RuleMesh-Data-google-fcm,google
+  - RULE-SET,RuleMesh-Data-onedrive,microsoft
+  - RULE-SET,RuleMesh-Data-npm,developer
+  - RULE-SET,RuleMesh-Data-python,developer
+  - RULE-SET,RuleMesh-Data-docker,developer
+  - RULE-SET,RuleMesh-Data-github,developer
+  - RULE-SET,RuleMesh-Data-gitlab,developer
+  - RULE-SET,RuleMesh-Data-jetbrains,developer
+  - RULE-SET,RuleMesh-Data-developer,developer
+  - RULE-SET,RuleMesh-Data-steam-cn,china
+  - RULE-SET,RuleMesh-Data-game-downloads,downloads
+  - RULE-SET,RuleMesh-Data-steam,games
+  - RULE-SET,RuleMesh-Data-epic-games,games
+  - RULE-SET,RuleMesh-Data-playstation,games
+  - RULE-SET,RuleMesh-Data-xbox,games
+  - RULE-SET,RuleMesh-Data-nintendo,games
+  - RULE-SET,RuleMesh-Data-advertising,advertising
+  - RULE-SET,RuleMesh-Data-downloads,downloads
+  - RULE-SET,RuleMesh-Data-apple,apple
+  - RULE-SET,RuleMesh-Data-google,google
+  - RULE-SET,RuleMesh-Data-microsoft,microsoft
+  - RULE-SET,RuleMesh-Data-aws,downloads
+  - RULE-SET,RuleMesh-Data-digitalocean,downloads
+  - RULE-SET,RuleMesh-Data-cloudflare,downloads
+  - RULE-SET,RuleMesh-Data-games,games
+  - RULE-SET,RuleMesh-Data-cdn-cn,china
+  - RULE-SET,RuleMesh-Data-cdn-global,downloads
+  - RULE-SET,RuleMesh-Data-china,china
+  - RULE-SET,RuleMesh-Data-global,fallback
+  - RULE-SET,RuleMesh-Data-openai.no-resolve,openai,no-resolve
+  - RULE-SET,RuleMesh-Data-telegram.no-resolve,telegram,no-resolve
+  - RULE-SET,RuleMesh-Data-private.resolve,private
+  - MATCH,fallback

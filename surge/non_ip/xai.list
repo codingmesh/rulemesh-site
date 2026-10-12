@@ -1,0 +1,9 @@
+# RuleMesh: xai
+# Licenses: GPL-3.0
+# Sources: meta-xai-domains
+# Modified: normalized source view and explicit public overrides
+# See THIRD_PARTY_NOTICES.md and category descriptor for attribution and coverage
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,x.ai

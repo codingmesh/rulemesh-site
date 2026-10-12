@@ -1,0 +1,32 @@
+{
+  "category": "python",
+  "scope": "上游 python 域名视图；与其他服务可能相交，按配置顺序决定分类",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-python-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/python.list",
+    "shadowrocket/non_ip/python.list",
+    "mihomo/domain/python.txt",
+    "sing-box/non_ip/python.json",
+    "surge/domainset/python.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-python-domains",
+      "total": 6,
+      "accepted": 6,
+      "omitted": [],
+      "note": "固定完整 geo 域名视图；原始属性和高级表达式另行核查，细服务先于合集"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

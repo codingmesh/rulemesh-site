@@ -1,0 +1,34 @@
+{
+  "category": "anthropic",
+  "scope": "Claude 官方服务与用户内容域名",
+  "licenses": [
+    "GPL-3.0",
+    "MIT"
+  ],
+  "sources": [
+    "meta-anthropic-domains",
+    "rulemesh-owned"
+  ],
+  "outputs": [
+    "surge/non_ip/anthropic.list",
+    "shadowrocket/non_ip/anthropic.list",
+    "mihomo/domain/anthropic.txt",
+    "sing-box/non_ip/anthropic.json",
+    "surge/domainset/anthropic.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-anthropic-domains",
+      "total": 9,
+      "accepted": 9,
+      "omitted": [],
+      "note": "完整 geo 域名产物，非 geo-lite；claude.app 由官方依据补充"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

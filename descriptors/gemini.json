@@ -1,0 +1,32 @@
+{
+  "category": "gemini",
+  "scope": "上游 google-gemini 域名视图；与其他服务可能相交，按配置顺序决定分类",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-gemini-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/gemini.list",
+    "shadowrocket/non_ip/gemini.list",
+    "mihomo/domain/gemini.txt",
+    "sing-box/non_ip/gemini.json",
+    "surge/domainset/gemini.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-gemini-domains",
+      "total": 46,
+      "accepted": 46,
+      "omitted": [],
+      "note": "固定完整 geo 域名视图；原始属性和高级表达式另行核查，细服务先于合集"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

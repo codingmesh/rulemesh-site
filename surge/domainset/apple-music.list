@@ -1,0 +1,16 @@
+# RuleMesh: apple-music
+# Licenses: GPL-3.0
+# Sources: meta-apple-music-domains
+# Modified: normalized source view and explicit public overrides
+# See THIRD_PARTY_NOTICES.md and category descriptor for attribution and coverage
+.applemusic.berlin
+.applemusic.co
+.applemusic.com.au
+.applemusic.com
+.applemusic.hamburg
+.applemusic.wang
+.applemusicconnect.com
+.applemusicfestival.com
+.music.apple.com
+.musickit.net
+.wwwapplemusic.com

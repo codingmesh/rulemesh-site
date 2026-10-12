@@ -1,0 +1,32 @@
+{
+  "category": "games",
+  "scope": "上游 category-games 域名视图；与其他服务可能相交，按配置顺序决定分类",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-games-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/games.list",
+    "shadowrocket/non_ip/games.list",
+    "mihomo/domain/games.txt",
+    "sing-box/non_ip/games.json",
+    "surge/domainset/games.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-games-domains",
+      "total": 1123,
+      "accepted": 1123,
+      "omitted": [],
+      "note": "固定完整 geo 域名视图；原始属性和高级表达式另行核查，细服务先于合集"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

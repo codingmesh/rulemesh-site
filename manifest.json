@@ -1,0 +1,2280 @@
+{
+  "schemaVersion": 1,
+  "id": "build-a4d114e87dcb1ec3f5de6720",
+  "status": "experimental",
+  "private": false,
+  "semanticHash": "61fd13b0a25305ae6fbaa5db479994aca530c47f01469b2f0976e91b471609ae",
+  "contextHash": "a4d114e87dcb1ec3f5de6720e1569568e43453d1bcf097eabeb0e5cd71c8ec90",
+  "context": {
+    "sources.yaml": "21fc56627efde2042e4549ab3f92bef4752f50ee9b52153ceb2383e3fe33107e",
+    "sources.lock.json": "1bdd8dcadcb59b464b8c9360609eaa990b6c9407700d50f1cc0b131fe7e63a38",
+    "tracking.yaml": "f66686e99b2671ab6e08685f30e9fdec08dc1091cc2f5f10a1c3bd8be00b3b46",
+    "categories.yaml": "e034d38576f29c4951c455338262b0e7a34b043408d9fafe2a99444a4d663c75",
+    "rules/owned.yaml": "53e1b653557507e8a4ad6d32f1ae24b58ab7b9f894d85eb5cd38a8a8783c7629",
+    "overrides/public.yaml": "c7d9d16bf393eba6325843f939ea5b170fc28aa2ae92f0e814f30edc65157f43",
+    "package-lock.json": "392f79fe4f0fdc97ce1eb92c0c73f15731ed4b183a4881b15a29ad6295591e08",
+    "package.json": "d0391a6bfdfba4e5ca84a4685d3bb1720f7e0b571893489e866a1c265b1f0a83",
+    "tsconfig.json": "d329a52da332bba3c55c02945c1b3422908f6bb22cd739151d46bd64b2667b88",
+    "compatibility.yaml": "5e17605670f8d6b08d8db4cdcd41778f810ffb099de6126851239e70f9c8ebb5",
+    "LICENSE": "d0769273dcd9180053cb2ee6ae5c7dd4219eb905f58cebeb54bf737905642541",
+    "THIRD_PARTY_NOTICES.md": "66ba7a45da0bd6eb89783b492838ab124e4eba7c7d7fe508664788549b5f32e2",
+    "scripts/native-routing.ts": "487729647111c62fa5dced0f31d355e8d8f2f16bb290d9ed8e0a6c9f412c432c",
+    "tests/fixtures/routing.ts": "d05dc2f5153b67054e30b0dc122f1bdd33a6070b3b4ef1dea702e571faf69019",
+    "profiles/standard.yaml": "cee169d8cc1e86c76423a185bfb3474500481c2497a6fc089fc2768bb281fe66",
+    "src/artifact-content.ts": "28f1c6f7ee714d26a61da2d5ed139b0334b2fcbe79dee9e670a20ada84af2805",
+    "src/build.ts": "5a4ac2eedec618d7453ea6a46ff5fd7bcce9318e3e5a02cae4d8e392f7dc1030",
+    "src/cli.ts": "406b9e19f3fccfdb688e994b0e3bae02f340f0b50a9821b8dc8d8f1c45158b58",
+    "src/config-cli.ts": "0b304a63dbfe34e3762b7993aafc44ec713a5cbb495280dd3ca0314f81d9f117",
+    "src/dataset.ts": "1e1a3bef8f01922e0e30751aea42fbafdaa90af4d0b2eeaf7d93a0511abbeb9f",
+    "src/documents.ts": "ef67e51d4971a48b164c9669fcfd48c22209aa2ef062d6018289d8e0dc440b83",
+    "src/exporters/capabilities.ts": "cb0405b642299b34619394c461fd2df23f52cbb2759dff37df121b2a86b51c13",
+    "src/exporters/configurations.ts": "42ba1fa5af85da3a2ea2c11e399f0f374d90c3ff20d0bee9dfbfc770fc070e36",
+    "src/exporters/datasets.ts": "411561cb567976bb25dc4643401d91cd6d5f82207973066cab9faac2c086706e",
+    "src/exporters/probes.ts": "95705d472cbcc199e5776a3c2b05ffbc7630560091016288a3127a454dd16c6e",
+    "src/exporters/profiles.ts": "699ab5e37c2c8b5fa241a8386594e534b4e7f068f1bd330d1f03b849a86cf483",
+    "src/exporters/qrcode.ts": "6c5650348b42e8414f045e99abea516e38c57ada40b8fefedad111a0df1c4ca3",
+    "src/hosting/bundle.ts": "3a4d7b6a324b96b2855d1d5ce7903d261b11744076754537cfcd34021fd3107e",
+    "src/hosting/github.ts": "56e169cde9684b72b4402382d5f1be409ee9506b3bf64899f73745723cfdbb2f",
+    "src/hosting/inputs.ts": "ece6617c213c8723f30132353bcc362417f48ba8487f2e7a65779609cbdfebdc",
+    "src/importers/parse.ts": "2122049dae0303754de62c840799f9a308ffc86ac535a77dc4fd1bc99ce376a6",
+    "src/maintenance/candidate-files.ts": "3c399dfd87b9c175dd98c434af112ce98560a3de730a90571631d627b4a92d0a",
+    "src/maintenance/candidate.ts": "a68e4b605f1d70581de4b2387a0a25e60460783bffefc14049631dc43e406bec",
+    "src/maintenance-cli.ts": "296fb1a4ca9bd47d9c57ce77e871ad184bf3e2f9c69fdbe6f0dceaae7231b4aa",
+    "src/model/compact.ts": "885740518b47a03beb8e32135dac294d5560fe73fd1851ffb422c710835ab681",
+    "src/model/ip.ts": "32c31ad7c654bc82d1c995374332c7ed13d01c994e1f31894a9bde17ed5343d4",
+    "src/model/match.ts": "9a797fd7164463fd5eba8050b80de7ac601f428a76e54e90489b36ccddea3d61",
+    "src/model/normalize.ts": "c808b5cb434a462d2de76075d51928c3a3435585685f0d2993f50f3bfac314ef",
+    "src/model/overlaps.ts": "a5f0b0c9daa7ce798551ec9bf350bd226433301116b4f51cfbc441008183b406",
+    "src/model/overrides.ts": "ac9b7b4290a5031c815955a3084261888a77f6ef03f3017a25d643c2deb60345",
+    "src/model/plan.ts": "b7f46b4184c85bedc52dc110d044b72e540e336541556abcdda65002ad66148b",
+    "src/model/predicate.ts": "a40dc9613c228e35fa90244bbe26a25b011034bc85aaf6ff9a9e08ff432af2af",
+    "src/model/semantic.ts": "0d4cec659f01dd88bb453411816b4563f553875c8404cbe0c449013a63947088",
+    "src/model/types.ts": "9527606b8639eb52a92178163ae679fef755d98cf8d6d05ee915e54ce09db28d",
+    "src/native-check.ts": "ed75f76a1856035e325fccbf6ad48cf4333b782586a5018ff3fddfb4d129b220",
+    "src/output.ts": "3bf74cce2b06f315d66be5fa487b82dc12724e0471d306a0796658b17e576964",
+    "src/site-cli.ts": "83a224a76d0904bfece21b6e16d6889b86cd004d761fd9c9772a04a35900c10a",
+    "src/site.ts": "578f2fc03dec4f4326d552f8dd32bdab555b8a88d3cb2c764251716ea3f07567",
+    "src/snapshot.ts": "3d1691ccb749801769d2f2560d0382654df0d17c2b6d44e23872d69fb28df278",
+    "schemas/documents.schema.json": "e07eb00158b1c8faf9b0113d067b532675c3c53ebc0bcb198e19809e5dd48e0d",
+    "licenses/MetaCubeX-GPL-3.0.txt": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "licenses/RuleMesh-Network-Facts-MIT.txt": "f07fdff36cbe444b99a105e95503af0408e99b01d27ecb61f4384b423f5de802",
+    "licenses/Sukka-AGPL-3.0.txt": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+    "licenses/v2fly-MIT.txt": "b9d84a22870d3f21c91a4c6e410c9cc51d00902f5233ad0c84011479244bf7d2"
+  },
+  "node": "v26.11.0",
+  "sourceLock": {
+    "schemaVersion": 1,
+    "sources": [
+      {
+        "id": "sukka-private-domains",
+        "revision": "fb2480119a3dd21e5f95f7eabf1ff98988e32289",
+        "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/fb2480119a3dd21e5f95f7eabf1ff98988e32289/List/non_ip/lan.conf",
+        "sha256": "de25958cecccfeb384d58d989ed407f8160575e4aa9a047f9d954eaef68788ae",
+        "bytes": 1868,
+        "path": "inputs/de25958cecccfeb384d58d989ed407f8160575e4aa9a047f9d954eaef68788ae.txt",
+        "licenseSha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+      },
+      {
+        "id": "sukka-private-ip",
+        "revision": "fb2480119a3dd21e5f95f7eabf1ff98988e32289",
+        "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/fb2480119a3dd21e5f95f7eabf1ff98988e32289/List/ip/lan.conf",
+        "sha256": "0866aadd6e3a726914b2db4f001c00a2df739bf7639795b475aef4ab3f676806",
+        "bytes": 693,
+        "path": "inputs/0866aadd6e3a726914b2db4f001c00a2df739bf7639795b475aef4ab3f676806.txt",
+        "licenseSha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+      },
+      {
+        "id": "sukka-china-domains",
+        "revision": "fb2480119a3dd21e5f95f7eabf1ff98988e32289",
+        "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/fb2480119a3dd21e5f95f7eabf1ff98988e32289/List/non_ip/domestic.conf",
+        "sha256": "b939098609fd21d1e7e1efed05947fc7f55856d12e016944635bc64d2d8470c2",
+        "bytes": 22709,
+        "path": "inputs/b939098609fd21d1e7e1efed05947fc7f55856d12e016944635bc64d2d8470c2.txt",
+        "licenseSha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+      },
+      {
+        "id": "sukka-global-domains",
+        "revision": "fb2480119a3dd21e5f95f7eabf1ff98988e32289",
+        "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/fb2480119a3dd21e5f95f7eabf1ff98988e32289/List/non_ip/global.conf",
+        "sha256": "5e0c7e212fe4e8dab6aa6082133346f05ac30a007c429bc983ae2c5a2535a0a9",
+        "bytes": 33374,
+        "path": "inputs/5e0c7e212fe4e8dab6aa6082133346f05ac30a007c429bc983ae2c5a2535a0a9.txt",
+        "licenseSha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+      },
+      {
+        "id": "meta-anthropic-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/anthropic.list",
+        "sha256": "40158d6d6f218c6055cd4ec8bde727859435cc52d6c47e0473c3d0a841c5bc5c",
+        "bytes": 166,
+        "path": "inputs/40158d6d6f218c6055cd4ec8bde727859435cc52d6c47e0473c3d0a841c5bc5c.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-openai-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/openai.list",
+        "sha256": "9c3c755ad42fa75196e5d37705d0d5bfff5f60bc0d9a1f017272e70eafde7645",
+        "bytes": 522,
+        "path": "inputs/9c3c755ad42fa75196e5d37705d0d5bfff5f60bc0d9a1f017272e70eafde7645.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-github-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/github.list",
+        "sha256": "58fad9a70ecb92de3b36ecf8fc63cab3839836e611c8a5dea58df4947cb2df0c",
+        "bytes": 1942,
+        "path": "inputs/58fad9a70ecb92de3b36ecf8fc63cab3839836e611c8a5dea58df4947cb2df0c.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-telegram-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/telegram.list",
+        "sha256": "2448b2699519cd258b10232fcacd01e89b7db04c8ce7fc860a4962518370a329",
+        "bytes": 293,
+        "path": "inputs/2448b2699519cd258b10232fcacd01e89b7db04c8ce7fc860a4962518370a329.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-youtube-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/youtube.list",
+        "sha256": "e95f241fa4357918fc1066390c352aad750b571ddea15e3421d30c84e947ac10",
+        "bytes": 2743,
+        "path": "inputs/e95f241fa4357918fc1066390c352aad750b571ddea15e3421d30c84e947ac10.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-gemini-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/google-gemini.list",
+        "sha256": "5e6d316995b6247f36472ea8e51c92770a4b78c77947ce0e9704e9f255cae74c",
+        "bytes": 1126,
+        "path": "inputs/5e6d316995b6247f36472ea8e51c92770a4b78c77947ce0e9704e9f255cae74c.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-copilot-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/github-copilot.list",
+        "sha256": "daca722f3b2103d5f09a6b62a83d6d063f87e64b54982ad3c9fd093b79dfc644",
+        "bytes": 221,
+        "path": "inputs/daca722f3b2103d5f09a6b62a83d6d063f87e64b54982ad3c9fd093b79dfc644.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-xai-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/xai.list",
+        "sha256": "558bd1eecd925c0033f61b6c96a35d32aad380effdb1d4143d24d1ada20bb13d",
+        "bytes": 47,
+        "path": "inputs/558bd1eecd925c0033f61b6c96a35d32aad380effdb1d4143d24d1ada20bb13d.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-perplexity-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/perplexity.list",
+        "sha256": "f07ed9821d704b8a42efcf9f7965e1a1418a9c5a12f35dcbdfbe3d4925d69201",
+        "bytes": 102,
+        "path": "inputs/f07ed9821d704b8a42efcf9f7965e1a1418a9c5a12f35dcbdfbe3d4925d69201.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-ai-other-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/category-ai-chat-!cn.list",
+        "sha256": "20e3a86ffed3393b013a9f82a3e5e0c41e75a6d0fa3730ff29737702dcc2828d",
+        "bytes": 3628,
+        "path": "inputs/20e3a86ffed3393b013a9f82a3e5e0c41e75a6d0fa3730ff29737702dcc2828d.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-apple-intelligence-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/apple-intelligence.list",
+        "sha256": "3f01d5c8bff62b69e0ea0cae5b96c98bf004bf0a27afe0772a612f5644a61592",
+        "bytes": 130,
+        "path": "inputs/3f01d5c8bff62b69e0ea0cae5b96c98bf004bf0a27afe0772a612f5644a61592.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-icloud-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/icloud.list",
+        "sha256": "7e2416b79f7b3f0e8ec625870c2d297d730c454ea831fd3111e46e19b19675ce",
+        "bytes": 811,
+        "path": "inputs/7e2416b79f7b3f0e8ec625870c2d297d730c454ea831fd3111e46e19b19675ce.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-apple-music-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/apple-music.list",
+        "sha256": "c76eb3e66b36dce06ca7f75ba3906f9d3d9a66507da1ce0cbe2179a7ee161f2d",
+        "bytes": 380,
+        "path": "inputs/c76eb3e66b36dce06ca7f75ba3906f9d3d9a66507da1ce0cbe2179a7ee161f2d.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-apple-tv-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/apple-tvplus.list",
+        "sha256": "c249b5785d86791c7dee979e357b570f0c57d8d5905a64f71cb4b103ad460a6c",
+        "bytes": 185,
+        "path": "inputs/c249b5785d86791c7dee979e357b570f0c57d8d5905a64f71cb4b103ad460a6c.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-apple-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/apple.list",
+        "sha256": "5f813dbe839c71a8f4e70dad6d972fc5b314b31ae7b41aef88062e4787a67692",
+        "bytes": 36860,
+        "path": "inputs/5f813dbe839c71a8f4e70dad6d972fc5b314b31ae7b41aef88062e4787a67692.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-google-fcm-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/googlefcm.list",
+        "sha256": "ff576e511b10883408360734a909a90b7e99224d87b2a80db6e35ffd5d97934c",
+        "bytes": 256,
+        "path": "inputs/ff576e511b10883408360734a909a90b7e99224d87b2a80db6e35ffd5d97934c.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-google-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/google.list",
+        "sha256": "d40455206c12802e7cff158cd170980a2448a7864eb50533ab521897c47c36d8",
+        "bytes": 18364,
+        "path": "inputs/d40455206c12802e7cff158cd170980a2448a7864eb50533ab521897c47c36d8.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-onedrive-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/onedrive.list",
+        "sha256": "9c11417141d57b2f1f8d4474602858c65f28185304103afedea6eb5a1182b72a",
+        "bytes": 307,
+        "path": "inputs/9c11417141d57b2f1f8d4474602858c65f28185304103afedea6eb5a1182b72a.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-microsoft-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/microsoft.list",
+        "sha256": "2d67141bcd65fc527154daf3862875c49fb6b14172ced076b49533e19b24bd65",
+        "bytes": 15499,
+        "path": "inputs/2d67141bcd65fc527154daf3862875c49fb6b14172ced076b49533e19b24bd65.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-npm-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/npmjs.list",
+        "sha256": "56131012c8893ea397f8ef5d2413f03c087e34377ae7a2b101a30537b8e965d7",
+        "bytes": 39,
+        "path": "inputs/56131012c8893ea397f8ef5d2413f03c087e34377ae7a2b101a30537b8e965d7.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-python-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/python.list",
+        "sha256": "a75a350a649ad833ca1c53cb975be9c5bc908bbe11747c7784615c74e7d62103",
+        "bytes": 74,
+        "path": "inputs/a75a350a649ad833ca1c53cb975be9c5bc908bbe11747c7784615c74e7d62103.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-docker-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/docker.list",
+        "sha256": "6432dc0a4e52aca177e053c54274d2107bff56c21af21eeb6ccbf6169df3d251",
+        "bytes": 177,
+        "path": "inputs/6432dc0a4e52aca177e053c54274d2107bff56c21af21eeb6ccbf6169df3d251.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-gitlab-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/gitlab.list",
+        "sha256": "1b6c88c147c03925bc73878e30985985d58b39be22338e8688aaca8079ba4f69",
+        "bytes": 100,
+        "path": "inputs/1b6c88c147c03925bc73878e30985985d58b39be22338e8688aaca8079ba4f69.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-jetbrains-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/jetbrains.list",
+        "sha256": "fb2e586b5de598cda635af2cc21bbbe17225341117bde98726fbc53b75ba58c4",
+        "bytes": 373,
+        "path": "inputs/fb2e586b5de598cda635af2cc21bbbe17225341117bde98726fbc53b75ba58c4.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-developer-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/category-dev.list",
+        "sha256": "e034dd3cb6c106f9a826a271d5a77877e121bb249cf7aa4494f801ca1e930c5c",
+        "bytes": 12500,
+        "path": "inputs/e034dd3cb6c106f9a826a271d5a77877e121bb249cf7aa4494f801ca1e930c5c.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-discord-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/discord.list",
+        "sha256": "9f2530e2dc4117a27851256d731908931064bc6c9fefe43f69cc164804a33456",
+        "bytes": 542,
+        "path": "inputs/9f2530e2dc4117a27851256d731908931064bc6c9fefe43f69cc164804a33456.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-whatsapp-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/whatsapp.list",
+        "sha256": "d97d285eca5954927dd0c797b2625662743c212259d7c6384cd3e683b96d77c6",
+        "bytes": 176,
+        "path": "inputs/d97d285eca5954927dd0c797b2625662743c212259d7c6384cd3e683b96d77c6.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-twitter-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/twitter.list",
+        "sha256": "7bc17d19d2fa089b36993e56275eb0eb7355963f3e90a711364086442fd369c0",
+        "bytes": 369,
+        "path": "inputs/7bc17d19d2fa089b36993e56275eb0eb7355963f3e90a711364086442fd369c0.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-facebook-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/facebook.list",
+        "sha256": "1b5263aab7ad33d10634bf31ba38073030d5093fa29e53c701e607e66467e329",
+        "bytes": 7132,
+        "path": "inputs/1b5263aab7ad33d10634bf31ba38073030d5093fa29e53c701e607e66467e329.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-instagram-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/instagram.list",
+        "sha256": "e5cba6ce4fa5a0dddbd4710d9dd5b6693c249e6f5be4179401843109ecbca228",
+        "bytes": 1447,
+        "path": "inputs/e5cba6ce4fa5a0dddbd4710d9dd5b6693c249e6f5be4179401843109ecbca228.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-reddit-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/reddit.list",
+        "sha256": "bbfb9746c59c64d225d9126f23dc1f4d376edbafab2ac297415be9e9a059af16",
+        "bytes": 205,
+        "path": "inputs/bbfb9746c59c64d225d9126f23dc1f4d376edbafab2ac297415be9e9a059af16.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-netflix-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/netflix.list",
+        "sha256": "980ec18a1c566850622523310feb9ed38cd562c82e697c3da7f756b816f337d8",
+        "bytes": 452,
+        "path": "inputs/980ec18a1c566850622523310feb9ed38cd562c82e697c3da7f756b816f337d8.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-disney-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/disney.list",
+        "sha256": "761bc8faf336f1526d9420f23aca229acb90aeb051218ce59fdcb4f7e226f95b",
+        "bytes": 4122,
+        "path": "inputs/761bc8faf336f1526d9420f23aca229acb90aeb051218ce59fdcb4f7e226f95b.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-hbo-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/hbo.list",
+        "sha256": "1aabe139b16a11aa7cbc88391cd17860e3fcd542a3f41bb988486eb31c2b4ada",
+        "bytes": 957,
+        "path": "inputs/1aabe139b16a11aa7cbc88391cd17860e3fcd542a3f41bb988486eb31c2b4ada.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-primevideo-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/primevideo.list",
+        "sha256": "57d5808c3f5beadc672cbd5ed58c0f3b416984d7d09ef631a5c6a7527e2d936f",
+        "bytes": 547,
+        "path": "inputs/57d5808c3f5beadc672cbd5ed58c0f3b416984d7d09ef631a5c6a7527e2d936f.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-twitch-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/twitch.list",
+        "sha256": "230e8e3b582de5c769be1b95e06d7aadf7cd83aa54df240bfca2f8bc14e5fd7c",
+        "bytes": 888,
+        "path": "inputs/230e8e3b582de5c769be1b95e06d7aadf7cd83aa54df240bfca2f8bc14e5fd7c.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-tiktok-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/tiktok.list",
+        "sha256": "09edefc16d3913b24fa7d0d2bae1679e9be03b6f4e1d879e96d937a1d020e7db",
+        "bytes": 773,
+        "path": "inputs/09edefc16d3913b24fa7d0d2bae1679e9be03b6f4e1d879e96d937a1d020e7db.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-spotify-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/spotify.list",
+        "sha256": "848d93a2d8da4caa0d0338e303e3b3da8cb56a7e5d58431e43d8a94b5f2d3080",
+        "bytes": 622,
+        "path": "inputs/848d93a2d8da4caa0d0338e303e3b3da8cb56a7e5d58431e43d8a94b5f2d3080.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-bilibili-intl-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/biliintl.list",
+        "sha256": "f61589b3d022abafa6d1174f3bb311426f36d5a64b69cadbcf804d11e75fbff5",
+        "bytes": 310,
+        "path": "inputs/f61589b3d022abafa6d1174f3bb311426f36d5a64b69cadbcf804d11e75fbff5.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-bilibili-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/bilibili.list",
+        "sha256": "d1d76d33c08b2bfaea6b1f661c87eeb2064f6ebd7c5dbe8e1f2bb8ab5b4acc98",
+        "bytes": 778,
+        "path": "inputs/d1d76d33c08b2bfaea6b1f661c87eeb2064f6ebd7c5dbe8e1f2bb8ab5b4acc98.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-steam-cn-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/steam@cn.list",
+        "sha256": "e6b5348e481a87eba0a3a9e4131f3247d92a365cb980d45863399b216c3fde58",
+        "bytes": 407,
+        "path": "inputs/e6b5348e481a87eba0a3a9e4131f3247d92a365cb980d45863399b216c3fde58.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-steam-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/steam.list",
+        "sha256": "63e7cfe27eedb6660abd763618129cf46e3a39ebf436886bfb8a8eedde5b49bb",
+        "bytes": 1370,
+        "path": "inputs/63e7cfe27eedb6660abd763618129cf46e3a39ebf436886bfb8a8eedde5b49bb.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-epic-games-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/epicgames.list",
+        "sha256": "a582f3383d7f0bcfe9764b6ae54a43f2efc80abafc5d1b0a7c41cdb12ff5344d",
+        "bytes": 529,
+        "path": "inputs/a582f3383d7f0bcfe9764b6ae54a43f2efc80abafc5d1b0a7c41cdb12ff5344d.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-playstation-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/playstation.list",
+        "sha256": "04f35efa848d92f70143ad083ec08af31c912b1ee8f1d75f63306280f2f2b0d3",
+        "bytes": 80,
+        "path": "inputs/04f35efa848d92f70143ad083ec08af31c912b1ee8f1d75f63306280f2f2b0d3.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-xbox-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/xbox.list",
+        "sha256": "176495317eb4333835952f97bafb667875533f4d51156ef6a55e543a83f79fd7",
+        "bytes": 766,
+        "path": "inputs/176495317eb4333835952f97bafb667875533f4d51156ef6a55e543a83f79fd7.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-nintendo-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/nintendo.list",
+        "sha256": "36d598d0bfb6f414c40b81d8aab976f5c4f20be8a9b6317219744a8b4de78c3a",
+        "bytes": 2401,
+        "path": "inputs/36d598d0bfb6f414c40b81d8aab976f5c4f20be8a9b6317219744a8b4de78c3a.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-games-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/category-games.list",
+        "sha256": "a63135cf9dc266d754b08f517ec302cabf355bfdaf3cec9e1b17917c26b325e8",
+        "bytes": 20137,
+        "path": "inputs/a63135cf9dc266d754b08f517ec302cabf355bfdaf3cec9e1b17917c26b325e8.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-cloudflare-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/cloudflare.list",
+        "sha256": "ce050890a31f78d22732569a351ec857ab575089a86877a52aecb2f12eff024f",
+        "bytes": 1488,
+        "path": "inputs/ce050890a31f78d22732569a351ec857ab575089a86877a52aecb2f12eff024f.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-aws-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/aws.list",
+        "sha256": "a1fc684ef754d2558f592cdbbe1894f5c4709da4c8ed6b751628d23e10750fa1",
+        "bytes": 1402,
+        "path": "inputs/a1fc684ef754d2558f592cdbbe1894f5c4709da4c8ed6b751628d23e10750fa1.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-digitalocean-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/digitalocean.list",
+        "sha256": "8d158116ba46a1aa783bfc1ecf7716b106f52f1b0a8208e9a7a3bfb60debfe4a",
+        "bytes": 111,
+        "path": "inputs/8d158116ba46a1aa783bfc1ecf7716b106f52f1b0a8208e9a7a3bfb60debfe4a.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-cdn-global-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/category-cdn-!cn.list",
+        "sha256": "f55c1f1e682379b7c2e1d680c51617274a6c6c22fe8d958d0beb8d6680e707c5",
+        "bytes": 3439,
+        "path": "inputs/f55c1f1e682379b7c2e1d680c51617274a6c6c22fe8d958d0beb8d6680e707c5.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-cdn-cn-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/category-cdn-cn.list",
+        "sha256": "6c44b1684229e79799f87fe4d2fb71f13ce594b88cd9d8abe1694c00f1b4213c",
+        "bytes": 1335,
+        "path": "inputs/6c44b1684229e79799f87fe4d2fb71f13ce594b88cd9d8abe1694c00f1b4213c.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "meta-advertising-domains",
+        "revision": "b4d414227a182c5bc954283e4a83ee176dad671b",
+        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/b4d414227a182c5bc954283e4a83ee176dad671b/geo/geosite/category-ads-all.list",
+        "sha256": "247af050373b37c7d588493637ce0eeed6002126006c9f0cef47aeb041399924",
+        "bytes": 17362,
+        "path": "inputs/247af050373b37c7d588493637ce0eeed6002126006c9f0cef47aeb041399924.txt",
+        "licenseSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "id": "sukka-apple-cn-domains",
+        "revision": "fb2480119a3dd21e5f95f7eabf1ff98988e32289",
+        "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/fb2480119a3dd21e5f95f7eabf1ff98988e32289/List/non_ip/apple_cn.conf",
+        "sha256": "a31f9e98c5a4fdd585a7c78b6f3a1994015ab54a57a3d82057bd17f278f6a76f",
+        "bytes": 826,
+        "path": "inputs/a31f9e98c5a4fdd585a7c78b6f3a1994015ab54a57a3d82057bd17f278f6a76f.txt",
+        "licenseSha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+      },
+      {
+        "id": "sukka-downloads-domains",
+        "revision": "fb2480119a3dd21e5f95f7eabf1ff98988e32289",
+        "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/fb2480119a3dd21e5f95f7eabf1ff98988e32289/List/domainset/download.conf",
+        "sha256": "03ddc1a27a996d35f682000c4c7940e03d435c32651f5dd02cbfe2f34402a128",
+        "bytes": 45768,
+        "path": "inputs/03ddc1a27a996d35f682000c4c7940e03d435c32651f5dd02cbfe2f34402a128.txt",
+        "licenseSha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+      },
+      {
+        "id": "sukka-game-downloads-domains",
+        "revision": "fb2480119a3dd21e5f95f7eabf1ff98988e32289",
+        "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/fb2480119a3dd21e5f95f7eabf1ff98988e32289/List/domainset/game-download.conf",
+        "sha256": "3a31ec975e1d0a1d0ee588c249f3cd84c77943576f8081c682a7170fcc4ccfcd",
+        "bytes": 1892,
+        "path": "inputs/3a31ec975e1d0a1d0ee588c249f3cd84c77943576f8081c682a7170fcc4ccfcd.txt",
+        "licenseSha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+      },
+      {
+        "id": "official-telegram-cidr",
+        "type": "official-url",
+        "revision": "sha256:3ecd072cedf72eceee6961b18a51e37f905d5ce4a656a5d24cf5fea63e6ec651",
+        "url": "https://core.telegram.org/resources/cidr.txt",
+        "termsUrl": "https://core.telegram.org/api/terms",
+        "fetchedAt": "2026-10-11T18:31:56.236Z",
+        "sha256": "3ecd072cedf72eceee6961b18a51e37f905d5ce4a656a5d24cf5fea63e6ec651",
+        "bytes": 227,
+        "path": "inputs/3ecd072cedf72eceee6961b18a51e37f905d5ce4a656a5d24cf5fea63e6ec651.txt",
+        "licenseSha256": "f07fdff36cbe444b99a105e95503af0408e99b01d27ecb61f4384b423f5de802"
+      },
+      {
+        "id": "official-openai-voice",
+        "type": "official-url",
+        "revision": "sha256:8f03f3c594165eeff009915c7e2beb4bdfb9d429fb1955c205e3b33ec781899a",
+        "url": "https://openai.com/chatgpt-voice.json",
+        "termsUrl": "https://openai.com/policies/terms-of-use/",
+        "fetchedAt": "2026-10-11T18:31:57.610Z",
+        "sha256": "8f03f3c594165eeff009915c7e2beb4bdfb9d429fb1955c205e3b33ec781899a",
+        "bytes": 895,
+        "path": "inputs/8f03f3c594165eeff009915c7e2beb4bdfb9d429fb1955c205e3b33ec781899a.txt",
+        "licenseSha256": "f07fdff36cbe444b99a105e95503af0408e99b01d27ecb61f4384b423f5de802"
+      }
+    ]
+  },
+  "size": {
+    "default": {
+      "rules": 12151,
+      "files": {
+        "surge": 61,
+        "shadowrocket": 61,
+        "mihomo": 61,
+        "singbox": 61
+      },
+      "groups": 19
+    },
+    "limits": {
+      "rules": 40000,
+      "files": 80
+    }
+  },
+  "categoryCounts": {
+    "private": 60,
+    "anthropic": 10,
+    "openai": 45,
+    "github": 65,
+    "telegram": 35,
+    "youtube": 178,
+    "china": 871,
+    "global": 1274,
+    "gemini": 46,
+    "copilot": 6,
+    "xai": 4,
+    "perplexity": 5,
+    "ai-other": 189,
+    "apple-intelligence": 5,
+    "icloud": 53,
+    "apple-music": 18,
+    "apple-tv": 8,
+    "apple": 1790,
+    "google-fcm": 12,
+    "google": 1075,
+    "onedrive": 16,
+    "microsoft": 747,
+    "npm": 3,
+    "python": 6,
+    "docker": 6,
+    "gitlab": 5,
+    "jetbrains": 24,
+    "developer": 666,
+    "discord": 28,
+    "whatsapp": 11,
+    "twitter": 24,
+    "facebook": 397,
+    "instagram": 74,
+    "reddit": 12,
+    "netflix": 24,
+    "disney": 224,
+    "hbo": 65,
+    "primevideo": 23,
+    "twitch": 34,
+    "tiktok": 37,
+    "spotify": 28,
+    "bilibili-intl": 11,
+    "bilibili": 53,
+    "steam-cn": 19,
+    "steam": 60,
+    "epic-games": 30,
+    "playstation": 4,
+    "xbox": 45,
+    "nintendo": 124,
+    "games": 1123,
+    "cloudflare": 76,
+    "aws": 77,
+    "digitalocean": 6,
+    "cdn-global": 195,
+    "cdn-cn": 93,
+    "advertising": 902,
+    "apple-cn": 9,
+    "downloads": 1971,
+    "game-downloads": 52
+  },
+  "files": {
+    ".nojekyll": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "404.html": {
+      "sha256": "99540f6f363f274ab28a656d9c9e9cafc33bd8dc79bc67dcbd381adf6f77e7e9",
+      "bytes": 169
+    },
+    "changes.md": {
+      "sha256": "17c0819f3a65603e79907947708c025b0ce23b2eeba4e26d6dd1647b1bbd58dd",
+      "bytes": 1071
+    },
+    "coverage.json": {
+      "sha256": "5e1797ccaf8fe217e8d6f0dc8456a8911b9fa883dedd9bcd4533011bf1f3adb7",
+      "bytes": 15778
+    },
+    "descriptors/advertising.json": {
+      "sha256": "e8791d9598191d0eb55842a87c35fbff8e0c61e65a68a28d5909abe0af1fd940",
+      "bytes": 948
+    },
+    "descriptors/ai-other.json": {
+      "sha256": "17cdaf72904b763ef4e36089b7808516965471db81a1d62ec23ad8e37f19e397",
+      "bytes": 928
+    },
+    "descriptors/anthropic.json": {
+      "sha256": "93dbdc99e7a10d3e6218dbbfd34b9caffd372fee1d9eab053e5c6693ae27cf65",
+      "bytes": 880
+    },
+    "descriptors/apple-cn.json": {
+      "sha256": "9ba486b42c2c0ceb65cae22494af94fd57bda1900b6cc53d72dcd8180bad12cb",
+      "bytes": 888
+    },
+    "descriptors/apple-intelligence.json": {
+      "sha256": "c4f90285d25a7a6164bebd10fd7509694843b2947adb0e88714ac07b0bb3da7a",
+      "bytes": 1002
+    },
+    "descriptors/apple-music.json": {
+      "sha256": "3129a2fae31f4e0add1b2cd1e03b969d9b9bd5552dbc4bbbb9fb848fd663a22e",
+      "bytes": 941
+    },
+    "descriptors/apple-tv.json": {
+      "sha256": "5a7215527beca1404859ebb4f6cd3acb70a43878fa9a2eff1c252961cb58a38b",
+      "bytes": 916
+    },
+    "descriptors/apple.json": {
+      "sha256": "df3687d396cfbb0e61687f9e215d51198f8dc6a35a8380f0f0b8474d35a3e55e",
+      "bytes": 891
+    },
+    "descriptors/aws.json": {
+      "sha256": "39fd946f8ea6be10dd08fab59cfb1132f3410485c9feb5c4e0dc3ce5ccfc92e3",
+      "bytes": 869
+    },
+    "descriptors/bilibili-intl.json": {
+      "sha256": "f4df21eedbd33b8023df62373452fcad0e3fea14e40920d6d5ae81a636e84645",
+      "bytes": 954
+    },
+    "descriptors/bilibili.json": {
+      "sha256": "0dcfbd3a0979be206390d3dc622e335a841663018314bce1384ad5cd51483a4d",
+      "bytes": 914
+    },
+    "descriptors/cdn-cn.json": {
+      "sha256": "82cba281e7ab0308f96287692d0a00d3b7e186846ccde6f952aa903766b64f62",
+      "bytes": 905
+    },
+    "descriptors/cdn-global.json": {
+      "sha256": "7a7015429b9bd6471ae336a7973fd0b1f568dda1fd57ced7a8e79c688c933026",
+      "bytes": 940
+    },
+    "descriptors/china.json": {
+      "sha256": "3d81d64a802910ce1108fdfec3956da81064fbb22d41b76029910a22eea838b9",
+      "bytes": 3814
+    },
+    "descriptors/cloudflare.json": {
+      "sha256": "e8327ce4b60ba2afaafed1b237ed483ab7fae01ce050255a618d56049e0b3451",
+      "bytes": 932
+    },
+    "descriptors/copilot.json": {
+      "sha256": "420797cfa3252d2e56201d80c7bcbea335bfa7598e9dbd34cd842269214f5b7c",
+      "bytes": 910
+    },
+    "descriptors/developer.json": {
+      "sha256": "278b47a4daf352cc169e8e9a4d492b54dd949896b19c3dc0c154accb04faa9ee",
+      "bytes": 928
+    },
+    "descriptors/digitalocean.json": {
+      "sha256": "126f1e06fcaa16af421a57cfa7be726989fde24cec40d7379d14fefb8b4ded39",
+      "bytes": 948
+    },
+    "descriptors/discord.json": {
+      "sha256": "8891434eedc2420edb9c0e00cfc81ee93662a05b61277fa6acf937c5071f40be",
+      "bytes": 905
+    },
+    "descriptors/disney.json": {
+      "sha256": "c211653ae425fc42db3d88a60957ce22714450afb78dcd1c3bb297eac613d900",
+      "bytes": 898
+    },
+    "descriptors/docker.json": {
+      "sha256": "e649ed71179180829abc447d04d003d7b7334ee00b28d6e3d9ba71af29f9a6a2",
+      "bytes": 894
+    },
+    "descriptors/downloads.json": {
+      "sha256": "a19e225577ed4cec91ce28055ce481771f5a9fcbcf15f2fa5350c78cd0517cee",
+      "bytes": 900
+    },
+    "descriptors/epic-games.json": {
+      "sha256": "bc736f89cce1a5e01454e18de63d41ab6bbbde1bb3a6dc76fe4d50972a0de3f7",
+      "bytes": 931
+    },
+    "descriptors/facebook.json": {
+      "sha256": "953b9a0999bbf101ba59c6805918e5b9982631b564ca09038a09807be0baf0f5",
+      "bytes": 916
+    },
+    "descriptors/game-downloads.json": {
+      "sha256": "c29e993981b7bcb131cf37d2faed5521386b3cf44b8ebfc4580d1c711ce0f9f1",
+      "bytes": 941
+    },
+    "descriptors/games.json": {
+      "sha256": "e65dfc62635a9e67dd95e5a782e8e8867db7158ba075ce1b62390d9c1862a196",
+      "bytes": 900
+    },
+    "descriptors/gemini.json": {
+      "sha256": "0c1c3a9432d128409b551db7f201f8d00a9127a781fa5f96257f1ad1ba2eeedb",
+      "bytes": 903
+    },
+    "descriptors/github.json": {
+      "sha256": "e8d8b2a5312c1273e0f00a1a296331607185b9b2f5ddb1d2a2579209e6ac30ae",
+      "bytes": 823
+    },
+    "descriptors/gitlab.json": {
+      "sha256": "a0b90ff2aaa8e105f5727e5609bf7f206ce777592b6cb993065314260aa3ffcd",
+      "bytes": 894
+    },
+    "descriptors/global.json": {
+      "sha256": "83cef3e5d1b6a0249ba5806e30abdc1e9b44026111f4e38fede16436d2eb7b68",
+      "bytes": 2564
+    },
+    "descriptors/google-fcm.json": {
+      "sha256": "ffcfbea9bad9a5767ba4836a8bd48f5a234333125924372c8ba006e52cc8b225",
+      "bytes": 931
+    },
+    "descriptors/google.json": {
+      "sha256": "0d0e099c1109f73dbc09eb17fbfa817930813c460a9d09f46b1bfea3277afdfa",
+      "bytes": 900
+    },
+    "descriptors/hbo.json": {
+      "sha256": "566762a18e6e42cca46f14054a252ba6369066bbeffafb527eddf93595b8fe7f",
+      "bytes": 869
+    },
+    "descriptors/icloud.json": {
+      "sha256": "2a5165a33cc313a30c0fb67042bd98595357d710394dce0b686c7c97cf792b18",
+      "bytes": 896
+    },
+    "descriptors/instagram.json": {
+      "sha256": "296044284e4eaaafb18749d0344874522185f39982a683cf080b66a67ef162e9",
+      "bytes": 923
+    },
+    "descriptors/jetbrains.json": {
+      "sha256": "3989a2c8aaaa1d0fb8da8fcf90ab5b945cfab29f18a7f7eb82f90ebb796cfeb4",
+      "bytes": 923
+    },
+    "descriptors/microsoft.json": {
+      "sha256": "ac2820fca2cd08009885c9a0befb23fecba032175cc0762123296a19aeda5770",
+      "bytes": 925
+    },
+    "descriptors/netflix.json": {
+      "sha256": "4aa8ef405f6ec3cffd611074d3cea0be161c08e73403da4ebdaf1e4bb4deca84",
+      "bytes": 905
+    },
+    "descriptors/nintendo.json": {
+      "sha256": "f94eb67e82d1f5047cdaf8bd2cec753f802f2568776b267057d6c0e265780ff6",
+      "bytes": 916
+    },
+    "descriptors/npm.json": {
+      "sha256": "6849373fa540d15fb892fc72f9365128af51faa31c8c42313bb91f3a7b51d43f",
+      "bytes": 869
+    },
+    "descriptors/onedrive.json": {
+      "sha256": "71aae05102126ee99e34cbc80594338f5cb03651fb9d029c4e4374fca0db38d2",
+      "bytes": 914
+    },
+    "descriptors/openai.json": {
+      "sha256": "bc0803c7d3b78b7747065926c6e4599d3c563851353bd580979ff3803dc1c73f",
+      "bytes": 1352
+    },
+    "descriptors/perplexity.json": {
+      "sha256": "16d65280915154660e7762c73019b83614b980929c1966a8e6e504acb932849e",
+      "bytes": 930
+    },
+    "descriptors/playstation.json": {
+      "sha256": "eb891933acf931b86f44443077ccdc0ea1202d384054c7407182b3c8ad9b7f40",
+      "bytes": 939
+    },
+    "descriptors/primevideo.json": {
+      "sha256": "2ea9a337179b04134a0452fadd224908e524054f319b2de7aabf8e0f8a1eacde",
+      "bytes": 932
+    },
+    "descriptors/private.json": {
+      "sha256": "f8cbc8d620ad9e4dee735e9730bb257fb739ffb615006b9d4e9643e8abccd123",
+      "bytes": 1211
+    },
+    "descriptors/python.json": {
+      "sha256": "c6f207133f2d8bc200bddf8a8d6e14be79122cade621e1b7c400ce18aacfd62f",
+      "bytes": 894
+    },
+    "descriptors/reddit.json": {
+      "sha256": "b131f669884d50c8015beb90509bccc38abc417675f6309fd6c201d7b8de1995",
+      "bytes": 896
+    },
+    "descriptors/spotify.json": {
+      "sha256": "8cfaa24fe921c9bae098b6885f7fdce8fb125c787866140423d39ad7e63d117e",
+      "bytes": 905
+    },
+    "descriptors/steam-cn.json": {
+      "sha256": "4385319e3ef29204377c1349d65c4fda50f2547d578366157b2ad7d45421e74e",
+      "bytes": 914
+    },
+    "descriptors/steam.json": {
+      "sha256": "5b71eb2825cf19e956655d72e2ebc5ce057c729ceb9bc719194f6b948c94028b",
+      "bytes": 887
+    },
+    "descriptors/telegram.json": {
+      "sha256": "c2e3dee4c895c124673a6c059d87adf33bb3ba85e19287a19e9782c75c379838",
+      "bytes": 1263
+    },
+    "descriptors/tiktok.json": {
+      "sha256": "72f31dcd7fd496630ee498a014fd24e00f71d2e05b715d00525d9354b528be43",
+      "bytes": 896
+    },
+    "descriptors/twitch.json": {
+      "sha256": "53281301ab16475f9df7ac3da64a5e6d5e2400973d2db78830fb0f3c9c839001",
+      "bytes": 896
+    },
+    "descriptors/twitter.json": {
+      "sha256": "16973ed131330759e36270efd956acee975f13bac15512e2a2616751fc18eb97",
+      "bytes": 905
+    },
+    "descriptors/whatsapp.json": {
+      "sha256": "0fd7cb3630b6febb47d9355b79df7579bc86942a17fc1ed2f1e29f18f65910c0",
+      "bytes": 914
+    },
+    "descriptors/xai.json": {
+      "sha256": "ada99da9c630d23a923122156241bf5c3cacb445c8eb5d916ea562c7ae1f26e9",
+      "bytes": 867
+    },
+    "descriptors/xbox.json": {
+      "sha256": "160e49db76cd42ed2811f18e9dbcc1e8be4bad4ceeba71e2534d65f12bee298b",
+      "bytes": 878
+    },
+    "descriptors/youtube.json": {
+      "sha256": "238ca81320d0e01f6eeca23ac3c6795f3cc836542ea3fe15bfff84c61e7e4b00",
+      "bytes": 820
+    },
+    "index.html": {
+      "sha256": "a7f91a057e6068b532e10fe973dd60bdd6677f08f9b4158053bc2a2afeacbbc0",
+      "bytes": 28501
+    },
+    "LICENSE": {
+      "sha256": "d0769273dcd9180053cb2ee6ae5c7dd4219eb905f58cebeb54bf737905642541",
+      "bytes": 1237
+    },
+    "licenses/MetaCubeX-GPL-3.0.txt": {
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    "licenses/RuleMesh-Network-Facts-MIT.txt": {
+      "sha256": "f07fdff36cbe444b99a105e95503af0408e99b01d27ecb61f4384b423f5de802",
+      "bytes": 1521
+    },
+    "licenses/Sukka-AGPL-3.0.txt": {
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "bytes": 34523
+    },
+    "licenses/v2fly-MIT.txt": {
+      "sha256": "b9d84a22870d3f21c91a4c6e410c9cc51d00902f5233ad0c84011479244bf7d2",
+      "bytes": 1067
+    },
+    "mihomo/classical/china.txt": {
+      "sha256": "18df2f9f8b328039178ff913bf1ff05c584dd5b8e86a80c945afdc199c88361f",
+      "bytes": 22318
+    },
+    "mihomo/classical/global.txt": {
+      "sha256": "fa9f732b9a276357eaf2cbd380320bdd3f2c63c09db3f146c9ac94af15ea6d33",
+      "bytes": 33049
+    },
+    "mihomo/domain/advertising.txt": {
+      "sha256": "da9b2cf8d7621bdbce933e06c5cde13ee84298ab8b1bf4a03569c8076ce93a30",
+      "bytes": 17511
+    },
+    "mihomo/domain/ai-other.txt": {
+      "sha256": "339dde87d12d512e788e6f3b3642437e5a20bc866047be854bf8e2da61b9a9b8",
+      "bytes": 3850
+    },
+    "mihomo/domain/anthropic.txt": {
+      "sha256": "e1f1ebcdb5ac46886ce1c86e7d14ec8a6f68b4f12424d1dbfcbe2fee5f49d7c4",
+      "bytes": 424
+    },
+    "mihomo/domain/apple-cn.txt": {
+      "sha256": "a0e95ee822cf894b4a935930b166d1578af9f600a00d1c6a436ffa1247204b7d",
+      "bytes": 418
+    },
+    "mihomo/domain/apple-intelligence.txt": {
+      "sha256": "6ee4ecf22452508c1e9c6914b50d91fcae6c2f7b0576cf5ec1ac6971bc0a1ca9",
+      "bytes": 372
+    },
+    "mihomo/domain/apple-music.txt": {
+      "sha256": "78e782e7e093ca56b64567b3195ef95d2f5b6dd98d14853b39d00bf5cebccc36",
+      "bytes": 441
+    },
+    "mihomo/domain/apple-tv.txt": {
+      "sha256": "fec0ee07674fe3d5a0b243eab039b9943d6bb842fc560a5c08e0be4ecc7cedba",
+      "bytes": 407
+    },
+    "mihomo/domain/apple.txt": {
+      "sha256": "386c637c4273154d35bc6e8b1f781fe7d832e2940fcdbbae220ced2a2c527adc",
+      "bytes": 32307
+    },
+    "mihomo/domain/aws.txt": {
+      "sha256": "fd2bb49c95da76a804f13a9fe9057b3a73f080eccc5418a1e1a2f76d246d65fc",
+      "bytes": 1614
+    },
+    "mihomo/domain/bilibili-intl.txt": {
+      "sha256": "0f8c6dc106c27468dcc815ed1ac036ef4bbc6b4fe36041bb80c5f7378adcb8e6",
+      "bytes": 542
+    },
+    "mihomo/domain/bilibili.txt": {
+      "sha256": "b7348ea8b342962225f73069342c5a371429b2abd3638f4d4918f42d502ba28e",
+      "bytes": 1000
+    },
+    "mihomo/domain/cdn-cn.txt": {
+      "sha256": "fc3afdf09dcbe438a5e6360d4cc44c20da03461763cc454ff7a25b1803873830",
+      "bytes": 1553
+    },
+    "mihomo/domain/cdn-global.txt": {
+      "sha256": "abe08021b72334837003fffbdf8c3d163cb74363de51a70a7c5e6e2d00afa403",
+      "bytes": 3665
+    },
+    "mihomo/domain/cloudflare.txt": {
+      "sha256": "37f3a495fd04fb1222bf94cdf2e20aae3c433551f13f16a44b6bdc5ce6fe026f",
+      "bytes": 1714
+    },
+    "mihomo/domain/copilot.txt": {
+      "sha256": "8f144582cdd1fd96e3b94b3a9ba8356ff3c52c87d347729531fc2ef31117e317",
+      "bytes": 441
+    },
+    "mihomo/domain/developer.txt": {
+      "sha256": "ce8fa9bf621cb281c75ef536dbb58f56b12a6927055b88bbd1fc0db852087ee7",
+      "bytes": 11930
+    },
+    "mihomo/domain/digitalocean.txt": {
+      "sha256": "142a8d23227f4fa06dafe400d0a81a511e4849c92b901c11bd7d704d5c0cb561",
+      "bytes": 341
+    },
+    "mihomo/domain/discord.txt": {
+      "sha256": "70e2aefb20357f512afacce6378d57f75582d24731c9ba086c69cb395ea014d9",
+      "bytes": 762
+    },
+    "mihomo/domain/disney.txt": {
+      "sha256": "8e5ac211c26ded141954d694775645d03cb3b39d689dc2e9276174ee56214c56",
+      "bytes": 4283
+    },
+    "mihomo/domain/docker.txt": {
+      "sha256": "4065de9d7b61e03f3b0048afe909db99a5833e5adfa1ff21792e1da6d9658004",
+      "bytes": 395
+    },
+    "mihomo/domain/downloads.txt": {
+      "sha256": "f0a7b49a545e3ed4406ebb13808d9378d5041896fbb4ceced52622b970a68882",
+      "bytes": 46021
+    },
+    "mihomo/domain/epic-games.txt": {
+      "sha256": "8bab53d9b571b767fbdf165d277bc4a802632e8aaccafd61603537694ab0921b",
+      "bytes": 755
+    },
+    "mihomo/domain/facebook.txt": {
+      "sha256": "0ca9cfc845a6842123493c1aed9b572db9ba2d03390e8d4ca9f6747add4f6271",
+      "bytes": 7308
+    },
+    "mihomo/domain/game-downloads.txt": {
+      "sha256": "150468fd3ece307825413ba6b43251cc3971793bd968b9e5d3c56a9ece0959f2",
+      "bytes": 1495
+    },
+    "mihomo/domain/games.txt": {
+      "sha256": "c6376eb5260a95a10f84451c7825f4026cfb0e3e3d50ec45fbf6c557cd7d4a67",
+      "bytes": 20165
+    },
+    "mihomo/domain/gemini.txt": {
+      "sha256": "d02684bed81acf61aa79db50b8db15511b21f01c5ea2387ec4b79a6e231b5ea5",
+      "bytes": 1344
+    },
+    "mihomo/domain/github.txt": {
+      "sha256": "ad61bf68136497bdb047541306b0e50577e4eacd1617c2a58f150e23c072f6b8",
+      "bytes": 1962
+    },
+    "mihomo/domain/gitlab.txt": {
+      "sha256": "17a6544d0050477ee43d42a84839925ae102dead53828c4578bf4173aeafd6e3",
+      "bytes": 318
+    },
+    "mihomo/domain/google-fcm.txt": {
+      "sha256": "444c2951fdd4cd9e3b6a1a68ad0836f2f6b0b9567728d9adc5e2ae29738cdb0f",
+      "bytes": 482
+    },
+    "mihomo/domain/google.txt": {
+      "sha256": "c6f8e11418214d91134fb678bd3ec028ebf45ab7a832df975f24b67cd61d424e",
+      "bytes": 13315
+    },
+    "mihomo/domain/hbo.txt": {
+      "sha256": "eeda148a1d1bcaeccc98ceeac30fef6cb4b706005c9101bc9cc5e3e571765929",
+      "bytes": 1169
+    },
+    "mihomo/domain/icloud.txt": {
+      "sha256": "d0d90d9b2130a19daf9274e5eeac0ec9548d8561912d6d5e9deb85ceca6586c4",
+      "bytes": 1029
+    },
+    "mihomo/domain/instagram.txt": {
+      "sha256": "4fa86cde4a5f6b6a15f6549296331f07d06005fa5bd213c99d7e73455429bfe4",
+      "bytes": 1618
+    },
+    "mihomo/domain/jetbrains.txt": {
+      "sha256": "68c3cb592649209fbd05d1eb204c4deeefad88241cbc4489fd87711a7c50c73d",
+      "bytes": 577
+    },
+    "mihomo/domain/microsoft.txt": {
+      "sha256": "f9cb4391a9cd47937d65279e11a69cc312295aef655df1d72e698fe395961803",
+      "bytes": 12046
+    },
+    "mihomo/domain/netflix.txt": {
+      "sha256": "a0a82041959ae59ccd75b14325dee63ca2c4cba09e4c79f80fc0eac3854dc068",
+      "bytes": 672
+    },
+    "mihomo/domain/nintendo.txt": {
+      "sha256": "d4a2d814f4e72d97eb15efd3e4bbaaaec70f7256eae9166ec229cd5f0301d13d",
+      "bytes": 2623
+    },
+    "mihomo/domain/npm.txt": {
+      "sha256": "e414dd5369c9be05989c892f008a7c1c9cfd08766fd83805d36c274aac8bbba9",
+      "bytes": 251
+    },
+    "mihomo/domain/onedrive.txt": {
+      "sha256": "0ae24856a3c2cf9f79dfcef5ea9a54e59020fa5f1d12cb6233786e1a071a466c",
+      "bytes": 529
+    },
+    "mihomo/domain/openai.txt": {
+      "sha256": "90d005f0ba09b9d47236260ac1c4a568703319be8827eeeaf6fae62732a0c1dd",
+      "bytes": 768
+    },
+    "mihomo/domain/perplexity.txt": {
+      "sha256": "383ff86db261921cea6c7b902444a5f1da955b0f47d87a57568361ef08d897ea",
+      "bytes": 328
+    },
+    "mihomo/domain/playstation.txt": {
+      "sha256": "3693d2c0c62d034c5fb240ea316ebae46d832d8b124da8c1fb6e4d827a09061a",
+      "bytes": 308
+    },
+    "mihomo/domain/primevideo.txt": {
+      "sha256": "89aaac8d7887adac9f66d9770caf77c23e3183304f9de47febc29743af7b96e1",
+      "bytes": 773
+    },
+    "mihomo/domain/private.txt": {
+      "sha256": "aad6bbcfb8b20d5cbd3a1d6df228258ca0724520e90e81cb7bd0e51753f14838",
+      "bytes": 1098
+    },
+    "mihomo/domain/python.txt": {
+      "sha256": "f9f121b952c66cd5abb538defc37eb8c2872a694f0c662db137ba82905cd6f06",
+      "bytes": 292
+    },
+    "mihomo/domain/reddit.txt": {
+      "sha256": "3300d25538f9476deced9f22d784a09fa012144cd8384c60c7eb99771e1e8ba1",
+      "bytes": 423
+    },
+    "mihomo/domain/spotify.txt": {
+      "sha256": "bba0a7bddf9b409028a9bc61088760ad5aefe605d2b59fcead09cf9480c04616",
+      "bytes": 768
+    },
+    "mihomo/domain/steam-cn.txt": {
+      "sha256": "934554d1df44fdc20aa229a5ba870a8f38b8ba4e7fc4d2af2f6005241212a99f",
+      "bytes": 629
+    },
+    "mihomo/domain/steam.txt": {
+      "sha256": "46fdc3e711b7d67093b149d23be695b86b8a43d5fa6c58c66ad56dd7394f6e17",
+      "bytes": 1547
+    },
+    "mihomo/domain/telegram.txt": {
+      "sha256": "7a19d017bcdf311e1d0be32ad70dd1cd07e1699d0d66bf31c915b54ee14652d3",
+      "bytes": 544
+    },
+    "mihomo/domain/tiktok.txt": {
+      "sha256": "34b0339da545c53593b9fb598ed8b056ab6edf1463e55d860a773d975b22c573",
+      "bytes": 968
+    },
+    "mihomo/domain/twitch.txt": {
+      "sha256": "6ed69f842257ca9e95e622e4806d72e25def6fe915b86bddf89b04b74e2c6bb5",
+      "bytes": 1106
+    },
+    "mihomo/domain/twitter.txt": {
+      "sha256": "d495b731db007ce06c64bc96164ba8577a2a0d1431325ad3357b7c4bc7257c28",
+      "bytes": 589
+    },
+    "mihomo/domain/whatsapp.txt": {
+      "sha256": "32cb6be58e1d10605fb0c93d972fa5a1885280cbabd92fbdbdb21698396ff45c",
+      "bytes": 398
+    },
+    "mihomo/domain/xai.txt": {
+      "sha256": "54b7de07f4e779eb79d266423919ae79599c4d70a797ec881d7705326673b398",
+      "bytes": 259
+    },
+    "mihomo/domain/xbox.txt": {
+      "sha256": "f52f52518357feac08fdb5bdec4f1ec62491781688ae4bdca7e2e62b03a43603",
+      "bytes": 980
+    },
+    "mihomo/domain/youtube.txt": {
+      "sha256": "c9a7785226313c9673d2c049fffea13dab6ad3d6f60a82bcd7ec6691b3eddfa0",
+      "bytes": 2945
+    },
+    "mihomo/ipcidr/openai.no-resolve.txt": {
+      "sha256": "0bea9e4ff2f761ab957582e901ba7cc33fda49e1a667100838e00f5e96c010f8",
+      "bytes": 637
+    },
+    "mihomo/ipcidr/private.resolve.txt": {
+      "sha256": "49c2c462401d8ca4705540bef9fb582530e578251910f46354069ce08b804d47",
+      "bytes": 369
+    },
+    "mihomo/ipcidr/telegram.no-resolve.txt": {
+      "sha256": "ebadaded81f21b273af3eeed77659dd1e0f92ad64f7b05c641eca98f5aed047b",
+      "bytes": 447
+    },
+    "model.json": {
+      "sha256": "401216f95490ed32a74dd4da275210f2c1b9b73c89e8bbeb963e60389eb8a6d2",
+      "bytes": 4260822
+    },
+    "overlaps.json": {
+      "sha256": "6b7357b98f335ce6cdb2802dd995ac44dd0cc1cfa6451161f328f1090efb7d87",
+      "bytes": 1369284
+    },
+    "profiles/standard/mihomo.rules.yaml": {
+      "sha256": "bbe8baaf043906a29cc7e65d7b93e89e4ead7d171fc097291dea13f434aa4760",
+      "bytes": 12721
+    },
+    "profiles/standard/plan.json": {
+      "sha256": "637aee4b3241c879edaa0cc2747de8caceefa01e584d6794bb054dac6793458a",
+      "bytes": 3104686
+    },
+    "profiles/standard/requirements.json": {
+      "sha256": "5ef6808a12a956ce7cb9a57e970048e0e5f8087500a390c2fe2d9b1c3312cd33",
+      "bytes": 226
+    },
+    "profiles/standard/shadowrocket.rules": {
+      "sha256": "3f931e6478436f0da2ae217fa7d9061708f048d0f3ecbe87a1b41a87dad78631",
+      "bytes": 5965
+    },
+    "profiles/standard/sing-box.route.json": {
+      "sha256": "4f6962721ff5a745fabcc9b33375ea3ee448ef0f556d284bad56df4f3bd0139e",
+      "bytes": 21527
+    },
+    "profiles/standard/surge.rules": {
+      "sha256": "1c9aa610d2d344ae469b31fdb7bc4eb3a90c0460e58b13be92784e2a21dab113",
+      "bytes": 5816
+    },
+    "qrcodes/shadowrocket-advertising.png": {
+      "sha256": "66c7d9b281c6a7e48a1ea59d1a46796b15cfb24e64f03c7ef5280a0d6de36225",
+      "bytes": 2958
+    },
+    "qrcodes/shadowrocket-advertising.url": {
+      "sha256": "9b93cf235ecadd64200169a31857f277c10c9ba8368e12574666f360b2475eeb",
+      "bytes": 99
+    },
+    "qrcodes/shadowrocket.png": {
+      "sha256": "9985ece2bd5f072178e77b559789220bc3be6b4fd2c1f630bb840c66b3ad5b95",
+      "bytes": 3009
+    },
+    "qrcodes/shadowrocket.url": {
+      "sha256": "7c61b1e004e52029213973aab636339e9b12edef08e2f18c0c58d8be52d2094d",
+      "bytes": 87
+    },
+    "README.md": {
+      "sha256": "889882a6bb97150d59df2063ebb2162387f4ed17b5603027d26029cbd7ab8fcf",
+      "bytes": 199
+    },
+    "shadowrocket-advertising.conf": {
+      "sha256": "a9742047ceaa4284117f96ef6b4fb317779497e981ed00652f475fed2cc71541",
+      "bytes": 7617
+    },
+    "shadowrocket.conf": {
+      "sha256": "d48687c01603d956dd27414870398c0c6ce86e502337540d9226e93bfc95bd81",
+      "bytes": 7448
+    },
+    "shadowrocket/ip/openai.no-resolve.list": {
+      "sha256": "3a5d439f23b0c1a2b5fb0bbc2094ced0c719a86d9b5032ce3e0a2cd4906c1f60",
+      "bytes": 1074
+    },
+    "shadowrocket/ip/private.resolve.list": {
+      "sha256": "bc90526e860f843007dc2005f285f07f18c594165d31ec965816bb43438311a0",
+      "bytes": 460
+    },
+    "shadowrocket/ip/telegram.no-resolve.list": {
+      "sha256": "e7c71950f4644916268e50378cbc3219fc0585b631652b34deb26ec91365afd1",
+      "bytes": 680
+    },
+    "shadowrocket/non_ip/advertising.list": {
+      "sha256": "cca47bc91615341613e6de22836e9d468838401d5cee56b92ec304a5bc6f3fd4",
+      "bytes": 27524
+    },
+    "shadowrocket/non_ip/ai-other.list": {
+      "sha256": "10bec30148d172c18ad3a19df19cb409dae73da4bb83392cd1a80b117a0567ef",
+      "bytes": 5968
+    },
+    "shadowrocket/non_ip/anthropic.list": {
+      "sha256": "6dbc3a36450ff72c4a901a0aa779899c1bc76fac4be8c517a141653f335305e5",
+      "bytes": 539
+    },
+    "shadowrocket/non_ip/apple-cn.list": {
+      "sha256": "d2043ab7a606ce9933ee0263c568b45c75eeaaf6c407519795dc6c80189e0c19",
+      "bytes": 511
+    },
+    "shadowrocket/non_ip/apple-intelligence.list": {
+      "sha256": "609871ea747c6e1281ab6e62b0259f2fb9f08f217b55d0571517c2014f1a395f",
+      "bytes": 407
+    },
+    "shadowrocket/non_ip/apple-music.list": {
+      "sha256": "ca9943c2651e20de98af0df4ccf32c2c368a00b891a0b11e7ca64e56ddc38952",
+      "bytes": 573
+    },
+    "shadowrocket/non_ip/apple-tv.list": {
+      "sha256": "da8cac98775a4ee091beb8a9449475ee5bc892a05603d80c82c43bfb48a039b2",
+      "bytes": 468
+    },
+    "shadowrocket/non_ip/apple.list": {
+      "sha256": "44c4910dd2c5be5bc90cff4c519ffbd0436f3626a0985ebd1a0054c2882f11d7",
+      "bytes": 51087
+    },
+    "shadowrocket/non_ip/aws.list": {
+      "sha256": "a71b1f288acdd84d049d06dc26d2924fb0bbc69c93803caac23d6120bfcfdc44",
+      "bytes": 2538
+    },
+    "shadowrocket/non_ip/bilibili-intl.list": {
+      "sha256": "b47e4beb7d9fcf5ad2d7133f64bbcce7bfec70b5bc73b8e12799ef3491c68770",
+      "bytes": 674
+    },
+    "shadowrocket/non_ip/bilibili.list": {
+      "sha256": "81cc8b51334de8e34c20945e62bc831ccfa5bc906edc14db49826dfd291c25e4",
+      "bytes": 1631
+    },
+    "shadowrocket/non_ip/cdn-cn.list": {
+      "sha256": "ed067e02c1718612ebf904bf0803324d2e6e1c637a231d0fa0565859df9056e2",
+      "bytes": 2669
+    },
+    "shadowrocket/non_ip/cdn-global.list": {
+      "sha256": "28937e63f320a22335ba6ed1aa8f308a6f74c8f04f5ffc7c02376b9389b27a2d",
+      "bytes": 6005
+    },
+    "shadowrocket/non_ip/china.list": {
+      "sha256": "47ec41ffb7fba2475bfeb00bcde54ca9157d6aca4d741b5bfed0b2d123bb2846",
+      "bytes": 22418
+    },
+    "shadowrocket/non_ip/cloudflare.list": {
+      "sha256": "657010bae1ba58b318f0c4cb0951315386484214c664c7bedfccb2c18a01edde",
+      "bytes": 2626
+    },
+    "shadowrocket/non_ip/copilot.list": {
+      "sha256": "707bdec810e8ca3ce0ac7a05c11c36fabddc4878d78f259916c6b4aa3fbe1bcc",
+      "bytes": 488
+    },
+    "shadowrocket/non_ip/developer.list": {
+      "sha256": "eadbd36db709e8698863f812bc75ff95d769eeb4d6dbd30504ebe06f55b236a8",
+      "bytes": 19212
+    },
+    "shadowrocket/non_ip/digitalocean.list": {
+      "sha256": "dbd9b47d573c694b0323708c0e057eb0aea70ba92575d8522214c7d1235c76eb",
+      "bytes": 413
+    },
+    "shadowrocket/non_ip/discord.list": {
+      "sha256": "f6c796a0f877f74ffe1f9507ff67cd195f4add46991d2e5ff9c737a42d6b47a0",
+      "bytes": 1088
+    },
+    "shadowrocket/non_ip/disney.list": {
+      "sha256": "1568e12433c3bef0f42655daccd851efc3884daeea4932bab73e574785ba27ea",
+      "bytes": 6927
+    },
+    "shadowrocket/non_ip/docker.list": {
+      "sha256": "aed3a26aad5229190ba568d4ef4dece4ee81152234d677e2fd56d73bf0918eb4",
+      "bytes": 457
+    },
+    "shadowrocket/non_ip/downloads.list": {
+      "sha256": "38ce0e60423e09acdd3fde277463c766af031e9fb9498159da62f0559773614e",
+      "bytes": 62493
+    },
+    "shadowrocket/non_ip/epic-games.list": {
+      "sha256": "cd37356348b1b5c9c4f99e5090b09d8c0946f05018a3eceee9fe32dd45164b06",
+      "bytes": 1115
+    },
+    "shadowrocket/non_ip/facebook.list": {
+      "sha256": "635b8412ed1dd551877026706f6a37cdc1089b1778d422f04bad0da36bec067a",
+      "bytes": 12043
+    },
+    "shadowrocket/non_ip/game-downloads.list": {
+      "sha256": "211a50a2b22b019229655833e3c3ddd703d0d09a561ce7d9375a12a5aa4cf6c6",
+      "bytes": 1939
+    },
+    "shadowrocket/non_ip/games.list": {
+      "sha256": "ceedb6ffbd271762ab2def517939113789603fd0f21e180c6b8d9e7e8709aaa9",
+      "bytes": 33075
+    },
+    "shadowrocket/non_ip/gemini.list": {
+      "sha256": "568c44e756ab9b25ed0a73161a673106c93439cb2a5ffa8b986f0f65cb576daf",
+      "bytes": 1831
+    },
+    "shadowrocket/non_ip/github.list": {
+      "sha256": "ae23eb2910d4e05ea47c53f07f717e7ca9af491ea13dc173b409e0329482f033",
+      "bytes": 2530
+    },
+    "shadowrocket/non_ip/gitlab.list": {
+      "sha256": "42c4eb0e67bb8e5e567b1eac8b656a4e73f0fbc980c1c37354231dba13e192a4",
+      "bytes": 373
+    },
+    "shadowrocket/non_ip/global.list": {
+      "sha256": "17628a5d579d352ce72f5d4f27ae0858df2c7d4cb61d6e00255387944b4549d3",
+      "bytes": 33066
+    },
+    "shadowrocket/non_ip/google-fcm.list": {
+      "sha256": "f93392c006c065d8245938f6ae02ec36de5e0f29f8e263e0439ed688de3e3db9",
+      "bytes": 566
+    },
+    "shadowrocket/non_ip/google.list": {
+      "sha256": "7dd2aad4e72aa52437c4112c6756b21584423fc85a367c645edbef6dbe5d862b",
+      "bytes": 23384
+    },
+    "shadowrocket/non_ip/hbo.list": {
+      "sha256": "ce7ec375ea4d9da3d742e2b897bdef7d3096bcbc8535d1eb8837ab3ce5c5b55d",
+      "bytes": 1949
+    },
+    "shadowrocket/non_ip/icloud.list": {
+      "sha256": "c9bb33cd481f6879c8b87ddf7af7a9a4be5a25fd5d1b57c2eb3aeaf7c4ec747d",
+      "bytes": 1660
+    },
+    "shadowrocket/non_ip/instagram.list": {
+      "sha256": "2c8af0b57d339f26a829476b5cb68c5510d87c6265afc758fd4a870c260e6cdf",
+      "bytes": 2482
+    },
+    "shadowrocket/non_ip/jetbrains.list": {
+      "sha256": "78c39c17ab68f625d065cf3cf4499ee06df186ce87c8c265015ad8177bbd066e",
+      "bytes": 853
+    },
+    "shadowrocket/non_ip/microsoft.list": {
+      "sha256": "34708ac26ed85e14701b501e6f815b3b894ca172bd607ec8f2ded040ee0313f2",
+      "bytes": 19610
+    },
+    "shadowrocket/non_ip/netflix.list": {
+      "sha256": "a00f5df798fdc3c46244da0b021a88dcabdcce0c2a317e7d1f56c9a938ef4273",
+      "bytes": 955
+    },
+    "shadowrocket/non_ip/nintendo.list": {
+      "sha256": "7d6a7ca04c1faffe4baa0949ff09251e13489db357a84502e6b78e4f35fe4ac4",
+      "bytes": 4111
+    },
+    "shadowrocket/non_ip/npm.list": {
+      "sha256": "3878d5069a60299c802ff68a11d108618f78211693f81dc0758745f8ecfc397f",
+      "bytes": 287
+    },
+    "shadowrocket/non_ip/onedrive.list": {
+      "sha256": "5ec81f3cd06e08f8a3e15d7cc1b146adf49e33690258d69256d3c5225f5f49e5",
+      "bytes": 721
+    },
+    "shadowrocket/non_ip/openai.list": {
+      "sha256": "dda2142f17c32f63de5bb9dd7501f06e0a21ab4f478a80835e9992314b9b593d",
+      "bytes": 987
+    },
+    "shadowrocket/non_ip/perplexity.list": {
+      "sha256": "be8d328be75e57459f25952d2f6bdfffaaef138e498d52f597b2c33e64b21c3b",
+      "bytes": 378
+    },
+    "shadowrocket/non_ip/playstation.list": {
+      "sha256": "55dddf5e9403fa8e38f8f5e5cc605ab061517e0c51abb9a3572321f377575eae",
+      "bytes": 356
+    },
+    "shadowrocket/non_ip/primevideo.list": {
+      "sha256": "5362ec34fff7bad644df2a0b01ae9cd55398e18bceed378fde0d2914556df43c",
+      "bytes": 999
+    },
+    "shadowrocket/non_ip/private.list": {
+      "sha256": "9ffe057da20aa4c3d8e5a0d0a42501043e9c834eac5fadf0844c4d9fef641144",
+      "bytes": 1631
+    },
+    "shadowrocket/non_ip/python.list": {
+      "sha256": "1579f00f5fb9902e2f30afb8a2f35311755d32b09916690dd82b17b0145e4ab8",
+      "bytes": 364
+    },
+    "shadowrocket/non_ip/reddit.list": {
+      "sha256": "359d4f55fe3fbe3ae57d51661a02f378e4fb7bfb4ca36c85c93dd83174fd2068",
+      "bytes": 567
+    },
+    "shadowrocket/non_ip/spotify.list": {
+      "sha256": "63a44eb98fc4e18fe4a9586a8626765252418cdb05b3678f0a00a99350df9ebe",
+      "bytes": 1028
+    },
+    "shadowrocket/non_ip/steam-cn.list": {
+      "sha256": "b256888d9909ed7d8caf7b528c03dcf3515efd6a8fe754a7841921878bb421b9",
+      "bytes": 842
+    },
+    "shadowrocket/non_ip/steam.list": {
+      "sha256": "e65db4261e76a7e6f9ef2f3ce117e007bb1c803a77e908ddd086b6cc7d9fd4a7",
+      "bytes": 2165
+    },
+    "shadowrocket/non_ip/telegram.list": {
+      "sha256": "aa553d9fcd08563d71dec9fc5b5da70ff4890a8a4a285895ec20b6180192a8c5",
+      "bytes": 796
+    },
+    "shadowrocket/non_ip/tiktok.list": {
+      "sha256": "5c51b3d8ade5b10537686a73768720d7f2ab842e121859e0749ca618df734000",
+      "bytes": 1370
+    },
+    "shadowrocket/non_ip/twitch.list": {
+      "sha256": "7d05f0da32049e7c1462ad0df7b9e9f370d32e0bf8f4339b9f93998d41d2839f",
+      "bytes": 1384
+    },
+    "shadowrocket/non_ip/twitter.list": {
+      "sha256": "e8bda7b5bacdaee1ebb50b1d9dce714f57a781c5ea97832f1be647a16ada7736",
+      "bytes": 877
+    },
+    "shadowrocket/non_ip/whatsapp.list": {
+      "sha256": "e62d03b00a62974dc28fe4fdaea31f48448201cb5cadccade5d0f840f9b54e80",
+      "bytes": 530
+    },
+    "shadowrocket/non_ip/xai.list": {
+      "sha256": "e9266202b6be4f4691b8876f9939baa9d1a74017cdd22445cd85ec1c151c0373",
+      "bytes": 307
+    },
+    "shadowrocket/non_ip/xbox.list": {
+      "sha256": "26ab628e7edd2522e7cad52036cd2fd9062e55089c88941686df6983c757c0b8",
+      "bytes": 1510
+    },
+    "shadowrocket/non_ip/youtube.list": {
+      "sha256": "f3ddef9bf6237442d3d6b482b007212cb3b17ee4d6b7bdccfc647c0da41496b8",
+      "bytes": 5064
+    },
+    "sing-box/ip/openai.no-resolve.json": {
+      "sha256": "5007fdd12687b636336f23f2b48f44dad9166a431b6d5744a8d116dbbc36423d",
+      "bytes": 720
+    },
+    "sing-box/ip/private.resolve.json": {
+      "sha256": "e5a08c8339030d34e1924dee1a102b8d119003929cb93b538f0895871f8cb0d8",
+      "bytes": 326
+    },
+    "sing-box/ip/telegram.no-resolve.json": {
+      "sha256": "b9bd78c95da02df1ab43ed93aaf8005858ec944bd8d19566a83aa3191559974d",
+      "bytes": 404
+    },
+    "sing-box/non_ip/advertising.json": {
+      "sha256": "a71eef3344e93c0a25eff47cfca5f95dc3983b3b5c5bd32de9af1aef1a5d7e84",
+      "bytes": 25792
+    },
+    "sing-box/non_ip/ai-other.json": {
+      "sha256": "45b1ec9d131e6e7bd093e86f59b18b3eff8445ec00ab17e623cb4ff87a0f1b1f",
+      "bytes": 5497
+    },
+    "sing-box/non_ip/anthropic.json": {
+      "sha256": "b755f8960bf3bb7325180cb1c727326be446fa30432121c3d9318dd0a8a6918e",
+      "bytes": 379
+    },
+    "sing-box/non_ip/apple-cn.json": {
+      "sha256": "bf67a68baffccf60944fb8311c5e12c03646fe7cf3141777187d75281c558f49",
+      "bytes": 389
+    },
+    "sing-box/non_ip/apple-intelligence.json": {
+      "sha256": "8d220e37bd8aefb088834c52e023d91a6f60aa88ef000be800213f42dd570be9",
+      "bytes": 260
+    },
+    "sing-box/non_ip/apple-music.json": {
+      "sha256": "ab6d06e4347e8718bf116d9bd9f26eeda5a23cef227085b527d22e83d5d7248c",
+      "bytes": 394
+    },
+    "sing-box/non_ip/apple-tv.json": {
+      "sha256": "08ec05db7f76b1e94a206aed35cee630d74ad792161ef69df6b16d60a8a93935",
+      "bytes": 379
+    },
+    "sing-box/non_ip/apple.json": {
+      "sha256": "5d503826bc5fc4b387af614e76fff8af27abf7e5ba8f214bf20f4f0712219961",
+      "bytes": 46560
+    },
+    "sing-box/non_ip/aws.json": {
+      "sha256": "ae83b240fd8770907f1542325536b6a44403c2e349f06d7b70dcd082d2cef777",
+      "bytes": 2177
+    },
+    "sing-box/non_ip/bilibili-intl.json": {
+      "sha256": "5e8599c1720237875713d6ec62030f2de66a347de0dc84135f8b21d828e54f79",
+      "bytes": 491
+    },
+    "sing-box/non_ip/bilibili.json": {
+      "sha256": "cc6971637ab3d1e2b3abcf6912ad7dea5fd51dd41340d11914569cc9a9497a3b",
+      "bytes": 1365
+    },
+    "sing-box/non_ip/cdn-cn.json": {
+      "sha256": "4e73091a1d38ecc7e7647b9697abec55fac2d16624f379e6d966c47cf219d9c2",
+      "bytes": 2254
+    },
+    "sing-box/non_ip/cdn-global.json": {
+      "sha256": "420649c3fbb683905e00b931170c9bcd043e51ce9f5f5d69f3a20402ea757024",
+      "bytes": 5276
+    },
+    "sing-box/non_ip/china.json": {
+      "sha256": "af759d43613314c01fcadd3e29889d069d9fc9b578feac074f5bbe539e77e838",
+      "bytes": 19820
+    },
+    "sing-box/non_ip/cloudflare.json": {
+      "sha256": "63ae0c2f7d1c27c054a63fe687854700ccb181ed557708d986706076c5648f1d",
+      "bytes": 2254
+    },
+    "sing-box/non_ip/copilot.json": {
+      "sha256": "297869bbe851256c23fae6d0f019b2cca425653f2ac5da96f31ed9071653c6ad",
+      "bytes": 393
+    },
+    "sing-box/non_ip/developer.json": {
+      "sha256": "c4fb60babf9f81c8d3e1edb1bac54c7f9ecec08e4ab38024412738afdbe9697d",
+      "bytes": 17678
+    },
+    "sing-box/non_ip/digitalocean.json": {
+      "sha256": "ec2b3078962af63476111b419124ed2dc662e79c4ac31365e3c64e4fa3d77b1d",
+      "bytes": 247
+    },
+    "sing-box/non_ip/discord.json": {
+      "sha256": "5559a828205c48aaa47c9a220347b870197f46dd15c3650cbb1ae8077a276b14",
+      "bytes": 906
+    },
+    "sing-box/non_ip/disney.json": {
+      "sha256": "76f9d4bfea5398fe7f5a4f73e33e53d98998b8d4377a59d6e3e0f9a86ad53372",
+      "bytes": 6179
+    },
+    "sing-box/non_ip/docker.json": {
+      "sha256": "d42667444d2b69cf6170d9297cb164779413a9454eb3c52b35f533e69c6f96b2",
+      "bytes": 343
+    },
+    "sing-box/non_ip/downloads.json": {
+      "sha256": "930827204d717d2db62f3e43e9af778025653d13d8fb988353a6e79920be3fc9",
+      "bytes": 66514
+    },
+    "sing-box/non_ip/epic-games.json": {
+      "sha256": "892a8bfed536bbc654686a4d56dee38b9f7f8018fb450cd46eb227f669bec0dc",
+      "bytes": 881
+    },
+    "sing-box/non_ip/facebook.json": {
+      "sha256": "9b92e75f9421a261227e4702082984c3febc2422d4f4afab008a0d760b0ed157",
+      "bytes": 10751
+    },
+    "sing-box/non_ip/game-downloads.json": {
+      "sha256": "4180799be5be3eb80d3450022e0f9129f9775a4644bdeabbcad06fcb1a85d02c",
+      "bytes": 1907
+    },
+    "sing-box/non_ip/games.json": {
+      "sha256": "decd879e700a81f261cd017527bb12aa574a2e0f7d155b21d112ff1b2df180bb",
+      "bytes": 30280
+    },
+    "sing-box/non_ip/gemini.json": {
+      "sha256": "7657e58468aab17e9d29f5742c8270ca062feb1ff7dfa84542cf7192b8591327",
+      "bytes": 1674
+    },
+    "sing-box/non_ip/github.json": {
+      "sha256": "193fae3149282111cdf8daf887564c513a24ab24715e6412bb53b681be6ebb37",
+      "bytes": 2439
+    },
+    "sing-box/non_ip/gitlab.json": {
+      "sha256": "c4996c8d1bd592ff5c58da75df541736ef9251d0fb30550a95ba58a9d7bbad3e",
+      "bytes": 255
+    },
+    "sing-box/non_ip/global.json": {
+      "sha256": "a512b448a77ab36bafdb5cc83ad0be4dd68073ed8184ffb122d71e0d2088ecff",
+      "bytes": 29192
+    },
+    "sing-box/non_ip/google-fcm.json": {
+      "sha256": "f811e6505f26421390d4a6696400b347edb6356e8c1dfea997ce469c101660a4",
+      "bytes": 463
+    },
+    "sing-box/non_ip/google.json": {
+      "sha256": "e39f33ba79d43509579e8592f11b67f899b1e72c848c0f430529696b56f4013f",
+      "bytes": 20866
+    },
+    "sing-box/non_ip/hbo.json": {
+      "sha256": "d2987ce4007ad0c4928c9961bdb1a34c8f4eddcf5519162a1f0724f54b72f5e9",
+      "bytes": 1624
+    },
+    "sing-box/non_ip/icloud.json": {
+      "sha256": "1a342a2846a97a3d992e3276bc901c32ee3702166aa0cd45bebab73aad09699d",
+      "bytes": 1398
+    },
+    "sing-box/non_ip/instagram.json": {
+      "sha256": "98d598ddf01e00f1ef6f011c6391a81847c8c96d61ded104a2584e12056d51da",
+      "bytes": 2124
+    },
+    "sing-box/non_ip/jetbrains.json": {
+      "sha256": "655b7729bbc3ab87499dbfd78386f716d0bc5cfd73eaeac2a5ad6266ff44bdf2",
+      "bytes": 642
+    },
+    "sing-box/non_ip/microsoft.json": {
+      "sha256": "21ef761f29f07ffbd33deccead37f9a054ed9ba489a191b80605f5d29a6d82cb",
+      "bytes": 17695
+    },
+    "sing-box/non_ip/netflix.json": {
+      "sha256": "92fd8b5c95fcc5207e8b86526cc781e4677bce9357ef77459ad0edd39c9ecf42",
+      "bytes": 778
+    },
+    "sing-box/non_ip/nintendo.json": {
+      "sha256": "627b1c93612cbc1f73382fc3d32a8cb7add23b5c18885bd6b23a7478264aff6c",
+      "bytes": 3599
+    },
+    "sing-box/non_ip/npm.json": {
+      "sha256": "fadd59e8d187a6abb3af2fd3f73c980861b0ad5925eb5fc720025023fcc0a334",
+      "bytes": 148
+    },
+    "sing-box/non_ip/onedrive.json": {
+      "sha256": "80d91b8ca882832f9dfb1d17a83c334abf81e688db2222923b9cf6f9a934f0f7",
+      "bytes": 533
+    },
+    "sing-box/non_ip/openai.json": {
+      "sha256": "f26e045b801dc7bf669326889db90b427f1d2bb097de37d203b7d30dbae319c4",
+      "bytes": 846
+    },
+    "sing-box/non_ip/perplexity.json": {
+      "sha256": "82fe0dd72803325b05dac2f35b371a00cd0edccabdbe36a68a8c55524c4095d4",
+      "bytes": 259
+    },
+    "sing-box/non_ip/playstation.json": {
+      "sha256": "2d60ce5abde79029895e2685bc625806624c1338582dd831cddade4136457cd4",
+      "bytes": 198
+    },
+    "sing-box/non_ip/primevideo.json": {
+      "sha256": "99d13351ee0e5194a7748f3267c034d113bda6f73f682b94c6c8883317540699",
+      "bytes": 882
+    },
+    "sing-box/non_ip/private.json": {
+      "sha256": "558e1729940e0ce03447626256af63e6edd77062d19f2b066e427aee680398a4",
+      "bytes": 1429
+    },
+    "sing-box/non_ip/python.json": {
+      "sha256": "46f1d37b6f73d25d05dc4f311d148c9283570134989ce66dcff973deda60b98e",
+      "bytes": 210
+    },
+    "sing-box/non_ip/reddit.json": {
+      "sha256": "036730e6c136b742976b2aee69d5fa6f4f34b8801f8a16becf838ab21d05b448",
+      "bytes": 395
+    },
+    "sing-box/non_ip/spotify.json": {
+      "sha256": "5225a01103b5f75eb865ac98f2b375e851331bd52beb3b1584dce646842ca74b",
+      "bytes": 897
+    },
+    "sing-box/non_ip/steam-cn.json": {
+      "sha256": "e3e5f6215015535bb64a0b36f9130184e22cbc76fc3c99821121108a2e110070",
+      "bytes": 692
+    },
+    "sing-box/non_ip/steam.json": {
+      "sha256": "e4b4ef2fd58039ab48fb43bc39f9f6db2361b3ca17468ad94d02cac07031a49e",
+      "bytes": 2006
+    },
+    "sing-box/non_ip/telegram.json": {
+      "sha256": "54a7fc8bdae3b55473763208cbe0e1bcbdc84336d0671d329e587fcf75489d5c",
+      "bytes": 564
+    },
+    "sing-box/non_ip/tiktok.json": {
+      "sha256": "6a7825a79764fd03a3bf9bbf4ed0516a79af3968f062062413c8f0b19c28ebbd",
+      "bytes": 1194
+    },
+    "sing-box/non_ip/twitch.json": {
+      "sha256": "38aa127f93e89f542a026c17025064740a3f393858c96efba982b70312d27f93",
+      "bytes": 1354
+    },
+    "sing-box/non_ip/twitter.json": {
+      "sha256": "6ab196c7d01d623e3e6deca398adc1ccfc86b5b7f638add0a45853f1f20a5647",
+      "bytes": 667
+    },
+    "sing-box/non_ip/whatsapp.json": {
+      "sha256": "1b5d1694719a11521036a8259eca299d818942e17327dfa10fa0b38bc8d8d0b4",
+      "bytes": 357
+    },
+    "sing-box/non_ip/xai.json": {
+      "sha256": "958b370e60f5f5e27a56ed6a96405aebc18051069472a74f925b9e0ae34d10b4",
+      "bytes": 165
+    },
+    "sing-box/non_ip/xbox.json": {
+      "sha256": "bbadeb6ea78db5bd5e15da8405899cb8837900388fabeefe4f597d59aeaac7fa",
+      "bytes": 1283
+    },
+    "sing-box/non_ip/youtube.json": {
+      "sha256": "08ad0d8572dce7e04d10abddf1b66fc02de905014e220695b3bf88631a926c8b",
+      "bytes": 4428
+    },
+    "status.json": {
+      "sha256": "f8f12eb66473a2b224c52cd454c16763da4a8caaa668bf181a170bfbfed34523",
+      "bytes": 208
+    },
+    "surge/domainset/advertising.list": {
+      "sha256": "e3bbda0579e3fcad133f248c48969841c63d9024de40765e247d512443ec8f0f",
+      "bytes": 16767
+    },
+    "surge/domainset/ai-other.list": {
+      "sha256": "2b206d3c28967cef81e44ff96f8b8b6a66a3f03fcdcb63eeea6fdcdc18069238",
+      "bytes": 3691
+    },
+    "surge/domainset/anthropic.list": {
+      "sha256": "8b0dbdc3cb1a8e0e395d3b09b80440a55894bb8382386d5af064e036481d917b",
+      "bytes": 415
+    },
+    "surge/domainset/apple-cn.list": {
+      "sha256": "f1708f1832e915c52f635e1fe6b104376f0363d79592ea4612493635aaf9ce96",
+      "bytes": 412
+    },
+    "surge/domainset/apple-intelligence.list": {
+      "sha256": "6ee4ecf22452508c1e9c6914b50d91fcae6c2f7b0576cf5ec1ac6971bc0a1ca9",
+      "bytes": 372
+    },
+    "surge/domainset/apple-music.list": {
+      "sha256": "539ad3f0b94f0963c5776dcbd7c463920c33c817adc187398e6c58c56711bbc0",
+      "bytes": 430
+    },
+    "surge/domainset/apple-tv.list": {
+      "sha256": "7126f68fad1978512afe142f22bec2f15cf047ac28223b192dc44ed9c1b4e8a6",
+      "bytes": 406
+    },
+    "surge/domainset/apple.list": {
+      "sha256": "64f05fad67be3de9fe1d4df55f9d7a074306e317e0e79a9301361dbc5c9711db",
+      "bytes": 30770
+    },
+    "surge/domainset/aws.list": {
+      "sha256": "100f7f81e67aa8d017209c22fd83f74a74783b6d92e4b9cd7e7a3be00a40c9ed",
+      "bytes": 1537
+    },
+    "surge/domainset/bilibili-intl.list": {
+      "sha256": "9149ecea4f5e0f8c547cdd476cf88a895b48b5a4186c98d6ebd0b7bef7b99baf",
+      "bytes": 531
+    },
+    "surge/domainset/bilibili.list": {
+      "sha256": "748edfcb74e329e563c0c8e3bcf76cbcd650ea3de58cfec115768b220d7ee9a7",
+      "bytes": 948
+    },
+    "surge/domainset/cdn-cn.list": {
+      "sha256": "698aaf32996ea42f42263d97cc66416594d4f84b75a8ad0f7f13ebbfabf9b979",
+      "bytes": 1460
+    },
+    "surge/domainset/cdn-global.list": {
+      "sha256": "154dd5ed582d7da0b8c845208ace67e0725cb4fbc1e927354d19fbcf1bb94928",
+      "bytes": 3470
+    },
+    "surge/domainset/cloudflare.list": {
+      "sha256": "2d23e899519af25997141ffe25bce093392857230f23fd9d3c6661225b82007a",
+      "bytes": 1638
+    },
+    "surge/domainset/copilot.list": {
+      "sha256": "9404851c245b3b119331967efc212b7746813d6dd2307446c92a301bc71a68e2",
+      "bytes": 440
+    },
+    "surge/domainset/developer.list": {
+      "sha256": "906abe8a0ccfa045b5cf940361ae356a7e499ce6487f916ff45a55ef2ff54e1a",
+      "bytes": 11364
+    },
+    "surge/domainset/digitalocean.list": {
+      "sha256": "d6dd3c9aba5a69ed40e8e16279aea6552cd339e0201c69c3cb0e5544a5bc04c5",
+      "bytes": 335
+    },
+    "surge/domainset/discord.list": {
+      "sha256": "a24ad99b25dc60154dbcb9d2de9a41740738ab7ea1f800001e2424d108492611",
+      "bytes": 736
+    },
+    "surge/domainset/disney.list": {
+      "sha256": "d1b75516e410337d0ddf16d4c8c09f6bd32c527228a50e1cfaa12996669c183f",
+      "bytes": 4065
+    },
+    "surge/domainset/docker.list": {
+      "sha256": "071f1ec85c51e2438fb58de60528e72f2c90832eb43356eb2b8d4a968f92582b",
+      "bytes": 391
+    },
+    "surge/domainset/downloads.list": {
+      "sha256": "3bed4d7cdd892b73f85d50b3f325aa2a850343dd1764331d3a9aad6895edce27",
+      "bytes": 45486
+    },
+    "surge/domainset/epic-games.list": {
+      "sha256": "86b3590a0aa560ecae6ee4b7d6badbe8bf2cdd1910c4014215ba784ee0846809",
+      "bytes": 725
+    },
+    "surge/domainset/facebook.list": {
+      "sha256": "0615c4b685aca16455f687eae85b70b7cf52752aec9a34fc67688c1fc7e756d7",
+      "bytes": 6914
+    },
+    "surge/domainset/game-downloads.list": {
+      "sha256": "ba1f56e16e35bbd8f1795a35130234918c227401cb6c8c2a1a87d0e1dc6162c1",
+      "bytes": 1479
+    },
+    "surge/domainset/games.list": {
+      "sha256": "5634badf098cf75a367d2ad99eb4f500bca32a678bb2d68f749fce128261f66d",
+      "bytes": 19144
+    },
+    "surge/domainset/gemini.list": {
+      "sha256": "ed41bebfd4b3be5342715bfe089a6875a047b527b38c48bd5f8a8bf5dbb6cf7b",
+      "bytes": 1311
+    },
+    "surge/domainset/github.list": {
+      "sha256": "20e5a5ac42b9e2e8da49ad0fa73650b3e829c7f49f09afb4ffeee1861b295a64",
+      "bytes": 1931
+    },
+    "surge/domainset/gitlab.list": {
+      "sha256": "d4d314036c33e034df99e29697c5117c54980638486e35a938628333bdb88ae2",
+      "bytes": 314
+    },
+    "surge/domainset/google-fcm.list": {
+      "sha256": "444c2951fdd4cd9e3b6a1a68ad0836f2f6b0b9567728d9adc5e2ae29738cdb0f",
+      "bytes": 482
+    },
+    "surge/domainset/google.list": {
+      "sha256": "34017a588e880012c64f38362cf457900366aca725ddaaaa40cc749d9bcef86f",
+      "bytes": 12487
+    },
+    "surge/domainset/hbo.list": {
+      "sha256": "2a16ac982d0c374c29844b9678abc2a16ba39dc71569d2cfec4a9035883117bf",
+      "bytes": 1104
+    },
+    "surge/domainset/icloud.list": {
+      "sha256": "033a9fc7eef13dfda43f4e1f8b80c9f5f40494d0f21b41f0c339ba8d9628a902",
+      "bytes": 977
+    },
+    "surge/domainset/instagram.list": {
+      "sha256": "aca848600f3c88cf3bdbf9296fad4d7658d4755028319d4f05a18826dc706bb7",
+      "bytes": 1546
+    },
+    "surge/domainset/jetbrains.list": {
+      "sha256": "f5e429c9bb399edbce8ced35c9ca579b8f7233b15f911e23c9852a5a9f9cb7da",
+      "bytes": 554
+    },
+    "surge/domainset/microsoft.list": {
+      "sha256": "4ba7ce07bcdfcee81591062344ae7bc57efb9fa74a69aed1421558f6610cbeac",
+      "bytes": 11425
+    },
+    "surge/domainset/netflix.list": {
+      "sha256": "c83b68f45d39f5eb50aec003fae2cc74f291fd611f4b815c76845c66ed844a9b",
+      "bytes": 649
+    },
+    "surge/domainset/nintendo.list": {
+      "sha256": "06ff481fbab5faa8931a0c425d7cf1e7d7e8b838bfc2977c440ea863a3904ecb",
+      "bytes": 2499
+    },
+    "surge/domainset/npm.list": {
+      "sha256": "8c8718fed6f2fe6dd329933d5b55ae5c33576504a817cb6c3f664b99c3015d78",
+      "bytes": 248
+    },
+    "surge/domainset/onedrive.list": {
+      "sha256": "22a8ca2e8ad3b115c68322a92a00e3243af127d3cf5e2ed583733968c94b64cb",
+      "bytes": 513
+    },
+    "surge/domainset/openai.list": {
+      "sha256": "0d0313b7fb1956d2565d9a7ed173c645d7f7e60764172d683b2887785bb14949",
+      "bytes": 755
+    },
+    "surge/domainset/perplexity.list": {
+      "sha256": "4bd29e7aa9ead76fe5b144339ba8de0ec1366bf72e58518a6297f257165b412d",
+      "bytes": 325
+    },
+    "surge/domainset/playstation.list": {
+      "sha256": "afb2739a2b52185bcc2b4295aad6f1a5d1e3ef0a55985ea6f09b70dd66d37f96",
+      "bytes": 304
+    },
+    "surge/domainset/primevideo.list": {
+      "sha256": "9aa8f6801e10ccb2924abc062b1731b3d9e96ee37e6c4fe546b73acb9c069fa9",
+      "bytes": 760
+    },
+    "surge/domainset/private.list": {
+      "sha256": "e0c712845d396fbf97bfa6fa879cbe84452cd7f3e90273b61100982a526895d9",
+      "bytes": 1060
+    },
+    "surge/domainset/python.list": {
+      "sha256": "9cd686441f9a0aebca211267a7dd1d672b7ec457e089dc664545229178b936d1",
+      "bytes": 286
+    },
+    "surge/domainset/reddit.list": {
+      "sha256": "98ca1a93fd8c993f240ea834f0db609384edf118dc2407561d398a32dd827a7e",
+      "bytes": 411
+    },
+    "surge/domainset/spotify.list": {
+      "sha256": "d28c1c7ab24f551872e2a076ffc3a50bab7eddf6d332b7f103f57046d02332f8",
+      "bytes": 751
+    },
+    "surge/domainset/steam-cn.list": {
+      "sha256": "91a1095eb649251a6878a2745b144837fadda49bdad74d16ecfdca87492689a2",
+      "bytes": 613
+    },
+    "surge/domainset/steam.list": {
+      "sha256": "71c5366c65c67e9ac0db6d56a20a3a3a4153f18b47f82af33637be2a9d225bad",
+      "bytes": 1506
+    },
+    "surge/domainset/telegram.list": {
+      "sha256": "0c4962d6a8f8c4d2c7150ff543e431736a7d2e692f07c2f3c7dd73c03c741607",
+      "bytes": 523
+    },
+    "surge/domainset/tiktok.list": {
+      "sha256": "d86271fabe6269e3bfcca2eb2afb8ae53df98739d29db72fe4b15fff318a6018",
+      "bytes": 938
+    },
+    "surge/domainset/twitch.list": {
+      "sha256": "d580686092811c207bcc0d0cc6bc986b159cbabf290d35a9ed79c27c8ab2f4bd",
+      "bytes": 1098
+    },
+    "surge/domainset/twitter.list": {
+      "sha256": "ca1fd2d63b038c06bb99418076c3b87a4c89aa99a1a1d9e8711a5f3b8496f883",
+      "bytes": 565
+    },
+    "surge/domainset/whatsapp.list": {
+      "sha256": "faedec0587db4a17c2eeced1826297230a232f64e96b0119036b2d0a76e04cfb",
+      "bytes": 387
+    },
+    "surge/domainset/xai.list": {
+      "sha256": "a3b694a2450743f1d0ca2700384bdb8e77565cb6e23850dc23cf951e2d4c601d",
+      "bytes": 255
+    },
+    "surge/domainset/xbox.list": {
+      "sha256": "ff073260434bffa51cf120922152b0eecf441c6a88060dd38f1245a8719e0822",
+      "bytes": 937
+    },
+    "surge/domainset/youtube.list": {
+      "sha256": "b2b6d695928d05a1c22816e6a17f2b00306efd8e63e702a9144d15928f907832",
+      "bytes": 2769
+    },
+    "surge/ip/openai.no-resolve.list": {
+      "sha256": "3a5d439f23b0c1a2b5fb0bbc2094ced0c719a86d9b5032ce3e0a2cd4906c1f60",
+      "bytes": 1074
+    },
+    "surge/ip/private.resolve.list": {
+      "sha256": "bc90526e860f843007dc2005f285f07f18c594165d31ec965816bb43438311a0",
+      "bytes": 460
+    },
+    "surge/ip/telegram.no-resolve.list": {
+      "sha256": "e7c71950f4644916268e50378cbc3219fc0585b631652b34deb26ec91365afd1",
+      "bytes": 680
+    },
+    "surge/non_ip/advertising.list": {
+      "sha256": "cca47bc91615341613e6de22836e9d468838401d5cee56b92ec304a5bc6f3fd4",
+      "bytes": 27524
+    },
+    "surge/non_ip/ai-other.list": {
+      "sha256": "10bec30148d172c18ad3a19df19cb409dae73da4bb83392cd1a80b117a0567ef",
+      "bytes": 5968
+    },
+    "surge/non_ip/anthropic.list": {
+      "sha256": "6dbc3a36450ff72c4a901a0aa779899c1bc76fac4be8c517a141653f335305e5",
+      "bytes": 539
+    },
+    "surge/non_ip/apple-cn.list": {
+      "sha256": "d2043ab7a606ce9933ee0263c568b45c75eeaaf6c407519795dc6c80189e0c19",
+      "bytes": 511
+    },
+    "surge/non_ip/apple-intelligence.list": {
+      "sha256": "609871ea747c6e1281ab6e62b0259f2fb9f08f217b55d0571517c2014f1a395f",
+      "bytes": 407
+    },
+    "surge/non_ip/apple-music.list": {
+      "sha256": "ca9943c2651e20de98af0df4ccf32c2c368a00b891a0b11e7ca64e56ddc38952",
+      "bytes": 573
+    },
+    "surge/non_ip/apple-tv.list": {
+      "sha256": "da8cac98775a4ee091beb8a9449475ee5bc892a05603d80c82c43bfb48a039b2",
+      "bytes": 468
+    },
+    "surge/non_ip/apple.list": {
+      "sha256": "44c4910dd2c5be5bc90cff4c519ffbd0436f3626a0985ebd1a0054c2882f11d7",
+      "bytes": 51087
+    },
+    "surge/non_ip/aws.list": {
+      "sha256": "a71b1f288acdd84d049d06dc26d2924fb0bbc69c93803caac23d6120bfcfdc44",
+      "bytes": 2538
+    },
+    "surge/non_ip/bilibili-intl.list": {
+      "sha256": "b47e4beb7d9fcf5ad2d7133f64bbcce7bfec70b5bc73b8e12799ef3491c68770",
+      "bytes": 674
+    },
+    "surge/non_ip/bilibili.list": {
+      "sha256": "81cc8b51334de8e34c20945e62bc831ccfa5bc906edc14db49826dfd291c25e4",
+      "bytes": 1631
+    },
+    "surge/non_ip/cdn-cn.list": {
+      "sha256": "ed067e02c1718612ebf904bf0803324d2e6e1c637a231d0fa0565859df9056e2",
+      "bytes": 2669
+    },
+    "surge/non_ip/cdn-global.list": {
+      "sha256": "28937e63f320a22335ba6ed1aa8f308a6f74c8f04f5ffc7c02376b9389b27a2d",
+      "bytes": 6005
+    },
+    "surge/non_ip/china.list": {
+      "sha256": "47ec41ffb7fba2475bfeb00bcde54ca9157d6aca4d741b5bfed0b2d123bb2846",
+      "bytes": 22418
+    },
+    "surge/non_ip/cloudflare.list": {
+      "sha256": "657010bae1ba58b318f0c4cb0951315386484214c664c7bedfccb2c18a01edde",
+      "bytes": 2626
+    },
+    "surge/non_ip/copilot.list": {
+      "sha256": "707bdec810e8ca3ce0ac7a05c11c36fabddc4878d78f259916c6b4aa3fbe1bcc",
+      "bytes": 488
+    },
+    "surge/non_ip/developer.list": {
+      "sha256": "eadbd36db709e8698863f812bc75ff95d769eeb4d6dbd30504ebe06f55b236a8",
+      "bytes": 19212
+    },
+    "surge/non_ip/digitalocean.list": {
+      "sha256": "dbd9b47d573c694b0323708c0e057eb0aea70ba92575d8522214c7d1235c76eb",
+      "bytes": 413
+    },
+    "surge/non_ip/discord.list": {
+      "sha256": "f6c796a0f877f74ffe1f9507ff67cd195f4add46991d2e5ff9c737a42d6b47a0",
+      "bytes": 1088
+    },
+    "surge/non_ip/disney.list": {
+      "sha256": "1568e12433c3bef0f42655daccd851efc3884daeea4932bab73e574785ba27ea",
+      "bytes": 6927
+    },
+    "surge/non_ip/docker.list": {
+      "sha256": "aed3a26aad5229190ba568d4ef4dece4ee81152234d677e2fd56d73bf0918eb4",
+      "bytes": 457
+    },
+    "surge/non_ip/downloads.list": {
+      "sha256": "38ce0e60423e09acdd3fde277463c766af031e9fb9498159da62f0559773614e",
+      "bytes": 62493
+    },
+    "surge/non_ip/epic-games.list": {
+      "sha256": "cd37356348b1b5c9c4f99e5090b09d8c0946f05018a3eceee9fe32dd45164b06",
+      "bytes": 1115
+    },
+    "surge/non_ip/facebook.list": {
+      "sha256": "635b8412ed1dd551877026706f6a37cdc1089b1778d422f04bad0da36bec067a",
+      "bytes": 12043
+    },
+    "surge/non_ip/game-downloads.list": {
+      "sha256": "211a50a2b22b019229655833e3c3ddd703d0d09a561ce7d9375a12a5aa4cf6c6",
+      "bytes": 1939
+    },
+    "surge/non_ip/games.list": {
+      "sha256": "ceedb6ffbd271762ab2def517939113789603fd0f21e180c6b8d9e7e8709aaa9",
+      "bytes": 33075
+    },
+    "surge/non_ip/gemini.list": {
+      "sha256": "568c44e756ab9b25ed0a73161a673106c93439cb2a5ffa8b986f0f65cb576daf",
+      "bytes": 1831
+    },
+    "surge/non_ip/github.list": {
+      "sha256": "ae23eb2910d4e05ea47c53f07f717e7ca9af491ea13dc173b409e0329482f033",
+      "bytes": 2530
+    },
+    "surge/non_ip/gitlab.list": {
+      "sha256": "42c4eb0e67bb8e5e567b1eac8b656a4e73f0fbc980c1c37354231dba13e192a4",
+      "bytes": 373
+    },
+    "surge/non_ip/global.list": {
+      "sha256": "17628a5d579d352ce72f5d4f27ae0858df2c7d4cb61d6e00255387944b4549d3",
+      "bytes": 33066
+    },
+    "surge/non_ip/google-fcm.list": {
+      "sha256": "f93392c006c065d8245938f6ae02ec36de5e0f29f8e263e0439ed688de3e3db9",
+      "bytes": 566
+    },
+    "surge/non_ip/google.list": {
+      "sha256": "7dd2aad4e72aa52437c4112c6756b21584423fc85a367c645edbef6dbe5d862b",
+      "bytes": 23384
+    },
+    "surge/non_ip/hbo.list": {
+      "sha256": "ce7ec375ea4d9da3d742e2b897bdef7d3096bcbc8535d1eb8837ab3ce5c5b55d",
+      "bytes": 1949
+    },
+    "surge/non_ip/icloud.list": {
+      "sha256": "c9bb33cd481f6879c8b87ddf7af7a9a4be5a25fd5d1b57c2eb3aeaf7c4ec747d",
+      "bytes": 1660
+    },
+    "surge/non_ip/instagram.list": {
+      "sha256": "2c8af0b57d339f26a829476b5cb68c5510d87c6265afc758fd4a870c260e6cdf",
+      "bytes": 2482
+    },
+    "surge/non_ip/jetbrains.list": {
+      "sha256": "78c39c17ab68f625d065cf3cf4499ee06df186ce87c8c265015ad8177bbd066e",
+      "bytes": 853
+    },
+    "surge/non_ip/microsoft.list": {
+      "sha256": "34708ac26ed85e14701b501e6f815b3b894ca172bd607ec8f2ded040ee0313f2",
+      "bytes": 19610
+    },
+    "surge/non_ip/netflix.list": {
+      "sha256": "a00f5df798fdc3c46244da0b021a88dcabdcce0c2a317e7d1f56c9a938ef4273",
+      "bytes": 955
+    },
+    "surge/non_ip/nintendo.list": {
+      "sha256": "7d6a7ca04c1faffe4baa0949ff09251e13489db357a84502e6b78e4f35fe4ac4",
+      "bytes": 4111
+    },
+    "surge/non_ip/npm.list": {
+      "sha256": "3878d5069a60299c802ff68a11d108618f78211693f81dc0758745f8ecfc397f",
+      "bytes": 287
+    },
+    "surge/non_ip/onedrive.list": {
+      "sha256": "5ec81f3cd06e08f8a3e15d7cc1b146adf49e33690258d69256d3c5225f5f49e5",
+      "bytes": 721
+    },
+    "surge/non_ip/openai.list": {
+      "sha256": "dda2142f17c32f63de5bb9dd7501f06e0a21ab4f478a80835e9992314b9b593d",
+      "bytes": 987
+    },
+    "surge/non_ip/perplexity.list": {
+      "sha256": "be8d328be75e57459f25952d2f6bdfffaaef138e498d52f597b2c33e64b21c3b",
+      "bytes": 378
+    },
+    "surge/non_ip/playstation.list": {
+      "sha256": "55dddf5e9403fa8e38f8f5e5cc605ab061517e0c51abb9a3572321f377575eae",
+      "bytes": 356
+    },
+    "surge/non_ip/primevideo.list": {
+      "sha256": "5362ec34fff7bad644df2a0b01ae9cd55398e18bceed378fde0d2914556df43c",
+      "bytes": 999
+    },
+    "surge/non_ip/private.list": {
+      "sha256": "9ffe057da20aa4c3d8e5a0d0a42501043e9c834eac5fadf0844c4d9fef641144",
+      "bytes": 1631
+    },
+    "surge/non_ip/python.list": {
+      "sha256": "1579f00f5fb9902e2f30afb8a2f35311755d32b09916690dd82b17b0145e4ab8",
+      "bytes": 364
+    },
+    "surge/non_ip/reddit.list": {
+      "sha256": "359d4f55fe3fbe3ae57d51661a02f378e4fb7bfb4ca36c85c93dd83174fd2068",
+      "bytes": 567
+    },
+    "surge/non_ip/spotify.list": {
+      "sha256": "63a44eb98fc4e18fe4a9586a8626765252418cdb05b3678f0a00a99350df9ebe",
+      "bytes": 1028
+    },
+    "surge/non_ip/steam-cn.list": {
+      "sha256": "b256888d9909ed7d8caf7b528c03dcf3515efd6a8fe754a7841921878bb421b9",
+      "bytes": 842
+    },
+    "surge/non_ip/steam.list": {
+      "sha256": "e65db4261e76a7e6f9ef2f3ce117e007bb1c803a77e908ddd086b6cc7d9fd4a7",
+      "bytes": 2165
+    },
+    "surge/non_ip/telegram.list": {
+      "sha256": "aa553d9fcd08563d71dec9fc5b5da70ff4890a8a4a285895ec20b6180192a8c5",
+      "bytes": 796
+    },
+    "surge/non_ip/tiktok.list": {
+      "sha256": "5c51b3d8ade5b10537686a73768720d7f2ab842e121859e0749ca618df734000",
+      "bytes": 1370
+    },
+    "surge/non_ip/twitch.list": {
+      "sha256": "7d05f0da32049e7c1462ad0df7b9e9f370d32e0bf8f4339b9f93998d41d2839f",
+      "bytes": 1384
+    },
+    "surge/non_ip/twitter.list": {
+      "sha256": "e8bda7b5bacdaee1ebb50b1d9dce714f57a781c5ea97832f1be647a16ada7736",
+      "bytes": 877
+    },
+    "surge/non_ip/whatsapp.list": {
+      "sha256": "e62d03b00a62974dc28fe4fdaea31f48448201cb5cadccade5d0f840f9b54e80",
+      "bytes": 530
+    },
+    "surge/non_ip/xai.list": {
+      "sha256": "e9266202b6be4f4691b8876f9939baa9d1a74017cdd22445cd85ec1c151c0373",
+      "bytes": 307
+    },
+    "surge/non_ip/xbox.list": {
+      "sha256": "26ab628e7edd2522e7cad52036cd2fd9062e55089c88941686df6983c757c0b8",
+      "bytes": 1510
+    },
+    "surge/non_ip/youtube.list": {
+      "sha256": "f3ddef9bf6237442d3d6b482b007212cb3b17ee4d6b7bdccfc647c0da41496b8",
+      "bytes": 5064
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "66ba7a45da0bd6eb89783b492838ab124e4eba7c7d7fe508664788549b5f32e2",
+      "bytes": 4212
+    }
+  },
+  "licensing": "Original tooling is MIT; dataset files retain their declared upstream licenses. See THIRD_PARTY_NOTICES.md.",
+  "runtimeStatus": "Experimental route plans; native syntax and runtime evidence are recorded separately.",
+  "base": "https://codingmesh.github.io/rulemesh-site/"
+}

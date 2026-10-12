@@ -1,0 +1,32 @@
+{
+  "category": "apple-music",
+  "scope": "上游 apple-music 域名视图；与其他服务可能相交，按配置顺序决定分类",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-apple-music-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/apple-music.list",
+    "shadowrocket/non_ip/apple-music.list",
+    "mihomo/domain/apple-music.txt",
+    "sing-box/non_ip/apple-music.json",
+    "surge/domainset/apple-music.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-apple-music-domains",
+      "total": 18,
+      "accepted": 18,
+      "omitted": [],
+      "note": "固定完整 geo 域名视图；原始属性和高级表达式另行核查，细服务先于合集"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

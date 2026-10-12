@@ -1,0 +1,32 @@
+{
+  "category": "instagram",
+  "scope": "上游 instagram 域名视图；与其他服务可能相交，按配置顺序决定分类",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-instagram-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/instagram.list",
+    "shadowrocket/non_ip/instagram.list",
+    "mihomo/domain/instagram.txt",
+    "sing-box/non_ip/instagram.json",
+    "surge/domainset/instagram.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-instagram-domains",
+      "total": 74,
+      "accepted": 74,
+      "omitted": [],
+      "note": "固定完整 geo 域名视图；原始属性和高级表达式另行核查，细服务先于合集"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

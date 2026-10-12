@@ -1,0 +1,32 @@
+{
+  "category": "icloud",
+  "scope": "上游 icloud 域名视图；与其他服务可能相交，按配置顺序决定分类",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-icloud-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/icloud.list",
+    "shadowrocket/non_ip/icloud.list",
+    "mihomo/domain/icloud.txt",
+    "sing-box/non_ip/icloud.json",
+    "surge/domainset/icloud.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-icloud-domains",
+      "total": 53,
+      "accepted": 53,
+      "omitted": [],
+      "note": "固定完整 geo 域名视图；原始属性和高级表达式另行核查，细服务先于合集"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

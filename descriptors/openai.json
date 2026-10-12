@@ -1,0 +1,45 @@
+{
+  "category": "openai",
+  "scope": "OpenAI 已知域名视图，缺少正则及语音 IP",
+  "licenses": [
+    "GPL-3.0",
+    "MIT"
+  ],
+  "sources": [
+    "meta-openai-domains",
+    "official-openai-voice"
+  ],
+  "outputs": [
+    "surge/non_ip/openai.list",
+    "shadowrocket/non_ip/openai.list",
+    "mihomo/domain/openai.txt",
+    "sing-box/non_ip/openai.json",
+    "surge/domainset/openai.list",
+    "surge/ip/openai.no-resolve.list",
+    "shadowrocket/ip/openai.no-resolve.list",
+    "mihomo/ipcidr/openai.no-resolve.txt",
+    "sing-box/ip/openai.no-resolve.json"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-openai-domains",
+      "total": 22,
+      "accepted": 22,
+      "omitted": [],
+      "note": "不含原 geosite 的动态 Azure WebPubSub 正则和 Voice IP；不是全量 OpenAI 网络集"
+    },
+    {
+      "source": "official-openai-voice",
+      "total": 23,
+      "accepted": 23,
+      "omitted": [],
+      "note": "Official Voice endpoints only. UDP 3478/TCP 443 conditions are not preserved; these destination-only routes are intentionally broader and existing-only."
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": true,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

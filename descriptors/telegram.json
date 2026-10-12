@@ -1,0 +1,45 @@
+{
+  "category": "telegram",
+  "scope": "Telegram 及上游 TON 生态域名，缺少服务 IP",
+  "licenses": [
+    "GPL-3.0",
+    "MIT"
+  ],
+  "sources": [
+    "meta-telegram-domains",
+    "official-telegram-cidr"
+  ],
+  "outputs": [
+    "surge/non_ip/telegram.list",
+    "shadowrocket/non_ip/telegram.list",
+    "mihomo/domain/telegram.txt",
+    "sing-box/non_ip/telegram.json",
+    "surge/domainset/telegram.list",
+    "surge/ip/telegram.no-resolve.list",
+    "shadowrocket/ip/telegram.no-resolve.list",
+    "mihomo/ipcidr/telegram.no-resolve.txt",
+    "sing-box/ip/telegram.no-resolve.json"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-telegram-domains",
+      "total": 21,
+      "accepted": 21,
+      "omitted": [],
+      "note": "包括 TON 等生态域名；尚未导入 Telegram IP"
+    },
+    {
+      "source": "official-telegram-cidr",
+      "total": 14,
+      "accepted": 14,
+      "omitted": [],
+      "note": "Official Telegram destination CIDRs; existing-only, no active DNS resolution."
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": true,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

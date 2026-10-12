@@ -1,0 +1,32 @@
+{
+  "category": "youtube",
+  "scope": "YouTube 及媒体 CDN",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-youtube-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/youtube.list",
+    "shadowrocket/non_ip/youtube.list",
+    "mihomo/domain/youtube.txt",
+    "sing-box/non_ip/youtube.json",
+    "surge/domainset/youtube.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-youtube-domains",
+      "total": 178,
+      "accepted": 178,
+      "omitted": [],
+      "note": "路由整个服务合集；未保留原 ads/cn 属性，不生成广告阻断"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

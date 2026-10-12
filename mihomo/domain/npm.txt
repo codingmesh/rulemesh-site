@@ -1,0 +1,8 @@
+# RuleMesh: npm
+# Licenses: GPL-3.0
+# Sources: meta-npm-domains
+# Modified: normalized source view and explicit public overrides
+# See THIRD_PARTY_NOTICES.md and category descriptor for attribution and coverage
++.npm.community
++.npmjs.com
++.npmjs.org

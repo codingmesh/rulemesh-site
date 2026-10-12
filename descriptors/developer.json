@@ -1,0 +1,32 @@
+{
+  "category": "developer",
+  "scope": "上游 category-dev 域名视图；与其他服务可能相交，按配置顺序决定分类",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-developer-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/developer.list",
+    "shadowrocket/non_ip/developer.list",
+    "mihomo/domain/developer.txt",
+    "sing-box/non_ip/developer.json",
+    "surge/domainset/developer.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-developer-domains",
+      "total": 666,
+      "accepted": 666,
+      "omitted": [],
+      "note": "固定完整 geo 域名视图；原始属性和高级表达式另行核查，细服务先于合集"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

@@ -1,0 +1,32 @@
+{
+  "category": "whatsapp",
+  "scope": "上游 whatsapp 域名视图；与其他服务可能相交，按配置顺序决定分类",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-whatsapp-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/whatsapp.list",
+    "shadowrocket/non_ip/whatsapp.list",
+    "mihomo/domain/whatsapp.txt",
+    "sing-box/non_ip/whatsapp.json",
+    "surge/domainset/whatsapp.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-whatsapp-domains",
+      "total": 11,
+      "accepted": 11,
+      "omitted": [],
+      "note": "固定完整 geo 域名视图；原始属性和高级表达式另行核查，细服务先于合集"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

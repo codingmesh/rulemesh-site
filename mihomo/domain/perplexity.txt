@@ -1,0 +1,10 @@
+# RuleMesh: perplexity
+# Licenses: GPL-3.0
+# Sources: meta-perplexity-domains
+# Modified: normalized source view and explicit public overrides
+# See THIRD_PARTY_NOTICES.md and category descriptor for attribution and coverage
++.perplexity.ai
++.perplexity.com
++.pplx.ai
+ppl-ai-file-upload.s3.amazonaws.com
+pplx-res.cloudinary.com

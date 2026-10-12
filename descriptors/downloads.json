@@ -1,0 +1,32 @@
+{
+  "category": "downloads",
+  "scope": "Sukka download 原生域名；该集合不包含其他非 IP 高级类型或服务 IP",
+  "licenses": [
+    "AGPL-3.0"
+  ],
+  "sources": [
+    "sukka-downloads-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/downloads.list",
+    "shadowrocket/non_ip/downloads.list",
+    "mihomo/domain/downloads.txt",
+    "sing-box/non_ip/downloads.json",
+    "surge/domainset/downloads.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "sukka-downloads-domains",
+      "total": 1972,
+      "accepted": 1972,
+      "omitted": [],
+      "note": "消费固定原生域名输入；作者标记由公共覆盖明确删除"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

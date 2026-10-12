@@ -1,0 +1,32 @@
+{
+  "category": "playstation",
+  "scope": "上游 playstation 域名视图；与其他服务可能相交，按配置顺序决定分类",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-playstation-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/playstation.list",
+    "shadowrocket/non_ip/playstation.list",
+    "mihomo/domain/playstation.txt",
+    "sing-box/non_ip/playstation.json",
+    "surge/domainset/playstation.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-playstation-domains",
+      "total": 4,
+      "accepted": 4,
+      "omitted": [],
+      "note": "固定完整 geo 域名视图；原始属性和高级表达式另行核查，细服务先于合集"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

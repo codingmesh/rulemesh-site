@@ -1,0 +1,32 @@
+{
+  "category": "steam-cn",
+  "scope": "上游 steam@cn 域名视图；与其他服务可能相交，按配置顺序决定分类",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-steam-cn-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/steam-cn.list",
+    "shadowrocket/non_ip/steam-cn.list",
+    "mihomo/domain/steam-cn.txt",
+    "sing-box/non_ip/steam-cn.json",
+    "surge/domainset/steam-cn.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-steam-cn-domains",
+      "total": 19,
+      "accepted": 19,
+      "omitted": [],
+      "note": "固定完整 geo 域名视图；原始属性和高级表达式另行核查，细服务先于合集"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}

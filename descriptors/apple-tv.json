@@ -1,0 +1,32 @@
+{
+  "category": "apple-tv",
+  "scope": "上游 apple-tvplus 域名视图；与其他服务可能相交，按配置顺序决定分类",
+  "licenses": [
+    "GPL-3.0"
+  ],
+  "sources": [
+    "meta-apple-tv-domains"
+  ],
+  "outputs": [
+    "surge/non_ip/apple-tv.list",
+    "shadowrocket/non_ip/apple-tv.list",
+    "mihomo/domain/apple-tv.txt",
+    "sing-box/non_ip/apple-tv.json",
+    "surge/domainset/apple-tv.list"
+  ],
+  "unavailableFormats": [],
+  "capabilityGaps": [],
+  "imports": [
+    {
+      "source": "meta-apple-tv-domains",
+      "total": 8,
+      "accepted": 8,
+      "omitted": [],
+      "note": "固定完整 geo 域名视图；原始属性和高级表达式另行核查，细服务先于合集"
+    }
+  ],
+  "dataOnly": true,
+  "requiresProfile": false,
+  "runtimeStatus": "experimental",
+  "note": "Independent datasets do not enforce rule order or resolution; target gaps are declared explicitly."
+}
