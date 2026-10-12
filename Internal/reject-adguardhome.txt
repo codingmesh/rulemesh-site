@@ -1,10 +1,10 @@
 ! Title: Sukka's Ruleset - AdGuardHome Blocklist
-! Last modified: Mon, 12 Oct 2026 19:17:24 GMT
+! Last modified: Mon, 12 Oct 2026 19:43:08 GMT
 ! Expires: 6 hours
 ! License: https://github.com/SukkaW/Surge/blob/master/LICENSE
 ! Homepage: https://github.com/SukkaW/Surge
 ! Description: The AdGuardHome ruleset supports AD blocking, tracking protection, privacy protection, anti-mining
-! $content-hash-v1$:4nJce2612m6X_AWteySkwa7E0JA6Np_WJ5lIVbS7R2c$
+! $content-hash-v1$:Ul6_8ANbmxJBuitfwl3l_FN8wYabKOg6GDYhKiFnh68$
 !
 ||data^
 ||null^
@@ -37424,7 +37424,6 @@
 ||juluseluvia.shop^
 ||jumbaouttold.com^
 ||jumbo.zomato.com^
-||juponhomoean.com^
 ||juponsteered.cfd^
 ||justinahusky.com^
 ||justwebcards.com^
@@ -66131,7 +66130,6 @@
 ||gefkkw.cyberport.de^
 ||gefvrjkgrtfhh.space^
 ||geinqi.justbony.com^
-||geioznszsgkea.space^
 ||gem-log.sloegem.com^
 ||genesischinner.qpon^
 ||geniusdexchange.com^
@@ -66740,7 +66738,6 @@
 ||gyehtm.thebridge.it^
 ||gyqntn.dekoruma.com^
 ||gyqpyr.utsource.net^
-||gytgfxxibsezg.space^
 ||gyuu56jdytr.avie.ai^
 ||gyuwijtgtrayg.space^
 ||gzbte.thelipbar.com^
@@ -69092,7 +69089,6 @@
 ||oxanrkzbcufst.space^
 ||oxdejn.lavprisel.dk^
 ||oxreevtzvttav.space^
-||oxuxlwkymiynl.space^
 ||oymvvcncychrg.space^
 ||oyvjff.bakerross.ie^
 ||ozdijmiuwzfee.space^
@@ -73249,7 +73245,6 @@
 ||xsqsskomtwkmw.space^
 ||xsrzqh.ananzi.co.za^
 ||xsrzqh.oferte360.ro^
-||xsupaskquomsb.space^
 ||xtcpby.skechers.com^
 ||xtkuiteyzeyvh.space^
 ||xtomralxdgoof.space^
@@ -120800,7 +120795,6 @@
 ||pmgcc.regencyfragrances.ie^
 ||pms.planejamento.marketing^
 ||pnvnpy.scullyandscully.com^
-||podestajackmengeoidal.cyou^
 ||popup-static.unisender.com^
 ||portal.insight.maruedr.com^
 ||posgrados.unisabana.edu.co^

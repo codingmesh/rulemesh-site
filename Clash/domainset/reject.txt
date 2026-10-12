@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2026-10-12T19:17:20.183Z
-# Size: 140374
+# Last Updated: 2026-10-12T19:43:04.071Z
+# Size: 140368
 # License: AGPL 3.0
 # Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
@@ -19,7 +19,7 @@
 #   - https://raw.githubusercontent.com/easylist/easylist/gh-pages/easyprivacy.txt
 #   - https://ublockorigin.pages.dev/filters/unbreak.min.txt
 #
-# $content-hash-v1$:sQJKNWi_d06tKvOlIZLgg4SqMcjbjD4AYwYaedkGY7o$
+# $content-hash-v1$:6eN1dKGw_f6OV0GRWCmZkB4WRy_0M7r8XLibaXZNOJw$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.data
@@ -34923,7 +34923,6 @@ inst.360safe.com
 +.juluseluvia.shop
 +.jumbaouttold.com
 +.jumbo.zomato.com
-+.juponhomoean.com
 +.juponsteered.cfd
 +.justinahusky.com
 +.justwebcards.com
@@ -63213,7 +63212,6 @@ gecko-lq.snssdk.com
 +.gefkkw.cyberport.de
 +.gefvrjkgrtfhh.space
 +.geinqi.justbony.com
-+.geioznszsgkea.space
 +.gem-log.sloegem.com
 +.genesischinner.qpon
 +.geniusdexchange.com
@@ -63822,7 +63820,6 @@ grs.dbankcloud.asia
 +.gyehtm.thebridge.it
 +.gyqntn.dekoruma.com
 +.gyqpyr.utsource.net
-+.gytgfxxibsezg.space
 +.gyuu56jdytr.avie.ai
 +.gyuwijtgtrayg.space
 +.gzbte.thelipbar.com
@@ -66163,7 +66160,6 @@ orange-dc.youku.com
 +.oxanrkzbcufst.space
 +.oxdejn.lavprisel.dk
 +.oxreevtzvttav.space
-+.oxuxlwkymiynl.space
 +.oymvvcncychrg.space
 +.oyvjff.bakerross.ie
 +.ozdijmiuwzfee.space
@@ -70300,7 +70296,6 @@ xladapi.izuiyou.com
 +.xsqsskomtwkmw.space
 +.xsrzqh.ananzi.co.za
 +.xsrzqh.oferte360.ro
-+.xsupaskquomsb.space
 +.xtcpby.skechers.com
 +.xtkuiteyzeyvh.space
 +.xtomralxdgoof.space
@@ -117643,7 +117638,6 @@ lives.l.aiseet.atianqi.com
 +.pmgcc.regencyfragrances.ie
 +.pms.planejamento.marketing
 +.pnvnpy.scullyandscully.com
-+.podestajackmengeoidal.cyou
 +.popup-static.unisender.com
 +.portal.insight.maruedr.com
 +.posgrados.unisabana.edu.co
