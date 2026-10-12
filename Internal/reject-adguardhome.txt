@@ -1,10 +1,10 @@
 ! Title: Sukka's Ruleset - AdGuardHome Blocklist
-! Last modified: Mon, 12 Oct 2026 07:15:58 GMT
+! Last modified: Mon, 12 Oct 2026 07:29:42 GMT
 ! Expires: 6 hours
 ! License: https://github.com/SukkaW/Surge/blob/master/LICENSE
 ! Homepage: https://github.com/SukkaW/Surge
 ! Description: The AdGuardHome ruleset supports AD blocking, tracking protection, privacy protection, anti-mining
-! $content-hash-v1$:pQX5AmLhoeIPC1Usb19RzaHb1fHPK3LTiOa5OXl3Nbo$
+! $content-hash-v1$:4bzPaisYxBpLLORxaRwkzhA60Z5C9rLd1lfBzbQ-pxI$
 !
 ||data^
 ||null^
@@ -21444,6 +21444,7 @@
 ||ipromcloud.com^
 ||iqqwi8tyq1.com^
 ||ir3f1x3aet.com^
+||irgo28nc8b.com^
 ||iry7addri8.com^
 ||is16yobjh7.com^
 ||is5qd8sk7a.com^
@@ -21582,6 +21583,7 @@
 ||k0winsnua2.com^
 ||k1.dancihu.com^
 ||k1.wendahu.com^
+||k56y7oxb3x.com^
 ||k5705bn39u.com^
 ||k5qdqwgjit.com^
 ||k5s3263xhu.com^

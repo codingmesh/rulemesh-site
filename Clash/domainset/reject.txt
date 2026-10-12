@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2026-10-12T07:15:53.715Z
-# Size: 138530
+# Last Updated: 2026-10-12T07:29:39.047Z
+# Size: 138532
 # License: AGPL 3.0
 # Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
@@ -19,7 +19,7 @@
 #   - https://raw.githubusercontent.com/easylist/easylist/gh-pages/easyprivacy.txt
 #   - https://ublockorigin.pages.dev/filters/unbreak.min.txt
 #
-# $content-hash-v1$:7m_BD4s72JUzVw0zU8pn-ZsBf-IB14qpx7NFgM_Ehjc$
+# $content-hash-v1$:hHdb_AuFe78EZLxV5_59Vm5ntFLvX-fk7u_vE4EjseU$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.data
@@ -19468,6 +19468,7 @@ iflow.uczzd.cn
 +.ipromcloud.com
 +.iqqwi8tyq1.com
 +.ir3f1x3aet.com
++.irgo28nc8b.com
 +.iry7addri8.com
 +.is16yobjh7.com
 +.is5qd8sk7a.com
@@ -19606,6 +19607,7 @@ jp.as.pptv.com
 +.k0winsnua2.com
 +.k1.dancihu.com
 +.k1.wendahu.com
++.k56y7oxb3x.com
 +.k5705bn39u.com
 +.k5qdqwgjit.com
 +.k5s3263xhu.com

@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Extra
-# Last Updated: 2026-10-12T07:15:53.715Z
-# Size: 77251
+# Last Updated: 2026-10-12T07:29:39.047Z
+# Size: 77250
 # License: AGPL 3.0
 # Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
@@ -33,7 +33,7 @@
 #   - https://ublockorigin.pages.dev/thirdparties/easylist-notifications.txt
 #   - https://urlhaus-filter.pages.dev/urlhaus-filter-domains-online.txt
 #
-# $content-hash-v1$:euY-lyfE08SsQlrih3VonCIVajOmrU1Cv9iSG6Ah93s$
+# $content-hash-v1$:2NT0iBNCvLKCfkvdF3afIsa_psC5JVkLrCAw7hyZv2M$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.4.fo
@@ -21281,7 +21281,6 @@ scx.ddns.net
 +.iovation.co.uk
 +.iovenesweb.com
 +.ipinyou.com.cn
-+.irgo28nc8b.com
 +.isacambank.com
 +.isacembank.com
 +.isacombank.net
@@ -21349,7 +21348,6 @@ scx.ddns.net
 +.jxwaghvsdx.com
 +.jynp9m209p.com
 +.k-analytix.com
-+.k56y7oxb3x.com
 +.k5ads.osdn.com
 +.kaascypher.com
 +.kai-search.com
@@ -43319,6 +43317,7 @@ oceansail.ddns.net
 +.sensualsheilas.com
 +.sentry.basalam.com
 +.sentry.divar.cloud
++.sentry.efabrica.sk
 +.sentry.mediacdn.vn
 +.separate-check.pro
 +.sepsiscatchie.qpon
