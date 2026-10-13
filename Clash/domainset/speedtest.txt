@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2026-10-12T19:17:21.090Z
-# Size: 3430
+# Last Updated: 2026-10-13T12:45:20.032Z
+# Size: 3431
 # License: AGPL 3.0
 # Homepage: https://codingmesh.github.io/ruleset/
 # GitHub: https://github.com/codingmesh/rulemesh
@@ -9,7 +9,7 @@
 #
 # This file contains common speedtest endpoints.
 #
-# $content-hash-v1$:B_1A44ERmGFYvL4CLWIuRv4drQmsqAdXNTcqY1qB3EE$
+# $content-hash-v1$:szFdkPdcF0fYLBblBgd_oxSWGIs1TMxKbxQ6SIf2n7o$
 #########################################
 ruleset.marker.rulemesh.invalid
 +.fast.com
@@ -785,6 +785,7 @@ speedtest3.lepida.it
 speedtest31.turk.net
 speedtest33.turk.net
 speedtest4.lepida.it
+speedtest5.mywnz.com
 speedtest54.turk.net
 speedtest59.turk.net
 speedtest61.turk.net
